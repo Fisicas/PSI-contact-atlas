@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0004-9809-9842"
 version: "1.0.0"
 date-released: "2026-11-17"
+doi: "10.5281/zenodo.24318460"
 license:
   - CC-BY-4.0
   - MIT

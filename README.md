@@ -1,5 +1,7 @@
 # PSI Contact Atlas
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24318459.svg)](https://doi.org/10.5281/zenodo.24318459)
+
 **Heavy-atom separations around the photosystem I special pair, the P<sub>A</sub> chlorophyll network and both A<sub>1</sub> quinone sites, computed from 14 deposited PDB entries (32 protomers, 128 scenes, 691 unique atom pairs).**
 
 Open the interactive atlas: **[https://fisicas.github.io/PSI-contact-atlas/](https://fisicas.github.io/PSI-contact-atlas/)** · or download this repository and open `index.html` in any modern browser (no server, no install, works offline).
@@ -185,9 +187,9 @@ python tools/verify_public.py
 
 ## How to cite
 
-Please cite the version you used. Each release is archived on Zenodo with its own DOI; [`CITATION.cff`](CITATION.cff) holds the same metadata, and GitHub shows it as *Cite this repository*. Cite individual values by their `contact_id` or `comparison_id` (see [`downloads/README.md`](downloads/README.md)).
+Please cite the version you used. Each release is archived on Zenodo with its own DOI (the badge at the top links to all versions); [`CITATION.cff`](CITATION.cff) holds the same metadata, and GitHub shows it as *Cite this repository*. Cite individual values by their `contact_id` or `comparison_id` (see [`downloads/README.md`](downloads/README.md)).
 
-> M. R. Nelson, *PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A<sub>1</sub> quinone sites*, version 1.0.0 (2026), Zenodo. https://github.com/Fisicas/PSI-contact-atlas
+> M. R. Nelson, *PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A<sub>1</sub> quinone sites*, version 1.0.0 (2026), Zenodo. https://doi.org/10.5281/zenodo.24318460
 
 Please also cite the PDB entries and primary papers for the structures you use (listed above and on each structure page). A DOI is not peer review.
 

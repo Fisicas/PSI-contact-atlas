@@ -1,9 +1,9 @@
 {
  "version": "1.0.0",
  "release_date": "2026-11-17",
- "version_doi": null,
- "concept_doi": null,
- "citation": "M. R. Nelson, PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites, version 1.0.0 (2026), Zenodo. https://github.com/Fisicas/PSI-contact-atlas",
+ "version_doi": "10.5281/zenodo.24318460",
+ "concept_doi": "10.5281/zenodo.24318459",
+ "citation": "M. R. Nelson, PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites, version 1.0.0 (2026), Zenodo. https://doi.org/10.5281/zenodo.24318460",
  "recheck": {
   "date": "2026-11-17",
   "revisions": "structure-model revisions 1JB0 2.1, 5OY0 3.2, 6KMW 3.1, 6KMX 3.1, 7COY 2.2, 9AU4 1.1, 9EYS 2.0, 9I9L 2.0, 9OY9 1.0, 9OZ3 1.0, 9QFP 1.1, 9S6P 2.0, 9SK3 2.0, 9YL7 1.0",

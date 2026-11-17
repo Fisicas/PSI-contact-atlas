@@ -507,6 +507,25 @@ What was checked for version {R['version']}, with the scope of each check. None 
 """
 
 
+def site_header_footer(A, R):
+    """Version and DOI in the site header and footer of index.html (single source: build/config/release.json)."""
+    import re
+    p = ROOT / 'index.html'
+    t = p.read_text(encoding='utf-8')
+    v, doi = R['version'], R.get('version_doi')
+    status = (f'<a class="status" href="https://doi.org/{doi}" title="Version {v}; cite this DOI. Not peer reviewed.">v{v} · DOI {doi}</a>'
+              if doi else f'<span class="status" title="Version {v}; not peer reviewed">v{v}</span>')
+    t = re.sub(r'<(span|a) class="status"[^>]*>.*?</(span|a)>', status, t, count=1)
+    foot = (f'Version {v} · cite <a href="https://doi.org/{doi}">doi:{doi}</a> · not peer reviewed.' if doi
+            else f'Version {v} · not peer reviewed.')
+    t = re.sub(r'(values recomputed locally\. ).*?( <a href="#/methods">)', lambda m: m.group(1) + foot + m.group(2), t, count=1)
+    c = A['counts']
+    t = re.sub(r'<meta name="description" content="[^"]*">',
+               f'<meta name="description" content="Native heavy-atom separations around the PSI special pair, P_A network and A1 quinone sites '
+               f'in {c["structures"]} deposited structures. Version {v}' + (f', doi:{doi}' if doi else '') + '.">', t, count=1)
+    p.write_bytes(t.encode())
+
+
 def manifest():
     skip = {'.git', '__pycache__', 'cif_cache'}
     files = sorted(p for p in ROOT.rglob('*') if p.is_file() and not set(p.relative_to(ROOT).parts) & skip
@@ -558,6 +577,7 @@ python tools/verify_public.py    # independent check
 
 To add a newly released entry: `python tools/derive_scenes.py add <PDB> <file.cif> --condition "..." --description "..."`, then rebuild. Archive new sources; do not silently replace the files a released version was built from.
 """)
+    site_header_footer(A, R)
     n = manifest()
     print(f'docs written; manifest lists {n} files')
 

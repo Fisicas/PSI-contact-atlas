@@ -94,6 +94,7 @@
         <h1>How the P<sub>A</sub> and A<sub>1</sub> pockets differ across PSI structures</h1>
         <p class="lede">Heavy-atom separations around the special pair, the isolated P<sub>A</sub> network and both quinone sites, for every deposited protomer of ${c.structures} entries. Rotate any scene, follow a number to its atom pair, or compare one contact across all ${c.protomers} protomers.</p>
         <div class="hero-actions"><a class="btn primary" href="#/compare/pa-network">Compare P<sub>A</sub> networks</a><a class="btn" href="#/compare/a1a">Compare A<sub>1A</sub> sites</a><a class="btn ghost" href="#/methods">How values were checked</a></div>
+        ${A.doi ? `<p class="cite-line">Cite version ${esc(A.version)}: <a href="https://doi.org/${esc(A.doi)}">doi:${esc(A.doi)}</a> · <a href="https://doi.org/${esc(A.concept_doi)}">all versions</a> · <a href="#/methods">how to cite</a></p>` : ''}
         <dl class="stats">
           <div><dt>Structures</dt><dd>${c.structures}</dd></div><div><dt>Protomers</dt><dd>${c.protomers}</dd></div>
           <div><dt>Scenes</dt><dd>${c.views}</dd></div><div><dt>Unique atom pairs</dt><dd>${c.unique_contacts}</dd></div>

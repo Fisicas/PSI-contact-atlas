@@ -20,8 +20,8 @@
   "sha256": "428edeb36a15cf706a3f02e280505a64a2761db652c626da51c9e49741251638"
  },
  "build/config/release.json": {
-  "bytes": 674,
-  "sha256": "ed41f3d73785da8db1cfdbe34fd0af233e09d624929efcb7777f7e1464653056"
+  "bytes": 711,
+  "sha256": "06e44c2e31034c3936e3a5d0856950243f6abf83120cce7781b4bfb8a7b64bdd"
  },
  "build/config/scenes.json": {
   "bytes": 696753,
@@ -152,16 +152,16 @@
   "sha256": "14695582c6880e0f8635f59518f22c0d2c2b549341db7491c34313868018fe2a"
  },
  "CITATION.cff": {
-  "bytes": 1493,
-  "sha256": "7b6a32f58a18c58a94620b53307e4068037eb563c6e1ac5591ebaa991a9af87b"
+  "bytes": 1524,
+  "sha256": "994d82c5b0076eeb561b12b2b1320587bb7b19b5eb904a37f8f4ccb1f118d7d4"
  },
  "css/style.css": {
-  "bytes": 29767,
-  "sha256": "7c8f34887c4eb14699daa4853dc03165fe73e53c6ebab6fdee311521193e4d99"
+  "bytes": 29981,
+  "sha256": "b34958b0279e160b5a0538c957d64e25d0b5544de94e21f438a5a61ad6d438da"
  },
  "data/atlas.js": {
-  "bytes": 207733,
-  "sha256": "a886cdcc1679e9344729d10d6db79bfed28ef13d6d6d685782479be6d3eee3cf"
+  "bytes": 207770,
+  "sha256": "02d8a8a2fbf138db5aae3b7825027c38f9620c985cb7de5c19582f6294881b05"
  },
  "data/sources.json": {
   "bytes": 4101,
@@ -2260,12 +2260,12 @@
   "sha256": "111ac60db5cbbc91bc9aa2dd656ef31daa984556d967f3ad753095d36f927e7d"
  },
  "index.html": {
-  "bytes": 2106,
-  "sha256": "7d6425845509f4a71984462d00518a0ca6c896fe8a05ac211153787c1b24423b"
+  "bytes": 2328,
+  "sha256": "adc5ca1e6c181ebac66e49a94c05f945a367c5ae3199bb6e8bd8e8eb860d001d"
  },
  "js/app.js": {
-  "bytes": 59196,
-  "sha256": "65df22a1e0890eb099f293c0fc3d617ca63ae36d121ebb8c30ebcbdf3968f2d6"
+  "bytes": 59448,
+  "sha256": "99e8a9ea185ba913cc8c459bba9033021ffa918892d9289ccd7b1a023ac226a2"
  },
  "js/gif.js": {
   "bytes": 5102,
@@ -2324,8 +2324,8 @@
   "sha256": "9e932717801fe4612071d446a767d3c1a9bff1dcfeaeaa3aa1b9415c67fa8de6"
  },
  "README.md": {
-  "bytes": 19938,
-  "sha256": "b8a399215b56c9399422b0647bb538e6883b7928d7622f9bb62dee9e05d26851"
+  "bytes": 20087,
+  "sha256": "80418cea49e0df851e686d1c1a79a6be83db4ece6c4deb423c9b6ca016cd725e"
  },
  "tests/test_verify.py": {
   "bytes": 4029,
@@ -2356,7 +2356,7 @@
   "sha256": "cbc4ebeb4a7bee119a5f3a24bcb960acfa893d9a56c9de9dbc0152f748b2e1cd"
  },
  "tools/write_docs.py": {
-  "bytes": 43871,
-  "sha256": "f767358a53688face641919f2503a669aa5476bb95de9d9ef7c14c5bd6503367"
+  "bytes": 45180,
+  "sha256": "7e723cb6ee1143f1d26b9db3799b9cf5f5eeebb381f66104e2a3e775161aeb2a"
  }
 }
