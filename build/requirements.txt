@@ -1,0 +1,4 @@
+# Versions used for the 1.0.0 build (tools/build_atlas.py, tools/verify_public.py)
+gemmi==0.7.5
+numpy==2.5.3
+biopython==1.88

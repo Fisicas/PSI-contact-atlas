@@ -1,9 +1,11 @@
 # PSI Contact Atlas — 5OY0 protomer 1, special pair
-# Synechocystis sp. PCC 6803 · WT (paper) · X-ray crystallography 2.501 Å
+# Synechocystis sp. PCC 6803 · Wild type · X-ray crystallography 2.501 Å
 #
 # Run from the repository root:   pymol downloads/pymol/5OY0_prot1_special_pair.pml
 # Distances are Euclidean heavy-atom separations (Å). Short N/O···O pairs are hydrogen-bond CANDIDATES:
-# hydrogens, protonation and angles are not modelled. Chain IDs are case-sensitive author IDs.
+# hydrogens, protonation and angles are not modelled. Pairs in group OO_no_H_donor are two oxygen
+# acceptors (neither carries a hydrogen), so they are not hydrogen-bond candidates.
+# Chain IDs are case-sensitive author IDs.
 
 reinitialize
 # chain IDs such as 'a' and 'A' are different chains. Use author chain/residue numbering as the library does.
@@ -52,22 +54,27 @@ distance d04_polar, scene and (chain 2 and resi 1021 and resn CLA and name O2A),
 distance d05_polar, scene and (chain 1 and resi 1011 and resn CLA and name O2A), scene and (chain 1 and resi 599 and resn TYR and name OH)
 # CLA 2 1021 O1D ··· TYR 2 718 N = 3.17 Å (polar candidate)
 distance d06_polar, scene and (chain 2 and resi 1021 and resn CLA and name O1D), scene and (chain 2 and resi 718 and resn TYR and name N)
-# CLA 1 1011 O1D ··· GLY 1 735 O = 3.17 Å (polar candidate)
-distance d07_polar, scene and (chain 1 and resi 1011 and resn CLA and name O1D), scene and (chain 1 and resi 735 and resn GLY and name O)
 # CLA 1 1011 O2D ··· TYR 1 599 OH = 3.36 Å (polar candidate)
-distance d08_polar, scene and (chain 1 and resi 1011 and resn CLA and name O2D), scene and (chain 1 and resi 599 and resn TYR and name OH)
+distance d07_polar, scene and (chain 1 and resi 1011 and resn CLA and name O2D), scene and (chain 1 and resi 599 and resn TYR and name OH)
 # CLA 1 1011 O1D ··· THR 1 739 N = 3.40 Å (polar candidate)
-distance d09_polar, scene and (chain 1 and resi 1011 and resn CLA and name O1D), scene and (chain 1 and resi 739 and resn THR and name N)
+distance d08_polar, scene and (chain 1 and resi 1011 and resn CLA and name O1D), scene and (chain 1 and resi 739 and resn THR and name N)
+# CLA 1 1011 O1D ··· GLY 1 735 O = 3.17 Å (O···O, no H donor)
+distance d09_acceptor_pair, scene and (chain 1 and resi 1011 and resn CLA and name O1D), scene and (chain 1 and resi 735 and resn GLY and name O)
 set_color cls_mg, [0.09, 0.541, 0.235]
 group Mg_ligand, d01_mg d02_mg
 set dash_color, cls_mg, Mg_ligand
 set dash_length, 0.3, Mg_ligand
 set dash_gap, 0.0, Mg_ligand
 set_color cls_polar, [0.114, 0.165, 0.227]
-group polar_candidate, d03_polar d04_polar d05_polar d06_polar d07_polar d08_polar d09_polar
+group polar_candidate, d03_polar d04_polar d05_polar d06_polar d07_polar d08_polar
 set dash_color, cls_polar, polar_candidate
 set dash_length, 0.25, polar_candidate
 set dash_gap, 0.18, polar_candidate
+set_color cls_acceptor_pair, [0.627, 0.322, 0.478]
+group OO_no_H_donor, d09_acceptor_pair
+set dash_color, cls_acceptor_pair, OO_no_H_donor
+set dash_length, 0.12, OO_no_H_donor
+set dash_gap, 0.12, OO_no_H_donor
 
 # --- labels (residues at the library anchor atoms, roles as plain text)
 set label_font_id, 7

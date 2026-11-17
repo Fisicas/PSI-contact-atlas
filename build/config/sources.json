@@ -1,0 +1,110 @@
+{
+ "1JB0": {
+  "file": "inputs/structures/1JB0.cif.gz",
+  "sha256": "32794600d79441475c6064e95d4e5403e38220805bb37a7fc684464e4aa8b184",
+  "url": "https://files.rcsb.org/download/1JB0.cif",
+  "revision": "2.0",
+  "revision_date": "2024-10-30",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "5OY0": {
+  "file": "inputs/structures/5OY0.cif.gz",
+  "sha256": "dd86be78a715e672351432da85e32073a32cee040cadd00b800ae74d15f82864",
+  "url": "https://files.rcsb.org/download/5OY0.cif",
+  "revision": "3.1",
+  "revision_date": "2025-10-01",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "6KMW": {
+  "file": "inputs/structures/6KMW.cif.gz",
+  "sha256": "3b9f200a3e1b104b5e6f3e348ac2cf96febd33e7a292e3de7f62b9647ea8f887",
+  "url": "https://files.rcsb.org/download/6KMW.cif",
+  "revision": "3.0",
+  "revision_date": "2026-08-12",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "6KMX": {
+  "file": "inputs/structures/6KMX.cif.gz",
+  "sha256": "773d4d7ef838da06f0c6a367d57f34c9458962bae4c0869e50601aedb08adb26",
+  "url": "https://files.rcsb.org/download/6KMX.cif",
+  "revision": "3.0",
+  "revision_date": "2026-08-12",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "7COY": {
+  "file": "inputs/structures/7COY.cif.gz",
+  "sha256": "1e38bd60e63b8c88d8c981b80a701595d418624537680eaa2ebd07ff80c46882",
+  "url": "https://files.rcsb.org/download/7COY.cif",
+  "revision": "1.2",
+  "revision_date": "2024-11-13",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9AU4": {
+  "file": "inputs/structures/9AU4.cif.gz",
+  "sha256": "02578efb2ca85c45c4d3248e5233f06472c7a20386691080250b4ee291839c49",
+  "url": "https://files.rcsb.org/download/9AU4.cif",
+  "revision": "1.1",
+  "revision_date": "2026-08-12",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9EYS": {
+  "file": "inputs/structures/9EYS.cif.gz",
+  "sha256": "56dee27e49e632d03ba54197f03229e99d8e81c70cbf2ec41773a5b05a3b300a",
+  "url": "https://files.rcsb.org/download/9EYS.cif",
+  "revision": "1.1",
+  "revision_date": "2025-10-22",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9I9L": {
+  "file": "inputs/structures/9I9L.cif.gz",
+  "sha256": "b690b6fbc0887b8286ced6939de45a1504342832b056c03e34cfbff9d3c40b40",
+  "url": "https://files.rcsb.org/download/9I9L.cif",
+  "revision": "1.0",
+  "revision_date": "2025-10-22",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9QFP": {
+  "file": "inputs/structures/9QFP.cif.gz",
+  "sha256": "01192b5659e3a79181089a1648588dbf1b3912cf09b763d9109124114ef91b66",
+  "url": "https://files.rcsb.org/download/9QFP.cif",
+  "revision": "1.0",
+  "revision_date": "2026-09-30",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9S6P": {
+  "file": "inputs/structures/9S6P.cif.gz",
+  "sha256": "45e8bca7756f0d20f037ead25a30898beb47a67777a24bab2635fae09c420ddf",
+  "url": "https://files.rcsb.org/download/9S6P.cif",
+  "revision": "1.0",
+  "revision_date": "2026-07-08",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9SK3": {
+  "file": "inputs/structures/9SK3.cif.gz",
+  "sha256": "d29c298423b42a489f066de0f69307b60f95546c092c1405d5888e49d17003f3",
+  "url": "https://files.rcsb.org/download/9SK3.cif",
+  "revision": "1.0",
+  "revision_date": "2026-07-08",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9YL7": {
+  "file": "inputs/structures/9YL7.cif.gz",
+  "sha256": "da63e202d1aabf94dfb362958e14b2a40c45b9e9de18ba27c18a61a1d44c5d4d",
+  "url": "https://files.rcsb.org/download/9YL7.cif",
+  "revision": "1.0",
+  "revision_date": "2026-10-14",
+  "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9OY9": {
+  "file": "inputs/structures/9OY9.cif.gz",
+  "sha256": "3bf55e6da09cac13040c4f22091525709ecabcc54814d3e29936fed5e249903e",
+  "url": "https://files.rcsb.org/download/9OY9.cif",
+  "retrieved": "2026-11-17"
+ },
+ "9OZ3": {
+  "file": "inputs/structures/9OZ3.cif.gz",
+  "sha256": "bb6747b19b9e4c876ce47b2b7cd8da3f559b7968f355af083a81ab1f2d19bc6b",
+  "url": "https://files.rcsb.org/download/9OZ3.cif",
+  "retrieved": "2026-11-17"
+ }
+}

@@ -96,7 +96,7 @@
         <div class="hero-actions"><a class="btn primary" href="#/compare/pa-network">Compare P<sub>A</sub> networks</a><a class="btn" href="#/compare/a1a">Compare A<sub>1A</sub> sites</a><a class="btn ghost" href="#/methods">How values were checked</a></div>
         <dl class="stats">
           <div><dt>Structures</dt><dd>${c.structures}</dd></div><div><dt>Protomers</dt><dd>${c.protomers}</dd></div>
-          <div><dt>Scenes</dt><dd>${c.views}</dd></div><div><dt>Measured pairs</dt><dd>${c.contacts}</dd></div>
+          <div><dt>Scenes</dt><dd>${c.views}</dd></div><div><dt>Unique atom pairs</dt><dd>${c.unique_contacts}</dd></div>
         </dl>
       </div>
       <figure class="hero-fig"><div class="hero-host" id="hero-host"></div>
@@ -196,12 +196,13 @@
       <nav class="crumbs" aria-label="Breadcrumb"><a href="#/">Library</a><span>/</span><span>${pdb}</span></nav>
       <header class="entry-head">
         <div><h1>${pdb} <span class="muted">· <i>${esc(s.organism)}</i></span></h1>
-          <p class="facts">${tag(s.condition, condKind(s.condition))} ${esc(s.method)} · ${esc(s.resolution)} Å · ${esc(s.context)} · PDB v${esc(s.version)}</p>
+          <p class="facts">${tag(s.condition, condKind(s.condition))} ${esc(s.method)} · ${esc(s.resolution)} Å · ${esc(s.context)} · PDB model revision ${esc(A.sources[s.pdb].revision)} · <a href="${esc(s.validation_report)}">wwPDB validation report</a></p>
           <p class="facts small">${techLine(s)}</p></div>
         <div class="protomer-tabs" role="tablist" aria-label="Protomer">${s.protomers.map(x => `<a role="tab" href="#/structure/${pdb}/${x.number}" aria-selected="${x.number === p.number}">Protomer ${x.number}<small>${esc(chainTitle(x))}</small></a>`).join('')}</div>
       </header>
       <p class="desc">${sci(s.description)}</p>
       ${s.notes.map(t => `<p class="note">${sci(t)}</p>`).join('')}
+      ${s.scene_origin !== 'curated' ? '<p class="note">Scenes for this entry were derived by the documented homology rule from curated scenes of other entries, not reviewed one by one (see Methods).</p>' : ''}
       <div class="cofactor-strip">${['P_A', 'P_B', 'A1_A', 'A1_B'].map(r => { const x = cf[r]; return `<div>${roleTag(r)}<b>${sci(cofactorName(x))}</b><small>${x ? esc(x.identity) + ' · label ' + esc(x.label_asym) : ''}${x?.atoms_note ? ' · ' + sci(x.atoms_note) : ''}</small></div>`; }).join('')}</div>
       <div class="scene-grid">${A.parts.map(pt => {
         const v = p.views.find(x => x.part === pt.key);
@@ -267,7 +268,7 @@
         <section class="stage-col">
           <div class="toolbar" role="toolbar" aria-label="Scene controls">
             <div class="seg" role="group" aria-label="Motion"><button data-m="spin">Spin</button><button data-m="rock">Rock</button><button data-m="off">Hold</button></div>
-            <div class="seg" role="group" aria-label="Scale"><button data-s="common" title="One Å-per-pixel for all 28 ${esc(pt.label.replace(/_/g, ''))} scenes; the largest measured region stays in frame through a full spin">Common scale</button><button data-s="whole" title="Fit this scene so every deposited atom stays in frame through a full spin">Whole molecule</button></div>
+            <div class="seg" role="group" aria-label="Scale"><button data-s="common" title="One Å-per-pixel for all ${A.counts.protomers} ${esc(pt.label.replace(/_/g, ''))} scenes; the largest measured region stays in frame through a full spin">Common scale</button><button data-s="whole" title="Fit this scene so every deposited atom stays in frame through a full spin">Whole molecule</button></div>
             <div class="seg" role="group" aria-label="Labels"><button data-l="residueLabels" aria-pressed="true">Residues</button><button data-l="distanceLabels" aria-pressed="true">Distances</button></div>
             <span class="grow"></span>
             <button id="reset" title="Return to the accepted still orientation (R)">Reset</button>
@@ -320,14 +321,14 @@
       return `<span class="res">${esc(name)}<small>${esc(r.chain)}</small></span> <span class="atm">${esc(a[0])}</span>${r.role ? ' ' + roleTag(r.role) : ''}`;
     };
     const order = sc.contacts.map((c, i) => i).sort((a, b) => {
-      const rank = { mg: 0, polar: 1, water: 2, intra: 4, context: 3, packing: 5 };
+      const rank = { mg: 0, polar: 1, water: 2, acceptor_pair: 3, context: 4, intra: 5, cs_contact: 6 };
       return rank[sc.contacts[a].cls] - rank[sc.contacts[b].cls] || sc.contacts[a].d - sc.contacts[b].d;
     });
     tbody.innerHTML = order.map(i => {
       const c = sc.contacts[i], st = CLASS_STYLE[c.cls];
       return `<tr data-i="${i}" data-cls="${c.cls}" tabindex="0"><td><svg class="swatch" viewBox="0 0 28 8" aria-label="${esc(st.label)}"><line x1="1" y1="4" x2="27" y2="4" stroke="${st.color}" stroke-width="2.2" stroke-dasharray="${st.dash.join(' ')}"/></svg></td>
         <td>${fmtEnd(c.i)}</td><td>${fmtEnd(c.j)}</td><td class="num d">${c.d.toFixed(2)}</td></tr>
-        <tr class="detail" data-for="${i}" hidden><td></td><td colspan="3"><b>${esc(st.label)}.</b> ${esc(A.classes[c.cls])}.<br><span class="muted">Earlier curated annotation: ${esc(c.src)}</span><br><span class="muted">Full value ${c.d.toFixed(5)} Å</span></td></tr>`;
+        <tr class="detail" data-for="${i}" hidden><td></td><td colspan="3"><b>${esc(st.label)}.</b> ${esc(A.classes[c.cls])}.<br>Chemical basis: ${esc(c.basis)}.<br><span class="muted">${c.src === 'derived by homology' ? 'Pair derived by homology from ' + esc(sc.template) : 'Earlier curated annotation: ' + esc(c.src)} · contact ID <code>${esc(c.id)}</code></span><br><span class="muted">Full value ${c.d.toFixed(5)} Å</span></td></tr>`;
     }).join('');
     $('#ncount').textContent = `(${sc.contacts.length})`;
     const rowFor = i => tbody.querySelector(`tr[data-i="${i}"]`);
@@ -426,13 +427,10 @@
       <table class="mini-table"><thead><tr><th>Role</th><th>Assignment</th><th>Deposited</th><th>Label chain</th></tr></thead><tbody>${['P_A', 'P_B', 'A1_A', 'A1_B'].map(r => { const x = p.cofactors[r]; return `<tr><td>${roleTag(r)}</td><td>${sci(cofactorName(x))}</td><td><code>${esc(x?.identity)}</code></td><td>${esc(x?.label_asym)}</td></tr>`; }).join('')}</tbody></table>`;
     $('#downloads').innerHTML = `<ul class="dl">
       <li><button class="link inline" data-open="png">PNG still of the current view (2560 px)</button> · <button class="link inline" data-open="gif">Animated GIF, 480–1200 px</button></li>
-      <li><a href="${esc(sc.downloads.contacts)}" download>Contacts CSV (full precision, class and earlier annotation)</a></li>
+      <li><a href="${esc(sc.downloads.contacts)}" download>Contacts CSV (full precision, contact ID, class, chemical basis, earlier annotation)</a></li>
       <li><a href="${esc(sc.downloads.cif)}" download>Scene mmCIF (native identities)</a></li>
       ${sc.downloads.pymol ? `<li><a href="${esc(sc.downloads.pymol)}" download>PyMOL script (same atoms, pairs and view; run from the repository root)</a></li>` : ''}
-      <li><a href="data/views/${esc(sc.key)}.js">Scene data used by this viewer</a></li></ul>
-      ${PUBLIC ? '' : `<p class="fine">Local archive from the earlier PyMOL ray-traced build (not in the public bundle):</p>
-      <ul class="dl"><li><a href="${esc(sc.v02.still)}" target="_blank" rel="noopener">2560-px PyMOL still</a></li><li><a href="${esc(sc.v02.mp4)}" target="_blank" rel="noopener">MP4 loop</a> · <a href="${esc(sc.v02.gif)}" download>GIF</a></li>
-      <li><a href="${esc(sc.v02.session)}" download>PyMOL session</a></li><li><a href="${esc(sc.v02.molstar)}" target="_blank" rel="noopener">Mol* full-model window (WebGL)</a></li></ul>`}`;
+      <li><a href="data/views/${esc(sc.key)}.js">Scene data used by this viewer</a></li></ul>`;
   }
 
   /* ================= COMPARE ================= */
@@ -440,10 +438,12 @@
     const pt = PART[partKey], rows = A.compare[partKey];
     title(`Compare ${pt.label.replace(/_/g, '')}`);
     const cols = rows.map((r, ci) => ({ r, ci }));
+    // backbone C=O oxygen facing a cofactor oxygen: two acceptors, so the column is a distance, not an H-bond candidate
+    const noDonor = r => !r.from_water && r.partner_atom === 'O' && r.cof_atom !== 'MG';
     const colHead = r => {
       const left = r.from_water ? 'Site water' : `${r.cof_role} ${r.cof_atom}`;
       const right = r.partner === 'site-water' ? 'site water' : `${titleCase(r.ref_comp)}${r.ref_pos} ${r.partner_atom === 'hydroxyl O' ? 'OH' : r.partner_atom}`;
-      return { left, right, sub: r.partner === 'site-water' ? '1JB0 HOH5011 position' : `${r.subunit} · 1JB0 numbering` };
+      return { left, right, sub: r.partner === 'site-water' ? '1JB0 HOH5011 position' : `${r.subunit} · 1JB0 numbering${noDonor(r) ? ' · O···O, no H donor' : ''}` };
     };
     const prots = A.structures.flatMap(s => s.protomers.map(p => ({ s, p })));
     const vals = rows.flatMap(r => r.cells.map(c => c.d).filter(d => d != null));
@@ -453,23 +453,23 @@
       <header class="compare-head"><div><h1>Compare: ${sci(pt.label)}</h1>
         <p class="lede small">Each column is one homologous atom pair; each row one deposited protomer. Every cell is recomputed from that protomer’s deposited coordinates, so a blank means the atom is not present (different residue, not modelled, or no site water), never “not measured”.</p></div>
         <div class="part-switch" role="tablist" aria-label="Environment">${A.parts.map(x => `<a role="tab" href="#/compare/${x.route}" aria-selected="${x.key === partKey}">${sci(x.label.replace(' network', '').replace(' quinone', ''))}</a>`).join('')}</div></header>
-      <div class="scale-legend" aria-hidden="true"><span>2.4 Å</span><i class="ramp"></i><span>3.5 Å</span><i class="beyond"></i><span>&gt; 3.5 Å context</span><span class="blank">Phe</span><span>residue differs (no such atom)</span><span class="blank">n.m.</span><span>atom not modelled</span><span class="blank">—</span><span>no site water</span><span class="mg-key"><i></i> Mg–ligand column</span></div>
+      <div class="scale-legend" aria-hidden="true"><span>2.4 Å</span><i class="ramp"></i><span>3.5 Å</span><i class="beyond"></i><span>&gt; 3.5 Å context</span><span class="blank">Phe</span><span>residue differs (no such atom)</span><span class="blank">n.m.</span><span>atom not modelled</span><span class="blank">—</span><span>no site water</span><span class="mg-key"><i></i> Mg–ligand column</span><span class="oo-key"><i></i> O···O column: two acceptors, not an H-bond candidate (not shaded)</span></div>
       <div class="table-scroll matrix-scroll"><table class="matrix" id="matrix">
-        <thead><tr><th class="corner">Protomer<button id="sort-reset" class="link">structure order</button></th>${cols.map(({ r, ci }) => { const h = colHead(r); return `<th class="${r.cof_atom === 'MG' ? 'mgcol' : ''}" data-ci="${ci}" scope="col"><button class="colsort" title="Sort by this contact"><span>${sci(h.left)}</span><span>··· ${esc(h.right)}</span><small>${esc(h.sub)}</small></button></th>`; }).join('')}</tr></thead>
+        <thead><tr><th class="corner">Protomer<button id="sort-reset" class="link">structure order</button></th>${cols.map(({ r, ci }) => { const h = colHead(r); return `<th class="${r.cof_atom === 'MG' ? 'mgcol' : noDonor(r) ? 'oocol' : ''}" data-ci="${ci}" scope="col"><button class="colsort" title="Sort by this contact"><span>${sci(h.left)}</span><span>··· ${esc(h.right)}</span><small>${esc(h.sub)}</small></button></th>`; }).join('')}</tr></thead>
         <tbody></tbody>
         <tfoot><tr><th scope="row">Range</th>${cols.map(({ r }) => { const d = r.cells.map(c => c.d).filter(x => x != null); return `<td>${d.length ? `${Math.min(...d).toFixed(2)}–${Math.max(...d).toFixed(2)}<small>n=${d.length}</small>` : '—'}</td>`; }).join('')}</tr></tfoot>
       </table></div>
       <div class="two-col">
         <section><h2>How columns are defined</h2>
           <ul class="plain">
-            <li>A column is created when any curated scene of this environment lists a polar, water or Mg contact between a cofactor atom and a PsaA/PsaB atom (or the reference-site water). Carbon packing pairs stay in the per-scene tables.</li>
+            <li>A column is created when any curated scene of this environment lists a polar, water, O···O or Mg contact between a cofactor atom and a PsaA/PsaB atom (or the reference-site water). Carbon or sulfur pairs stay in the per-scene tables.</li>
             <li>Partner residues are mapped to 1JB0 numbering by a global sequence alignment (BLOSUM62, gap −10/−0.5) of each protomer’s observed PsaA/PsaB residues; this reproduces all 133 P<sub>A</sub>-network mappings of the earlier curated build. The native residue and atom are shown in each cell’s tooltip and in the CSV.</li>
             <li>Side-chain hydroxyls (Thr OG1, Ser OG, Tyr OH) share a column because the residue differs between structures (e.g. Thr743 ↔ Ser in Chl <i>d</i> entries).</li>
             <li>Quinone columns report the shorter separation from either carbonyl oxygen (CCD double-bonded O). PQN names them O1/O4, PL9 and A1AGD O1/O2; the native atom used is named per cell, never renamed.</li>
             <li>Site-water columns use the deposited water nearest the 1JB0 HOH5011 position after a 25-atom chlorin-core superposition (≤ 3 Å).</li>
           </ul></section>
         <section><h2>Reading the numbers</h2>
-          <ul class="plain"><li>Heavy-atom separations only; a short N/O···O distance is a hydrogen-bond <em>candidate</em>.</li>
+          <ul class="plain"><li>Heavy-atom separations only; a short N/O···O distance is a hydrogen-bond <em>candidate</em>. Columns marked “O···O, no H donor” pair a cofactor oxygen with a backbone C=O oxygen: two acceptors, so they are not candidates and are left unshaded.</li>
           <li>Protomers of one entry are not independent replicates. Values can be nearly identical across p1–p3 (largest spread 0.002 Å in 9AU4, 0.04 Å in 6KMX) where symmetry was imposed on the map or model, and differ by up to 0.35 Å (6KMW, 9EYS, 9I9L) or more (X-ray 5OY0) elsewhere — neither case makes them replicates; nominal resolution is not the uncertainty of a single distance.</li>
           <li>Altloc atoms (if any) use the highest-occupancy position and are marked †.</li></ul>
           <p><a class="btn" href="downloads/compare_matrix.csv" download>Download matrix CSV</a></p></section>
@@ -498,9 +498,9 @@
             const txt = m.startsWith('residue differs') ? esc((c.partner || '').replace(/\d.*/, '')) : m.includes('not modelled') ? 'n.m.' : '—';
             return `<td class="na${m.startsWith('residue differs') ? ' diff' : ''}" title="${esc(m)}"><span>${txt}</span><span class="sr">${esc(m)}</span></td>`;
           }
-          const sh = shade(c.d), mg = r.cof_atom === 'MG';
+          const oo = noDonor(r), sh = oo && c.d <= hi ? '' : shade(c.d), mg = r.cof_atom === 'MG';
           const tip = `${c.a} ··· ${c.b} = ${c.d.toFixed(3)} Å${c.partner ? ' (' + c.partner + ')' : ''}`;
-          return `<td class="v ${sh === 'beyond' ? 'beyond' : ''} ${mg ? 'mg' : ''}" style="${sh === 'beyond' ? '' : sh}" title="${esc(tip)}"><a href="${routeView(viewKey(s.pdb, p.number, partKey))}">${c.d.toFixed(2)}${c.altloc ? '†' : ''}</a></td>`;
+          return `<td class="v ${sh === 'beyond' ? 'beyond' : ''} ${mg ? 'mg' : ''} ${oo ? 'oo' : ''}" style="${sh === 'beyond' ? '' : sh}" title="${esc(tip)}"><a href="${routeView(viewKey(s.pdb, p.number, partKey))}">${c.d.toFixed(2)}${c.altloc ? '†' : ''}</a></td>`;
         }).join('')}</tr>`;
       }).join('');
     };
@@ -524,12 +524,13 @@
       <h1>Methods, scope and verification</h1>
       <p class="lede small">Every scene shows deposited heavy atoms around one PSI cofactor environment and a curated list of measured atom pairs. Selections (atoms, contacts, label anchors, water rules) come from an earlier, reviewed PyMOL build of this library; this build redraws them live and re-derives every number from the deposited mmCIF files.</p>
 
+      ${A.citation ? `<h2>How to cite</h2><p>Please cite the version you used, together with the PDB entries and primary papers for the structures you use:</p><p class="cite">${A.doi ? esc(A.citation.replace(/https:\/\/doi\.org\/\S+$/, '')) + `<a href="https://doi.org/${esc(A.doi)}">https://doi.org/${esc(A.doi)}</a>` : esc(A.citation)}</p>` : ''}
       <h2>What the library can and cannot tell you</h2>
       <div class="cando">
         <section><h3>Can</h3><ul>
           <li>Give the Euclidean separation between two deposited heavy atoms, from full-precision coordinates, with native chain, residue and atom names.</li>
           <li>Show which polar atoms sit within hydrogen-bonding <em>distance</em> of P<sub>A</sub>, P<sub>B</sub> and the A<sub>1</sub> quinone carbonyls, and which waters are modelled nearby.</li>
-          <li>Compare the same homologous contact across 28 protomers, and show where the residue itself differs (e.g. Phe at the 1JB0 Trp683 or Tyr735 positions).</li>
+          <li>Compare the same homologous contact across ${A.counts.protomers} protomers, and show where the residue itself differs (e.g. Phe at the 1JB0 Trp683 or Tyr735 positions).</li>
           <li>Separate deposited component identity, interpreted pigment name, functional role and chain ID.</li>
         </ul></section>
         <section><h3>Cannot</h3><ul>
@@ -541,33 +542,35 @@
         </ul></section>
       </div>
 
-      <h2>Build checks (${esc(A.built_utc)})</h2>
+      <h2>Build checks (version ${esc(A.version)}, ${esc(A.built)})</h2>
       <table class="kvt"><tbody>
-        <tr><th>Scene atoms matched to deposited coordinates</th><td>${v.atoms.toLocaleString()} · max deviation ${v.max_coordinate_deviation_A.toFixed(5)} Å (the earlier build stored coordinates rounded to 0.001 Å)</td></tr>
-        <tr><th>Distances recomputed at full deposited precision</th><td>${v.contacts} · max change from the earlier build ${v.max_distance_deviation_A.toFixed(5)} Å (bound √3 × 0.001 Å)</td></tr>
+        <tr><th>Scene-atom occurrences read from the deposited files</th><td>${v.atoms.toLocaleString()} (an atom shown in two scenes counts twice)</td></tr>
+        <tr><th>Scene contact rows / unique atom pairs</th><td>${v.contacts} / ${v.unique_contacts} (pairs shown in both the P<sub>A</sub> and special-pair scenes are one observation)</td></tr>
+        <tr><th>Distances recomputed at full deposited precision</th><td>all · max change from the earlier curated build ${v.max_distance_deviation_A.toFixed(5)} Å (bound √3 × 0.001 Å)</td></tr>
         <tr><th>Cofactor bond graphs vs CCD definitions</th><td>${v.cofactor_graphs} cofactor residues, all covalent bonds identical (Mg–N drawn separately)</td></tr>
         <tr><th>1JB0-numbering alignment vs earlier P<sub>A</sub> mapping</th><td>${v.alignment_crosschecks} positions, all identical</td></tr>
-        <tr><th>Starting orientation vs the reviewed PyMOL stills</th><td>all 112 reproduced (&lt; 0.01 px)</td></tr>
-        <tr><th>Independent check of displayed values</th><td>a separate script re-reads the deposited files and recomputes every distance and compare-matrix cell shown</td></tr>
+        <tr><th>Scenes</th><td>${A.counts.views - A.counts.derived_views} curated and reviewed; ${A.counts.derived_views} derived by the homology rule (entries released after the curated build)</td></tr>
+        <tr><th>Deposited files used (PDB structure-model revision)</th><td>${Object.entries(A.sources || {}).map(([p, s]) => `${p} ${esc(s.revision)} (${esc(s.revision_date)})`).join(' · ')}${A.recheck ? `<br>Rechecked ${esc(A.recheck.date)} against the then-current PDB files (${esc(A.recheck.revisions)}): ${esc(A.recheck.result)}` : ''}</td></tr>
+        <tr><th>Independent check of displayed values</th><td>a separate script re-reads the deposited files, recomputes every distance and compare-matrix cell shown, and re-derives every contact class</td></tr>
       </tbody></table>
 
       <h2>Corrections relative to the earlier PyMOL build</h2>
       <h3>Displayed value changes at 0.01 Å (${v.rounding_changes.length})</h3>
       <p>The earlier build measured from coordinates rounded to 0.001 Å. Where the deposited file carries more digits, the full-precision value can round differently:</p>
-      <div class="table-scroll"><table class="mini-table"><thead><tr><th>Scene</th><th>Pair</th><th class="num">Earlier</th><th class="num">Now</th></tr></thead><tbody>${v.rounding_changes.map(x => `<tr><td><a href="${routeView(x.view)}">${esc(x.view)}</a></td><td><code>${esc(x.atom_1)}</code> ··· <code>${esc(x.atom_2)}</code></td><td class="num">${esc(x.v02_display)}</td><td class="num">${esc(x.v03_display)}</td></tr>`).join('')}</tbody></table></div>
+      <div class="table-scroll"><table class="mini-table"><thead><tr><th>Scene</th><th>Pair</th><th class="num">Earlier</th><th class="num">Now</th></tr></thead><tbody>${v.rounding_changes.map(x => `<tr><td><a href="${routeView(x.view)}">${esc(x.view)}</a></td><td><code>${esc(x.atom_1)}</code> ··· <code>${esc(x.atom_2)}</code></td><td class="num">${esc(x.earlier_display)}</td><td class="num">${esc(x.now_display)}</td></tr>`).join('')}</tbody></table></div>
       <h3>Contact class corrections (${v.class_changes.length})</h3>
-      <p>Classes are now assigned by one rule (below). These pairs were annotated as water proximity earlier but lie beyond the ${A.polar_screen_A} Å screen:</p>
-      <div class="table-scroll"><table class="mini-table"><thead><tr><th>Scene</th><th>Pair</th><th class="num">Å</th><th>Earlier text</th><th>Class now</th></tr></thead><tbody>${v.class_changes.map(x => `<tr><td><a href="${routeView(x.view)}">${esc(x.view)}</a></td><td><code>${esc(x.atom_1)}</code> ··· <code>${esc(x.atom_2)}</code></td><td class="num">${x.distance_A.toFixed(2)}</td><td>${esc(x.v02_category)}</td><td>${esc(CLASS_STYLE[x.v03_class].label)}</td></tr>`).join('')}</tbody></table></div>
+      <p>Classes are assigned by one rule (below). The pairs listed here are classed differently from the earlier free-text annotation: water pairs beyond the ${A.polar_screen_A} Å screen, and pairs of two oxygen acceptors (a cofactor carbonyl or ester O facing a backbone C=O), which cannot form a hydrogen bond with each other because neither atom carries a hydrogen.</p>
+      <div class="table-scroll"><table class="mini-table"><thead><tr><th>Scene</th><th>Pair</th><th class="num">Å</th><th>Earlier text</th><th>Class now</th></tr></thead><tbody>${v.class_changes.map(x => `<tr><td><a href="${routeView(x.view)}">${esc(x.view)}</a></td><td><code>${esc(x.atom_1)}</code> ··· <code>${esc(x.atom_2)}</code></td><td class="num">${x.distance_A.toFixed(2)}</td><td>${esc(x.earlier_annotation)}</td><td>${esc(CLASS_STYLE[x.class_now].label)}</td></tr>`).join('')}</tbody></table></div>
       <h3>Reference-site water</h3>
-      <p>The site-water rule (nearest deposited water to the 1JB0 HOH5011 position after a 25-atom chlorin-core superposition, ≤ 3 Å) was applied to all 28 protomers. It reproduces all ${v.site_water.filter(x => x.v02_water).length} earlier assignments; ${v.site_water.filter(x => !x.water).length} protomers (${v.site_water.filter(x => !x.water).map(x => x.pdb + ' p' + x.protomer).join(', ')}) have no water within 3 Å of the site.</p>
+      <p>The site-water rule (nearest deposited water to the 1JB0 HOH5011 position after a 25-atom chlorin-core superposition, ≤ 3 Å) was applied to all ${A.counts.protomers} protomers. It reproduces all ${v.site_water.filter(x => x.earlier_water).length} earlier assignments; the next-nearest deposited water is more than ${Math.min(...v.site_water.filter(x => x.water && x.next_water_offset_A != null).map(x => x.next_water_offset_A)).toFixed(1)} Å from the site in every assigned protomer; ${v.site_water.filter(x => !x.water).length} protomers (${v.site_water.filter(x => !x.water).map(x => x.pdb + ' p' + x.protomer).join(', ')}) have no water within 3 Å of the site.</p>
 
       <h2>Contact classes</h2>
       <div class="table-scroll"><table class="mini-table"><tbody>${Object.entries(CLASS_STYLE).map(([c, st]) => `<tr><td>${swatch(st)}</td><td><b>${esc(st.label)}</b></td><td>${esc(A.classes[c])}</td></tr>`).join('')}</tbody></table></div>
-      <p>Rule, in order: Mg involved → Mg–ligand; same residue → intramolecular; C or S involved → packing; &gt; ${A.polar_screen_A} Å → longer context; water involved → water polar candidate; otherwise polar candidate. The earlier free-text annotation is kept for every pair (table detail row and CSV).</p>
+      <p>Rule, in order: Mg involved → Mg–ligand; same residue → intramolecular; C or S involved → C/S contact; &gt; ${A.polar_screen_A} Å → longer context; water involved → water polar candidate; both atoms are oxygens that cannot carry a hydrogen (any cofactor O; backbone or Asn/Gln amide C=O) → O···O, no H donor; otherwise polar candidate. Carboxylate O and His N stay polar candidates because their protonation state is not known. The earlier free-text annotation is kept for every pair (table detail row and CSV).</p>
 
       <h2>Scale and framing</h2>
       <ul>
-        <li><b>Common scale</b> uses one Å-per-pixel for all 28 scenes of an environment, sized so that the largest <em>measured region</em> stays in frame through a full spin. Use it to compare sizes and geometry between structures; long tails (e.g. phytyl chains) may leave the frame.</li>
+        <li><b>Common scale</b> uses one Å-per-pixel for all ${A.counts.protomers} scenes of an environment, sized so that the largest <em>measured region</em> stays in frame through a full spin. Use it to compare sizes and geometry between structures; long tails (e.g. phytyl chains) may leave the frame.</li>
         <li><b>Whole molecule</b> fits this scene alone so that every deposited atom stays in frame through a full spin.</li>
         <li>The scale bar always shows the current Å per pixel. Scenes start from the orientation of the reviewed PyMOL still, aligned to 1JB0 for display only.</li>
       </ul>
@@ -577,7 +580,8 @@
         <li>Deposited coordinates, components and author/label chain identifiers are retained; chain IDs are case-sensitive. Hydrogens and absent atoms (e.g. the 9YL7 PL9 tail, 6KMX A<sub>1B</sub> atoms, 9AU4 Trp693 NE1) are not reconstructed.</li>
         <li>P<sub>A</sub>, P<sub>B</sub>, A<sub>1A</sub>, A<sub>1B</sub> are functional roles, separate from chain IDs. A deposited CLA at P<sub>A</sub> is not reassigned to Chl <i>a</i>′; a component annotation is not an independent stereochemical validation.</li>
         <li>Mg separations are Mg–ligand atom distances; coordination geometry is not assessed (5OY0 protomer 3 has long Mg–His separations).</li>
-        <li>Structures: X-ray crystallography (1JB0, 5OY0) and single-particle cryo-EM (ten entries); method fields on the home page are read from each deposited mmCIF.</li>
+        <li>Scope: a curated comparative atlas of selected cyanobacterial and chlorophyll <i>d</i> PSI entries, not a census of all PSI structures. Entries released after the curated build that fall in this scope (cyanobacterial PSI) are added with rule-derived scenes. X-ray: ${A.structures.filter(isXray).map(s => s.pdb).join(', ')}; cryo-EM: ${A.structures.filter(s => !isXray(s)).length} entries. Method fields are read from each deposited mmCIF; each structure page links its wwPDB validation report, which this atlas does not summarise.</li>
+        <li><b>Derived scenes</b> (newer entries): for each environment the curated scene of the most similar entry (same organism, then same cofactor components, then best resolution) is the template. The new scene uses the residues and atom pairs at the homologous positions (PsaA/PsaB aligned to 1JB0 numbering), the same cofactor atoms (quinone carbonyls matched by position), the reference-site water by the site rule and, for the special pair, every deposited water within 5 Å of the P<sub>A</sub>/P<sub>B</sub> Mg or oxygens. Applied to curated entries, this rule reproduces 95 of their 106 non-water pairs; the rest differ because the curated selections themselves differ between entries.</li>
         <li>Lineage, citations and condition labels come from a curated audit (DOIs and titles verified against Crossref/RCSB on 16 October 2026). Camera alignment to 1JB0 is a display convention, not ancestry.</li>
         <li>Sticks are covalent bonds inferred within residues (checked against CCD for cofactors) plus peptide links; thicker sticks mark cofactors; depth is shown by fog toward white.</li>
       </ul>

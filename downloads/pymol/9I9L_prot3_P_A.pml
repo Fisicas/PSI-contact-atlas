@@ -3,7 +3,9 @@
 #
 # Run from the repository root:   pymol downloads/pymol/9I9L_prot3_P_A.pml
 # Distances are Euclidean heavy-atom separations (Å). Short N/O···O pairs are hydrogen-bond CANDIDATES:
-# hydrogens, protonation and angles are not modelled. Chain IDs are case-sensitive author IDs.
+# hydrogens, protonation and angles are not modelled. Pairs in group OO_no_H_donor are two oxygen
+# acceptors (neither carries a hydrogen), so they are not hydrogen-bond candidates.
+# Chain IDs are case-sensitive author IDs.
 
 reinitialize
 # chain IDs such as 'a' and 'A' are different chains. Use author chain/residue numbering as the library does.
@@ -60,8 +62,8 @@ distance d08_water, scene and (chain a and resi 908 and resn HOH and name O), sc
 distance d09_water, scene and (chain a and resi 801 and resn CL0 and name O2D), scene and (chain a and resi 908 and resn HOH and name O)
 # HOH a 908 O ··· GLY a 766 O = 3.35 Å (water polar candidate)
 distance d10_water, scene and (chain a and resi 908 and resn HOH and name O), scene and (chain a and resi 766 and resn GLY and name O)
-# CL0 a 801 O1A ··· PHE a 710 CE1 = 4.45 Å (packing)
-distance d11_packing, scene and (chain a and resi 801 and resn CL0 and name O1A), scene and (chain a and resi 710 and resn PHE and name CE1)
+# CL0 a 801 O1A ··· PHE a 710 CE1 = 4.45 Å (C/S contact)
+distance d11_cs_contact, scene and (chain a and resi 801 and resn CL0 and name O1A), scene and (chain a and resi 710 and resn PHE and name CE1)
 # CL0 a 801 OBD ··· CL0 a 801 O2D = 3.73 Å (intramolecular)
 distance d12_intra, scene and (chain a and resi 801 and resn CL0 and name OBD), scene and (chain a and resi 801 and resn CL0 and name O2D)
 set_color cls_mg, [0.09, 0.541, 0.235]
@@ -79,11 +81,11 @@ group water_polar_candidate, d06_water d07_water d08_water d09_water d10_water
 set dash_color, cls_water, water_polar_candidate
 set dash_length, 0.25, water_polar_candidate
 set dash_gap, 0.18, water_polar_candidate
-set_color cls_packing, [0.69, 0.404, 0.059]
-group packing, d11_packing
-set dash_color, cls_packing, packing
-set dash_length, 0.08, packing
-set dash_gap, 0.3, packing
+set_color cls_cs_contact, [0.69, 0.404, 0.059]
+group CS_contact, d11_cs_contact
+set dash_color, cls_cs_contact, CS_contact
+set dash_length, 0.08, CS_contact
+set dash_gap, 0.3, CS_contact
 set_color cls_intra, [0.478, 0.322, 0.78]
 group intramolecular, d12_intra
 set dash_color, cls_intra, intramolecular

@@ -1,0 +1,39 @@
+{
+ "status": "PASS",
+ "mode": "files downloaded from RCSB on 2026-11-17",
+ "scene_atoms": 18378,
+ "scene_rows": 865,
+ "unique_pairs": 691,
+ "compare_cells": 1121,
+ "crops": 128,
+ "manifest_files": 590,
+ "structure_model_revisions": {
+  "1JB0": "2.1",
+  "5OY0": "3.2",
+  "6KMW": "3.1",
+  "6KMX": "3.1",
+  "7COY": "2.2",
+  "9AU4": "1.1",
+  "9EYS": "2.0",
+  "9I9L": "2.0",
+  "9OY9": "1.0",
+  "9OZ3": "1.0",
+  "9QFP": "1.1",
+  "9S6P": "2.0",
+  "9SK3": "2.0",
+  "9YL7": "1.0"
+ },
+ "files_differing_from_build": {
+  "1JB0": "2.0 -> 2.1",
+  "5OY0": "3.1 -> 3.2",
+  "6KMW": "3.0 -> 3.1",
+  "6KMX": "3.0 -> 3.1",
+  "7COY": "1.2 -> 2.2",
+  "9EYS": "1.1 -> 2.0",
+  "9I9L": "1.0 -> 2.0",
+  "9QFP": "1.0 -> 1.1",
+  "9S6P": "1.0 -> 2.0",
+  "9SK3": "1.0 -> 2.0"
+ },
+ "failures": []
+}

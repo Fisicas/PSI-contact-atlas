@@ -1,5 +1,5 @@
 /* PSI contact viewer — Canvas 2D renderer for native scene atoms and measured contacts.
-   No WebGL, no dependencies. Camera starts from the accepted v02 still orientation. */
+   No WebGL, no dependencies. Camera starts from the reviewed still orientation. */
 'use strict';
 (function () {
   const ELEMENT = { C: '#808080', N: '#264de6', O: '#ff1f1f', S: '#f2cc1a', Mg: '#1abf40' };
@@ -7,8 +7,9 @@
     mg:      { color: '#178a3c', dash: [],        width: 2.0, label: 'Mg–ligand' },
     polar:   { color: '#1d2a3a', dash: [7, 4],    width: 1.8, label: 'Polar candidate' },
     water:   { color: '#0b7f9c', dash: [7, 4],    width: 1.8, label: 'Water polar candidate' },
+    acceptor_pair: { color: '#a0527a', dash: [3, 3], width: 1.6, label: 'O···O, no H donor' },
     context: { color: '#8a929c', dash: [2, 4],    width: 1.6, label: 'Longer context' },
-    packing: { color: '#b0670f', dash: [2, 4],    width: 1.6, label: 'Packing' },
+    cs_contact: { color: '#b0670f', dash: [2, 4], width: 1.6, label: 'C/S contact' },
     intra:   { color: '#7a52c7', dash: [8, 3, 2, 3], width: 1.6, label: 'Intramolecular' },
   };
   const ROLE_TEXT = { P_A: ['P', 'A'], P_B: ['P', 'B'], A1_A: ['A', '1A'], A1_B: ['A', '1B'] };

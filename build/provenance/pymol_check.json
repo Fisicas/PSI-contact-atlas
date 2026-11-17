@@ -1,0 +1,10 @@
+{
+ "scripts": 128,
+ "distances": 1730,
+ "max_dev_crop": 3.232597351088273e-05,
+ "max_dev_full": 3.232597351088273e-05,
+ "status": "PASS",
+ "pymol": "3.1.0",
+ "date": "2026-11-17",
+ "run": "every script as written (scene crop) and with the full deposited entry from build/inputs"
+}

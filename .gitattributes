@@ -1,3 +1,5 @@
+# Store every file byte-for-byte (LF) so MANIFEST.json hashes match the archive on every platform
+* -text
 # PyMOL scripts are not Promela; keep generated data out of the language statistics
 *.pml linguist-detectable=false
 downloads/** linguist-generated

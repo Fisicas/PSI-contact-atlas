@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9OY9.p1.CL0:A:802:O1A~TYR:A:731:OH,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:O1A,TYR:A:731:OH,M,A,2.80236,polar,donor–acceptor compatible,derived by homology,1.0,1.0,39.95,39.52
+9OY9.p1.CL0:A:802:OBD~THR:A:739:OG1,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:OBD,THR:A:739:OG1,M,A,2.85905,polar,donor–acceptor compatible,derived by homology,1.0,1.0,40.04,40.66
+9OY9.p1.CL0:A:802:O2D~THR:A:739:OG1,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:O2D,THR:A:739:OG1,M,A,3.26679,polar,donor–acceptor compatible,derived by homology,1.0,1.0,39.66,40.66
+9OY9.p1.CL0:A:802:O2D~TYR:A:599:OH,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:O2D,TYR:A:599:OH,M,A,3.19440,polar,donor–acceptor compatible,derived by homology,1.0,1.0,39.66,41.66
+9OY9.p1.CL0:A:802:O2D~HOH:A:939:O,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:O2D,HOH:A:939:O,M,WE,3.18620,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,39.66,40.54
+9OY9.p1.CLA:B:804:O2A~TYR:B:718:OH,9OY9_prot1_special_pair,9OY9,1,special_pair,CLA:B:804:O2A,TYR:B:718:OH,VB,B,4.25961,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,43.12,42.16
+9OY9.p1.CLA:B:804:O1D~TYR:B:722:N,9OY9_prot1_special_pair,9OY9,1,special_pair,CLA:B:804:O1D,TYR:B:722:N,VB,B,3.29359,polar,donor–acceptor compatible,derived by homology,1.0,1.0,41.64,36.5
+9OY9.p1.CL0:A:802:MG~HIS:A:676:NE2,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:MG,HIS:A:676:NE2,M,A,2.50911,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,36.45,31.33
+9OY9.p1.CLA:B:804:MG~HIS:B:655:NE2,9OY9_prot1_special_pair,9OY9,1,special_pair,CLA:B:804:MG,HIS:B:655:NE2,VB,B,2.54245,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,35.3,30.04
+9OY9.p1.CL0:A:802:O2A~HOH:A:930:O,9OY9_prot1_special_pair,9OY9,1,special_pair,CL0:A:802:O2A,HOH:A:930:O,M,WE,4.98942,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,43.35,33.32
+9OY9.p1.CLA:B:804:O2D~HOH:B:923:O,9OY9_prot1_special_pair,9OY9,1,special_pair,CLA:B:804:O2D,HOH:B:923:O,VB,XE,4.71188,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,41.03,42.43

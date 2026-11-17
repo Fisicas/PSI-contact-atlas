@@ -234,11 +234,15 @@ ul.dl { padding-left: 18px; font-size: .88rem; margin: 6px 0; } ul.dl li { margi
 .scale-legend .beyond { width: 22px; height: 12px; border-radius: 3px; display: inline-block; background: repeating-linear-gradient(45deg, var(--line-2), var(--line-2) 3px, transparent 3px, transparent 6px); border: 1px solid var(--line); }
 .scale-legend .blank { margin-left: 10px; font-weight: 700; }
 .scale-legend .mg-key i { display: inline-block; width: 12px; height: 12px; border-top: 3px solid #178a3c; vertical-align: -2px; }
+.scale-legend .oo-key i { display: inline-block; width: 12px; height: 12px; border-top: 3px dashed #a0527a; vertical-align: -2px; }
 .matrix-scroll { max-height: calc(100vh - 230px); }
 table.matrix { font-variant-numeric: tabular-nums; font-size: .84rem; width: auto; min-width: 100%; }
 table.matrix thead th { position: sticky; top: 0; z-index: 2; text-transform: none; letter-spacing: 0; vertical-align: bottom; padding: 8px 6px; background: var(--surface-2); }
 table.matrix thead th.corner { left: 0; z-index: 3; vertical-align: bottom; min-width: 200px; }
 table.matrix thead th.mgcol { border-top: 3px solid #178a3c; }
+table.matrix thead th.oocol { border-top: 3px dashed #a0527a; }
+table.matrix td.v.oo { background: var(--surface-2); }
+table.matrix td.v.oo a { font-weight: 400; color: var(--ink-2); }
 .colsort { background: none; border: 0; cursor: pointer; text-align: center; display: grid; gap: 1px; padding: 0; color: var(--ink); font-size: .8rem; font-weight: 650; min-width: 74px; }
 .colsort span:nth-child(2) { font-weight: 500; color: var(--ink-2); }
 .colsort small { color: var(--muted); font-weight: 400; font-size: .68rem; }

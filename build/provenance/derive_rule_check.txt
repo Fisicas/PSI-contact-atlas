@@ -1,0 +1,21 @@
+9AU4 p1 special_pair from 9YL7: curated 7, derived 8, shared 6  only curated: ['CLA:B:2104:O1A–TRP:B:654:NE1']  only derived: ['CLA:A:801:O2D–TYR:A:599:OH', 'CLA:B:2104:O2A–TYR:B:714:OH']
+9AU4 p1 P_A          from 9YL7: curated 6, derived 6, shared 6
+9AU4 p1 A1A          from 9YL7: curated 3, derived 3, shared 3
+9AU4 p1 A1B          from 9YL7: curated 3, derived 3, shared 3
+5OY0 p1 special_pair from 9YL7: curated 9, derived 8, shared 6  only curated: ['CLA:1:1011:O1D–GLY:1:735:O', 'CLA:1:1011:O1D–THR:1:739:N', 'CLA:1:1011:O2A–TYR:1:599:OH']  only derived: ['CLA:1:1011:O2D–THR:1:739:OG1', 'CLA:1:1011:OBD–THR:1:739:OG1']
+5OY0 p1 P_A          from 9YL7: curated 7, derived 6, shared 6  only curated: ['CLA:1:1011:O1A–PHE:1:679:CE1']
+5OY0 p1 A1A          from 9YL7: curated 4, derived 4, shared 4
+5OY0 p1 A1B          from 9YL7: curated 3, derived 3, shared 3
+9YL7 p1 special_pair from 5OY0: curated 8, derived 9, shared 6  only curated: ['CL0:A:802:O2D–THR:A:739:OG1', 'CL0:A:802:OBD–THR:A:739:OG1']  only derived: ['CL0:A:802:O1D–GLY:A:735:O', 'CL0:A:802:O1D–THR:A:739:N', 'CL0:A:802:O2A–TYR:A:599:OH']
+9YL7 p1 P_A          from 5OY0: curated 6, derived 7, shared 6  only derived: ['CL0:A:802:O1A–PHE:A:679:CE1']
+9YL7 p1 A1A          from 5OY0: curated 4, derived 4, shared 4
+9YL7 p1 A1B          from 5OY0: curated 3, derived 3, shared 3
+6KMX p1 special_pair from 6KMW: curated 7, derived 6, shared 6  only curated: ['CL0:aA:801:O1A–TYR:aA:764:OH']
+6KMX p1 P_A          from 6KMW: curated 7, derived 6, shared 5  only curated: ['CL0:aA:801:O1A–PHE:aA:712:CE1', 'CL0:aA:801:O1A–TYR:aA:764:OH']  only derived: ['CL0:aA:801:O1A–TYR:aA:764:CZ']
+6KMX p1 A1A          from 6KMW: curated 4, derived 4, shared 4
+6KMX p1 A1B          from 6KMW: curated 4, derived 3, shared 3  only curated: ['PQN:aB:841:O1–THR:aB:676:OG1']
+9I9L p1 special_pair from 9EYS: curated 7, derived 7, shared 7
+9I9L p1 P_A          from 9EYS: curated 7, derived 7, shared 7
+9I9L p1 A1A          from 9EYS: curated 3, derived 4, shared 3  only derived: ['MET:A:715:O–PQN:A:843:O1']
+9I9L p1 A1B          from 9EYS: curated 4, derived 4, shared 4
+non-water pairs reproduced: 95/106

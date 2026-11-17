@@ -1,0 +1,2324 @@
+[
+ {
+  "pdb": "1JB0",
+  "organism": "Synechococcus elongatus",
+  "method": "X-ray crystallography",
+  "resolution": "2.5",
+  "pdb_url": "https://www.rcsb.org/structure/1JB0",
+  "pdb_doi": "10.2210/pdb1JB0/pdb",
+  "condition": "Reference",
+  "description": "Cyanobacterial PSI determined by X-ray crystallography; the numbering and display-alignment reference for this library. The deposited P_A component is CLA; no epimer reassignment is made here.",
+  "context": "1 deposited protomer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1038/35082000",
+    "title": "Three-dimensional structure of cyanobacterial photosystem I at 2.5 Å resolution",
+    "author_short": "Jordan et al.",
+    "year": 2001,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "MIR phasing is reported. Earlier atomic-model ancestry is not established by this audit.",
+    "doi": "",
+    "locator": ""
+   }
+  ],
+  "lineage_short": "MIR phasing is reported. Earlier atomic-model ancestry is not established by this audit.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Jordan, P.",
+   "Fromme, P.",
+   "Witt, H.T.",
+   "Klukas, O.",
+   "Saenger, W.",
+   "Krauss, N."
+  ],
+  "deposition_date": "2001-06-01",
+  "selector": "1JB0 — Synechococcus elongatus — X-ray crystallography 2.5 Å — Reference",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:A:1011",
+      "component": "CLA",
+      "chain": "A",
+      "residue": "1011",
+      "label_asym": "M",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:1021",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "1021",
+      "label_asym": "QB",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "2001",
+      "label_asym": "GB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "2002",
+      "label_asym": "FD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "1JB0_prot1_A1A",
+     "1JB0_prot1_A1B",
+     "1JB0_prot1_special_pair",
+     "1JB0_prot1_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "5OY0",
+  "organism": "Synechocystis sp. PCC 6803",
+  "method": "X-ray crystallography",
+  "resolution": "2.501",
+  "pdb_url": "https://www.rcsb.org/structure/5OY0",
+  "pdb_doi": "10.2210/pdb5OY0/pdb",
+  "condition": "Wild type",
+  "description": "Wild-type Synechocystis PSI trimer determined by X-ray crystallography. In protomer 2 the deposited water HOH8111 lies 4.03 Å from P_A O2D and is shown as longer-range context.",
+  "context": "Trimer",
+  "notes": [
+   "Protomer 3 has long P_A Mg–His separations; a nearby histidine does not by itself establish normal Mg coordination."
+  ],
+  "citations": [
+   {
+    "doi": "10.1016/j.bbabio.2018.02.002",
+    "title": "Structure and function of wild-type and subunit-depleted photosystem I in Synechocystis",
+    "author_short": "Malavath et al.",
+    "year": 2018,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "SAD phasing is reported. No PDB coordinate parent was established; this is not a claim of absolute independence.",
+    "doi": "",
+    "locator": ""
+   }
+  ],
+  "lineage_short": "SAD phasing is reported. No PDB coordinate parent was established; this is not a claim of absolute independence.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Nelson, N.",
+   "Malavath, T.",
+   "Caspy, I."
+  ],
+  "deposition_date": "2017-09-07",
+  "selector": "5OY0 — Synechocystis sp. PCC 6803 — X-ray crystallography 2.501 Å — Wild type",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:1:1011",
+      "component": "CLA",
+      "chain": "1",
+      "residue": "1011",
+      "label_asym": "XL",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:2:1021",
+      "component": "CLA",
+      "chain": "2",
+      "residue": "1021",
+      "label_asym": "HO",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:1:2001",
+      "component": "PQN",
+      "chain": "1",
+      "residue": "2001",
+      "label_asym": "LN",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:2:2002",
+      "component": "PQN",
+      "chain": "2",
+      "residue": "2002",
+      "label_asym": "UP",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "1",
+    "psaB": "2",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "5OY0_prot1_A1A",
+     "5OY0_prot1_A1B",
+     "5OY0_prot1_special_pair",
+     "5OY0_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:A:1011",
+      "component": "CLA",
+      "chain": "A",
+      "residue": "1011",
+      "label_asym": "HA",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:1021",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "1021",
+      "label_asym": "VC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "2001",
+      "label_asym": "VB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "2002",
+      "label_asym": "HE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "5OY0_prot2_A1A",
+     "5OY0_prot2_A1B",
+     "5OY0_prot2_special_pair",
+     "5OY0_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:a:1011",
+      "component": "CLA",
+      "chain": "a",
+      "residue": "1011",
+      "label_asym": "FG",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:b:1021",
+      "component": "CLA",
+      "chain": "b",
+      "residue": "1021",
+      "label_asym": "RI",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:a:2001",
+      "component": "PQN",
+      "chain": "a",
+      "residue": "2001",
+      "label_asym": "SH",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:b:2002",
+      "component": "PQN",
+      "chain": "b",
+      "residue": "2002",
+      "label_asym": "DK",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "a",
+    "psaB": "b",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "5OY0_prot3_A1A",
+     "5OY0_prot3_A1B",
+     "5OY0_prot3_special_pair",
+     "5OY0_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "6KMW",
+  "organism": "Halomicronema hongdechloris C2206",
+  "method": "Cryo-EM",
+  "resolution": "2.35",
+  "pdb_url": "https://www.rcsb.org/structure/6KMW",
+  "pdb_doi": "10.2210/pdb6KMW/pdb",
+  "condition": "WL",
+  "description": "White-light-grown Halomicronema hongdechloris PSI, paired with the far-red-light-grown 6KMX in the Kato study.",
+  "context": "Trimer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1038/s41467-019-13898-5",
+    "title": "Structural basis for the adaptation and function of chlorophyll f in photosystem I",
+    "author_short": "Kato et al.",
+    "year": 2020,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "1JB0 → 6KMW: coordinate starting model, fitted and rebuilt.",
+    "doi": "10.1038/s41467-019-13898-5",
+    "locator": "Methods, PDF p9"
+   }
+  ],
+  "lineage_short": "1JB0 → 6KMW: coordinate starting model, fitted and rebuilt.",
+  "growth_light": "WL",
+  "genotype": null,
+  "deposition_authors": [
+   "Kato, K.",
+   "Nagao, R.",
+   "Shen, J.R.",
+   "Miyazaki, N.",
+   "Akita, F."
+  ],
+  "deposition_date": "2019-08-01",
+  "selector": "6KMW — Halomicronema hongdechloris C2206 — Cryo-EM 2.35 Å — WL",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:aA:801",
+      "component": "CL0",
+      "chain": "aA",
+      "residue": "801",
+      "label_asym": "Y",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:aB:803",
+      "component": "CLA",
+      "chain": "aB",
+      "residue": "803",
+      "label_asym": "EC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:aA:844",
+      "component": "PQN",
+      "chain": "aA",
+      "residue": "844",
+      "label_asym": "PB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:aB:842",
+      "component": "PQN",
+      "chain": "aB",
+      "residue": "842",
+      "label_asym": "RD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "aA",
+    "psaB": "aB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMW_prot1_A1A",
+     "6KMW_prot1_A1B",
+     "6KMW_prot1_special_pair",
+     "6KMW_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:bA:801",
+      "component": "CL0",
+      "chain": "bA",
+      "residue": "801",
+      "label_asym": "QE",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:bB:803",
+      "component": "CLA",
+      "chain": "bB",
+      "residue": "803",
+      "label_asym": "WG",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:bA:844",
+      "component": "PQN",
+      "chain": "bA",
+      "residue": "844",
+      "label_asym": "HG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:bB:842",
+      "component": "PQN",
+      "chain": "bB",
+      "residue": "842",
+      "label_asym": "JI",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "bA",
+    "psaB": "bB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMW_prot2_A1A",
+     "6KMW_prot2_A1B",
+     "6KMW_prot2_special_pair",
+     "6KMW_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:cA:801",
+      "component": "CL0",
+      "chain": "cA",
+      "residue": "801",
+      "label_asym": "IJ",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:cB:803",
+      "component": "CLA",
+      "chain": "cB",
+      "residue": "803",
+      "label_asym": "OL",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:cA:844",
+      "component": "PQN",
+      "chain": "cA",
+      "residue": "844",
+      "label_asym": "ZK",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:cB:842",
+      "component": "PQN",
+      "chain": "cB",
+      "residue": "842",
+      "label_asym": "BN",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "cA",
+    "psaB": "cB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMW_prot3_A1A",
+     "6KMW_prot3_A1B",
+     "6KMW_prot3_special_pair",
+     "6KMW_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "6KMX",
+  "organism": "Halomicronema hongdechloris C2206",
+  "method": "Cryo-EM",
+  "resolution": "2.41",
+  "pdb_url": "https://www.rcsb.org/structure/6KMX",
+  "pdb_doi": "10.2210/pdb6KMX/pdb",
+  "condition": "FRL",
+  "description": "Far-red-light-grown Halomicronema PSI, paired with 6KMW. The growth condition does not by itself establish the identity of every reaction-center pigment.",
+  "context": "Trimer",
+  "notes": [
+   "All three A1_B quinones contain 28 of the usual 33 phylloquinone heavy atoms. Missing atoms are not reconstructed."
+  ],
+  "citations": [
+   {
+    "doi": "10.1038/s41467-019-13898-5",
+    "title": "Structural basis for the adaptation and function of chlorophyll f in photosystem I",
+    "author_short": "Kato et al.",
+    "year": 2020,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "1JB0 → 6KMX: coordinate starting model, fitted and rebuilt.",
+    "doi": "10.1038/s41467-019-13898-5",
+    "locator": "Methods, PDF p9"
+   }
+  ],
+  "lineage_short": "1JB0 → 6KMX: coordinate starting model, fitted and rebuilt.",
+  "growth_light": "FRL",
+  "genotype": null,
+  "deposition_authors": [
+   "Kato, K.",
+   "Nagao, R.",
+   "Shen, J.R.",
+   "Miyazaki, N.",
+   "Akita, F."
+  ],
+  "deposition_date": "2019-08-01",
+  "selector": "6KMX — Halomicronema hongdechloris C2206 — Cryo-EM 2.41 Å — FRL",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:aA:801",
+      "component": "CL0",
+      "chain": "aA",
+      "residue": "801",
+      "label_asym": "BA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:aB:801",
+      "component": "CLA",
+      "chain": "aB",
+      "residue": "801",
+      "label_asym": "CC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:aA:845",
+      "component": "PQN",
+      "chain": "aA",
+      "residue": "845",
+      "label_asym": "TB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:aB:841",
+      "component": "PQN",
+      "chain": "aB",
+      "residue": "841",
+      "label_asym": "QD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 28,
+      "atoms_note": "28/33 deposited heavy atoms"
+     }
+    },
+    "psaA": "aA",
+    "psaB": "aB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMX_prot1_A1A",
+     "6KMX_prot1_A1B",
+     "6KMX_prot1_special_pair",
+     "6KMX_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:bA:801",
+      "component": "CL0",
+      "chain": "bA",
+      "residue": "801",
+      "label_asym": "SE",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:bB:801",
+      "component": "CLA",
+      "chain": "bB",
+      "residue": "801",
+      "label_asym": "TG",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:bA:845",
+      "component": "PQN",
+      "chain": "bA",
+      "residue": "845",
+      "label_asym": "KG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:bB:841",
+      "component": "PQN",
+      "chain": "bB",
+      "residue": "841",
+      "label_asym": "HI",
+      "name": "Phylloquinone",
+      "heavy_atoms": 28,
+      "atoms_note": "28/33 deposited heavy atoms"
+     }
+    },
+    "psaA": "bA",
+    "psaB": "bB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMX_prot2_A1A",
+     "6KMX_prot2_A1B",
+     "6KMX_prot2_special_pair",
+     "6KMX_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:cA:801",
+      "component": "CL0",
+      "chain": "cA",
+      "residue": "801",
+      "label_asym": "JJ",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:cB:801",
+      "component": "CLA",
+      "chain": "cB",
+      "residue": "801",
+      "label_asym": "KL",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:cA:845",
+      "component": "PQN",
+      "chain": "cA",
+      "residue": "845",
+      "label_asym": "BL",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:cB:841",
+      "component": "PQN",
+      "chain": "cB",
+      "residue": "841",
+      "label_asym": "YM",
+      "name": "Phylloquinone",
+      "heavy_atoms": 28,
+      "atoms_note": "28/33 deposited heavy atoms"
+     }
+    },
+    "psaA": "cA",
+    "psaB": "cB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "6KMX_prot3_A1A",
+     "6KMX_prot3_A1B",
+     "6KMX_prot3_special_pair",
+     "6KMX_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "7COY",
+  "organism": "Acaryochloris marina MBIC11017",
+  "method": "Cryo-EM",
+  "resolution": "2.5",
+  "pdb_url": "https://www.rcsb.org/structure/7COY",
+  "pdb_doi": "10.2210/pdb7COY/pdb",
+  "condition": "Chl d / P740",
+  "description": "Chlorophyll d-containing Acaryochloris PSI with the P740 donor system. Strain identity and pigment chemistry are shown separately from growth-light conditions.",
+  "context": "Trimer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1038/s41467-021-22502-8",
+    "title": "Structure of the far-red light utilizing photosystem I of Acaryochloris marina",
+    "author_short": "Hamaguchi et al.",
+    "year": 2021,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "1JB0 → 7COY: MODELLER protein homology template, followed by fitting and refinement.",
+    "doi": "10.1038/s41467-021-22502-8",
+    "locator": "Methods, PDF p8"
+   }
+  ],
+  "lineage_short": "1JB0 → 7COY: MODELLER protein homology template, followed by fitting and refinement.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Kawakami, K.",
+   "Yonekura, K.",
+   "Hamaguchi, T.",
+   "Kashino, Y.",
+   "Shinzawa-Itoh, K.",
+   "Inoue-Kashino, N.",
+   "Itoh, S.",
+   "Ifuku, K.",
+   "Yamashita, E."
+  ],
+  "deposition_date": "2020-08-05",
+  "selector": "7COY — Acaryochloris marina MBIC11017 — Cryo-EM 2.5 Å — Chl d / P740",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:aA:3101",
+      "component": "G9R",
+      "chain": "aA",
+      "residue": "3101",
+      "label_asym": "HA",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:aB:3003",
+      "component": "CL7",
+      "chain": "aB",
+      "residue": "3003",
+      "label_asym": "DC",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:aA:3144",
+      "component": "PQN",
+      "chain": "aA",
+      "residue": "3144",
+      "label_asym": "YB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:aB:3027",
+      "component": "PQN",
+      "chain": "aB",
+      "residue": "3027",
+      "label_asym": "BD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "aA",
+    "psaB": "aB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "7COY_prot1_A1A",
+     "7COY_prot1_A1B",
+     "7COY_prot1_special_pair",
+     "7COY_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:bA:3101",
+      "component": "G9R",
+      "chain": "bA",
+      "residue": "3101",
+      "label_asym": "WD",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:bB:804",
+      "component": "CL7",
+      "chain": "bB",
+      "residue": "804",
+      "label_asym": "SF",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:bA:3143",
+      "component": "PQN",
+      "chain": "bA",
+      "residue": "3143",
+      "label_asym": "MF",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:bB:828",
+      "component": "PQN",
+      "chain": "bB",
+      "residue": "828",
+      "label_asym": "QG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "bA",
+    "psaB": "bB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "7COY_prot2_A1A",
+     "7COY_prot2_A1B",
+     "7COY_prot2_special_pair",
+     "7COY_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:cA:3101",
+      "component": "G9R",
+      "chain": "cA",
+      "residue": "3101",
+      "label_asym": "LH",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:cB:804",
+      "component": "CL7",
+      "chain": "cB",
+      "residue": "804",
+      "label_asym": "GJ",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:cA:3143",
+      "component": "PQN",
+      "chain": "cA",
+      "residue": "3143",
+      "label_asym": "BJ",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:cB:828",
+      "component": "PQN",
+      "chain": "cB",
+      "residue": "828",
+      "label_asym": "EK",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "cA",
+    "psaB": "cB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "7COY_prot3_A1A",
+     "7COY_prot3_A1B",
+     "7COY_prot3_special_pair",
+     "7COY_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9AU4",
+  "organism": "Synechocystis sp. PCC 6803",
+  "method": "Cryo-EM",
+  "resolution": "2.03",
+  "pdb_url": "https://www.rcsb.org/structure/9AU4",
+  "pdb_doi": "10.2210/pdb9AU4/pdb",
+  "condition": "MenB variant",
+  "description": "MenB PSI variant described by Gisriel and colleagues. Both A1 sites are modeled with DMPBQ; the deposited P_A component remains CLA.",
+  "context": "Trimer",
+  "notes": [
+   "P_A water HOH907 is near the pigment (~3.92 Å to its closest oxygen), outside the 3.5 Å screen. Deposited B_iso=0 does not establish zero motion."
+  ],
+  "citations": [
+   {
+    "doi": "10.1126/sciadv.adp4937",
+    "title": "Cryo-EM structure of a photosystem I variant containing an unusual plastoquinone derivative in its electron transfer chain",
+    "author_short": "Gisriel et al.",
+    "year": 2024,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "5OY0 → 9AU4: initial structural model; phylloquinones were subsequently replaced with DMPBQ and the model rebuilt/refined.",
+    "doi": "10.1126/sciadv.adp4937",
+    "locator": "Model building, PDF p6"
+   }
+  ],
+  "lineage_short": "5OY0 → 9AU4: initial structural model; phylloquinones were subsequently replaced with DMPBQ and the model rebuilt/refined.",
+  "growth_light": null,
+  "genotype": "MenB variant (paper)",
+  "deposition_authors": [
+   "Gisriel, C.J.",
+   "Vasily, K.",
+   "Iwig, D.F.",
+   "Russell, B.P.",
+   "Vinyard, D.J.",
+   "Golbeck, J.H.",
+   "Brudvig, G.W.",
+   "Lakshmi, K.V."
+  ],
+  "deposition_date": "2024-02-28",
+  "selector": "9AU4 — Synechocystis sp. PCC 6803 — Cryo-EM 2.03 Å — MenB variant",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:A:801",
+      "component": "CLA",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "PK",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:2104",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "2104",
+      "label_asym": "UM",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "A1AGD:A:840",
+      "component": "A1AGD",
+      "chain": "A",
+      "residue": "840",
+      "label_asym": "CM",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "A1AGD:B:2153",
+      "component": "A1AGD",
+      "chain": "B",
+      "residue": "2153",
+      "label_asym": "RO",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9AU4_prot1_A1A",
+     "9AU4_prot1_A1B",
+     "9AU4_prot1_P_A",
+     "9AU4_prot1_special_pair"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:G:801",
+      "component": "CLA",
+      "chain": "G",
+      "residue": "801",
+      "label_asym": "HA",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:H:2103",
+      "component": "CLA",
+      "chain": "H",
+      "residue": "2103",
+      "label_asym": "LC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "A1AGD:G:840",
+      "component": "A1AGD",
+      "chain": "G",
+      "residue": "840",
+      "label_asym": "UB",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "A1AGD:H:2153",
+      "component": "A1AGD",
+      "chain": "H",
+      "residue": "2153",
+      "label_asym": "JE",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "G",
+    "psaB": "H",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9AU4_prot2_A1A",
+     "9AU4_prot2_A1B",
+     "9AU4_prot2_P_A",
+     "9AU4_prot2_special_pair"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:a:801",
+      "component": "CLA",
+      "chain": "a",
+      "residue": "801",
+      "label_asym": "LF",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:b:2103",
+      "component": "CLA",
+      "chain": "b",
+      "residue": "2103",
+      "label_asym": "PH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "A1AGD:a:840",
+      "component": "A1AGD",
+      "chain": "a",
+      "residue": "840",
+      "label_asym": "YG",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "A1AGD:b:2153",
+      "component": "A1AGD",
+      "chain": "b",
+      "residue": "2153",
+      "label_asym": "NJ",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "a",
+    "psaB": "b",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9AU4_prot3_A1A",
+     "9AU4_prot3_A1B",
+     "9AU4_prot3_P_A",
+     "9AU4_prot3_special_pair"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9EYS",
+  "organism": "Chroococcidiopsis thermalis PCC 7203",
+  "method": "Cryo-EM",
+  "resolution": "2.01",
+  "pdb_url": "https://www.rcsb.org/structure/9EYS",
+  "pdb_doi": "10.2210/pdb9EYS/pdb",
+  "condition": "FRL",
+  "description": "Far-red PSI from Chroococcidiopsis thermalis, one of two separately collected datasets in the Consoli study. Both 9EYS and 9I9L are FRL structures.",
+  "context": "Trimer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1126/science.ado6830",
+    "title": "Locating the missing chlorophylls f in far-red photosystem I",
+    "author_short": "Consoli et al.",
+    "year": 2025,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "7FIX and 7LX0 → 9EYS study: both templates are named. Exact contributions to individual chains/cofactors are unspecified.",
+    "doi": "10.1126/science.ado6830",
+    "locator": "Supplementary Methods, p3"
+   }
+  ],
+  "lineage_short": "7FIX and 7LX0 → 9EYS study: both templates are named. Exact contributions to individual chains/cofactors are unspecified.",
+  "growth_light": "FRL",
+  "genotype": null,
+  "deposition_authors": [
+   "Consoli, G.",
+   "Tufaill, F.",
+   "Murray, J.W.",
+   "Fantuzzi, A.",
+   "Rutherford, A.W."
+  ],
+  "deposition_date": "2024-04-09",
+  "selector": "9EYS — Chroococcidiopsis thermalis PCC 7203 — Cryo-EM 2.01 Å — FRL",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "KA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "801",
+      "label_asym": "QC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:843",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "843",
+      "label_asym": "AC",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:840",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "840",
+      "label_asym": "DE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9EYS_prot1_A1A",
+     "9EYS_prot1_A1B",
+     "9EYS_prot1_special_pair",
+     "9EYS_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:N:801",
+      "component": "CL0",
+      "chain": "N",
+      "residue": "801",
+      "label_asym": "OF",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:O:801",
+      "component": "CLA",
+      "chain": "O",
+      "residue": "801",
+      "label_asym": "TH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:N:843",
+      "component": "PQN",
+      "chain": "N",
+      "residue": "843",
+      "label_asym": "EH",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:O:842",
+      "component": "PQN",
+      "chain": "O",
+      "residue": "842",
+      "label_asym": "IJ",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "N",
+    "psaB": "O",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9EYS_prot2_A1A",
+     "9EYS_prot2_A1B",
+     "9EYS_prot2_special_pair",
+     "9EYS_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:a:801",
+      "component": "CL0",
+      "chain": "a",
+      "residue": "801",
+      "label_asym": "SK",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:b:801",
+      "component": "CLA",
+      "chain": "b",
+      "residue": "801",
+      "label_asym": "XM",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:a:843",
+      "component": "PQN",
+      "chain": "a",
+      "residue": "843",
+      "label_asym": "IM",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:b:842",
+      "component": "PQN",
+      "chain": "b",
+      "residue": "842",
+      "label_asym": "MO",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "a",
+    "psaB": "b",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9EYS_prot3_A1A",
+     "9EYS_prot3_A1B",
+     "9EYS_prot3_special_pair",
+     "9EYS_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9I9L",
+  "organism": "Chroococcidiopsis thermalis PCC 7203",
+  "method": "Cryo-EM",
+  "resolution": "1.89",
+  "pdb_url": "https://www.rcsb.org/structure/9I9L",
+  "pdb_doi": "10.2210/pdb9I9L/pdb",
+  "condition": "FRL",
+  "description": "The 1.89 Å FRL PSI reconstruction in the Consoli study. It is not the white-light partner of 9EYS.",
+  "context": "Trimer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1126/science.ado6830",
+    "title": "Locating the missing chlorophylls f in far-red photosystem I",
+    "author_short": "Consoli et al.",
+    "year": 2025,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "7FIX and 7LX0 → 9I9L study: both templates are named. Exact contributions to individual chains/cofactors are unspecified.",
+    "doi": "10.1126/science.ado6830",
+    "locator": "Supplementary Methods, p3"
+   }
+  ],
+  "lineage_short": "7FIX and 7LX0 → 9I9L study: both templates are named. Exact contributions to individual chains/cofactors are unspecified.",
+  "growth_light": "FRL",
+  "genotype": null,
+  "deposition_authors": [
+   "Consoli, G.",
+   "Tufaill, F.",
+   "Murray, J.W.",
+   "Fantuzzi, A.",
+   "Rutherford, A.W."
+  ],
+  "deposition_date": "2025-02-06",
+  "selector": "9I9L — Chroococcidiopsis thermalis PCC 7203 — Cryo-EM 1.89 Å — FRL",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "KA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "801",
+      "label_asym": "OC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:843",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "843",
+      "label_asym": "AC",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:841",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "841",
+      "label_asym": "CE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9I9L_prot1_A1A",
+     "9I9L_prot1_A1B",
+     "9I9L_prot1_special_pair",
+     "9I9L_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:N:801",
+      "component": "CL0",
+      "chain": "N",
+      "residue": "801",
+      "label_asym": "QF",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:O:801",
+      "component": "CLA",
+      "chain": "O",
+      "residue": "801",
+      "label_asym": "VH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:N:843",
+      "component": "PQN",
+      "chain": "N",
+      "residue": "843",
+      "label_asym": "GH",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:O:841",
+      "component": "PQN",
+      "chain": "O",
+      "residue": "841",
+      "label_asym": "JJ",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "N",
+    "psaB": "O",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9I9L_prot2_A1A",
+     "9I9L_prot2_A1B",
+     "9I9L_prot2_special_pair",
+     "9I9L_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:a:801",
+      "component": "CL0",
+      "chain": "a",
+      "residue": "801",
+      "label_asym": "UK",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:b:801",
+      "component": "CLA",
+      "chain": "b",
+      "residue": "801",
+      "label_asym": "XM",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:a:843",
+      "component": "PQN",
+      "chain": "a",
+      "residue": "843",
+      "label_asym": "KM",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:b:841",
+      "component": "PQN",
+      "chain": "b",
+      "residue": "841",
+      "label_asym": "LO",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "a",
+    "psaB": "b",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9I9L_prot3_A1A",
+     "9I9L_prot3_A1B",
+     "9I9L_prot3_special_pair",
+     "9I9L_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9QFP",
+  "organism": "Thermosynechococcus vestitus BP-1",
+  "method": "Cryo-EM",
+  "resolution": "1.74",
+  "pdb_url": "https://www.rcsb.org/structure/9QFP",
+  "pdb_doi": "10.2210/pdb9QFP/pdb",
+  "condition": "PsaL absent from model",
+  "description": "Detergent-generated monomeric PSI from Thermosynechococcus vestitus, without modeled PsaL. The deposited resolution is 1.74 Å; the paper rounds this to 1.8 Å.",
+  "context": "Monomer",
+  "notes": [
+   "PDB literature metadata still says “To be published”; the supplied Boyka paper has a separately verified published DOI. Functional branch labels do not overwrite deposited chain identities."
+  ],
+  "citations": [
+   {
+    "doi": "10.1007/s11120-026-01237-x",
+    "title": "High-resolution structure of monomeric photosystem I from Thermosynechococcus vestitus",
+    "author_short": "Boyka et al.",
+    "year": 2026,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Protein modeling: ModelAngelo map-guided building and AlphaFold2 models fitted into the map.",
+    "doi": "10.1007/s11120-026-01237-x",
+    "locator": "Methods, PDF pp17–18"
+   },
+   {
+    "text": "1JB0 → 9QFP: cofactors copied for initialization, then inspected and refined. This is separate from protein-model provenance.",
+    "doi": "10.1007/s11120-026-01237-x",
+    "locator": "Methods, PDF p18"
+   }
+  ],
+  "lineage_short": "Protein modeling: ModelAngelo map-guided building and AlphaFold2 models fitted into the map.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Gaullier, G.",
+   "Boyka, J.",
+   "Zouni, A.",
+   "Blikstad, C."
+  ],
+  "deposition_date": "2025-03-12",
+  "selector": "9QFP — Thermosynechococcus vestitus BP-1 — Cryo-EM 1.74 Å — PsaL absent from model",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:847",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "847",
+      "label_asym": "FB",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:834",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "834",
+      "label_asym": "ED",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:837",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "837",
+      "label_asym": "VA",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:823",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "823",
+      "label_asym": "TC",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9QFP_prot1_A1A",
+     "9QFP_prot1_A1B",
+     "9QFP_prot1_special_pair",
+     "9QFP_prot1_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9S6P",
+  "organism": "Acaryochloris marina NIES-2412",
+  "method": "Cryo-EM",
+  "resolution": "2.44",
+  "pdb_url": "https://www.rcsb.org/structure/9S6P",
+  "pdb_doi": "10.2210/pdb9S6P/pdb",
+  "condition": "Chl d / P740",
+  "description": "Locally refined monomer from the Acaryochloris NIES-2412 trimer particle dataset. Its experimental-data relationship to 9SK3 is distinct from atomic-model ancestry.",
+  "context": "Locally refined monomer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1126/sciadv.aed7355",
+    "title": "Far-red chlorophyll d clusters extend photosystem I absorption toward the red limit",
+    "author_short": "Oliver et al.",
+    "year": 2026,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "7COY is the template named for the study’s modeling workflow; a separate direct atomic-model edge from 9SK3 is not established.",
+    "doi": "10.1126/sciadv.aed7355",
+    "locator": "Methods, PDF pp10–11"
+   },
+   {
+    "text": "Experimental data: locally refined monomer from symmetry-expanded particles of the 9SK3 trimer dataset.",
+    "doi": "10.1126/sciadv.aed7355",
+    "locator": "Methods, PDF p10"
+   }
+  ],
+  "lineage_short": "7COY is the template named for the study’s modeling workflow; a separate direct atomic-model edge from 9SK3 is not established.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Consoli, G.",
+   "Leong, H.F."
+  ],
+  "deposition_date": "2025-08-01",
+  "selector": "9S6P — Acaryochloris marina NIES-2412 — Cryo-EM 2.44 Å — Chl d / P740",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:A:1011",
+      "component": "G9R",
+      "chain": "A",
+      "residue": "1011",
+      "label_asym": "EC",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:B:1022",
+      "component": "CL7",
+      "chain": "B",
+      "residue": "1022",
+      "label_asym": "M",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "2001",
+      "label_asym": "VD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "2002",
+      "label_asym": "BB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9S6P_prot1_A1A",
+     "9S6P_prot1_A1B",
+     "9S6P_prot1_special_pair",
+     "9S6P_prot1_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9SK3",
+  "organism": "Acaryochloris marina NIES-2412",
+  "method": "Cryo-EM",
+  "resolution": "2.63",
+  "pdb_url": "https://www.rcsb.org/structure/9SK3",
+  "pdb_doi": "10.2210/pdb9SK3/pdb",
+  "condition": "Chl d / P740",
+  "description": "Trimeric Acaryochloris NIES-2412 PSI, containing the chlorophyll d / P740 system. The related 9S6P entry comes from local refinement of the same experimental particle dataset.",
+  "context": "Trimer",
+  "notes": [],
+  "citations": [
+   {
+    "doi": "10.1126/sciadv.aed7355",
+    "title": "Far-red chlorophyll d clusters extend photosystem I absorption toward the red limit",
+    "author_short": "Oliver et al.",
+    "year": 2026,
+    "verified_date": "2026-10-16"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "7COY → 9SK3 study: fitted to the map, sequence changed and rebuilt/refined.",
+    "doi": "10.1126/sciadv.aed7355",
+    "locator": "Methods, PDF pp10–11"
+   }
+  ],
+  "lineage_short": "7COY → 9SK3 study: fitted to the map, sequence changed and rebuilt/refined.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Leong, H.F.",
+   "Consoli, G."
+  ],
+  "deposition_date": "2025-09-01",
+  "selector": "9SK3 — Acaryochloris marina NIES-2412 — Cryo-EM 2.63 Å — Chl d / P740",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:aA:1011",
+      "component": "G9R",
+      "chain": "aA",
+      "residue": "1011",
+      "label_asym": "KA",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:aB:1021",
+      "component": "CL7",
+      "chain": "aB",
+      "residue": "1021",
+      "label_asym": "GD",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:aA:2001",
+      "component": "PQN",
+      "chain": "aA",
+      "residue": "2001",
+      "label_asym": "BC",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:aB:2002",
+      "component": "PQN",
+      "chain": "aB",
+      "residue": "2002",
+      "label_asym": "TC",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "aA",
+    "psaB": "aB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9SK3_prot1_A1A",
+     "9SK3_prot1_A1B",
+     "9SK3_prot1_special_pair",
+     "9SK3_prot1_P_A"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:bA:1011",
+      "component": "G9R",
+      "chain": "bA",
+      "residue": "1011",
+      "label_asym": "DF",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:bB:1021",
+      "component": "CL7",
+      "chain": "bB",
+      "residue": "1021",
+      "label_asym": "IH",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:bA:2001",
+      "component": "PQN",
+      "chain": "bA",
+      "residue": "2001",
+      "label_asym": "VG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:bB:2002",
+      "component": "PQN",
+      "chain": "bB",
+      "residue": "2002",
+      "label_asym": "WI",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "bA",
+    "psaB": "bB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9SK3_prot2_A1A",
+     "9SK3_prot2_A1B",
+     "9SK3_prot2_special_pair",
+     "9SK3_prot2_P_A"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "G9R:cA:1011",
+      "component": "G9R",
+      "chain": "cA",
+      "residue": "1011",
+      "label_asym": "WJ",
+      "name": "Chl d′",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CL7:cB:1021",
+      "component": "CL7",
+      "chain": "cB",
+      "residue": "1021",
+      "label_asym": "AM",
+      "name": "Chl d",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:cA:2001",
+      "component": "PQN",
+      "chain": "cA",
+      "residue": "2001",
+      "label_asym": "LL",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:cB:2002",
+      "component": "PQN",
+      "chain": "cB",
+      "residue": "2002",
+      "label_asym": "ON",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "cA",
+    "psaB": "cB",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9SK3_prot3_A1A",
+     "9SK3_prot3_A1B",
+     "9SK3_prot3_special_pair",
+     "9SK3_prot3_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9YL7",
+  "organism": "Synechocystis sp. PCC 6803",
+  "method": "Cryo-EM",
+  "resolution": "1.68",
+  "pdb_url": "https://www.rcsb.org/structure/9YL7",
+  "pdb_doi": "10.2210/pdb9YL7/pdb",
+  "condition": "PQ-9 / DMPBQ",
+  "description": "The deposited model contains different quinones on the two branches: PQ-9 at A1_A and DMPBQ at A1_B. Sample genotype and starting-model ancestry are not established here.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "A1_A PL9 contains 30/55 CCD heavy atoms; distal tail atoms C27–C51 are absent. A1_B A1AGD is DMPBQ, not PQ-9."
+  ],
+  "citations": [],
+  "lineage": [
+   {
+    "text": "Starting-model ancestry is not established from the inspected deposited metadata. No 9AU4 → 9YL7 edge is inferred.",
+    "doi": "",
+    "locator": ""
+   }
+  ],
+  "lineage_short": "Starting-model ancestry is not established from the inspected deposited metadata. No 9AU4 → 9YL7 edge is inferred.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Brininger, C.M.",
+   "Gisriel, C.J."
+  ],
+  "deposition_date": "2025-10-08",
+  "selector": "9YL7 — Synechocystis sp. PCC 6803 — Cryo-EM 1.68 Å — PQ-9 / DMPBQ",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "802",
+      "label_asym": "M",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:853",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "853",
+      "label_asym": "RD",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PL9:A:854",
+      "component": "PL9",
+      "chain": "A",
+      "residue": "854",
+      "label_asym": "MB",
+      "name": "PQ-9",
+      "heavy_atoms": 30,
+      "atoms_note": "30/55 deposited heavy atoms"
+     },
+     "A1_B": {
+      "identity": "A1AGD:B:831",
+      "component": "A1AGD",
+      "chain": "B",
+      "residue": "831",
+      "label_asym": "VC",
+      "name": "DMPBQ",
+      "heavy_atoms": 30,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9YL7_prot1_A1B",
+     "9YL7_prot1_A1A",
+     "9YL7_prot1_special_pair",
+     "9YL7_prot1_P_A"
+    ]
+   }
+  ],
+  "scene_origin": "curated"
+ },
+ {
+  "pdb": "9OY9",
+  "organism": "Synechocystis sp. PCC 6803",
+  "method": "Cryo-EM",
+  "resolution": "1.76",
+  "pdb_url": "https://www.rcsb.org/structure/9OY9",
+  "pdb_doi": "10.2210/pdb9OY9/pdb",
+  "condition": "PsaB red-shift variant",
+  "description": "PSI from Synechocystis sp. PCC 6803 that the depositors describe as carrying two red-shifting mutations in PsaB. Relative to 9YL7 the deposited PsaB differs at His95→Gln (an antenna-chlorophyll ligand) and around residues 486–493; all of these residues lie at least 17 Å from the atoms shown in these scenes. No primary publication is linked yet.",
+  "context": "1 deposited protomer",
+  "notes": [],
+  "citations": [],
+  "lineage": [
+   {
+    "text": "Starting-model ancestry is not established from the deposited metadata.",
+    "doi": "",
+    "locator": ""
+   }
+  ],
+  "lineage_short": "Starting-model ancestry is not established from the deposited metadata.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Mazor, Y.",
+   "Kahtun, H.",
+   "Asido, M.",
+   "Gorski, C.",
+   "Schlau-Cohen, G.S."
+  ],
+  "deposition_date": "2025-06-04",
+  "selector": "9OY9 — Synechocystis sp. PCC 6803 — Cryo-EM 1.76 Å — PsaB red-shift variant",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "802",
+      "label_asym": "M",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:846",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "846",
+      "label_asym": "EB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "804",
+      "label_asym": "VB",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "843",
+      "label_asym": "ID",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9OY9_prot1_special_pair",
+     "9OY9_prot1_P_A",
+     "9OY9_prot1_A1A",
+     "9OY9_prot1_A1B"
+    ]
+   }
+  ],
+  "scene_origin": "derived by rule (tools/derive_scenes.py)"
+ },
+ {
+  "pdb": "9OZ3",
+  "organism": "Synechocystis sp. PCC 6803",
+  "method": "Cryo-EM",
+  "resolution": "1.88",
+  "pdb_url": "https://www.rcsb.org/structure/9OZ3",
+  "pdb_doi": "10.2210/pdb9OZ3/pdb",
+  "condition": "PsaB red-shift variant",
+  "description": "PSI from Synechocystis sp. PCC 6803 that the depositors describe as carrying two red-shifting mutations in PsaB. Relative to 9YL7 the deposited PsaB differs at His95→Gln (an antenna-chlorophyll ligand) and around residues 486–493; all of these residues lie at least 17 Å from the atoms shown in these scenes. No primary publication is linked yet. The entry title says monomer, but the deposited model contains three PsaA/PsaB copies; each is shown as a protomer.",
+  "context": "3 deposited protomers",
+  "notes": [],
+  "citations": [],
+  "lineage": [
+   {
+    "text": "Starting-model ancestry is not established from the deposited metadata.",
+    "doi": "",
+    "locator": ""
+   }
+  ],
+  "lineage_short": "Starting-model ancestry is not established from the deposited metadata.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Mazor, Y.",
+   "Kahtun, H.",
+   "Asido, M.",
+   "Gorski, C.",
+   "Schlau-Cohen, G.S."
+  ],
+  "deposition_date": "2025-06-04",
+  "selector": "9OZ3 — Synechocystis sp. PCC 6803 — Cryo-EM 1.88 Å — PsaB red-shift variant",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "802",
+      "label_asym": "IA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "845",
+      "label_asym": "ZB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:805",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "805",
+      "label_asym": "TC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:844",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "844",
+      "label_asym": "GE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9OZ3_prot1_special_pair",
+     "9OZ3_prot1_P_A",
+     "9OZ3_prot1_A1A",
+     "9OZ3_prot1_A1B"
+    ]
+   },
+   {
+    "number": 2,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:G:801",
+      "component": "CL0",
+      "chain": "G",
+      "residue": "801",
+      "label_asym": "AF",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:G:845",
+      "component": "PQN",
+      "chain": "G",
+      "residue": "845",
+      "label_asym": "SG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:H:803",
+      "component": "CLA",
+      "chain": "H",
+      "residue": "803",
+      "label_asym": "JH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:H:843",
+      "component": "PQN",
+      "chain": "H",
+      "residue": "843",
+      "label_asym": "XI",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "G",
+    "psaB": "H",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9OZ3_prot2_special_pair",
+     "9OZ3_prot2_P_A",
+     "9OZ3_prot2_A1A",
+     "9OZ3_prot2_A1B"
+    ]
+   },
+   {
+    "number": 3,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:a:802",
+      "component": "CL0",
+      "chain": "a",
+      "residue": "802",
+      "label_asym": "QL",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:a:846",
+      "component": "PQN",
+      "chain": "a",
+      "residue": "846",
+      "label_asym": "IN",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:b:805",
+      "component": "CLA",
+      "chain": "b",
+      "residue": "805",
+      "label_asym": "ZN",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:b:845",
+      "component": "PQN",
+      "chain": "b",
+      "residue": "845",
+      "label_asym": "NP",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "a",
+    "psaB": "b",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9OZ3_prot3_special_pair",
+     "9OZ3_prot3_P_A",
+     "9OZ3_prot3_A1A",
+     "9OZ3_prot3_A1B"
+    ]
+   }
+  ],
+  "scene_origin": "derived by rule (tools/derive_scenes.py)"
+ }
+]

@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9OZ3.p1.HOH:A:945:O~TYR:A:599:OH,9OZ3_prot1_P_A,9OZ3,1,P_A,HOH:A:945:O,TYR:A:599:OH,BR,A,2.97902,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,46.73,46.07
+9OZ3.p1.HOH:A:945:O~SER:A:603:OG,9OZ3_prot1_P_A,9OZ3,1,P_A,HOH:A:945:O,SER:A:603:OG,BR,A,2.80478,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,46.73,45.23
+9OZ3.p1.GLY:A:735:O~HOH:A:945:O,9OZ3_prot1_P_A,9OZ3,1,P_A,HOH:A:945:O,GLY:A:735:O,BR,A,3.47311,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,46.73,47.21
+9OZ3.p1.HOH:A:945:O~THR:A:739:OG1,9OZ3_prot1_P_A,9OZ3,1,P_A,HOH:A:945:O,THR:A:739:OG1,BR,A,2.68159,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,46.73,45.86
+9OZ3.p1.CL0:A:802:O2D~HOH:A:945:O,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:O2D,HOH:A:945:O,IA,BR,3.32489,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,44.87,46.73
+9OZ3.p1.CL0:A:802:MG~HIS:A:676:NE2,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:MG,HIS:A:676:NE2,IA,A,2.53636,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,40.45,35.43
+9OZ3.p1.CL0:A:802:O2D~CL0:A:802:OBD,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:OBD,CL0:A:802:O2D,IA,IA,3.77294,intra,same residue,derived by homology,1.0,1.0,46.04,44.87
+9OZ3.p1.CL0:A:802:OBD~THR:A:739:OG1,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:OBD,THR:A:739:OG1,IA,A,2.90453,polar,donor–acceptor compatible,derived by homology,1.0,1.0,46.04,45.86
+9OZ3.p1.CL0:A:802:O2D~THR:A:739:OG1,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:O2D,THR:A:739:OG1,IA,A,3.27163,polar,donor–acceptor compatible,derived by homology,1.0,1.0,44.87,45.86
+9OZ3.p1.CL0:A:802:O2D~TYR:A:599:OH,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:O2D,TYR:A:599:OH,IA,A,3.20229,polar,donor–acceptor compatible,derived by homology,1.0,1.0,44.87,46.07
+9OZ3.p1.CL0:A:802:O1A~TYR:A:731:OH,9OZ3_prot1_P_A,9OZ3,1,P_A,CL0:A:802:O1A,TYR:A:731:OH,IA,A,2.90694,polar,donor–acceptor compatible,derived by homology,1.0,1.0,45.76,45.62

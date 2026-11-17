@@ -3,7 +3,9 @@
 #
 # Run from the repository root:   pymol downloads/pymol/9YL7_prot1_A1A.pml
 # Distances are Euclidean heavy-atom separations (Å). Short N/O···O pairs are hydrogen-bond CANDIDATES:
-# hydrogens, protonation and angles are not modelled. Chain IDs are case-sensitive author IDs.
+# hydrogens, protonation and angles are not modelled. Pairs in group OO_no_H_donor are two oxygen
+# acceptors (neither carries a hydrogen), so they are not hydrogen-bond candidates.
+# Chain IDs are case-sensitive author IDs.
 
 reinitialize
 # chain IDs such as 'a' and 'A' are different chains. Use author chain/residue numbering as the library does.
@@ -44,15 +46,20 @@ set label_color, black
 distance d01_polar, scene and (chain A and resi 854 and resn PL9 and name O2), scene and (chain A and resi 688 and resn SER and name OG)
 # PL9 A 854 O1 ··· LEU A 718 N = 3.04 Å (polar candidate)
 distance d02_polar, scene and (chain A and resi 854 and resn PL9 and name O1), scene and (chain A and resi 718 and resn LEU and name N)
-# PL9 A 854 O2 ··· MET A 684 O = 3.12 Å (polar candidate)
-distance d03_polar, scene and (chain A and resi 854 and resn PL9 and name O2), scene and (chain A and resi 684 and resn MET and name O)
 # PL9 A 854 O2 ··· TRP A 693 NE1 = 3.26 Å (polar candidate)
-distance d04_polar, scene and (chain A and resi 854 and resn PL9 and name O2), scene and (chain A and resi 693 and resn TRP and name NE1)
+distance d03_polar, scene and (chain A and resi 854 and resn PL9 and name O2), scene and (chain A and resi 693 and resn TRP and name NE1)
+# PL9 A 854 O2 ··· MET A 684 O = 3.12 Å (O···O, no H donor)
+distance d04_acceptor_pair, scene and (chain A and resi 854 and resn PL9 and name O2), scene and (chain A and resi 684 and resn MET and name O)
 set_color cls_polar, [0.114, 0.165, 0.227]
-group polar_candidate, d01_polar d02_polar d03_polar d04_polar
+group polar_candidate, d01_polar d02_polar d03_polar
 set dash_color, cls_polar, polar_candidate
 set dash_length, 0.25, polar_candidate
 set dash_gap, 0.18, polar_candidate
+set_color cls_acceptor_pair, [0.627, 0.322, 0.478]
+group OO_no_H_donor, d04_acceptor_pair
+set dash_color, cls_acceptor_pair, OO_no_H_donor
+set dash_length, 0.12, OO_no_H_donor
+set dash_gap, 0.12, OO_no_H_donor
 
 # --- labels (residues at the library anchor atoms, roles as plain text)
 set label_font_id, 7

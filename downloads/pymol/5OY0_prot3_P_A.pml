@@ -1,9 +1,11 @@
 # PSI Contact Atlas — 5OY0 protomer 3, P_A network
-# Synechocystis sp. PCC 6803 · WT (paper) · X-ray crystallography 2.501 Å
+# Synechocystis sp. PCC 6803 · Wild type · X-ray crystallography 2.501 Å
 #
 # Run from the repository root:   pymol downloads/pymol/5OY0_prot3_P_A.pml
 # Distances are Euclidean heavy-atom separations (Å). Short N/O···O pairs are hydrogen-bond CANDIDATES:
-# hydrogens, protonation and angles are not modelled. Chain IDs are case-sensitive author IDs.
+# hydrogens, protonation and angles are not modelled. Pairs in group OO_no_H_donor are two oxygen
+# acceptors (neither carries a hydrogen), so they are not hydrogen-bond candidates.
+# Chain IDs are case-sensitive author IDs.
 
 reinitialize
 # chain IDs such as 'a' and 'A' are different chains. Use author chain/residue numbering as the library does.
@@ -50,8 +52,8 @@ distance d03_context, scene and (chain a and resi 1011 and resn CLA and name O2D
 distance d04_context, scene and (chain a and resi 1011 and resn CLA and name OBD), scene and (chain a and resi 739 and resn THR and name OG1)
 # CLA a 1011 O2D ··· THR a 739 OG1 = 5.71 Å (longer context)
 distance d05_context, scene and (chain a and resi 1011 and resn CLA and name O2D), scene and (chain a and resi 739 and resn THR and name OG1)
-# CLA a 1011 O1A ··· PHE a 679 CE1 = 3.70 Å (packing)
-distance d06_packing, scene and (chain a and resi 1011 and resn CLA and name O1A), scene and (chain a and resi 679 and resn PHE and name CE1)
+# CLA a 1011 O1A ··· PHE a 679 CE1 = 3.70 Å (C/S contact)
+distance d06_cs_contact, scene and (chain a and resi 1011 and resn CLA and name O1A), scene and (chain a and resi 679 and resn PHE and name CE1)
 # CLA a 1011 OBD ··· CLA a 1011 O2D = 3.92 Å (intramolecular)
 distance d07_intra, scene and (chain a and resi 1011 and resn CLA and name OBD), scene and (chain a and resi 1011 and resn CLA and name O2D)
 set_color cls_mg, [0.09, 0.541, 0.235]
@@ -69,11 +71,11 @@ group longer_context, d03_context d04_context d05_context
 set dash_color, cls_context, longer_context
 set dash_length, 0.08, longer_context
 set dash_gap, 0.3, longer_context
-set_color cls_packing, [0.69, 0.404, 0.059]
-group packing, d06_packing
-set dash_color, cls_packing, packing
-set dash_length, 0.08, packing
-set dash_gap, 0.3, packing
+set_color cls_cs_contact, [0.69, 0.404, 0.059]
+group CS_contact, d06_cs_contact
+set dash_color, cls_cs_contact, CS_contact
+set dash_length, 0.08, CS_contact
+set dash_gap, 0.3, CS_contact
 set_color cls_intra, [0.478, 0.322, 0.78]
 group intramolecular, d07_intra
 set dash_color, cls_intra, intramolecular

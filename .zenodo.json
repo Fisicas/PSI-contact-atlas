@@ -1,0 +1,112 @@
+{
+ "upload_type": "dataset",
+ "title": "PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites",
+ "version": "1.0.0",
+ "creators": [
+  {
+   "name": "Nelson, Michael Raymond",
+   "orcid": "0009-0004-9809-9842"
+  }
+ ],
+ "description": "<p>Heavy-atom separations around the photosystem I special pair, the P_A chlorophyll network and both A1 quinone sites, computed from 14 deposited PDB entries (32 protomers, 128 scenes, 691 unique atom pairs). Each distance is traceable to two named deposited atoms and carries a chemical-basis note; short N/O···O separations are hydrogen-bond candidates only, and pairs of two oxygen acceptors are marked as not candidates. Includes an offline interactive viewer, contact and comparison tables with stable IDs, mmCIF crops, PyMOL scripts, the archived input structures, a portable build and an independent verification script. A curated comparative atlas of selected PSI environments, not a census of all PSI structures.</p><p>Interactive viewer: <a href=\"https://fisicas.github.io/PSI-contact-atlas/\">https://fisicas.github.io/PSI-contact-atlas/</a> (also opens offline from index.html in this archive). Values are Euclidean distances between deposited heavy atoms; they are not confirmed hydrogen bonds and carry no per-atom uncertainty. Not peer reviewed.</p>",
+ "license": "cc-by-4.0",
+ "notes": "One archive holds the viewer, the tables, the archived inputs and the build and verification code. Data, figures and text: CC BY 4.0. Code (index.html, css/, js/, tools/, downloads/pymol/, .github/): MIT. Atomic coordinates and chemical-component definitions in build/inputs are wwPDB files (CC0); please cite the PDB entries and their primary papers.",
+ "keywords": [
+  "photosystem I",
+  "special pair",
+  "P700",
+  "phylloquinone",
+  "A1 quinone",
+  "hydrogen bonding",
+  "cryo-EM",
+  "X-ray crystallography",
+  "PyMOL"
+ ],
+ "language": "eng",
+ "related_identifiers": [
+  {
+   "identifier": "10.2210/pdb1jb0/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb5oy0/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb6kmw/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb6kmx/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb7coy/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9au4/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9eys/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9i9l/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9oy9/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9oz3/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9qfp/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9s6p/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9sk3/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  },
+  {
+   "identifier": "10.2210/pdb9yl7/pdb",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "dataset"
+  }
+ ]
+}

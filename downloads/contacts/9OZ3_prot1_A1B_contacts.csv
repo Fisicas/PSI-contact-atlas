@@ -1,0 +1,4 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9OZ3.p1.PQN:B:844:O1~TRP:B:672:NE1,9OZ3_prot1_A1B,9OZ3,1,A1B,PQN:B:844:O1,TRP:B:672:NE1,GE,B,3.22348,polar,donor–acceptor compatible,derived by homology,1.0,1.0,38.04,32.52
+9OZ3.p1.PQN:B:844:O1~SER:B:667:OG,9OZ3_prot1_A1B,9OZ3,1,A1B,PQN:B:844:O1,SER:B:667:OG,GE,B,3.32596,polar,donor–acceptor compatible,derived by homology,1.0,1.0,38.04,37.39
+9OZ3.p1.LEU:B:701:N~PQN:B:844:O4,9OZ3_prot1_A1B,9OZ3,1,A1B,PQN:B:844:O4,LEU:B:701:N,GE,B,2.97755,polar,donor–acceptor compatible,derived by homology,1.0,1.0,38.93,39.93
