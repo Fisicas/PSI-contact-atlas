@@ -2,7 +2,7 @@
 
 # PSI Contact Atlas
 
-**Cite v1.1.0** · [DOI 10.5281/zenodo.24406867](https://doi.org/10.5281/zenodo.24406867)
+[![DOI for v1.1.0: 10.5281/zenodo.24406867](https://zenodo.org/badge/DOI/10.5281/zenodo.24406867.svg)](https://doi.org/10.5281/zenodo.24406867)
 
 <p><a href="https://fisicas.github.io/PSI-contact-atlas/"><img src="media/branding/social-preview.png" width="960" alt="PSI Contact Atlas: P700 and A1 quinone environments, with a deposited chlorophyll contact network"></a></p>
 

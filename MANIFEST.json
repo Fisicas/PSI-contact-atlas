@@ -7116,8 +7116,8 @@
   "sha256": "9e932717801fe4612071d446a767d3c1a9bff1dcfeaeaa3aa1b9415c67fa8de6"
  },
  "README.md": {
-  "bytes": 9362,
-  "sha256": "15813f3f025893317a894e328c7b149a3c412ffa34eac7f771b3678dbb081cd4"
+  "bytes": 9416,
+  "sha256": "bdd383dd4df31b5139ee6d07ca1c976fead59e72fa617dc9b2c31ffb4f5e7a74"
  },
  "tests/browser_review.py": {
   "bytes": 21487,
@@ -7272,8 +7272,8 @@
   "sha256": "a983b8adf0853fc05c8860a7ba4da2361f4b469e8b5aca3c997ddb2b36f83b7f"
  },
  "tools/write_docs.py": {
-  "bytes": 24069,
-  "sha256": "784461b30e6e362e521b4184676b5e1905b44a2abaa2b5b9235b15e645f35e0a"
+  "bytes": 24141,
+  "sha256": "579815edcb3a7dc4dde6869f00be02f4d6cc9dcd118da76af19531711903e6de"
  },
  "UNK.cif": {
   "bytes": 5630,

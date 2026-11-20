@@ -23,7 +23,11 @@ def main():
     status='Published release' if released else 'UNPUBLISHED RELEASE REVIEW'
     lifecycle=(('Release date '+R['release_date']+'. See the [versioned GitHub release]('+R['release_url']+') for citation and archive details.') if released else 'Prepared for review; no release date or new version DOI is assigned. Published v1.0.0 remains unchanged.')
     doi = (R.get('registered_version_doi') or R.get('version_doi')) if released else None
-    doi_line = f'**Cite v{version}** · [DOI {doi}](https://doi.org/{doi})\n\n' if doi else ''
+    doi_line = (
+        f'[![DOI for v{version}: {doi}](https://zenodo.org/badge/DOI/{doi}.svg)]'
+        f'(https://doi.org/{doi})\n\n'
+        if doi else ''
+    )
     readme=f'''<p><img src="media/branding/icon-192.png" width="48" height="48" alt="PSI Contact Atlas chlorin-ring icon"></p>
 
 # PSI Contact Atlas
