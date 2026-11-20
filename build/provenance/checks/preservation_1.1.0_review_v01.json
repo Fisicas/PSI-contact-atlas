@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "protected_files": 1445,
+  "all_scene_fields_including_notes_unchanged": 160,
+  "comparison_cells_unchanged": 1617,
+  "atlas_metadata_fields_changed": [
+    "version",
+    "concept_doi",
+    "citation"
+  ],
+  "rc3_files_unchanged": 1556,
+  "published_files_unchanged": 593,
+  "published_HEAD": "f57f8bc7e6228f025f8b89d24e4f5a061c4be2a3",
+  "published_clean": true
+}

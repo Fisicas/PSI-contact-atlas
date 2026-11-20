@@ -1,0 +1,11 @@
+{
+ "pdb": "7DKZ",
+ "method": "X-ray crystallography",
+ "protomers": [
+  1
+ ],
+ "state": "source_ready",
+ "records": [],
+ "map_file": "raw_maps/7DKZ/7DKZ-sf.cif",
+ "reuse_previous_source": true
+}

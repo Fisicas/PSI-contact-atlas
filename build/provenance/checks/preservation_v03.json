@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scenes": 160,
+  "scene_changes": "Only scientific notes; all other fields exactly equal, including atoms/bonds/contacts/labels/cameras/native identities",
+  "protected_source_and_crop_files": 349,
+  "molecular_renderer_and_label_code_unchanged": true,
+  "export_footer_only_updated": true,
+  "published_files": 593,
+  "published_changed": [],
+  "published_git_status": "",
+  "published_head": "f57f8bc7e6228f025f8b89d24e4f5a061c4be2a3"
+}

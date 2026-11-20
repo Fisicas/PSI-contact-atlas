@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9HYU.p1.HOH:A:524:O~TYR:A:244:OH,9HYU_prot1_P_A,9HYU,1,P_A,HOH:A:524:O,TYR:A:244:OH,JJ,C,3.02347,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,27.08,25.86
+9HYU.p1.HOH:A:524:O~SER:A:248:OG,9HYU_prot1_P_A,9HYU,1,P_A,HOH:A:524:O,SER:A:248:OG,JJ,C,3.14163,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,27.08,24.92
+9HYU.p1.GLY:A:380:O~HOH:A:524:O,9HYU_prot1_P_A,9HYU,1,P_A,HOH:A:524:O,GLY:A:380:O,JJ,C,3.17410,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,27.08,24.94
+9HYU.p1.HOH:A:524:O~THR:A:384:OG1,9HYU_prot1_P_A,9HYU,1,P_A,HOH:A:524:O,THR:A:384:OG1,JJ,C,2.61421,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,27.08,24.92
+9HYU.p1.CL0:A:407:O2D~HOH:A:524:O,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:O2D,HOH:A:524:O,CA,JJ,3.31187,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,25.44,27.08
+9HYU.p1.CL0:A:407:MG~HIS:A:321:NE2,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:MG,HIS:A:321:NE2,CA,C,1.90628,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,20.72,17.53
+9HYU.p1.CL0:A:407:O2D~CL0:A:407:OBD,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:OBD,CL0:A:407:O2D,CA,CA,3.50484,intra,same residue,derived by homology,1.0,1.0,21.68,25.44
+9HYU.p1.CL0:A:407:OBD~THR:A:384:OG1,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:OBD,THR:A:384:OG1,CA,C,2.94374,polar,donor–acceptor compatible,derived by homology,1.0,1.0,21.68,24.92
+9HYU.p1.CL0:A:407:O2D~THR:A:384:OG1,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:O2D,THR:A:384:OG1,CA,C,3.30787,polar,donor–acceptor compatible,derived by homology,1.0,1.0,25.44,24.92
+9HYU.p1.CL0:A:407:O2D~TYR:A:244:OH,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:O2D,TYR:A:244:OH,CA,C,3.36175,polar,donor–acceptor compatible,derived by homology,1.0,1.0,25.44,25.86
+9HYU.p1.CL0:A:407:O1A~TYR:A:376:OH,9HYU_prot1_P_A,9HYU,1,P_A,CL0:A:407:O1A,TYR:A:376:OH,CA,C,2.66345,polar,donor–acceptor compatible,derived by homology,1.0,1.0,26.12,21.59

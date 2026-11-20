@@ -1,0 +1,35 @@
+{
+  "package": "3dmol",
+  "version": "2.5.5",
+  "registry": "https://registry.npmjs.org/3dmol/2.5.5",
+  "tarball": "https://registry.npmjs.org/3dmol/-/3dmol-2.5.5.tgz",
+  "integrity": "sha512-kqNHouGqq3YfW58174tdERvm0XYTmP0tavQKOqIw1ouc2OJ7epkXEFrtEkVXV0clBZT2Ze2xHRC/qxX0u0qCdw==",
+  "license": "BSD-3-Clause",
+  "files": {
+    "3Dmol-min.js": {
+      "bytes": 537792,
+      "sha256": "f7cc78921ae72e7623e89cdd111434f58c2efddd2ffda1cd212644b406fb8016"
+    },
+    "GLShape.ts": {
+      "bytes": 61783,
+      "sha256": "abdcb91aeb18dc0732be0aa4fea883342a9a5d974c6348359676e6fb06aaafa5"
+    },
+    "GLViewer.ts": {
+      "bytes": 193129,
+      "sha256": "a84f573f0c8915ddac691ff4aa08545e2a53591f9d9f75c60e5f04577d742716"
+    },
+    "LICENSE": {
+      "bytes": 4283,
+      "sha256": "4c6eaaed856f3f28a3b1a98e74f4a8a71618de7d51ea4155c29f6f793bcef861"
+    },
+    "package.json": {
+      "bytes": 2965,
+      "sha256": "2f63f83a80edf5bd6a5564653a531365de38150c94dfb2e270486ebed0970746"
+    },
+    "VolumeData.ts": {
+      "bytes": 20190,
+      "sha256": "97019b48c8978a0b3c449345eb1c33c65acacad5e45a1141cdcea20d387d4231"
+    }
+  },
+  "scope": "Pinned third-party viewer downloaded and integrity checked; no package scripts executed or shared environment changed."
+}

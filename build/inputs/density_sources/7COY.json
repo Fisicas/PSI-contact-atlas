@@ -1,0 +1,40 @@
+{
+ "pdb": "7COY",
+ "method": "Cryo-EM",
+ "protomers": [
+  1,
+  2,
+  3
+ ],
+ "state": "source_ready",
+ "records": [
+  {
+   "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-30420",
+   "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-30420",
+   "file": "raw_maps/7COY/emdb_entry.json",
+   "bytes": 55164,
+   "sha256": "314fda7296ef69cc72aa15c99f3dedc22e32ac0017eb4730e52d26c7fcc6be38",
+   "retrieved_utc": "2026-11-20T05:09:38.823546+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-30420/header/emd-30420.xml",
+   "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-30420/header/emd-30420.xml",
+   "file": "raw_maps/7COY/emdb_header.xml",
+   "bytes": 36328,
+   "sha256": "af4d0d7c010ebd3f877d5027b3756e7b8478a1de7f18754154f3ab076fbc8d8c",
+   "retrieved_utc": "2026-11-20T05:09:39.501239+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-30420/map/emd_30420.map.gz",
+   "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-30420/map/emd_30420.map.gz",
+   "file": "raw_maps/7COY/primary.map.gz",
+   "bytes": 14976197,
+   "sha256": "e71ead5fb9dead63667dbc96b3f7360ce536c2fa16e4f17c3326b4639055a54f",
+   "retrieved_utc": "2026-11-20T05:09:59.477087+00:00"
+  }
+ ],
+ "emdb": "EMD-30420",
+ "metadata_file": "raw_maps/7COY/emdb_entry.json",
+ "map_file": "raw_maps/7COY/primary.map.gz",
+ "map_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-30420/map/emd_30420.map.gz"
+}

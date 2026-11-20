@@ -106,5 +106,53 @@
   "sha256": "bb6747b19b9e4c876ce47b2b7cd8da3f559b7968f355af083a81ab1f2d19bc6b",
   "url": "https://files.rcsb.org/download/9OZ3.cif",
   "retrieved": "2026-11-17"
+ },
+ "9SE6": {
+  "file": "inputs/structures/9SE6.cif.gz",
+  "sha256": "bd2a215c514ef08073992c46bcb9e5e715bfd77fec5572912837d9e10141b502",
+  "url": "https://files.rcsb.org/download/9SE6.cif",
+  "retrieved": "2026-11-19"
+ },
+ "9LUT": {
+  "file": "inputs/structures/9LUT.cif.gz",
+  "sha256": "8702fc17b1455510e3a217b24e560770165a07f654cfa4f3e1205e884fecbd72",
+  "url": "https://files.rcsb.org/download/9LUT.cif",
+  "retrieved": "2026-11-19"
+ },
+ "8WEY": {
+  "file": "inputs/structures/8WEY.cif.gz",
+  "sha256": "3f48324987ba2cef77de58ad96ff2e8f7393e779a6d0cb2b0586095498da0a4c",
+  "url": "https://files.rcsb.org/download/8WEY.cif",
+  "retrieved": "2026-11-19"
+ },
+ "7DKZ": {
+  "file": "inputs/structures/7DKZ.cif.gz",
+  "sha256": "5b6dcd3c508c05486fc14f3434e2253924091fb43978fb5784f9b247a65a40bc",
+  "url": "https://files.rcsb.org/download/7DKZ.cif",
+  "retrieved": "2026-11-19"
+ },
+ "9UH3": {
+  "file": "inputs/structures/9UH3.cif.gz",
+  "sha256": "5cebfafe132e8f576ee14166fc74141ff487d4e9a9cd75ae5d429e412e439e91",
+  "url": "https://files.rcsb.org/download/9UH3.cif",
+  "retrieved": "2026-11-20"
+ },
+ "9HYU": {
+  "file": "inputs/structures/9HYU.cif.gz",
+  "sha256": "3f3f899418e2d7170a224da41ba51bd1c5b3328961e3982b92befaddbf035457",
+  "url": "https://files.rcsb.org/download/9HYU.cif",
+  "retrieved": "2026-11-20"
+ },
+ "9KZ9": {
+  "file": "inputs/structures/9KZ9.cif.gz",
+  "sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+  "url": "https://files.rcsb.org/download/9KZ9.cif",
+  "retrieved": "2026-11-20"
+ },
+ "8XLS": {
+  "file": "inputs/structures/8XLS.cif.gz",
+  "sha256": "073b7f4dc8456e1130a05f4836e76a4408057767bb983ebe1641e64e7b1f48f6",
+  "url": "https://files.rcsb.org/download/8XLS.cif",
+  "retrieved": "2026-11-20"
  }
 }

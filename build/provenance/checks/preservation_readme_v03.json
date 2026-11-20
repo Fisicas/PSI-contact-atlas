@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "baseline": "v02 review copy",
+  "changed_existing_files": [
+    "MANIFEST.json",
+    "README.md",
+    "build/provenance/7DKZ_literature_review.json",
+    "build/provenance/release_candidate_checks.json",
+    "docs/7DKZ_QUINONE_REVIEW.md",
+    "docs/NOTICE_REVIEW.md",
+    "docs/RELEASE_REVIEW.md",
+    "tools/write_docs.py"
+  ],
+  "removed": [],
+  "unchanged_existing_files": 1606,
+  "all_molecular_viewer_CSS_scene_coordinate_contact_density_GIF_branding_citation_files_identical": true,
+  "scope": "Only listed documentation/generator/literature-audit/receipt files differ from v02. No scientific arrays or web app files changed."
+}

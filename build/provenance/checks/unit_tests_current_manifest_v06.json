@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "seconds": 64.91,
+  "log": "unit_tests_current_manifest_v06.log",
+  "scope": "Fresh final v06 generated-manifest run; initial premanifest failure retained separately."
+}

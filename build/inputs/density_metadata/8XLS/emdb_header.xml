@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-38457">
+    <admin>
+        <current_status>
+            <date>2026-08-12</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2024-10-30">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2026-08-12">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2024-11-27">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>chem_comp_bond</category>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                            <category>entity</category>
+                            <category>pdbx_entity_nonpoly</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.name</item>
+                            <item>_chem_comp.pdbx_synonyms</item>
+                            <item>_chem_comp_atom.atom_id</item>
+                            <item>_chem_comp_bond.atom_id_1</item>
+                            <item>_chem_comp_bond.atom_id_2</item>
+                            <item>_chem_comp_bond.pdbx_stereo_config</item>
+                            <item>_chem_comp_bond.value_order</item>
+                            <item>_em_admin.last_update</item>
+                            <item>_entity.pdbx_description</item>
+                            <item>_pdbx_entity_nonpoly.name</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-08-12">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_struct_conn_angle</category>
+                            <category>pdbx_validate_chiral</category>
+                            <category>pdbx_validate_close_contact</category>
+                            <category>struct_conn</category>
+                            <category>struct_conn_type</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_chem_comp_atom.pdbx_stereo_config</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2023-12-26</deposition>
+            <header_release>2024-10-30</header_release>
+            <map_release>2024-10-30</map_release>
+            <update>2026-08-12</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Not funded</funding_body>
+            </grant_reference>
+        </grant_support>
+        <title>PSI-FCPI of the diatom Thalassiosira pseudonana CCMP1335</title>
+        <authors_list>
+            <author>Kato K</author>
+            <author>Nakajima Y</author>
+            <author>Shen JR</author>
+            <author>Nagao R</author>
+        </authors_list>
+        <keywords>Photosystem I, ELECTRON TRANSPORT, PHOTOSYNTHESIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-9846-5903" order="1">Kato K</author>
+                    <author ORCID="0000-0002-0529-8075" order="2">Nakajima Y</author>
+                    <author order="3">Xing J</author>
+                    <author order="4">Kumazawa M</author>
+                    <author order="5">Ogawa H</author>
+                    <author ORCID="0000-0003-4471-8797" order="6">Shen JR</author>
+                    <author ORCID="0000-0003-0241-8008" order="7">Ifuku K</author>
+                    <author ORCID="0000-0001-8212-3001" order="8">Nagao R</author>
+                    <title>Structural basis for molecular assembly of fucoxanthin chlorophyll a / c -binding proteins in a diatom photosystem I supercomplex.</title>
+                    <journal_abbreviation>Elife</journal_abbreviation>
+                    <country>US</country>
+                    <volume>13</volume>
+                    <year>2024</year>
+                    <external_references type="PUBMED">39480899</external_references>
+                    <external_references type="DOI">doi:10.7554/eLife.99858</external_references>
+                    <external_references type="ISSN">2050-084X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>8xls</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-38457</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>PSI-FCPI of the diatom Thalassiosira pseudonana CCMP1335</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>PSI-FCPI</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>PSI-FCPI</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.55</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08372582799999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAISSTERRSKNVQVFVEKDAVETSFAKWAQPGHFSRTLAKGPKTTTWIWNLHADAHDFDSQTSSLEEVSRKIFSAHFGQ
+LAIIFLWISGMHFHGAYFSNYSAWLTDPISIKQSSQVVWPIVGQEILNADVGGNFQGIQTTSGWFQMWRAEGITSEVELY
+WTAIGGLAMSAIMLFAGWFHYHKAAPKLEWFQNAESMMNHHLAGLLGLGCLSWSGHQIHIALPINKLLDAGVSPQEIPLP
+HEFLINRDLMAQLYPSFSKGLAPFFGGNWGEYSDFLTFKGGLNPVTGGLWLSDIAHHHLALSVLFIIAGHMYRTNWGIGH
+NMKEILEAHKGPFTGEGHKGLYEILTTSWHAQLAINLAMMGSLSIIVAHHMYAMPPYPYLATDYATQLSLFTHHMWIGGF
+CVVGGAAHGAIFMVRDYTPANNYNNLLDRVLRHRDAIISHLNWVCIFLGCHAFGFYIHNDTMRALGRPQDMFSDKAIQLQ
+PIFAQWIQNIHLLAPGTTAPNALATTSYAFGGDVIEVGGKIAMMPIKLGTADFMVHHIHAFTIHVTVLILLKGVLYARSS
+KLIPDKANLGFRFPCDGPGRGGTCQSSSWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGTITPDGAISHITGGNFAQSS
+ITINGWLRDFLWSQASQVIQSYGSASSAYGLIFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLNFAPTIQPRALS
+ITQGRAVGLAHYLLGGIGTTWAFFLARAISIT</string>
+                    <external_references type="UNIPROTKB">A0T0M8</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I P700 chlorophyll a apoprotein A2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.082173875</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPKFSQALAQDPATRRIWYGIATAHDLEAHDGMTEENLYQKIFASHFGHLAIIFLWTSGNLFHVAWQGNFEKWVSN
+PLKTRPIAHSIWDPHFGESALKAFSKGNTYPVNITFSGLYQWWYTIGFRTNQELYKGSIGLLLLASVLLIAGWLHLQPKF
+RPSLSWFKNNESRLNHHLSGLLGFSSLAWTGHLVHVAIPASRGVHVGWDNFLTTPPHPAGLTPFFTGNWTVYAENPDSAT
+HVFNTSEGSGTAILTFLGGFHPQTQSLWLSDMAHHHLAIAVVFIVAGHMYRTNFGIGHNMKEILDAHRPPGGRLGAGHVG
+LFETITNSLHMQLGLALACLGVATSLTAQHMYALTPYAYLSKDFTTEAALYTHHQYIAGFLMVGAFAHGAIFFVRDYDPE
+LNKNNVLARMLEHKEAIISHLSWASLFLGFHTLGLYIHNDTVVAFGQPEKQILFEPLFAEYIQAASGKAVYQFNVLLASS
+TSPATAAGNQVWLPGWLEAINNPKTDLFLKIGPGDFLVHHAIALGLHVTALILVKGALDARGSKLMPDKKDFGYSFPCDG
+PGRGGTCDISAWDAFYLAMFWMLNTIGWVTFYWHWKHMTIWGGNPGQFDESSNYIMGWLRDYLWLNSSPLINGYNPFGMN
+NLSVWSWMFLFGHLIWATGFMFLISWRGYWQELIETLVWAHERTPLANLIRWRDKPVALSIVQARLVGLVHFSVGYILTY
+AAFVIASTSGKFA</string>
+                    <external_references type="UNIPROTKB">A0T0M9</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I iron-sulfur center</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008807169</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKSGQIASSPRVEDCVGCKRCETACPTDFLSVRVYLGAETTRSLGLA
+Y</string>
+                    <external_references type="UNIPROTKB">A0T0W4</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I reaction center subunit II</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015535667999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTLNLKTPFPTFGGSTGGWLRAAEVEEKYAITWTSTKEQIFEMPTGGAAIMRNGENLLYLARKEQCLALSTQLRTFKIND
+YKIYRIFPSGEVQYLHPKDGVFPEKVNPGRTSVNSRGFSIGKNPNPASIKFSGITTYES</string>
+                    <external_references type="UNIPROTKB">A0T0T5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit IV</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007520497</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MIDRNSKVRILRKESYWFNQIGTVATVDQSGIRYPAVVRFESVNYAGTNTNNFALDELVEVKKEK</string>
+                    <external_references type="UNIPROTKB">A0T0P9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit III</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020382460999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRVNLLTLLFAVLIALTPNQALAEIGGLTKCSESAAFTKRLNASVKKLEQRASQYEADSPPALALKQQVERTQARFDKY
+SRSELLCGADGLPHLVADGRWSHAAEFILPGFGFIYISGWIGWVGRKYLRAVSTSANPSESEIIINVPLALKIMTTGYIW
+PISAWQELISNDLVAVSEEITVSPR</string>
+                    <external_references type="UNIPROTKB">A0T0V0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit VIII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003919688</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAASFLPSILVPLVGLIFPAFSMALFFLYVQTDDIA</string>
+                    <external_references type="UNIPROTKB">A0T0S9</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I reaction center subunit IX</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004854705</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNDFQKYLSTAPVLLTLWMTFTAGFIIEVNRFFPDMLGLYF</string>
+                    <external_references type="UNIPROTKB">A0T0V1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center subunit XI</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015715207</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MANFIKPYNDDPFVGHLATPITSSSLTRALLKNLPAYRFGLTPLLRGLEIGLAHGYFLIGPFAQLGPLRNSDIGLLAGFL
+STIGLILILTLGLTIYGAAAFGQEKSNGSELQTKKSWDQFKGGFFVGACGSAGFAFICLSSIPTFALN</string>
+                    <external_references type="UNIPROTKB">A0T0U5</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I reaction center subunit XII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003271954</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MITDFQVYIALMAALLASVLAIRLGATLYQ</string>
+                    <external_references type="UNIPROTKB">A0T0S1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Photosystem I reaction center subunit Psa29</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020048312000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKIVLIALSAASVSAFAPNAFGVRRTCYFEWLDLTIPSCGETTSLNVDLDYGMKNSYVPATGGDGGQGQFGAQSPNDWRV
+AGTSPVGETSYAGAADGGEEPWFAEAISTVSLDLQKADETLKAFTKDAAAFKIEEFAAEKPYGFTSSDAAMEELVGKLGY
+SKFLEMSTKQLMKTWGTLHPDPAAAKEE</string>
+                    <external_references type="UNIPROTKB">B8BUW3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Unknown protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007166824999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)
+(UNK)(UNK)(UNK)(UNK)</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>Fucoxanthin chlorophyll a/c-binding protein RedCAP</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023695039</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTAALVTLALAGSAQAFAPSTSRVSVSRTSTSVASSVFDDAVKDWAEEYPQFAAWGWGPSVQAEIWNGRHAMFGWVVMC
+ACAYAKGHGLIPDADQTLDLKEWGTLATISGKNTITNERAIILIANVHALMVGLAATISPNSFADTLLLDPNHPMYEWQM
+ERNSKLGGVMPNLGKMGVTPEAELANGRMAMMGIITCIAYSGIQGQSMIDTINEWVGGAYF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>Fucoxanthin chl a/c light-harvesting protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021438559</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLKAVLTTSLIAAASAFAPASVGRSTVALNEMSKSIPFLTVPEKLDGSMAGDVGFDPMGLSDIQTDLNYARWAELKHGRI
+CMLAVVGMVWQEYGPHLPGDAYATKDPWEAISSVGFASNFQTLLAIGVVELANWNKYYGDGTPGDIGWTGGQLSKMNDAQ
+IKTRMESEIVHCRLAMIAFIGATHQTFLLHKGLLDFSY</string>
+                    <external_references type="UNIPROTKB">B8C2K6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>Pt17531-like protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021210223</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTAILATLAASAAAFAPASISSPSTTQLSAWRDEVVVGITAPVGFFDPLGLSKGKDDATMAYYREAELKNGRVAMAACL
+GWYLNAGGVHPAFNSELSNDPLKAMVELPAVGWLQFVLGCGAIEWLGQQIKERPGYVPGDLLGASYWVDNSDEGWVMYQN
+KELNNGRLAMLAIVGMVYQDVFVGDYGDMMYKQLVR</string>
+                    <external_references type="UNIPROTKB">B8CEQ3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>Fucoxanthin chl a/c light-harvesting protein, major type</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021502491999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKTACLIASSLIASASAFAPAPVAKSTTALSADFSGEIGAANAELGCWDPLNFCTDQASFDKMRYAELKHGRVAQLAAWG
+YATTWSGARFPGCEDFPAGHEAVLKIGTENLIPVLVVAGALETLWKQKEGSFPGDFSATSFPVGFGPFAKTEADMIDLRT
+KELNNGRAAMMGILGMIVHEQIDGKPFIFFDKFEIYAPFGN</string>
+                    <external_references type="UNIPROTKB">B5YM25</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>Fucoxanthin chlorophyll a/c-binding protein Lhcq8</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="296543">Thalassiosira pseudonana CCMP1335</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.02111209</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKSVCIALLASSVSAFAPSQQGPVKSALSYASELDSMTGTGIESPKVFDPLNLSDYVPVDWARRAELSNGRSAMLATVGW
+FFPKVFGTFDSTDVTTTDPIDAIMQADPQWWAQWILICGVFETWKYKKEMEGKSFLGGADPAVDYLKLWPADAAAQEEMK
+TKELKNARLAMIGIAGFAANHFIPGSCPVPDFIA</string>
+                    <external_references type="UNIPROTKB">B8C770</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="18">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="19">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>138</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="20">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="21">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="22">
+                <name>BETA-CAROTENE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>20</number_of_copies>
+                <formula>BCR</formula>
+            </ligand>
+            <ligand macromolecule_id="23">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="24">
+                <name>DODECYL-BETA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>LMT</formula>
+            </ligand>
+            <ligand macromolecule_id="25">
+                <name>UNKNOWN LIGAND</name>
+                <number_of_copies>89</number_of_copies>
+                <formula>UNL</formula>
+            </ligand>
+            <ligand macromolecule_id="26">
+                <name>DIGALACTOSYL DIACYL GLYCEROL (DGDG)</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0009492989999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>DGD</formula>
+            </ligand>
+            <ligand macromolecule_id="27">
+                <name>Zeaxanthin</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000568871</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>5X6</formula>
+            </ligand>
+            <ligand macromolecule_id="28">
+                <name>(3S,3'R,5R,6S,7cis)-7',8'-didehydro-5,6-dihydro-5,6-epoxy-beta,beta-carotene-3,3'-diol</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000582855</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>DD6</formula>
+            </ligand>
+            <ligand macromolecule_id="29">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="30">
+                <name>Chlorophyll c1</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000610941</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>KC1</formula>
+            </ligand>
+            <ligand macromolecule_id="31">
+                <name>(3S,3'S,5R,5'R,6S,6'R,8'R)-3,5'-dihydroxy-8-oxo-6',7'-didehydro-5,5',6,6',7,8-hexahydro-5,6-epoxy-beta,beta-caroten-3'- yl acetate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0006589059999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>15</number_of_copies>
+                <formula>A86</formula>
+            </ligand>
+            <ligand macromolecule_id="32">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>922</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3.0</concentration>
+                    <buffer>
+                        <ph>6.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>MES-NaOH</formula>
+                            <name>MES</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.03</concentration>
+                            <formula>DDM</formula>
+                            <name>DDM</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <support_film film_type_id="1">
+                            <film_material>CARBON</film_material>
+                        </support_film>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">10</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>JEOL CRYO ARM 300</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">1.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <nominal_magnification>60000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <detector_mode>COUNTING</detector_mode>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>2733572</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>CTFFIND</name>
+                            <version>4.1</version>
+                        </software>
+                    </software_list>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>An initial model was generated de novo from 2D classification.</insilico_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">2.3</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>75667</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                            <version>4.0</version>
+                        </software>
+                    </software_list>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="65549">
+        <file>emd_38457.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>254</col>
+            <row>254</row>
+            <sec>254</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>254</x>
+            <y>254</y>
+            <z>254</z>
+        </spacing>
+        <cell>
+            <a units="Å">191.008</a>
+            <b units="Å">191.008</b>
+            <c units="Å">191.008</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.040055446</minimum>
+            <maximum>0.097367026</maximum>
+            <average>0.0005549062</average>
+            <std>0.004254923</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.752</x>
+            <y units="Å">0.752</y>
+            <z units="Å">0.752</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.012</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-38457::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>Other</source_name>
+                        <initial_model_type>experimental model</initial_model_type>
+                    </chain>
+                    <details>ModelAngelo</details>
+                </initial_model>
+                <refinement_protocol>FLEXIBLE FIT</refinement_protocol>
+                <refinement_space>RECIPROCAL</refinement_space>
+            </modelling>
+        </modelling_list>
+        <additional_map_list>
+            <additional_map format="CCP4" size_kbytes="65549">
+                <file>emd_38457_additional_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>254</col>
+                    <row>254</row>
+                    <sec>254</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>254</x>
+                    <y>254</y>
+                    <z>254</z>
+                </spacing>
+                <cell>
+                    <a units="Å">191.008</a>
+                    <b units="Å">191.008</b>
+                    <c units="Å">191.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.024207784</minimum>
+                    <maximum>0.07631893</maximum>
+                    <average>0.0006081149</average>
+                    <std>0.003494318</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.752</x>
+                    <y units="Å">0.752</y>
+                    <z units="Å">0.752</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-38457::::</label>
+            </additional_map>
+        </additional_map_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="65549">
+                <file>emd_38457_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>254</col>
+                    <row>254</row>
+                    <sec>254</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>254</x>
+                    <y>254</y>
+                    <z>254</z>
+                </spacing>
+                <cell>
+                    <a units="Å">191.008</a>
+                    <b units="Å">191.008</b>
+                    <c units="Å">191.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.031492054</minimum>
+                    <maximum>0.06505326</maximum>
+                    <average>0.00049937225</average>
+                    <std>0.005223949</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.752</x>
+                    <y units="Å">0.752</y>
+                    <z units="Å">0.752</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-38457::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="65549">
+                <file>emd_38457_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>254</col>
+                    <row>254</row>
+                    <sec>254</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>254</x>
+                    <y>254</y>
+                    <z>254</z>
+                </spacing>
+                <cell>
+                    <a units="Å">191.008</a>
+                    <b units="Å">191.008</b>
+                    <c units="Å">191.008</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.027809998</minimum>
+                    <maximum>0.059104912</maximum>
+                    <average>0.00049865874</average>
+                    <std>0.005200603</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.752</x>
+                    <y units="Å">0.752</y>
+                    <z units="Å">0.752</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-38457::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

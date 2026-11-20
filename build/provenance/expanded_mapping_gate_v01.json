@@ -1,0 +1,903 @@
+{
+  "status": "PASS",
+  "entries": [
+    {
+      "pdb": "9UH3",
+      "status": "PASS",
+      "current_sha256": "5cebfafe132e8f576ee14166fc74141ff487d4e9a9cd75ae5d429e412e439e91",
+      "current_revision": {
+        "revision": "2.2",
+        "revision_date": "2026-09-23"
+      },
+      "archived_revision": {
+        "revision": "2.0",
+        "revision_date": "2026-08-12"
+      },
+      "protomers": [
+        {
+          "number": 1,
+          "psaA": "A",
+          "psaB": "B",
+          "roles": {
+            "P_A": "CL0:A:849",
+            "P_B": "CLA:B:801",
+            "A1_A": "PQN:A:837",
+            "A1_B": "PQN:B:835"
+          }
+        }
+      ],
+      "sequence_evidence": [
+        {
+          "subunit": "PsaA",
+          "chain": "A",
+          "assigned_score": 3440.5,
+          "alternative_subunit_score": 1603.0,
+          "aligned_residues": 739,
+          "identity_fraction": 0.8403247631935047
+        },
+        {
+          "subunit": "PsaB",
+          "chain": "B",
+          "assigned_score": 3296.5,
+          "alternative_subunit_score": 1664.5,
+          "aligned_residues": 731,
+          "identity_fraction": 0.8166894664842681
+        }
+      ],
+      "role_evidence": [
+        {
+          "role": "P_A",
+          "reference_anchor": "PsaA:680:NE2",
+          "native_anchor": "HIS:A:666:NE2",
+          "cofactor": "CL0:A:849",
+          "cofactor_atom": "MG",
+          "distance_A": 2.1211041935746637,
+          "next_distinct_cofactor": [
+            8.088729813759393,
+            "CLA:B:801",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_A",
+          "reference_anchor": "PsaA:722:N",
+          "native_anchor": "LEU:A:708:N",
+          "cofactor": "PQN:A:837",
+          "cofactor_atom": "O4",
+          "distance_A": 2.7952795924558393,
+          "next_distinct_cofactor": [
+            23.22683224204283,
+            "PQN:B:835",
+            "O1"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "P_B",
+          "reference_anchor": "PsaB:660:NE2",
+          "native_anchor": "HIS:B:652:NE2",
+          "cofactor": "CLA:B:801",
+          "cofactor_atom": "MG",
+          "distance_A": 1.9031996742328499,
+          "next_distinct_cofactor": [
+            7.9404055312055695,
+            "CL0:A:849",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_B",
+          "reference_anchor": "PsaB:706:N",
+          "native_anchor": "LEU:B:698:N",
+          "cofactor": "PQN:B:835",
+          "cofactor_atom": "O4",
+          "distance_A": 3.0343987872394007,
+          "next_distinct_cofactor": [
+            23.301568659641767,
+            "PQN:A:837",
+            "O1"
+          ],
+          "explicit_exception": false
+        }
+      ],
+      "PA_PB_Mg_separation_A": 6.513926388899392,
+      "diagnostic_atoms": [
+        {
+          "atom": "CL0:A:849:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:849:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:849:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:849:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:849:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:849:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:801:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:837:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:837:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:835:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:835:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        }
+      ],
+      "coordinate_comparison": {
+        "common_atoms": 42258,
+        "max_shift_A": 0.0,
+        "current_only": 0,
+        "archived_only": 0
+      },
+      "site_water": {
+        "atom": "HOH:A:961:O",
+        "nearest_offset_A": 0.14373441314125726,
+        "second_nearest": [
+          9.327536372452052,
+          "HOH:A:930:O"
+        ]
+      },
+      "cofactor_validation_xml": [
+        "<ModelledSubgroup residue_inclusion=\"0.9091\" Q_score=\"0.778\" mogul_angles_rmsz=\"0.44\" mogul_bonds_rmsz=\"0.38\" mogul_rmsz_numbonds=\"34\" mogul_rmsz_numangles=\"42\" num-H-reduce=\"46\" model=\"1\" chain=\"A\" resnum=\"837\" said=\"FB\" ent=\"23\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"C17,C18,C20,C21\" numobs=\"205\" mean=\"49.24\" stdev=\"19.04\" mindiff=\"2.82\" local_density=\"1.95\" obsval=\"-131.19\" />\n\t\t<mog-torsion-outlier atoms=\"C19,C18,C20,C21\" numobs=\"272\" mean=\"44.30\" stdev=\"16.55\" mindiff=\"1.59\" local_density=\"2.57\" obsval=\"102.20\" />\n\t\t<mog-torsion-outlier atoms=\"C18,C20,C21,C22\" numobs=\"5403\" mean=\"108.39\" stdev=\"35.14\" mindiff=\"0.10\" local_density=\"3.87\" obsval=\"50.24\" />\n\t\t<clash atom=\"H141\" dist=\"1.95\" clashmag=\"0.48\" cid=\"230\" />\n\t\t<clash atom=\"H222\" dist=\"1.71\" clashmag=\"0.46\" cid=\"273\" />\n\t\t<clash atom=\"H18\" dist=\"1.71\" clashmag=\"0.46\" cid=\"273\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.831\" mogul_angles_rmsz=\"0.96\" mogul_bonds_rmsz=\"1.47\" mogul_rmsz_numbonds=\"69\" mogul_rmsz_numangles=\"83\" num-H-reduce=\"72\" model=\"1\" chain=\"A\" resnum=\"849\" said=\"RB\" ent=\"27\" seq=\".\" icode=\" \" resname=\"CL0\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"MG,NA\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.09\" Zscore=\"5.12\" obsval=\"2.18\" />\n\t\t<mog-bond-outlier atoms=\"MG,NB\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.76\" obsval=\"2.00\" />\n\t\t<mog-bond-outlier atoms=\"MG,NC\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.08\" Zscore=\"4.72\" obsval=\"2.17\" />\n\t\t<mog-bond-outlier atoms=\"MG,ND\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-3.11\" obsval=\"1.99\" />\n\t\t<mog-bond-outlier atoms=\"C1B,C2B\" numobs=\"518\" mean=\"1.43\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.24\" obsval=\"1.38\" />\n\t\t<mog-bond-outlier atoms=\"C1C,C2C\" numobs=\"790\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.46\" obsval=\"1.35\" />\n\t\t<mog-bond-outlier atoms=\"C4C,C3C\" numobs=\"4919\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.40\" obsval=\"1.37\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"276\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.63\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C4D\" numobs=\"126\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.66\" obsval=\"1.38\" />\n\t\t<mog-angle-outlier atoms=\"C4D,CHA,C1A\" numobs=\"25\" mean=\"121.25\" stdev=\"1.22\" mindiff=\"1.32\" Zscore=\"2.70\" obsval=\"124.53\" />\n\t\t<mog-angle-outlier atoms=\"C4A,NA,C1A\" numobs=\"21\" mean=\"106.71\" stdev=\"0.45\" mindiff=\"0.41\" Zscore=\"2.30\" obsval=\"107.74\" />\n\t\t<mog-angle-outlier atoms=\"CHA,C1A,NA\" numobs=\"45\" mean=\"126.40\" stdev=\"2.29\" mindiff=\"0.87\" Zscore=\"-2.93\" obsval=\"119.68\" />\n\t\t<mog-angle-outlier atoms=\"C2A,C1A,CHA\" numobs=\"182\" mean=\"123.86\" stdev=\"1.75\" mindiff=\"0.11\" Zscore=\"2.08\" obsval=\"127.50\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C4C,C3C\" numobs=\"2264\" mean=\"124.84\" stdev=\"1.47\" mindiff=\"0.04\" Zscore=\"2.06\" obsval=\"127.87\" />\n\t\t<mog-torsion-outlier atoms=\"CBA,CGA,O2A,C1\" numobs=\"2229\" mean=\"47.17\" stdev=\"5.16\" mindiff=\"0.99\" local_density=\"0.31\" obsval=\"126.48\" />\n\t\t<mog-torsion-outlier atoms=\"O1A,CGA,O2A,C1\" numobs=\"3879\" mean=\"50.89\" stdev=\"5.82\" mindiff=\"0.71\" local_density=\"0.49\" obsval=\"-57.43\" />\n\t\t<mog-torsion-outlier atoms=\"C2,C1,O2A,CGA\" numobs=\"219\" mean=\"37.39\" stdev=\"13.83\" mindiff=\"2.05\" local_density=\"3.20\" obsval=\"137.16\" />\n\t\t<mog-torsion-outlier atoms=\"C2B,C3B,CAB,CBB\" numobs=\"113\" mean=\"70.83\" stdev=\"32.11\" mindiff=\"2.44\" local_density=\"0.88\" obsval=\"-62.30\" />\n\t\t<mog-torsion-outlier atoms=\"C4B,C3B,CAB,CBB\" numobs=\"129\" mean=\"69.98\" stdev=\"30.94\" mindiff=\"0.98\" local_density=\"1.55\" obsval=\"118.38\" />\n\t\t<mog-torsion-outlier atoms=\"C1,C2,C3,C4\" numobs=\"51\" mean=\"105.87\" stdev=\"24.94\" mindiff=\"50.85\" local_density=\"0.00\" obsval=\"-122.85\" />\n\t\t<mog-torsion-outlier atoms=\"C1,C2,C3,C5\" numobs=\"696\" mean=\"105.89\" stdev=\"18.17\" mindiff=\"35.36\" local_density=\"0.00\" obsval=\"59.22\" />\n\t\t<clash atom=\"H9\" dist=\"2.10\" clashmag=\"0.51\" cid=\"132\" />\n\t\t<clash atom=\"H32\" dist=\"2.44\" clashmag=\"0.47\" cid=\"246\" />\n\t\t<clash atom=\"H34\" dist=\"2.20\" clashmag=\"0.41\" cid=\"449\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.833\" mogul_angles_rmsz=\"0.80\" mogul_bonds_rmsz=\"1.25\" mogul_rmsz_numbonds=\"69\" mogul_rmsz_numangles=\"83\" num-H-reduce=\"72\" model=\"1\" chain=\"B\" resnum=\"801\" said=\"AC\" ent=\"22\" seq=\".\" icode=\" \" resname=\"CLA\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"MG,NA\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.07\" Zscore=\"4.06\" obsval=\"2.15\" />\n\t\t<mog-bond-outlier atoms=\"MG,NC\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.07\" Zscore=\"4.09\" obsval=\"2.16\" />\n\t\t<mog-bond-outlier atoms=\"C1C,C2C\" numobs=\"790\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.14\" obsval=\"1.36\" />\n\t\t<mog-bond-outlier atoms=\"C4C,C3C\" numobs=\"4919\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.48\" obsval=\"1.37\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"276\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.49\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C4D\" numobs=\"126\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.36\" obsval=\"1.38\" />\n\t\t<mog-angle-outlier atoms=\"C4D,CHA,C1A\" numobs=\"25\" mean=\"121.25\" stdev=\"1.22\" mindiff=\"0.84\" Zscore=\"2.31\" obsval=\"124.06\" />\n\t\t<mog-angle-outlier atoms=\"CHA,C1A,NA\" numobs=\"45\" mean=\"126.40\" stdev=\"2.29\" mindiff=\"0.61\" Zscore=\"-2.82\" obsval=\"119.94\" />\n\t\t<mog-angle-outlier atoms=\"C2A,C1A,CHA\" numobs=\"182\" mean=\"123.86\" stdev=\"1.75\" mindiff=\"0.08\" Zscore=\"2.07\" obsval=\"127.47\" />\n\t\t<mog-torsion-outlier atoms=\"CAA,CBA,CGA,O2A\" numobs=\"2724\" mean=\"99.20\" stdev=\"45.81\" mindiff=\"0.07\" local_density=\"4.99\" obsval=\"-35.57\" />\n\t\t<mog-torsion-outlier atoms=\"C2,C1,O2A,CGA\" numobs=\"219\" mean=\"37.65\" stdev=\"12.54\" mindiff=\"4.92\" local_density=\"3.20\" obsval=\"-134.29\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O1D\" numobs=\"47\" mean=\"48.26\" stdev=\"16.74\" mindiff=\"12.74\" local_density=\"0.00\" obsval=\"74.19\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O2D\" numobs=\"47\" mean=\"47.66\" stdev=\"17.62\" mindiff=\"8.46\" local_density=\"4.26\" obsval=\"-108.70\" />\n\t\t<mog-torsion-outlier atoms=\"C15,C16,C17,C18\" numobs=\"5403\" mean=\"29.17\" stdev=\"21.82\" mindiff=\"0.01\" local_density=\"4.78\" obsval=\"150.74\" />\n\t\t<clash atom=\"HED2\" dist=\"1.93\" clashmag=\"0.51\" cid=\"138\" />\n\t\t<clash atom=\"H202\" dist=\"2.02\" clashmag=\"0.41\" cid=\"448\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.789\" mogul_angles_rmsz=\"0.41\" mogul_bonds_rmsz=\"0.40\" mogul_rmsz_numbonds=\"34\" mogul_rmsz_numangles=\"42\" num-H-reduce=\"46\" model=\"1\" chain=\"B\" resnum=\"835\" said=\"ID\" ent=\"23\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"C23,C25,C26,C27\" numobs=\"5403\" mean=\"68.26\" stdev=\"16.25\" mindiff=\"0.88\" local_density=\"0.89\" obsval=\"-98.01\" />\n\t\t<clash atom=\"H141\" dist=\"2.02\" clashmag=\"0.42\" cid=\"401\" />\n\t</ModelledSubgroup>\n\t"
+      ],
+      "PA_O1D_neighbors": [],
+      "starting_model": {},
+      "limitations": "Mapping and deposited validation only. Local maps not visually screened for this entry."
+    },
+    {
+      "pdb": "9HYU",
+      "status": "PASS",
+      "current_sha256": "3f3f899418e2d7170a224da41ba51bd1c5b3328961e3982b92befaddbf035457",
+      "current_revision": {
+        "revision": "2.0",
+        "revision_date": "2026-09-16"
+      },
+      "archived_revision": {
+        "revision": "1.2",
+        "revision_date": "2026-08-05"
+      },
+      "protomers": [
+        {
+          "number": 1,
+          "psaA": "A",
+          "psaB": "B",
+          "roles": {
+            "P_A": "CL0:A:407",
+            "P_B": "CLA:B:1207",
+            "A1_A": "PQN:A:416",
+            "A1_B": "PQN:B:1232"
+          },
+          "psaA_fragments": [
+            "A",
+            "a"
+          ],
+          "core_chains": [
+            "A",
+            "a",
+            "B"
+          ]
+        }
+      ],
+      "sequence_evidence": [
+        {
+          "subunit": "PsaA",
+          "chain": "A",
+          "assigned_score": 1123.5,
+          "alternative_subunit_score": 610.5,
+          "aligned_residues": 388,
+          "identity_fraction": 0.6237113402061856
+        },
+        {
+          "subunit": "PsaB",
+          "chain": "B",
+          "assigned_score": 1997.0,
+          "alternative_subunit_score": 1050.0,
+          "aligned_residues": 693,
+          "identity_fraction": 0.5800865800865801
+        },
+        {
+          "subunit": "PsaA_N_fragment",
+          "chain": "a",
+          "assigned_score": -13.5,
+          "alternative_subunit_score": -97.5,
+          "aligned_residues": 224,
+          "identity_fraction": 0.40625
+        }
+      ],
+      "role_evidence": [
+        {
+          "role": "P_A",
+          "reference_anchor": "PsaA:680:NE2",
+          "native_anchor": "HIS:A:321:NE2",
+          "cofactor": "CL0:A:407",
+          "cofactor_atom": "MG",
+          "distance_A": 1.9062806718843908,
+          "next_distinct_cofactor": [
+            8.0037010189037,
+            "CLA:B:1207",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_A",
+          "reference_anchor": "PsaA:722:N",
+          "native_anchor": "LEU:A:363:N",
+          "cofactor": "PQN:A:416",
+          "cofactor_atom": "O4",
+          "distance_A": 2.796406980394664,
+          "next_distinct_cofactor": [
+            23.246087197633926,
+            "PQN:B:1232",
+            "O1"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "P_B",
+          "reference_anchor": "PsaB:660:NE2",
+          "native_anchor": "HIS:B:1062:NE2",
+          "cofactor": "CLA:B:1207",
+          "cofactor_atom": "MG",
+          "distance_A": 1.9050580043662833,
+          "next_distinct_cofactor": [
+            7.988930967282182,
+            "CL0:A:407",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_B",
+          "reference_anchor": "PsaB:706:N",
+          "native_anchor": "LEU:B:1108:N",
+          "cofactor": "PQN:B:1232",
+          "cofactor_atom": "O4",
+          "distance_A": 2.9171448369938826,
+          "next_distinct_cofactor": [
+            23.430621353263348,
+            "PQN:A:416",
+            "O1"
+          ],
+          "explicit_exception": false
+        }
+      ],
+      "PA_PB_Mg_separation_A": 6.608478342250973,
+      "diagnostic_atoms": [
+        {
+          "atom": "CL0:A:407:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:407:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:407:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:407:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:407:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:407:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:1207:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:416:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:416:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:1232:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:1232:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        }
+      ],
+      "coordinate_comparison": {
+        "common_atoms": 92028,
+        "max_shift_A": 0.0,
+        "current_only": 0,
+        "archived_only": 0
+      },
+      "site_water": {
+        "atom": "HOH:A:524:O",
+        "nearest_offset_A": 0.260043992865472,
+        "second_nearest": [
+          9.60964020654581,
+          "HOH:A:587:O"
+        ]
+      },
+      "cofactor_validation_xml": [
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.794\" mogul_angles_rmsz=\"1.17\" mogul_rmsz_numangles=\"83\" mogul_bonds_rmsz=\"1.53\" mogul_rmsz_numbonds=\"69\" num-H-reduce=\"72\" model=\"1\" chain=\"A\" resnum=\"407\" said=\"CA\" ent=\"24\" seq=\".\" icode=\" \" resname=\"CL0\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"CAA,CBA,CGA,O2A\" numobs=\"2724\" mean=\"112.82\" stdev=\"48.27\" mindiff=\"0.07\" local_density=\"3.67\" obsval=\"-20.69\" />\n\t\t<mog-torsion-outlier atoms=\"CAD,CBD,CGD,O1D\" numobs=\"42\" mean=\"31.56\" stdev=\"18.15\" mindiff=\"2.00\" local_density=\"4.76\" obsval=\"63.45\" />\n\t\t<mog-torsion-outlier atoms=\"C5,C6,C7,C8\" numobs=\"5403\" mean=\"108.08\" stdev=\"35.13\" mindiff=\"0.06\" local_density=\"4.05\" obsval=\"50.55\" />\n\t\t<mog-angle-outlier atoms=\"C4A,NA,C1A\" numobs=\"21\" mean=\"106.71\" stdev=\"0.45\" mindiff=\"0.16\" Zscore=\"-2.59\" obsval=\"105.54\" />\n\t\t<mog-angle-outlier atoms=\"CHA,C1A,NA\" numobs=\"45\" mean=\"126.40\" stdev=\"2.29\" mindiff=\"0.09\" Zscore=\"-2.52\" obsval=\"120.64\" />\n\t\t<mog-angle-outlier atoms=\"CHB,C1B,NB\" numobs=\"58\" mean=\"124.26\" stdev=\"1.06\" mindiff=\"1.12\" Zscore=\"-4.37\" obsval=\"119.63\" />\n\t\t<mog-angle-outlier atoms=\"CHC,C1C,NC\" numobs=\"70\" mean=\"124.20\" stdev=\"1.52\" mindiff=\"2.47\" Zscore=\"3.29\" obsval=\"129.19\" />\n\t\t<mog-angle-outlier atoms=\"CHC,C1C,C2C\" numobs=\"494\" mean=\"126.73\" stdev=\"2.78\" mindiff=\"1.63\" Zscore=\"-3.01\" obsval=\"118.37\" />\n\t\t<mog-angle-outlier atoms=\"C2C,C1C,NC\" numobs=\"69\" mean=\"109.97\" stdev=\"0.94\" mindiff=\"0.44\" Zscore=\"2.53\" obsval=\"112.34\" />\n\t\t<mog-angle-outlier atoms=\"C1D,ND,C4D\" numobs=\"21\" mean=\"106.33\" stdev=\"0.71\" mindiff=\"0.85\" Zscore=\"-3.38\" obsval=\"103.93\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C1D,ND\" numobs=\"61\" mean=\"124.45\" stdev=\"0.92\" mindiff=\"0.73\" Zscore=\"-3.38\" obsval=\"121.35\" />\n\t\t<mog-bond-outlier atoms=\"MG,NA\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.04\" Zscore=\"-4.23\" obsval=\"1.96\" />\n\t\t<mog-bond-outlier atoms=\"MG,NB\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.05\" Zscore=\"-4.83\" obsval=\"1.96\" />\n\t\t<mog-bond-outlier atoms=\"MG,NC\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.79\" obsval=\"1.99\" />\n\t\t<mog-bond-outlier atoms=\"MG,ND\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.03\" Zscore=\"-4.21\" obsval=\"1.97\" />\n\t\t<mog-bond-outlier atoms=\"C1B,NB\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.01\" Zscore=\"3.30\" obsval=\"1.41\" />\n\t\t<mog-bond-outlier atoms=\"C4B,NB\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.03\" Zscore=\"5.64\" obsval=\"1.44\" />\n\t\t<mog-bond-outlier atoms=\"C1C,C2C\" numobs=\"790\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.65\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C1D,ND\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.02\" Zscore=\"4.69\" obsval=\"1.43\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"276\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.38\" obsval=\"1.40\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"0.7879\" Q_score=\"0.764\" mogul_angles_rmsz=\"0.39\" mogul_rmsz_numangles=\"42\" mogul_bonds_rmsz=\"0.29\" mogul_rmsz_numbonds=\"34\" num-H-reduce=\"46\" model=\"1\" chain=\"A\" resnum=\"416\" said=\"LA\" ent=\"26\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"C20,C21,C22,C23\" numobs=\"5403\" mean=\"64.92\" stdev=\"13.94\" mindiff=\"0.59\" local_density=\"0.56\" obsval=\"-102.43\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.747\" mogul_angles_rmsz=\"0.87\" mogul_rmsz_numangles=\"83\" mogul_bonds_rmsz=\"1.14\" mogul_rmsz_numbonds=\"69\" num-H-reduce=\"72\" model=\"1\" chain=\"B\" resnum=\"1207\" said=\"UH\" ent=\"23\" seq=\".\" icode=\" \" resname=\"CLA\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"C2,C1,O2A,CGA\" numobs=\"219\" mean=\"37.22\" stdev=\"14.98\" mindiff=\"0.04\" local_density=\"4.57\" obsval=\"-139.17\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O1D\" numobs=\"47\" mean=\"43.25\" stdev=\"19.87\" mindiff=\"4.03\" local_density=\"4.26\" obsval=\"65.48\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O2D\" numobs=\"47\" mean=\"43.45\" stdev=\"20.56\" mindiff=\"0.94\" local_density=\"4.26\" obsval=\"-116.22\" />\n\t\t<mog-angle-outlier atoms=\"CHB,C1B,NB\" numobs=\"58\" mean=\"124.26\" stdev=\"1.06\" mindiff=\"0.59\" Zscore=\"-2.39\" obsval=\"121.73\" />\n\t\t<mog-angle-outlier atoms=\"CHC,C4B,NB\" numobs=\"58\" mean=\"124.26\" stdev=\"1.06\" mindiff=\"0.45\" Zscore=\"2.74\" obsval=\"127.16\" />\n\t\t<mog-angle-outlier atoms=\"C1D,ND,C4D\" numobs=\"21\" mean=\"106.33\" stdev=\"0.71\" mindiff=\"1.14\" Zscore=\"-3.80\" obsval=\"103.64\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C1D,ND\" numobs=\"61\" mean=\"124.45\" stdev=\"0.92\" mindiff=\"0.33\" Zscore=\"-2.95\" obsval=\"121.75\" />\n\t\t<mog-bond-outlier atoms=\"MG,NB\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.04\" Zscore=\"-4.50\" obsval=\"1.96\" />\n\t\t<mog-bond-outlier atoms=\"MG,ND\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.95\" obsval=\"1.99\" />\n\t\t<mog-bond-outlier atoms=\"C1D,ND\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.04\" Zscore=\"6.05\" obsval=\"1.45\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"276\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.55\" obsval=\"1.40\" />\n\t\t<clash atom=\"HED2\" dist=\"2.00\" clashmag=\"0.44\" cid=\"95\" />\n\t\t<clash atom=\"HMB2\" dist=\"2.19\" clashmag=\"0.43\" cid=\"96\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"0.6667\" Q_score=\"0.676\" mogul_angles_rmsz=\"0.36\" mogul_rmsz_numangles=\"42\" mogul_bonds_rmsz=\"0.31\" mogul_rmsz_numbonds=\"34\" num-H-reduce=\"46\" model=\"1\" chain=\"B\" resnum=\"1232\" said=\"TI\" ent=\"26\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-torsion-outlier atoms=\"C13,C15,C16,C17\" numobs=\"2247\" mean=\"42.53\" stdev=\"32.93\" mindiff=\"0.25\" local_density=\"2.94\" obsval=\"-152.74\" />\n\t</ModelledSubgroup>\n\t"
+      ],
+      "PA_O1D_neighbors": [],
+      "starting_model": {
+        "id": [
+          "1"
+        ],
+        "entity_id_list": [
+          null
+        ],
+        "type": [
+          "in silico model"
+        ],
+        "source_name": [
+          "SwissModel"
+        ],
+        "accession_code": [
+          null
+        ],
+        "details": [
+          null
+        ]
+      },
+      "limitations": "Mapping and deposited validation only. Local maps not visually screened for this entry."
+    },
+    {
+      "pdb": "9KZ9",
+      "status": "PASS",
+      "current_sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+      "current_revision": {
+        "revision": "2.1",
+        "revision_date": "2026-10-28"
+      },
+      "archived_revision": {
+        "revision": "2.0",
+        "revision_date": "2026-08-12"
+      },
+      "protomers": [
+        {
+          "number": 1,
+          "psaA": "A",
+          "psaB": "B",
+          "roles": {
+            "P_A": "CL0:A:801",
+            "P_B": "CLA:B:803",
+            "A1_A": "PQN:A:841",
+            "A1_B": "PQN:B:843"
+          }
+        }
+      ],
+      "sequence_evidence": [
+        {
+          "subunit": "PsaA",
+          "chain": "A",
+          "assigned_score": 3496.0,
+          "alternative_subunit_score": 1606.5,
+          "aligned_residues": 739,
+          "identity_fraction": 0.8497970230040596
+        },
+        {
+          "subunit": "PsaB",
+          "chain": "B",
+          "assigned_score": 3296.5,
+          "alternative_subunit_score": 1667.5,
+          "aligned_residues": 731,
+          "identity_fraction": 0.811217510259918
+        }
+      ],
+      "role_evidence": [
+        {
+          "role": "P_A",
+          "reference_anchor": "PsaA:680:NE2",
+          "native_anchor": "HIS:A:679:NE2",
+          "cofactor": "CL0:A:801",
+          "cofactor_atom": "MG",
+          "distance_A": 3.056972031275375,
+          "next_distinct_cofactor": [
+            9.011904404730428,
+            "CLA:B:803",
+            "MG"
+          ],
+          "explicit_exception": true
+        },
+        {
+          "role": "A1_A",
+          "reference_anchor": "PsaA:722:N",
+          "native_anchor": "LEU:A:721:N",
+          "cofactor": "PQN:A:841",
+          "cofactor_atom": "O4",
+          "distance_A": 2.641279235522066,
+          "next_distinct_cofactor": [
+            22.928800862670514,
+            "PQN:B:843",
+            "O1"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "P_B",
+          "reference_anchor": "PsaB:660:NE2",
+          "native_anchor": "HIS:B:653:NE2",
+          "cofactor": "CLA:B:803",
+          "cofactor_atom": "MG",
+          "distance_A": 1.9073463240848532,
+          "next_distinct_cofactor": [
+            7.64023788896655,
+            "CL0:A:801",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_B",
+          "reference_anchor": "PsaB:706:N",
+          "native_anchor": "LEU:B:699:N",
+          "cofactor": "PQN:B:843",
+          "cofactor_atom": "O4",
+          "distance_A": 2.8738587300004674,
+          "next_distinct_cofactor": [
+            23.294914552322354,
+            "PQN:A:841",
+            "O1"
+          ],
+          "explicit_exception": false
+        }
+      ],
+      "PA_PB_Mg_separation_A": 6.236826837423021,
+      "diagnostic_atoms": [
+        {
+          "atom": "CL0:A:801:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:803:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:841:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:841:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:843:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:843:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        }
+      ],
+      "coordinate_comparison": {
+        "common_atoms": 61918,
+        "max_shift_A": 0.0,
+        "current_only": 0,
+        "archived_only": 0
+      },
+      "site_water": {
+        "atom": "HOH:A:914:O",
+        "nearest_offset_A": 0.31271345754331004,
+        "second_nearest": [
+          9.720939417282029,
+          "HOH:A:963:O"
+        ]
+      },
+      "cofactor_validation_xml": [
+        "<ModelledSubgroup residue_inclusion=\"0.9846\" Q_score=\"0.72\" mogul_rmsz_numbonds=\"69\" mogul_bonds_rmsz=\"1.42\" mogul_rmsz_numangles=\"83\" mogul_angles_rmsz=\"0.81\" num-H-reduce=\"72\" model=\"1\" chain=\"A\" resnum=\"801\" said=\"DA\" ent=\"28\" seq=\".\" icode=\" \" resname=\"CL0\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"MG,NA\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.08\" Zscore=\"4.80\" obsval=\"2.17\" />\n\t\t<mog-bond-outlier atoms=\"MG,NB\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.67\" obsval=\"2.00\" />\n\t\t<mog-bond-outlier atoms=\"MG,NC\" numobs=\"26\" mean=\"2.06\" stdev=\"0.02\" mindiff=\"0.08\" Zscore=\"4.53\" obsval=\"2.17\" />\n\t\t<mog-bond-outlier atoms=\"MG,ND\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.83\" obsval=\"2.00\" />\n\t\t<mog-bond-outlier atoms=\"CHB,C1B\" numobs=\"3668\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.09\" obsval=\"1.44\" />\n\t\t<mog-bond-outlier atoms=\"C1B,C2B\" numobs=\"518\" mean=\"1.43\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.10\" obsval=\"1.38\" />\n\t\t<mog-bond-outlier atoms=\"C1C,C2C\" numobs=\"790\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.39\" obsval=\"1.36\" />\n\t\t<mog-bond-outlier atoms=\"C4C,C3C\" numobs=\"4919\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-4.39\" obsval=\"1.37\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"276\" mean=\"1.45\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.50\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C4D\" numobs=\"126\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"-2.43\" obsval=\"1.38\" />\n\t\t<mog-torsion-outlier atoms=\"CAA,CBA,CGA,O2A\" numobs=\"2724\" mean=\"113.85\" stdev=\"48.39\" mindiff=\"0.06\" local_density=\"3.49\" obsval=\"-19.59\" />\n\t\t<mog-torsion-outlier atoms=\"CBA,CGA,O2A,C1\" numobs=\"2229\" mean=\"33.02\" stdev=\"4.80\" mindiff=\"0.01\" local_density=\"0.99\" obsval=\"-140.85\" />\n\t\t<mog-torsion-outlier atoms=\"O1A,CGA,O2A,C1\" numobs=\"3879\" mean=\"32.80\" stdev=\"4.84\" mindiff=\"0.17\" local_density=\"1.24\" obsval=\"39.06\" />\n\t\t<mog-torsion-outlier atoms=\"C2B,C3B,CAB,CBB\" numobs=\"113\" mean=\"67.26\" stdev=\"21.16\" mindiff=\"15.47\" local_density=\"0.00\" obsval=\"-75.33\" />\n\t\t<mog-torsion-outlier atoms=\"C4B,C3B,CAB,CBB\" numobs=\"129\" mean=\"67.66\" stdev=\"19.53\" mindiff=\"14.90\" local_density=\"0.00\" obsval=\"104.45\" />\n\t\t<mog-torsion-outlier atoms=\"C3,C5,C6,C7\" numobs=\"2247\" mean=\"46.05\" stdev=\"23.29\" mindiff=\"2.48\" local_density=\"0.58\" obsval=\"142.00\" />\n\t\t<mog-torsion-outlier atoms=\"C5,C6,C7,C8\" numobs=\"5403\" mean=\"75.61\" stdev=\"21.62\" mindiff=\"0.11\" local_density=\"1.94\" obsval=\"88.35\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C10,C8,C7\" numobs=\"205\" mean=\"45.77\" stdev=\"34.07\" mindiff=\"1.44\" local_density=\"4.88\" obsval=\"-150.34\" />\n\t\t<mog-torsion-outlier atoms=\"C15,C16,C17,C18\" numobs=\"5403\" mean=\"30.00\" stdev=\"21.12\" mindiff=\"0.06\" local_density=\"3.98\" obsval=\"149.57\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C19\" numobs=\"1934\" mean=\"54.60\" stdev=\"17.73\" mindiff=\"0.16\" local_density=\"0.78\" obsval=\"128.30\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C20\" numobs=\"1934\" mean=\"112.62\" stdev=\"55.61\" mindiff=\"0.55\" local_density=\"0.93\" obsval=\"1.42\" />\n\t\t<mog-angle-outlier atoms=\"C4D,CHA,C1A\" numobs=\"25\" mean=\"121.25\" stdev=\"1.22\" mindiff=\"0.75\" Zscore=\"2.23\" obsval=\"123.97\" />\n\t\t<mog-angle-outlier atoms=\"CHA,C1A,NA\" numobs=\"45\" mean=\"126.40\" stdev=\"2.29\" mindiff=\"0.86\" Zscore=\"-2.93\" obsval=\"119.69\" />\n\t\t<mog-angle-outlier atoms=\"C2A,C1A,CHA\" numobs=\"182\" mean=\"123.86\" stdev=\"1.75\" mindiff=\"0.10\" Zscore=\"2.08\" obsval=\"127.49\" />\n\t\t<clash atom=\"H29\" dist=\"1.96\" clashmag=\"0.47\" cid=\"268\" />\n\t\t<clash atom=\"H40\" dist=\"1.96\" clashmag=\"0.47\" cid=\"268\" />\n\t\t<clash atom=\"H63\" dist=\"1.96\" clashmag=\"0.46\" cid=\"280\" />\n\t\t<clash atom=\"H69\" dist=\"2.00\" clashmag=\"0.42\" cid=\"462\" />\n\t\t<clash atom=\"H49\" dist=\"1.77\" clashmag=\"0.42\" cid=\"527\" />\n\t\t<clash atom=\"H41\" dist=\"1.77\" clashmag=\"0.42\" cid=\"527\" />\n\t\t<clash atom=\"H70\" dist=\"1.92\" clashmag=\"0.40\" cid=\"645\" />\n\t\t<clash atom=\"H61\" dist=\"1.92\" clashmag=\"0.40\" cid=\"645\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.718\" mogul_rmsz_numbonds=\"34\" mogul_bonds_rmsz=\"2.80\" mogul_rmsz_numangles=\"42\" mogul_angles_rmsz=\"1.98\" num-H-reduce=\"46\" model=\"1\" chain=\"A\" resnum=\"841\" said=\"RB\" ent=\"30\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"O1,C1\" numobs=\"10000\" mean=\"1.23\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"7.82\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"C2,C1\" numobs=\"170\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.03\" Zscore=\"-4.09\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"C10,C1\" numobs=\"4414\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.77\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C3,C2\" numobs=\"95\" mean=\"1.35\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.82\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C3,C4\" numobs=\"267\" mean=\"1.47\" stdev=\"0.03\" mindiff=\"0.01\" Zscore=\"-3.08\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"O4,C4\" numobs=\"10000\" mean=\"1.23\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"7.83\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"C5,C4\" numobs=\"4414\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.67\" obsval=\"1.43\" />\n\t\t<mog-bond-outlier atoms=\"C10,C5\" numobs=\"8356\" mean=\"1.40\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.50\" obsval=\"1.36\" />\n\t\t<mog-bond-outlier atoms=\"C9,C10\" numobs=\"10000\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.01\" obsval=\"1.43\" />\n\t\t<mog-bond-outlier atoms=\"C12,C13\" numobs=\"800\" mean=\"1.33\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"8.34\" obsval=\"1.53\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C12,C13,C14\" numobs=\"685\" mean=\"52.69\" stdev=\"24.21\" mindiff=\"8.26\" local_density=\"0.15\" obsval=\"-51.80\" />\n\t\t<mog-torsion-outlier atoms=\"C14,C13,C15,C16\" numobs=\"822\" mean=\"54.85\" stdev=\"15.65\" mindiff=\"0.09\" local_density=\"1.82\" obsval=\"128.99\" />\n\t\t<mog-torsion-outlier atoms=\"C17,C18,C20,C21\" numobs=\"205\" mean=\"51.87\" stdev=\"13.28\" mindiff=\"1.87\" local_density=\"1.95\" obsval=\"-119.18\" />\n\t\t<mog-torsion-outlier atoms=\"C19,C18,C20,C21\" numobs=\"272\" mean=\"52.54\" stdev=\"12.77\" mindiff=\"2.10\" local_density=\"1.47\" obsval=\"119.54\" />\n\t\t<mog-torsion-outlier atoms=\"C18,C20,C21,C22\" numobs=\"5403\" mean=\"137.10\" stdev=\"35.57\" mindiff=\"0.97\" local_density=\"0.06\" obsval=\"-21.39\" />\n\t\t<mog-torsion-outlier atoms=\"C20,C21,C22,C23\" numobs=\"5403\" mean=\"32.09\" stdev=\"19.41\" mindiff=\"0.18\" local_density=\"2.46\" obsval=\"-146.67\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C24\" numobs=\"272\" mean=\"55.02\" stdev=\"14.61\" mindiff=\"1.38\" local_density=\"1.47\" obsval=\"-124.66\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C25\" numobs=\"205\" mean=\"52.60\" stdev=\"13.02\" mindiff=\"0.98\" local_density=\"1.95\" obsval=\"116.02\" />\n\t\t<mog-torsion-outlier atoms=\"C22,C23,C25,C26\" numobs=\"205\" mean=\"92.66\" stdev=\"51.97\" mindiff=\"0.75\" local_density=\"1.46\" obsval=\"-36.28\" />\n\t\t<mog-torsion-outlier atoms=\"C23,C25,C26,C27\" numobs=\"5403\" mean=\"74.31\" stdev=\"20.65\" mindiff=\"0.04\" local_density=\"1.65\" obsval=\"-90.06\" />\n\t\t<mog-angle-outlier atoms=\"C2M,C2,C3\" numobs=\"95\" mean=\"124.40\" stdev=\"1.63\" mindiff=\"0.25\" Zscore=\"-2.02\" obsval=\"121.10\" />\n\t\t<mog-angle-outlier atoms=\"C11,C12,C13\" numobs=\"30\" mean=\"126.79\" stdev=\"1.66\" mindiff=\"9.82\" Zscore=\"-7.77\" obsval=\"113.86\" />\n\t\t<mog-angle-outlier atoms=\"C14,C13,C12\" numobs=\"738\" mean=\"123.68\" stdev=\"2.57\" mindiff=\"0.90\" Zscore=\"-5.05\" obsval=\"110.71\" />\n\t\t<mog-angle-outlier atoms=\"C15,C13,C12\" numobs=\"491\" mean=\"121.12\" stdev=\"2.02\" mindiff=\"2.22\" Zscore=\"-6.53\" obsval=\"107.90\" />\n\t\t<mog-angle-outlier atoms=\"C14,C13,C15\" numobs=\"852\" mean=\"115.27\" stdev=\"1.68\" mindiff=\"0.08\" Zscore=\"-3.49\" obsval=\"109.40\" />\n\t\t<clash atom=\"H211\" dist=\"1.91\" clashmag=\"0.52\" cid=\"118\" />\n\t\t<clash atom=\"H171\" dist=\"1.97\" clashmag=\"0.47\" cid=\"266\" />\n\t\t<clash atom=\"H262\" dist=\"1.71\" clashmag=\"0.41\" cid=\"559\" />\n\t\t<clash atom=\"H222\" dist=\"1.71\" clashmag=\"0.41\" cid=\"559\" />\n\t\t<clash atom=\"H112\" dist=\"1.86\" clashmag=\"0.41\" cid=\"610\" />\n\t\t<clash atom=\"H142\" dist=\"1.86\" clashmag=\"0.41\" cid=\"610\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.713\" mogul_rmsz_numbonds=\"69\" mogul_bonds_rmsz=\"1.22\" mogul_rmsz_numangles=\"83\" mogul_angles_rmsz=\"1.29\" num-H-reduce=\"72\" model=\"1\" chain=\"B\" resnum=\"803\" said=\"IC\" ent=\"29\" seq=\".\" icode=\" \" resname=\"CLA\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"MG,NB\" numobs=\"26\" mean=\"2.05\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.04\" obsval=\"2.01\" />\n\t\t<mog-bond-outlier atoms=\"CHC,C1C\" numobs=\"3230\" mean=\"1.38\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.01\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C4B,NB\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.00\" Zscore=\"3.01\" obsval=\"1.41\" />\n\t\t<mog-bond-outlier atoms=\"C1B,C2B\" numobs=\"518\" mean=\"1.43\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.95\" obsval=\"1.50\" />\n\t\t<mog-bond-outlier atoms=\"C3B,C4B\" numobs=\"174\" mean=\"1.42\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.38\" obsval=\"1.48\" />\n\t\t<mog-bond-outlier atoms=\"CMC,C2C\" numobs=\"10000\" mean=\"1.50\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.27\" obsval=\"1.46\" />\n\t\t<mog-bond-outlier atoms=\"C1D,ND\" numobs=\"41\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.01\" Zscore=\"3.68\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C4D,ND\" numobs=\"194\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.00\" Zscore=\"-2.85\" obsval=\"1.33\" />\n\t\t<mog-bond-outlier atoms=\"CMD,C2D\" numobs=\"10000\" mean=\"1.50\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.26\" obsval=\"1.46\" />\n\t\t<mog-torsion-outlier atoms=\"C2B,C3B,CAB,CBB\" numobs=\"113\" mean=\"72.83\" stdev=\"38.64\" mindiff=\"3.78\" local_density=\"2.65\" obsval=\"-55.02\" />\n\t\t<mog-torsion-outlier atoms=\"C4B,C3B,CAB,CBB\" numobs=\"129\" mean=\"70.55\" stdev=\"33.75\" mindiff=\"2.23\" local_density=\"1.55\" obsval=\"121.59\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O1D\" numobs=\"47\" mean=\"50.66\" stdev=\"16.18\" mindiff=\"16.92\" local_density=\"0.00\" obsval=\"78.37\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O2D\" numobs=\"47\" mean=\"50.41\" stdev=\"16.52\" mindiff=\"13.24\" local_density=\"0.00\" obsval=\"-103.92\" />\n\t\t<mog-torsion-outlier atoms=\"CBD,CGD,O2D,CED\" numobs=\"4072\" mean=\"64.92\" stdev=\"1.85\" mindiff=\"2.74\" local_density=\"0.02\" obsval=\"-109.84\" />\n\t\t<mog-torsion-outlier atoms=\"O1D,CGD,O2D,CED\" numobs=\"9242\" mean=\"62.72\" stdev=\"2.89\" mindiff=\"0.61\" local_density=\"0.03\" obsval=\"68.13\" />\n\t\t<mog-torsion-outlier atoms=\"C2,C3,C5,C6\" numobs=\"820\" mean=\"65.68\" stdev=\"20.49\" mindiff=\"0.94\" local_density=\"1.10\" obsval=\"-35.67\" />\n\t\t<mog-torsion-outlier atoms=\"C4,C3,C5,C6\" numobs=\"822\" mean=\"67.80\" stdev=\"19.61\" mindiff=\"0.88\" local_density=\"0.97\" obsval=\"144.48\" />\n\t\t<mog-torsion-outlier atoms=\"C3,C5,C6,C7\" numobs=\"2247\" mean=\"45.80\" stdev=\"23.95\" mindiff=\"1.72\" local_density=\"0.58\" obsval=\"-142.75\" />\n\t\t<mog-torsion-outlier atoms=\"C5,C6,C7,C8\" numobs=\"5403\" mean=\"83.34\" stdev=\"26.91\" mindiff=\"0.00\" local_density=\"4.46\" obsval=\"-78.47\" />\n\t\t<mog-torsion-outlier atoms=\"C6,C7,C8,C9\" numobs=\"272\" mean=\"54.24\" stdev=\"13.91\" mindiff=\"1.42\" local_density=\"1.47\" obsval=\"-123.06\" />\n\t\t<mog-torsion-outlier atoms=\"C6,C7,C8,C10\" numobs=\"205\" mean=\"52.82\" stdev=\"13.09\" mindiff=\"0.01\" local_density=\"1.46\" obsval=\"115.03\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C10,C8,C7\" numobs=\"205\" mean=\"53.23\" stdev=\"13.23\" mindiff=\"1.65\" local_density=\"1.46\" obsval=\"-113.38\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C10,C8,C9\" numobs=\"272\" mean=\"54.84\" stdev=\"14.44\" mindiff=\"1.75\" local_density=\"1.47\" obsval=\"124.30\" />\n\t\t<mog-torsion-outlier atoms=\"C8,C10,C11,C12\" numobs=\"5403\" mean=\"74.83\" stdev=\"21.03\" mindiff=\"0.01\" local_density=\"1.78\" obsval=\"-89.38\" />\n\t\t<mog-torsion-outlier atoms=\"C12,C13,C15,C16\" numobs=\"205\" mean=\"48.92\" stdev=\"20.11\" mindiff=\"1.30\" local_density=\"1.95\" obsval=\"-132.71\" />\n\t\t<mog-torsion-outlier atoms=\"C14,C13,C15,C16\" numobs=\"272\" mean=\"44.74\" stdev=\"16.05\" mindiff=\"0.63\" local_density=\"2.57\" obsval=\"103.19\" />\n\t\t<mog-angle-outlier atoms=\"C4A,NA,C1A\" numobs=\"21\" mean=\"106.71\" stdev=\"0.45\" mindiff=\"2.53\" Zscore=\"7.01\" obsval=\"109.86\" />\n\t\t<mog-angle-outlier atoms=\"CHB,C4A,NA\" numobs=\"20\" mean=\"124.51\" stdev=\"1.38\" mindiff=\"0.99\" Zscore=\"2.08\" obsval=\"127.39\" />\n\t\t<mog-angle-outlier atoms=\"CHC,C4B,NB\" numobs=\"58\" mean=\"124.26\" stdev=\"1.06\" mindiff=\"0.71\" Zscore=\"2.98\" obsval=\"127.41\" />\n\t\t<mog-angle-outlier atoms=\"C3B,C4B,NB\" numobs=\"40\" mean=\"110.52\" stdev=\"0.93\" mindiff=\"0.18\" Zscore=\"-2.63\" obsval=\"108.08\" />\n\t\t<mog-angle-outlier atoms=\"C1D,ND,C4D\" numobs=\"21\" mean=\"106.33\" stdev=\"0.71\" mindiff=\"0.04\" Zscore=\"-2.13\" obsval=\"104.82\" />\n\t\t<mog-angle-outlier atoms=\"O2D,CGD,O1D\" numobs=\"9242\" mean=\"123.84\" stdev=\"1.96\" mindiff=\"0.04\" Zscore=\"-3.25\" obsval=\"117.49\" />\n\t\t<clash atom=\"H141\" dist=\"1.97\" clashmag=\"0.47\" cid=\"253\" />\n\t\t<clash atom=\"H72\" dist=\"1.84\" clashmag=\"0.43\" cid=\"443\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.699\" mogul_rmsz_numbonds=\"34\" mogul_bonds_rmsz=\"2.81\" mogul_rmsz_numangles=\"42\" mogul_angles_rmsz=\"1.94\" num-H-reduce=\"46\" model=\"1\" chain=\"B\" resnum=\"843\" said=\"WD\" ent=\"30\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-bond-outlier atoms=\"O1,C1\" numobs=\"10000\" mean=\"1.23\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"7.94\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C2,C1\" numobs=\"170\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.03\" Zscore=\"-4.20\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"C10,C1\" numobs=\"4414\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-3.23\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C3,C2\" numobs=\"95\" mean=\"1.35\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.80\" obsval=\"1.40\" />\n\t\t<mog-bond-outlier atoms=\"C3,C4\" numobs=\"267\" mean=\"1.47\" stdev=\"0.03\" mindiff=\"0.01\" Zscore=\"-3.21\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"O4,C4\" numobs=\"10000\" mean=\"1.23\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"7.84\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"C5,C4\" numobs=\"4414\" mean=\"1.48\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.93\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C10,C5\" numobs=\"8356\" mean=\"1.40\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.56\" obsval=\"1.36\" />\n\t\t<mog-bond-outlier atoms=\"C12,C13\" numobs=\"800\" mean=\"1.33\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"8.35\" obsval=\"1.53\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C12,C13,C14\" numobs=\"685\" mean=\"64.82\" stdev=\"15.22\" mindiff=\"7.09\" local_density=\"0.15\" obsval=\"-67.15\" />\n\t\t<mog-torsion-outlier atoms=\"C14,C13,C15,C16\" numobs=\"822\" mean=\"55.27\" stdev=\"15.74\" mindiff=\"0.61\" local_density=\"1.70\" obsval=\"129.51\" />\n\t\t<mog-torsion-outlier atoms=\"C15,C16,C17,C18\" numobs=\"5403\" mean=\"48.37\" stdev=\"8.86\" mindiff=\"0.09\" local_density=\"0.44\" obsval=\"124.55\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C19\" numobs=\"272\" mean=\"53.46\" stdev=\"45.74\" mindiff=\"1.45\" local_density=\"3.31\" obsval=\"-37.80\" />\n\t\t<mog-torsion-outlier atoms=\"C20,C21,C22,C23\" numobs=\"5403\" mean=\"37.17\" stdev=\"15.41\" mindiff=\"0.02\" local_density=\"1.13\" obsval=\"-139.71\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C24\" numobs=\"272\" mean=\"42.46\" stdev=\"18.95\" mindiff=\"0.68\" local_density=\"2.94\" obsval=\"-98.10\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C25\" numobs=\"205\" mean=\"47.09\" stdev=\"27.52\" mindiff=\"2.90\" local_density=\"2.44\" obsval=\"142.47\" />\n\t\t<mog-torsion-outlier atoms=\"C25,C26,C27,C28\" numobs=\"5403\" mean=\"83.96\" stdev=\"27.33\" mindiff=\"0.02\" local_density=\"4.74\" obsval=\"77.67\" />\n\t\t<mog-angle-outlier atoms=\"C11,C12,C13\" numobs=\"30\" mean=\"126.79\" stdev=\"1.66\" mindiff=\"10.11\" Zscore=\"-7.94\" obsval=\"113.58\" />\n\t\t<mog-angle-outlier atoms=\"C14,C13,C12\" numobs=\"738\" mean=\"123.68\" stdev=\"2.57\" mindiff=\"0.87\" Zscore=\"-5.04\" obsval=\"110.74\" />\n\t\t<mog-angle-outlier atoms=\"C15,C13,C12\" numobs=\"491\" mean=\"121.12\" stdev=\"2.02\" mindiff=\"1.67\" Zscore=\"-6.26\" obsval=\"108.45\" />\n\t\t<mog-angle-outlier atoms=\"C14,C13,C15\" numobs=\"852\" mean=\"115.27\" stdev=\"1.68\" mindiff=\"0.31\" Zscore=\"-3.35\" obsval=\"109.63\" />\n\t\t<clash atom=\"H222\" dist=\"1.81\" clashmag=\"0.41\" cid=\"542\" />\n\t\t<clash atom=\"H261\" dist=\"1.81\" clashmag=\"0.41\" cid=\"542\" />\n\t</ModelledSubgroup>\n\t"
+      ],
+      "PA_O1D_neighbors": [
+        {
+          "atom": "TYR:A:602:OH",
+          "distance_A": 3.0857482074855174,
+          "scope": "N/O proximity candidate; protonation and donor angle not verified"
+        },
+        {
+          "atom": "THR:A:742:OG1",
+          "distance_A": 3.3000559086173045,
+          "scope": "N/O proximity candidate; protonation and donor angle not verified"
+        }
+      ],
+      "starting_model": {},
+      "limitations": "Mapping and deposited validation only. Local maps not visually screened for this entry."
+    },
+    {
+      "pdb": "8XLS",
+      "status": "PASS",
+      "current_sha256": "073b7f4dc8456e1130a05f4836e76a4408057767bb983ebe1641e64e7b1f48f6",
+      "current_revision": {
+        "revision": "2.0",
+        "revision_date": "2026-08-12"
+      },
+      "archived_revision": {
+        "revision": "2.0",
+        "revision_date": "2026-08-12"
+      },
+      "protomers": [
+        {
+          "number": 1,
+          "psaA": "A",
+          "psaB": "B",
+          "roles": {
+            "P_A": "CL0:A:801",
+            "P_B": "CLA:B:802",
+            "A1_A": "PQN:A:845",
+            "A1_B": "PQN:B:839"
+          }
+        }
+      ],
+      "sequence_evidence": [
+        {
+          "subunit": "PsaA",
+          "chain": "A",
+          "assigned_score": 3373.5,
+          "alternative_subunit_score": 1612.0,
+          "aligned_residues": 739,
+          "identity_fraction": 0.8240866035182679
+        },
+        {
+          "subunit": "PsaB",
+          "chain": "B",
+          "assigned_score": 3217.0,
+          "alternative_subunit_score": 1691.0,
+          "aligned_residues": 730,
+          "identity_fraction": 0.7945205479452054
+        }
+      ],
+      "role_evidence": [
+        {
+          "role": "P_A",
+          "reference_anchor": "PsaA:680:NE2",
+          "native_anchor": "HIS:A:677:NE2",
+          "cofactor": "CL0:A:801",
+          "cofactor_atom": "MG",
+          "distance_A": 2.453210549463713,
+          "next_distinct_cofactor": [
+            8.136432694983725,
+            "CLA:B:802",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_A",
+          "reference_anchor": "PsaA:722:N",
+          "native_anchor": "LEU:A:719:N",
+          "cofactor": "PQN:A:845",
+          "cofactor_atom": "O4",
+          "distance_A": 2.889340063059391,
+          "next_distinct_cofactor": [
+            23.223969298980737,
+            "PQN:B:839",
+            "O1"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "P_B",
+          "reference_anchor": "PsaB:660:NE2",
+          "native_anchor": "HIS:B:653:NE2",
+          "cofactor": "CLA:B:802",
+          "cofactor_atom": "MG",
+          "distance_A": 2.3787151994301534,
+          "next_distinct_cofactor": [
+            8.135596536210484,
+            "CL0:A:801",
+            "MG"
+          ],
+          "explicit_exception": false
+        },
+        {
+          "role": "A1_B",
+          "reference_anchor": "PsaB:706:N",
+          "native_anchor": "LEU:B:699:N",
+          "cofactor": "PQN:B:839",
+          "cofactor_atom": "O4",
+          "distance_A": 2.9316921734725114,
+          "next_distinct_cofactor": [
+            23.37920002908569,
+            "PQN:A:845",
+            "O1"
+          ],
+          "explicit_exception": false
+        }
+      ],
+      "PA_PB_Mg_separation_A": 6.215603349635498,
+      "diagnostic_atoms": [
+        {
+          "atom": "CL0:A:801:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CL0:A:801:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:MG",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:O1A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:O2A",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:O1D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:O2D",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "CLA:B:802:OBD",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:845:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:A:845:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:839:O1",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        },
+        {
+          "atom": "PQN:B:839:O4",
+          "occupancy": 1.0,
+          "shift_A": 0.0
+        }
+      ],
+      "coordinate_comparison": {
+        "common_atoms": 37567,
+        "max_shift_A": 0.0,
+        "current_only": 0,
+        "archived_only": 0
+      },
+      "site_water": {
+        "atom": "HOH:A:955:O",
+        "nearest_offset_A": 0.28277169874691854,
+        "second_nearest": [
+          9.489449821057198,
+          "HOH:A:1020:O"
+        ]
+      },
+      "cofactor_validation_xml": [
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.777\" mogul_bonds_rmsz=\"3.05\" mogul_rmsz_numbonds=\"58\" mogul_rmsz_numangles=\"60\" mogul_angles_rmsz=\"2.63\" num-H-reduce=\"72\" ligand_chirality_outlier=\"yes\" model=\"1\" chain=\"A\" resnum=\"801\" said=\"R\" ent=\"18\" seq=\".\" icode=\" \" resname=\"CL0\" altcode=\" \">\n\t\t<mog-angle-outlier atoms=\"C1B,CHB,C4A\" numobs=\"38\" mean=\"121.32\" stdev=\"0.64\" mindiff=\"4.36\" Zscore=\"8.67\" obsval=\"126.90\" />\n\t\t<mog-angle-outlier atoms=\"C1C,CHC,C4B\" numobs=\"50\" mean=\"116.07\" stdev=\"3.58\" mindiff=\"1.08\" Zscore=\"2.63\" obsval=\"125.49\" />\n\t\t<mog-angle-outlier atoms=\"CHA,C1A,C2A\" numobs=\"44\" mean=\"133.31\" stdev=\"2.35\" mindiff=\"4.81\" Zscore=\"-5.79\" obsval=\"119.72\" />\n\t\t<mog-angle-outlier atoms=\"CAA,C2A,C3A\" numobs=\"78\" mean=\"113.00\" stdev=\"2.70\" mindiff=\"3.98\" Zscore=\"-4.24\" obsval=\"101.54\" />\n\t\t<mog-angle-outlier atoms=\"CMA,C3A,C2A\" numobs=\"103\" mean=\"114.13\" stdev=\"3.86\" mindiff=\"5.57\" Zscore=\"-3.26\" obsval=\"101.55\" />\n\t\t<mog-angle-outlier atoms=\"CMA,C3A,C4A\" numobs=\"47\" mean=\"114.61\" stdev=\"2.15\" mindiff=\"6.50\" Zscore=\"-4.56\" obsval=\"104.78\" />\n\t\t<mog-angle-outlier atoms=\"O2A,CGA,CBA\" numobs=\"1155\" mean=\"111.83\" stdev=\"3.05\" mindiff=\"0.12\" Zscore=\"3.54\" obsval=\"122.62\" />\n\t\t<mog-angle-outlier atoms=\"O2A,CGA,O1A\" numobs=\"4550\" mean=\"123.63\" stdev=\"2.50\" mindiff=\"0.01\" Zscore=\"-2.12\" obsval=\"118.32\" />\n\t\t<mog-angle-outlier atoms=\"C1,O2A,CGA\" numobs=\"50\" mean=\"116.65\" stdev=\"2.42\" mindiff=\"0.15\" Zscore=\"2.24\" obsval=\"122.08\" />\n\t\t<mog-angle-outlier atoms=\"CMC,C2C,C1C\" numobs=\"1214\" mean=\"124.73\" stdev=\"1.80\" mindiff=\"0.04\" Zscore=\"2.50\" obsval=\"129.22\" />\n\t\t<mog-angle-outlier atoms=\"C4C,C3C,C2C\" numobs=\"30\" mean=\"113.37\" stdev=\"3.95\" mindiff=\"4.07\" Zscore=\"-2.62\" obsval=\"103.04\" />\n\t\t<mog-angle-outlier atoms=\"CBC,CAC,C3C\" numobs=\"299\" mean=\"112.87\" stdev=\"1.43\" mindiff=\"1.56\" Zscore=\"-4.96\" obsval=\"105.78\" />\n\t\t<mog-angle-outlier atoms=\"C4D,ND,C1D\" numobs=\"20\" mean=\"105.22\" stdev=\"0.76\" mindiff=\"3.09\" Zscore=\"-5.68\" obsval=\"100.91\" />\n\t\t<mog-angle-outlier atoms=\"C3D,C4D,ND\" numobs=\"26\" mean=\"112.94\" stdev=\"1.60\" mindiff=\"0.44\" Zscore=\"2.41\" obsval=\"116.81\" />\n\t\t<mog-angle-outlier atoms=\"CGD,CBD,CAD\" numobs=\"29\" mean=\"110.85\" stdev=\"3.24\" mindiff=\"1.44\" Zscore=\"-2.18\" obsval=\"103.78\" />\n\t\t<mog-angle-outlier atoms=\"O1D,CGD,CBD\" numobs=\"201\" mean=\"124.72\" stdev=\"1.52\" mindiff=\"0.08\" Zscore=\"-2.35\" obsval=\"121.16\" />\n\t\t<mog-angle-outlier atoms=\"O2D,CGD,CBD\" numobs=\"112\" mean=\"110.95\" stdev=\"1.10\" mindiff=\"5.77\" Zscore=\"9.34\" obsval=\"121.21\" />\n\t\t<mog-angle-outlier atoms=\"O2D,CGD,O1D\" numobs=\"10433\" mean=\"123.85\" stdev=\"1.95\" mindiff=\"0.05\" Zscore=\"-3.21\" obsval=\"117.61\" />\n\t\t<mog-angle-outlier atoms=\"C1,C2,C3\" numobs=\"34\" mean=\"126.20\" stdev=\"1.64\" mindiff=\"1.15\" Zscore=\"-2.53\" obsval=\"122.06\" />\n\t\t<mog-angle-outlier atoms=\"C4,C3,C5\" numobs=\"1064\" mean=\"115.23\" stdev=\"1.74\" mindiff=\"0.07\" Zscore=\"2.02\" obsval=\"118.74\" />\n\t\t<mog-bond-outlier atoms=\"C1A,CHA\" numobs=\"24\" mean=\"1.40\" stdev=\"0.01\" mindiff=\"0.07\" Zscore=\"8.69\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"CHB,C4A\" numobs=\"69\" mean=\"1.38\" stdev=\"0.01\" mindiff=\"0.02\" Zscore=\"-4.09\" obsval=\"1.33\" />\n\t\t<mog-bond-outlier atoms=\"CHB,C1B\" numobs=\"11077\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.81\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHC,C4B\" numobs=\"11077\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.69\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHC,C1C\" numobs=\"9376\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.27\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHD,C4C\" numobs=\"9376\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.34\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHD,C1D\" numobs=\"11077\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.34\" obsval=\"1.46\" />\n\t\t<mog-bond-outlier atoms=\"C3A,C2A\" numobs=\"29\" mean=\"1.54\" stdev=\"0.01\" mindiff=\"0.02\" Zscore=\"-4.62\" obsval=\"1.50\" />\n\t\t<mog-bond-outlier atoms=\"O2A,CGA\" numobs=\"4555\" mean=\"1.33\" stdev=\"0.03\" mindiff=\"0.00\" Zscore=\"4.40\" obsval=\"1.46\" />\n\t\t<mog-bond-outlier atoms=\"C1B,C2B\" numobs=\"6131\" mean=\"1.39\" stdev=\"0.01\" mindiff=\"0.01\" Zscore=\"8.30\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C3B,C2B\" numobs=\"8279\" mean=\"1.40\" stdev=\"0.01\" mindiff=\"0.00\" Zscore=\"5.54\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"C3B,C4B\" numobs=\"134\" mean=\"1.41\" stdev=\"0.01\" mindiff=\"0.01\" Zscore=\"6.88\" obsval=\"1.48\" />\n\t\t<mog-bond-outlier atoms=\"C1D,C2D\" numobs=\"6131\" mean=\"1.39\" stdev=\"0.01\" mindiff=\"0.00\" Zscore=\"7.57\" obsval=\"1.48\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C2D\" numobs=\"124\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.04\" Zscore=\"5.90\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C4D\" numobs=\"236\" mean=\"1.41\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.23\" obsval=\"1.38\" />\n\t\t<mog-bond-outlier atoms=\"OBD,CAD\" numobs=\"5881\" mean=\"1.22\" stdev=\"0.01\" mindiff=\"0.00\" Zscore=\"4.51\" obsval=\"1.28\" />\n\t\t<mog-bond-outlier atoms=\"O2D,CGD\" numobs=\"10433\" mean=\"1.33\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.87\" obsval=\"1.45\" />\n\t\t<mog-torsion-outlier atoms=\"CAA,CBA,CGA,O2A\" numobs=\"3091\" mean=\"101.27\" stdev=\"46.18\" mindiff=\"0.07\" local_density=\"4.95\" obsval=\"-33.26\" />\n\t\t<mog-torsion-outlier atoms=\"CBA,CGA,O2A,C1\" numobs=\"2608\" mean=\"17.92\" stdev=\"4.79\" mindiff=\"0.30\" local_density=\"4.26\" obsval=\"156.38\" />\n\t\t<mog-torsion-outlier atoms=\"O1A,CGA,O2A,C1\" numobs=\"4533\" mean=\"18.61\" stdev=\"4.40\" mindiff=\"0.16\" local_density=\"3.71\" obsval=\"-24.41\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O1D\" numobs=\"80\" mean=\"52.21\" stdev=\"25.41\" mindiff=\"8.55\" local_density=\"1.25\" obsval=\"-44.24\" />\n\t\t<mog-torsion-outlier atoms=\"CHA,CBD,CGD,O2D\" numobs=\"80\" mean=\"54.48\" stdev=\"24.82\" mindiff=\"6.18\" local_density=\"2.50\" obsval=\"137.25\" />\n\t\t<mog-torsion-outlier atoms=\"C12,C13,C15,C16\" numobs=\"263\" mean=\"82.13\" stdev=\"51.69\" mindiff=\"0.75\" local_density=\"4.18\" obsval=\"43.29\" />\n\t\t<mog-torsion-outlier atoms=\"C13,C15,C16,C17\" numobs=\"6638\" mean=\"30.95\" stdev=\"20.24\" mindiff=\"0.01\" local_density=\"3.22\" obsval=\"148.17\" />\n\t\t<mog-torsion-outlier atoms=\"C15,C16,C17,C18\" numobs=\"6638\" mean=\"32.48\" stdev=\"19.01\" mindiff=\"0.15\" local_density=\"2.24\" obsval=\"146.04\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C19\" numobs=\"2276\" mean=\"55.57\" stdev=\"33.38\" mindiff=\"0.37\" local_density=\"2.11\" obsval=\"147.47\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C20\" numobs=\"2276\" mean=\"93.85\" stdev=\"55.04\" mindiff=\"0.17\" local_density=\"1.58\" obsval=\"20.70\" />\n\t\t<chiral-outlier problem=\"PLANAR\" atom=\"ND\" />\n\t\t<chiral-outlier problem=\"PLANAR\" atom=\"NA\" />\n\t\t<chiral-outlier problem=\"PLANAR\" atom=\"NC\" />\n\t\t<clash atom=\"CGD\" dist=\"2.38\" clashmag=\"0.53\" cid=\"34\" />\n\t\t<clash atom=\"H8\" dist=\"2.38\" clashmag=\"0.53\" cid=\"34\" />\n\t\t<clash atom=\"H5\" dist=\"2.48\" clashmag=\"0.48\" cid=\"40\" />\n\t\t<clash atom=\"H5\" dist=\"2.48\" clashmag=\"0.48\" cid=\"41\" />\n\t\t<clash atom=\"H69\" dist=\"1.96\" clashmag=\"0.47\" cid=\"42\" />\n\t\t<clash atom=\"H72\" dist=\"1.81\" clashmag=\"0.42\" cid=\"50\" />\n\t\t<clash atom=\"H10\" dist=\"1.81\" clashmag=\"0.42\" cid=\"50\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"0.7576\" Q_score=\"0.724\" mogul_bonds_rmsz=\"0.37\" mogul_rmsz_numbonds=\"34\" mogul_rmsz_numangles=\"43\" mogul_angles_rmsz=\"0.73\" num-H-reduce=\"46\" model=\"1\" chain=\"A\" resnum=\"845\" said=\"JB\" ent=\"20\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-angle-outlier atoms=\"C11,C3,C4\" numobs=\"49\" mean=\"118.58\" stdev=\"1.05\" mindiff=\"0.01\" Zscore=\"-2.24\" obsval=\"116.22\" />\n\t\t<mog-torsion-outlier atoms=\"C17,C18,C20,C21\" numobs=\"263\" mean=\"51.12\" stdev=\"13.24\" mindiff=\"2.15\" local_density=\"1.52\" obsval=\"-118.90\" />\n\t\t<mog-torsion-outlier atoms=\"C19,C18,C20,C21\" numobs=\"339\" mean=\"49.65\" stdev=\"12.36\" mindiff=\"1.49\" local_density=\"1.18\" obsval=\"115.13\" />\n\t\t<mog-torsion-outlier atoms=\"C20,C21,C22,C23\" numobs=\"6638\" mean=\"43.58\" stdev=\"11.03\" mindiff=\"1.15\" local_density=\"0.54\" obsval=\"131.01\" />\n\t\t<mog-torsion-outlier atoms=\"C23,C25,C26,C27\" numobs=\"6638\" mean=\"51.42\" stdev=\"8.27\" mindiff=\"0.48\" local_density=\"0.45\" obsval=\"120.49\" />\n\t\t<mog-torsion-outlier atoms=\"C26,C27,C28,C29\" numobs=\"2276\" mean=\"79.28\" stdev=\"54.13\" mindiff=\"0.07\" local_density=\"2.68\" obsval=\"-35.97\" />\n\t\t<mog-torsion-outlier atoms=\"C26,C27,C28,C30\" numobs=\"2276\" mean=\"53.72\" stdev=\"27.16\" mindiff=\"0.78\" local_density=\"2.42\" obsval=\"91.24\" />\n\t\t<clash atom=\"H222\" dist=\"1.93\" clashmag=\"0.50\" cid=\"37\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"1.0000\" Q_score=\"0.766\" mogul_bonds_rmsz=\"1.96\" mogul_rmsz_numbonds=\"69\" mogul_rmsz_numangles=\"82\" mogul_angles_rmsz=\"2.66\" num-H-reduce=\"72\" ligand_chirality_outlier=\"yes\" model=\"1\" chain=\"B\" resnum=\"802\" said=\"VC\" ent=\"19\" seq=\".\" icode=\" \" resname=\"CLA\" altcode=\" \">\n\t\t<mog-angle-outlier atoms=\"C1D,CHD,C4C\" numobs=\"2944\" mean=\"126.02\" stdev=\"2.13\" mindiff=\"0.01\" Zscore=\"-4.07\" obsval=\"117.38\" />\n\t\t<mog-angle-outlier atoms=\"C4A,NA,C1A\" numobs=\"22\" mean=\"106.68\" stdev=\"0.46\" mindiff=\"0.88\" Zscore=\"-4.09\" obsval=\"104.81\" />\n\t\t<mog-angle-outlier atoms=\"CAA,C2A,C3A\" numobs=\"78\" mean=\"113.00\" stdev=\"2.70\" mindiff=\"2.94\" Zscore=\"-3.85\" obsval=\"102.58\" />\n\t\t<mog-angle-outlier atoms=\"CMA,C3A,C2A\" numobs=\"98\" mean=\"113.98\" stdev=\"3.87\" mindiff=\"3.59\" Zscore=\"-2.70\" obsval=\"103.53\" />\n\t\t<mog-angle-outlier atoms=\"CMA,C3A,C4A\" numobs=\"26\" mean=\"111.77\" stdev=\"2.69\" mindiff=\"3.56\" Zscore=\"-2.92\" obsval=\"103.94\" />\n\t\t<mog-angle-outlier atoms=\"CHB,C4A,NA\" numobs=\"21\" mean=\"124.40\" stdev=\"1.44\" mindiff=\"1.25\" Zscore=\"2.25\" obsval=\"127.65\" />\n\t\t<mog-angle-outlier atoms=\"O2A,CGA,CBA\" numobs=\"1155\" mean=\"111.83\" stdev=\"3.05\" mindiff=\"0.00\" Zscore=\"2.68\" obsval=\"120.02\" />\n\t\t<mog-angle-outlier atoms=\"C2B,C1B,NB\" numobs=\"70\" mean=\"110.33\" stdev=\"1.04\" mindiff=\"2.63\" Zscore=\"4.37\" obsval=\"114.85\" />\n\t\t<mog-angle-outlier atoms=\"C3B,C2B,C1B\" numobs=\"22\" mean=\"107.17\" stdev=\"1.18\" mindiff=\"4.84\" Zscore=\"-4.92\" obsval=\"101.37\" />\n\t\t<mog-angle-outlier atoms=\"CMB,C2B,C1B\" numobs=\"569\" mean=\"125.42\" stdev=\"1.52\" mindiff=\"0.04\" Zscore=\"3.21\" obsval=\"130.31\" />\n\t\t<mog-angle-outlier atoms=\"C4B,C3B,C2B\" numobs=\"20\" mean=\"107.30\" stdev=\"1.24\" mindiff=\"0.40\" Zscore=\"-2.57\" obsval=\"104.11\" />\n\t\t<mog-angle-outlier atoms=\"C3B,C4B,NB\" numobs=\"44\" mean=\"110.53\" stdev=\"0.89\" mindiff=\"0.38\" Zscore=\"2.93\" obsval=\"113.14\" />\n\t\t<mog-angle-outlier atoms=\"CHC,C1C,C2C\" numobs=\"534\" mean=\"126.95\" stdev=\"2.84\" mindiff=\"0.88\" Zscore=\"-2.75\" obsval=\"119.12\" />\n\t\t<mog-angle-outlier atoms=\"C2C,C1C,NC\" numobs=\"81\" mean=\"109.98\" stdev=\"1.05\" mindiff=\"2.19\" Zscore=\"4.70\" obsval=\"114.92\" />\n\t\t<mog-angle-outlier atoms=\"C1C,C2C,C3C\" numobs=\"620\" mean=\"106.98\" stdev=\"1.05\" mindiff=\"0.11\" Zscore=\"-3.60\" obsval=\"103.19\" />\n\t\t<mog-angle-outlier atoms=\"CMC,C2C,C1C\" numobs=\"853\" mean=\"125.03\" stdev=\"1.56\" mindiff=\"0.17\" Zscore=\"2.31\" obsval=\"128.64\" />\n\t\t<mog-angle-outlier atoms=\"C4C,C3C,C2C\" numobs=\"880\" mean=\"106.89\" stdev=\"1.46\" mindiff=\"0.06\" Zscore=\"-3.25\" obsval=\"102.16\" />\n\t\t<mog-angle-outlier atoms=\"CAC,C3C,C4C\" numobs=\"5400\" mean=\"124.79\" stdev=\"1.30\" mindiff=\"0.00\" Zscore=\"2.21\" obsval=\"127.67\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C4C,NC\" numobs=\"75\" mean=\"124.23\" stdev=\"1.55\" mindiff=\"1.37\" Zscore=\"2.61\" obsval=\"128.28\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C4C,C3C\" numobs=\"2668\" mean=\"124.77\" stdev=\"1.46\" mindiff=\"0.84\" Zscore=\"-5.99\" obsval=\"116.04\" />\n\t\t<mog-angle-outlier atoms=\"C3C,C4C,NC\" numobs=\"66\" mean=\"110.43\" stdev=\"1.28\" mindiff=\"0.17\" Zscore=\"4.09\" obsval=\"115.67\" />\n\t\t<mog-angle-outlier atoms=\"CBC,CAC,C3C\" numobs=\"10971\" mean=\"112.42\" stdev=\"2.71\" mindiff=\"0.00\" Zscore=\"-2.20\" obsval=\"106.46\" />\n\t\t<mog-angle-outlier atoms=\"C1D,ND,C4D\" numobs=\"22\" mean=\"106.31\" stdev=\"0.70\" mindiff=\"4.63\" Zscore=\"-8.78\" obsval=\"100.15\" />\n\t\t<mog-angle-outlier atoms=\"CHD,C1D,ND\" numobs=\"73\" mean=\"124.80\" stdev=\"1.41\" mindiff=\"2.94\" Zscore=\"-4.03\" obsval=\"119.14\" />\n\t\t<mog-angle-outlier atoms=\"C2D,C1D,ND\" numobs=\"62\" mean=\"110.13\" stdev=\"0.99\" mindiff=\"3.03\" Zscore=\"5.92\" obsval=\"115.99\" />\n\t\t<mog-angle-outlier atoms=\"C3D,C2D,C1D\" numobs=\"32\" mean=\"105.83\" stdev=\"1.36\" mindiff=\"1.49\" Zscore=\"-4.61\" obsval=\"99.54\" />\n\t\t<mog-angle-outlier atoms=\"CMD,C2D,C1D\" numobs=\"284\" mean=\"124.73\" stdev=\"1.76\" mindiff=\"2.41\" Zscore=\"5.78\" obsval=\"134.91\" />\n\t\t<mog-angle-outlier atoms=\"C3D,C4D,ND\" numobs=\"28\" mean=\"109.99\" stdev=\"1.63\" mindiff=\"2.77\" Zscore=\"4.22\" obsval=\"116.84\" />\n\t\t<mog-angle-outlier atoms=\"O2D,CGD,CBD\" numobs=\"147\" mean=\"111.23\" stdev=\"1.75\" mindiff=\"0.04\" Zscore=\"4.47\" obsval=\"119.05\" />\n\t\t<mog-angle-outlier atoms=\"O2D,CGD,O1D\" numobs=\"10433\" mean=\"123.85\" stdev=\"1.95\" mindiff=\"0.00\" Zscore=\"-2.61\" obsval=\"118.77\" />\n\t\t<mog-angle-outlier atoms=\"C1,C2,C3\" numobs=\"34\" mean=\"126.20\" stdev=\"1.64\" mindiff=\"3.91\" Zscore=\"-4.21\" obsval=\"119.30\" />\n\t\t<mog-angle-outlier atoms=\"C4,C3,C5\" numobs=\"1064\" mean=\"115.23\" stdev=\"1.74\" mindiff=\"0.07\" Zscore=\"2.79\" obsval=\"120.06\" />\n\t\t<mog-bond-outlier atoms=\"C4D,CHA\" numobs=\"118\" mean=\"1.38\" stdev=\"0.03\" mindiff=\"0.01\" Zscore=\"2.52\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHB,C1B\" numobs=\"4292\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"3.51\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHC,C4B\" numobs=\"4292\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"3.58\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHC,C1C\" numobs=\"3736\" mean=\"1.38\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.53\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHD,C4C\" numobs=\"3576\" mean=\"1.39\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"3.53\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"CHD,C1D\" numobs=\"3707\" mean=\"1.38\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"3.91\" obsval=\"1.46\" />\n\t\t<mog-bond-outlier atoms=\"O2A,CGA\" numobs=\"4555\" mean=\"1.33\" stdev=\"0.03\" mindiff=\"0.00\" Zscore=\"4.01\" obsval=\"1.45\" />\n\t\t<mog-bond-outlier atoms=\"C1B,NB\" numobs=\"42\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.02\" Zscore=\"-3.58\" obsval=\"1.33\" />\n\t\t<mog-bond-outlier atoms=\"C4B,NB\" numobs=\"42\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.01\" Zscore=\"-3.17\" obsval=\"1.33\" />\n\t\t<mog-bond-outlier atoms=\"C1B,C2B\" numobs=\"568\" mean=\"1.43\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.60\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C3B,C2B\" numobs=\"69\" mean=\"1.41\" stdev=\"0.03\" mindiff=\"0.00\" Zscore=\"2.04\" obsval=\"1.48\" />\n\t\t<mog-bond-outlier atoms=\"C1C,NC\" numobs=\"22\" mean=\"1.37\" stdev=\"0.02\" mindiff=\"0.02\" Zscore=\"-2.14\" obsval=\"1.34\" />\n\t\t<mog-bond-outlier atoms=\"C1C,C2C\" numobs=\"853\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"2.25\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C3C,C2C\" numobs=\"2493\" mean=\"1.36\" stdev=\"0.02\" mindiff=\"0.01\" Zscore=\"5.01\" obsval=\"1.47\" />\n\t\t<mog-bond-outlier atoms=\"C1D,ND\" numobs=\"42\" mean=\"1.37\" stdev=\"0.01\" mindiff=\"0.02\" Zscore=\"3.81\" obsval=\"1.42\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C2D\" numobs=\"92\" mean=\"1.39\" stdev=\"0.03\" mindiff=\"0.03\" Zscore=\"3.66\" obsval=\"1.49\" />\n\t\t<mog-bond-outlier atoms=\"C3D,C4D\" numobs=\"158\" mean=\"1.44\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"-2.25\" obsval=\"1.39\" />\n\t\t<mog-bond-outlier atoms=\"OBD,CAD\" numobs=\"2596\" mean=\"1.22\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"3.63\" obsval=\"1.28\" />\n\t\t<mog-bond-outlier atoms=\"O2D,CGD\" numobs=\"10433\" mean=\"1.33\" stdev=\"0.02\" mindiff=\"0.00\" Zscore=\"4.88\" obsval=\"1.45\" />\n\t\t<mog-torsion-outlier atoms=\"C2,C1,O2A,CGA\" numobs=\"285\" mean=\"38.48\" stdev=\"13.41\" mindiff=\"1.46\" local_density=\"4.56\" obsval=\"-123.56\" />\n\t\t<mog-torsion-outlier atoms=\"C2B,C3B,CAB,CBB\" numobs=\"119\" mean=\"67.76\" stdev=\"24.68\" mindiff=\"7.29\" local_density=\"0.84\" obsval=\"-72.29\" />\n\t\t<mog-torsion-outlier atoms=\"C4B,C3B,CAB,CBB\" numobs=\"135\" mean=\"67.74\" stdev=\"22.22\" mindiff=\"11.73\" local_density=\"0.00\" obsval=\"107.63\" />\n\t\t<mog-torsion-outlier atoms=\"CBD,CGD,O2D,CED\" numobs=\"4758\" mean=\"34.30\" stdev=\"1.74\" mindiff=\"0.10\" local_density=\"0.04\" obsval=\"-140.44\" />\n\t\t<mog-torsion-outlier atoms=\"O1D,CGD,O2D,CED\" numobs=\"10433\" mean=\"31.90\" stdev=\"3.01\" mindiff=\"0.25\" local_density=\"0.30\" obsval=\"37.26\" />\n\t\t<mog-torsion-outlier atoms=\"C2,C3,C5,C6\" numobs=\"1030\" mean=\"44.35\" stdev=\"32.51\" mindiff=\"0.60\" local_density=\"4.37\" obsval=\"-140.11\" />\n\t\t<mog-torsion-outlier atoms=\"C4,C3,C5,C6\" numobs=\"1032\" mean=\"42.21\" stdev=\"32.44\" mindiff=\"0.65\" local_density=\"3.10\" obsval=\"40.22\" />\n\t\t<mog-torsion-outlier atoms=\"C3,C5,C6,C7\" numobs=\"2719\" mean=\"42.07\" stdev=\"28.67\" mindiff=\"0.20\" local_density=\"1.51\" obsval=\"148.87\" />\n\t\t<mog-torsion-outlier atoms=\"C5,C6,C7,C8\" numobs=\"6638\" mean=\"81.24\" stdev=\"25.26\" mindiff=\"0.02\" local_density=\"3.33\" obsval=\"81.30\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C10,C8,C7\" numobs=\"263\" mean=\"48.88\" stdev=\"22.22\" mindiff=\"1.58\" local_density=\"1.52\" obsval=\"-136.32\" />\n\t\t<mog-torsion-outlier atoms=\"C11,C10,C8,C9\" numobs=\"339\" mean=\"44.39\" stdev=\"15.57\" mindiff=\"0.76\" local_density=\"2.36\" obsval=\"103.06\" />\n\t\t<mog-torsion-outlier atoms=\"C12,C13,C15,C16\" numobs=\"263\" mean=\"48.30\" stdev=\"26.60\" mindiff=\"0.23\" local_density=\"2.28\" obsval=\"-141.90\" />\n\t\t<mog-torsion-outlier atoms=\"C14,C13,C15,C16\" numobs=\"339\" mean=\"42.05\" stdev=\"18.84\" mindiff=\"0.85\" local_density=\"2.95\" obsval=\"97.45\" />\n\t\t<chiral-outlier problem=\"PLANAR\" atom=\"ND\" />\n\t\t<clash atom=\"HMD2\" dist=\"2.01\" clashmag=\"0.42\" cid=\"634\" />\n\t\t<clash atom=\"HMA2\" dist=\"2.56\" clashmag=\"0.41\" cid=\"637\" />\n\t</ModelledSubgroup>\n\t",
+        "<ModelledSubgroup residue_inclusion=\"0.9697\" Q_score=\"0.731\" mogul_bonds_rmsz=\"0.42\" mogul_rmsz_numbonds=\"34\" mogul_rmsz_numangles=\"43\" mogul_angles_rmsz=\"0.69\" num-H-reduce=\"46\" model=\"1\" chain=\"B\" resnum=\"839\" said=\"GE\" ent=\"20\" seq=\".\" icode=\" \" resname=\"PQN\" altcode=\" \">\n\t\t<mog-angle-outlier atoms=\"C11,C3,C4\" numobs=\"49\" mean=\"118.58\" stdev=\"1.05\" mindiff=\"0.66\" Zscore=\"-2.88\" obsval=\"115.55\" />\n\t\t<mog-torsion-outlier atoms=\"C12,C13,C15,C16\" numobs=\"1030\" mean=\"63.19\" stdev=\"32.63\" mindiff=\"4.20\" local_density=\"0.10\" obsval=\"-159.07\" />\n\t\t<mog-torsion-outlier atoms=\"C14,C13,C15,C16\" numobs=\"1032\" mean=\"61.24\" stdev=\"32.55\" mindiff=\"5.63\" local_density=\"0.10\" obsval=\"21.08\" />\n\t\t<mog-torsion-outlier atoms=\"C13,C15,C16,C17\" numobs=\"2719\" mean=\"55.71\" stdev=\"8.83\" mindiff=\"3.32\" local_density=\"0.07\" obsval=\"113.88\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C19\" numobs=\"339\" mean=\"56.75\" stdev=\"18.85\" mindiff=\"0.79\" local_density=\"1.77\" obsval=\"-130.77\" />\n\t\t<mog-torsion-outlier atoms=\"C16,C17,C18,C20\" numobs=\"263\" mean=\"53.74\" stdev=\"19.89\" mindiff=\"1.53\" local_density=\"3.42\" obsval=\"101.89\" />\n\t\t<mog-torsion-outlier atoms=\"C18,C20,C21,C22\" numobs=\"6638\" mean=\"32.50\" stdev=\"19.00\" mindiff=\"0.17\" local_density=\"2.23\" obsval=\"-146.02\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C24\" numobs=\"339\" mean=\"43.56\" stdev=\"16.63\" mindiff=\"0.45\" local_density=\"2.36\" obsval=\"-101.07\" />\n\t\t<mog-torsion-outlier atoms=\"C21,C22,C23,C25\" numobs=\"263\" mean=\"49.13\" stdev=\"20.58\" mindiff=\"0.08\" local_density=\"1.90\" obsval=\"134.09\" />\n\t\t<mog-torsion-outlier atoms=\"C23,C25,C26,C27\" numobs=\"6638\" mean=\"53.06\" stdev=\"8.31\" mindiff=\"0.41\" local_density=\"0.41\" obsval=\"118.31\" />\n\t\t<clash atom=\"H202\" dist=\"1.94\" clashmag=\"0.48\" cid=\"185\" />\n\t\t<clash atom=\"H141\" dist=\"1.57\" clashmag=\"0.48\" cid=\"188\" />\n\t\t<clash atom=\"H161\" dist=\"1.57\" clashmag=\"0.48\" cid=\"188\" />\n\t</ModelledSubgroup>\n\t"
+      ],
+      "PA_O1D_neighbors": [],
+      "starting_model": {
+        "id": [
+          "1"
+        ],
+        "entity_id_list": [
+          null
+        ],
+        "type": [
+          "experimental model"
+        ],
+        "source_name": [
+          "Other"
+        ],
+        "accession_code": [
+          null
+        ],
+        "details": [
+          null
+        ]
+      },
+      "limitations": "Mapping and deposited validation only. Local maps not visually screened for this entry."
+    }
+  ]
+}

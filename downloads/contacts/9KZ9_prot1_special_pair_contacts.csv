@@ -1,0 +1,13 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9KZ9.p1.CL0:A:801:O1A~TYR:A:734:OH,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O1A,TYR:A:734:OH,DA,A,2.79113,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,30.12
+9KZ9.p1.CL0:A:801:OBD~THR:A:742:OG1,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:OBD,THR:A:742:OG1,DA,A,3.42960,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,32.02
+9KZ9.p1.CL0:A:801:O2D~THR:A:742:OG1,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O2D,THR:A:742:OG1,DA,A,4.80624,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,32.02
+9KZ9.p1.CL0:A:801:O2D~TYR:A:602:OH,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O2D,TYR:A:602:OH,DA,A,5.09171,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,30.45
+9KZ9.p1.CL0:A:801:O2D~HOH:A:914:O,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O2D,HOH:A:914:O,DA,GQ,5.55160,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,33.5
+9KZ9.p1.CLA:B:803:O2A~TYR:B:716:OH,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CLA:B:803:O2A,TYR:B:716:OH,IC,B,3.93849,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,30.7,30.78
+9KZ9.p1.CLA:B:803:O1D~TYR:B:720:N,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CLA:B:803:O1D,TYR:B:720:N,IC,B,2.99211,polar,donor–acceptor compatible,derived by homology,1.0,1.0,30.7,30.38
+9KZ9.p1.CL0:A:801:MG~HIS:A:679:NE2,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:MG,HIS:A:679:NE2,DA,A,3.05697,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,32.26,30.44
+9KZ9.p1.CLA:B:803:MG~HIS:B:653:NE2,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CLA:B:803:MG,HIS:B:653:NE2,IC,B,1.90735,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,30.7,29.79
+9KZ9.p1.CLA:B:803:O2D~HOH:B:953:O,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CLA:B:803:O2D,HOH:B:953:O,IC,HQ,4.94351,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,30.7,30.96
+9KZ9.p1.CL0:A:801:O1D~TYR:A:602:OH,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O1D,TYR:A:602:OH,DA,A,3.08575,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,30.45
+9KZ9.p1.CL0:A:801:O1D~THR:A:742:OG1,9KZ9_prot1_special_pair,9KZ9,1,special_pair,CL0:A:801:O1D,THR:A:742:OG1,DA,A,3.30006,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,32.02

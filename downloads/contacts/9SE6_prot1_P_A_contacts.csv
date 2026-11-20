@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SE6.p1.HOH:A:984:O~TYR:A:600:OH,9SE6_prot1_P_A,9SE6,1,P_A,HOH:A:984:O,TYR:A:600:OH,PM,G,2.99199,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,5.37,6.86
+9SE6.p1.HOH:A:984:O~SER:A:604:OG,9SE6_prot1_P_A,9SE6,1,P_A,HOH:A:984:O,SER:A:604:OG,PM,G,2.88407,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,5.37,6.87
+9SE6.p1.GLY:A:735:O~HOH:A:984:O,9SE6_prot1_P_A,9SE6,1,P_A,HOH:A:984:O,GLY:A:735:O,PM,G,3.40057,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,5.37,7.08
+9SE6.p1.HOH:A:984:O~THR:A:739:OG1,9SE6_prot1_P_A,9SE6,1,P_A,HOH:A:984:O,THR:A:739:OG1,PM,G,2.80444,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,5.37,6.33
+9SE6.p1.CL0:A:802:O2D~HOH:A:984:O,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:O2D,HOH:A:984:O,JF,PM,3.46340,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,6.94,5.37
+9SE6.p1.CL0:A:802:MG~HIS:A:676:NE2,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:MG,HIS:A:676:NE2,JF,G,2.29794,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,4.88,3.16
+9SE6.p1.CL0:A:802:O2D~CL0:A:802:OBD,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:OBD,CL0:A:802:O2D,JF,JF,3.69267,intra,same residue,derived by homology,1.0,1.0,6.91,6.94
+9SE6.p1.CL0:A:802:OBD~THR:A:739:OG1,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:OBD,THR:A:739:OG1,JF,G,2.95064,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.91,6.33
+9SE6.p1.CL0:A:802:O2D~THR:A:739:OG1,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:O2D,THR:A:739:OG1,JF,G,3.28366,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.94,6.33
+9SE6.p1.CL0:A:802:O2D~TYR:A:600:OH,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:O2D,TYR:A:600:OH,JF,G,3.28007,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.94,6.86
+9SE6.p1.CL0:A:802:O1A~TYR:A:731:OH,9SE6_prot1_P_A,9SE6,1,P_A,CL0:A:802:O1A,TYR:A:731:OH,JF,G,2.79623,polar,donor–acceptor compatible,derived by homology,1.0,1.0,9.05,3.55

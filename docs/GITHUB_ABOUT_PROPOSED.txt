@@ -1,0 +1,1 @@
+Interactive PSI heavy-atom contact atlas: 22 PDB structures, 40 protomers, 160 scenes and 882 unique selected atom pairs. Compare P700/P_A and A1 environments; inspect experimental density for 39 protomers; download CSV, mmCIF and PyMOL scripts. Source-model qualifications retained.

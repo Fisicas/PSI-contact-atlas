@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scenes": 160,
+  "assets": 480,
+  "source_bytes": 3196608,
+  "scope": "Exact identities, UTF-8 round trips and source-byte hashes for CSV/mmCIF/PML download payloads. No coordinate/line-ending conversion."
+}

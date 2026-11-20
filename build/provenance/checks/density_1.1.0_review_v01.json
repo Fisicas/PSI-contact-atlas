@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "structures": 22,
+  "protomers": 40,
+  "scene_controls": 160,
+  "scenes_with_figures": 156,
+  "unavailable_scenes": [
+    "1JB0_prot1_A1A",
+    "1JB0_prot1_A1B",
+    "1JB0_prot1_special_pair",
+    "1JB0_prot1_P_A"
+  ],
+  "unique_figures": 462,
+  "image_counts": {
+    "sections": 254,
+    "meshes": 208
+  },
+  "checks": [
+    "Complete scene/protomer coverage",
+    "Native protomer identity in every asset path",
+    "Exact figure hashes and sizes",
+    "PNG chunk CRCs and dimensions",
+    "Explicit experimental-data unavailability",
+    "Coordinate-frame and crop-check records",
+    "Mesh processing settings, Mg visibility and unchanged coordinates"
+  ]
+}

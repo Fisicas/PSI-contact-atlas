@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "tests": 23,
+  "source": "unit_tests.log",
+  "scope": "18 existing scientific/mapping/download corruption tests plus 5 metadata consistency/publication-state corruption tests."
+}

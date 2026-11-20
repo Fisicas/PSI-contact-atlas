@@ -322,6 +322,33 @@ def template_prot(structs, sc):
     return next(p for p in s['protomers'] if p['number'] == sc['protomer'])
 
 
+def verified_protomers(report_path, pdb, src):
+    """Load explicit mappings tied to an inspected source hash; discovery cutoffs stay unchanged."""
+    report = BA.read_json(Path(report_path))
+    if report.get('status') != 'PASS':
+        raise SystemExit('Mapping report did not pass')
+    matches = [e for e in report.get('entries', []) if e.get('pdb') == pdb]
+    if len(matches) != 1 or matches[0].get('status') != 'PASS' or matches[0].get('current_sha256') != src.sha:
+        raise SystemExit('Mapping report does not match this PDB and source SHA-256')
+    prots = matches[0]['protomers']
+    if not prots:
+        raise SystemExit('Mapping report has no protomers')
+    for prot in prots:
+        for chain in {prot['psaA'], prot['psaB']}:
+            if not src.polymer(chain)[0]:
+                raise SystemExit('Mapping report names an absent polymer chain')
+        if set(prot['roles']) != {'P_A', 'P_B', 'A1_A', 'A1_B'}:
+            raise SystemExit('Mapping report must assign all four cofactor roles')
+        for role, rid in prot['roles'].items():
+            comp = rid.split(':')[0]
+            if comp not in (CHL if role.startswith('P_') else BA.QUINONES):
+                raise SystemExit('Mapping report component is incompatible with its cofactor role')
+            names = DIAGNOSTIC if role.startswith('P_') else ['O1', 'O4']
+            if any(src.get(rid + ':' + name) is None for name in names):
+                raise SystemExit('Mapping report cofactor lacks diagnostic atoms')
+    return prots
+
+
 def cmd_add(a):
     sources, structs, scenes = load()
     if a.pdb in sources:
@@ -342,7 +369,7 @@ def cmd_add(a):
         organism = a.organism
     tech = src.technique()
     method = 'X-ray crystallography' if tech['method'].startswith('X-RAY') else 'Cryo-EM'
-    prots = find_protomers(src, a.pdb, mapper)
+    prots = verified_protomers(a.mapping_report, a.pdb, src) if a.mapping_report else find_protomers(src, a.pdb, mapper)
     new_prots, new_scenes = [], []
     for prot in prots:
         sw = site_water_for(src, prot['roles'], ref, ref_pa)
@@ -422,6 +449,7 @@ def main():
     p.add_argument('--genotype')
     p.add_argument('--organism')
     p.add_argument('--retrieved', default=date.today().isoformat())
+    p.add_argument('--mapping-report', help='Explicit verified native-role mappings tied to the source SHA-256')
     sub.add_parser('check')
     a = ap.parse_args()
     (cmd_add if a.cmd == 'add' else cmd_check)(a)

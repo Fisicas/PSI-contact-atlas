@@ -21,6 +21,35 @@
   function rgbStr(c) { return `rgb(${c[0]},${c[1]},${c[2]})`; }
   const ELEMENT_RGB = Object.fromEntries(Object.entries(ELEMENT).map(([k, v]) => [k, hexToRgb(v)]));
 
+  // Export footer only: preserve the on-screen molecular drawing and label layout.
+  function exportCaption(ctx, text, width, k, fontSize, pad, minHeight) {
+    const font = `${fontSize * k}px ${FONT}`, margin = pad * k;
+    const maxWidth = Math.max(1, width - 2 * margin), lines = [];
+    ctx.font = font;
+    let line = '';
+    for (const word of String(text).split(/\s+/)) {
+      const joined = line ? `${line} ${word}` : word;
+      if (line && ctx.measureText(joined).width > maxWidth) { lines.push(line); line = ''; }
+      if (ctx.measureText(word).width > maxWidth) {
+        for (const ch of word) {
+          if (line && ctx.measureText(line + ch).width > maxWidth) { lines.push(line); line = ''; }
+          line += ch;
+        }
+      } else line = line ? `${line} ${word}` : word;
+    }
+    if (line) lines.push(line);
+    const leading = (fontSize + 2) * k;
+    return { font, margin, lines, leading,
+      height: Math.max(Math.round(minHeight * k), Math.ceil(lines.length * leading + 12 * k)) };
+  }
+  function drawExportCaption(ctx, layout, width, top) {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, top, width, layout.height);
+    ctx.fillStyle = '#3d4650'; ctx.font = layout.font; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+    const first = top + (layout.height - (layout.lines.length - 1) * layout.leading) / 2;
+    layout.lines.forEach((line, i) => ctx.fillText(line, layout.margin, first + i * layout.leading));
+  }
+
   function matMul(a, b) {
     const r = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
     for (let i = 0; i < 3; i++) for (let j = 0; j < 3; j++) r[i][j] = a[i][0] * b[0][j] + a[i][1] * b[1][j] + a[i][2] * b[2][j];
@@ -500,19 +529,18 @@
     /* One full turn about the vertical axis, starting from the current view, as an animated GIF.
        Labels use the stable mode (they ride with their atoms and fade where they overlap). */
     async renderSpinGIF({ width, frames, delayCs, caption, onProgress, isCancelled }) {
-      const k = width / this.cssW, W = Math.round(this.cssW * k), Hm = Math.round(this.cssH * k), capH = Math.round(34 * k), H = Hm + capH;
+      const k = width / this.cssW, W = Math.round(this.cssW * k), Hm = Math.round(this.cssH * k);
       const saved = { motion: this.opts.motion, stable: this.opts.stableLabels, memo: this.labelMemo, angle: this.angle, theta: this.theta, hl: this.highlight, hover: this.hoverAtom };
       this.exporting = true; this.opts.stableLabels = true; this.highlight = -1; this.hoverAtom = -1;
       const start = this.theta || 0, sign = this.scene.camera.spin_sign || 1;
-      const off = document.createElement('canvas'); off.width = W; off.height = H;
+      const off = document.createElement('canvas'); off.width = W;
       const ctx = off.getContext('2d', { willReadFrequently: true });
+      const footer = exportCaption(ctx, caption, W, k, 12, 12, 34), H = Hm + footer.height;
+      off.height = H;
       const render = f => {
         this.theta = this.angle = start + sign * 2 * Math.PI * f / frames;
         this.draw(ctx, this.cssW, this.cssH, k, 0, 1);
-        ctx.setTransform(1, 0, 0, 1, 0, 0);
-        ctx.fillStyle = '#ffffff'; ctx.fillRect(0, Hm, W, capH);
-        ctx.fillStyle = '#3d4650'; ctx.font = `${12 * k}px ${FONT}`; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
-        ctx.fillText(caption, 12 * k, Hm + capH / 2);
+        drawExportCaption(ctx, footer, W, Hm);
         return ctx.getImageData(0, 0, W, H).data;
       };
       try {
@@ -537,16 +565,15 @@
 
     exportPNG(widthPx, filename, caption) {
       const aspect = this.cssH / this.cssW, W = widthPx, H = Math.round(widthPx * aspect), k = W / this.cssW;
-      const off = document.createElement('canvas'); off.width = W; off.height = H + Math.round(44 * k);
+      const off = document.createElement('canvas'); off.width = W;
       const ctx = off.getContext('2d');
+      const footer = exportCaption(ctx, caption, W, k, 13, 14, 44);
+      off.height = H + footer.height;
       // render in CSS-pixel space scaled by k so framing is identical to the screen
       const savedMemo = new Map(this.labelMemo);
       this.draw(ctx, this.cssW, this.cssH, k, performance.now(), 1);
       this.labelMemo = savedMemo;
-      ctx.setTransform(1, 0, 0, 1, 0, 0);
-      ctx.fillStyle = '#ffffff'; ctx.fillRect(0, H, W, off.height - H);
-      ctx.fillStyle = '#3d4650'; ctx.font = `${13 * k}px ${FONT}`; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
-      ctx.fillText(caption, 14 * k, H + 22 * k);
+      drawExportCaption(ctx, footer, W, H);
       off.toBlob(b => { const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = filename; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); }, 'image/png');
       this.kick();
     }

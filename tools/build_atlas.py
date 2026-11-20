@@ -693,7 +693,7 @@ def main():
                   derived_views=sum(1 for sc in scenes if sc['origin'] == 'derived'))
     atlas = dict(version=release['version'], release_date=release['release_date'], doi=release.get('version_doi'),
                  concept_doi=release.get('concept_doi'), citation=release['citation'], recheck=release.get('recheck'),
-                 built=release['release_date'],
+                 built=release.get('build_date') or release['release_date'],
                  parts=[dict(key=k, label=PART_LABEL[k], route=PART_ROUTE[k], table=TABLE_NAME[k]) for k in PARTS],
                  classes=CLASS_INFO, polar_screen_A=POLAR_SCREEN_A, structures=structures, compare=compare, counts=counts,
                  verification=dict(atoms=counts['scene_atoms'], contacts=len(all_rows), unique_contacts=len(unique),
@@ -713,6 +713,12 @@ def main():
     sys.path.insert(0, str(ROOT / 'tools'))
     import make_pymol_scripts
     make_pymol_scripts.main()
+    import build_review_context
+    build_review_context.main()
+    import build_release_notices
+    build_release_notices.main()
+    import build_download_payloads
+    build_download_payloads.main()
     print(f"class changes vs earlier annotation: {len(verification['class_changes'])}; 0.01 Å display changes: {len(verification['rounding_changes'])}")
     print('BUILD PASS')
 

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Fresh isolated local headless Chrome; all 160 scene defaults and scientific warning propagation; 4 comparisons, 42 layouts, 18 actual decoded PNG/GIF exports, 25 exact native downloads. Prior rc.2 Edge scope remains historical.",
+  "counts": {
+    "scenes": 160,
+    "comparisons": 4,
+    "layouts": 42,
+    "exports": 18,
+    "downloads": 25,
+    "issues": 0,
+    "errors": 0,
+    "request_failures": 0
+  },
+  "browser_version": "157.0.8103.79",
+  "input_bindings_sha256": {
+    "js/app.js": "56c8d6bf02350728b029c09f30a85ea4b642d8a74804d905e1fc853b8acf42f3",
+    "js/viewer.js": "0b4ad0546a33d63b392e588bdacc5b95064cd7b95b33e3c98180427a6f2412e8",
+    "js/density_review.js": "e2844c5c67dd22ef873ece138b479af38c042afc4d3fc3a3910b79764075e449",
+    "css/style.css": "17be7e1daf07d3ad2e1214057978a49162c5d0fc67b1c97cb9a2f2c9e563a375",
+    "data/atlas.js": "9cc586b47fc942261a963832589f39a12267760385e1e6046a276d05640991e4",
+    "data/density_review.js": "52d90eb7efcf53f3aeeacca2c96ee8e2585769fb80863638ad84cd8d554e5a2c",
+    "tests/browser_review.py": "ef4bc13bde2a59efb9db8c34c9f4de142f5c07810699f92851cafa6ec0f27e0f"
+  },
+  "full_report_relative_to_work_folder": "browser_review_v01/chrome_rc3_v01/browser_review_v01.json"
+}

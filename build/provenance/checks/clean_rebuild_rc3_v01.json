@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "files_checked": 818,
+  "changed": [],
+  "elapsed_seconds": 27.164321422576904,
+  "scope": "Fresh rc.3 copy; every scene/source/download/payload/alignment/water file reproduced exactly; runtime receipt excluded."
+}

@@ -1,0 +1,2470 @@
+{
+ "date": "2026-11-20",
+ "scope": "24 previously unscreened baseline protomers; all 48 sheets actually inspected",
+ "sheets": [
+  {
+   "file": "5OY0_prot1_sheet01_v01.png",
+   "pdb": "5OY0",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "5OY0_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "0677aeb0297def3b1f8b9b6dfa862829825bf0264f8b1b01cc86bf242ab4402c"
+    },
+    {
+     "scene": "5OY0_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "e24b3061a6f21cbbf6c433169833c77a992ef4c3c78763185bd3529dc5abfc27"
+    },
+    {
+     "scene": "5OY0_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "9683a22834a8bd2bc410b70309ad4930a9ad854586102e207d99338193c80eec"
+    },
+    {
+     "scene": "5OY0_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "2934b1756e11a96acfffcef31d2f63aae1d2395c37000a553ae0ee554fe3d6d9"
+    },
+    {
+     "scene": "5OY0_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "8d284bb46e4059988e6577653280306545a5864506df311c3311631651cc6261"
+    },
+    {
+     "scene": "5OY0_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "f4b0abd30c4b9ca6690dc20e6866ef55d6d4c5953689ddbcd68e0f68b5e34000"
+    }
+   ]
+  },
+  {
+   "file": "5OY0_prot1_sheet02_v01.png",
+   "pdb": "5OY0",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "5OY0_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "a9eea4a335c21b87b17edb46f3dc55c35c22cf14dfdea05d594c2410bcc6acca"
+    },
+    {
+     "scene": "5OY0_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "2ef75a43911ad0aa07d70235e05f848446da4954effc4eea44c6756f3803366d"
+    },
+    {
+     "scene": "5OY0_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "4d0cd51bd1ba3cab78aabd90be7bfe91e6423bedf787d3a5c3c9c99c7a8b270d"
+    }
+   ]
+  },
+  {
+   "file": "5OY0_prot2_sheet01_v01.png",
+   "pdb": "5OY0",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "5OY0_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "00757fd2f7f04ece05de5289a17b63376275e31f38a0b91a69e49b1775e783d3"
+    },
+    {
+     "scene": "5OY0_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "58f642616f0b91ee5285462a8aaa5db8af484dbeb2f46e4eb62233516aaf37f4"
+    },
+    {
+     "scene": "5OY0_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "d348173d2fa62ac9325f0a3db219a268af6c3b8ea89ac2044c97d3f2a5d4f2f1"
+    },
+    {
+     "scene": "5OY0_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "5b48269dcf271af333fe40a23ec8e17a5f28bc86057a04b7327599d2de6b5a43"
+    },
+    {
+     "scene": "5OY0_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "4ea757ade4e58b131aa069ca499a5b1be7e9ec395ba21b16b8960c83aa3c01ce"
+    },
+    {
+     "scene": "5OY0_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "be1575c540b7d96c933b1a1e86b23c820f1fe366d8c100bde00e5ef0126be4a8"
+    }
+   ]
+  },
+  {
+   "file": "5OY0_prot2_sheet02_v01.png",
+   "pdb": "5OY0",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "5OY0_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "514901d7987b74fda27107c89b8f6c1218e236dda678d3bde02bd8d8b6a14cc6"
+    },
+    {
+     "scene": "5OY0_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 1.5 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "aaa02bad84709e9bf301068bb210a96dc57d5193507b3f78da36c992f6515597"
+    },
+    {
+     "scene": "5OY0_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "aafe9fdd248cecbae189cb5b16364771b58048ffceb26b75d10df8baf482c842"
+    },
+    {
+     "scene": "5OY0_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "6ae34e54904c232caf6647d5ab73d73dc98e82bbfb69b998d47c6df64ca5f02a"
+    },
+    {
+     "scene": "5OY0_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "03b4acdf7c06c44485065e82cbb30299b21685b057a6777191e11b0f13722d3b"
+    }
+   ]
+  },
+  {
+   "file": "5OY0_prot3_sheet01_v01.png",
+   "pdb": "5OY0",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "5OY0_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "1efcbc324809cbd504ac7f67bda4570525502332cadea054e9f7c1daad6a3f98"
+    },
+    {
+     "scene": "5OY0_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "10dc48f38c7e5a956f4d14528ca127c033ee4402ccd41a398ed020f7ee2da3d7"
+    },
+    {
+     "scene": "5OY0_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "f113397dc31e0346398ea455255f479ae783b67f451468c09b80b9ccbf1f9ec7"
+    },
+    {
+     "scene": "5OY0_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "8c5b5e3d7617987ee80674ed8019117dbd3623ab258154d7bb924632adeb9cc3"
+    },
+    {
+     "scene": "5OY0_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "3bc66aa47dc0db21633c56bfde10b33597adeeb7341b475e1f676f33392e4004"
+    },
+    {
+     "scene": "5OY0_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "b477333dba00702b8d4bd797d30986e4f3f62f7f79e0a88cf6d9b618873d954d"
+    }
+   ]
+  },
+  {
+   "file": "5OY0_prot3_sheet02_v01.png",
+   "pdb": "5OY0",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "5OY0_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "c4914857c61a3d59a8506b8f37d146542e91239e04fe29b09a4fc9d57d008386"
+    },
+    {
+     "scene": "5OY0_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/5OY0/sections_5OY0_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Main 1.0/1.5 full-cell σ; difference ±3 σ. Section source coverage 100.0% .",
+     "sha256": "1377309157b19cefe96489f0c4c6bd8e936279ac8114376642690694eadc64f4"
+    },
+    {
+     "scene": "5OY0_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/5OY0/meshes_5OY0_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 1 full-cell sigma; display carve 2 Å. Difference ±3 full-cell σ.",
+     "sha256": "6e7c3d81a35ceed929a87de0cc969a8a66418c39ca02ae38882cbb555ef8c38b"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot1_sheet01_v01.png",
+   "pdb": "6KMW",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMW_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "b1e642e0a881e26d22eb4bfb9d17e6405c95e40d4344dad68037f4f4a2cd8020"
+    },
+    {
+     "scene": "6KMW_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "4d2cec653f312129b3f4351fe64c1de84160bb9c906d09d32cefba3e7be8976e"
+    },
+    {
+     "scene": "6KMW_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "f0389595bfb31454470fb2f2395e05d67468864a2826fa4cb56c7564432898c6"
+    },
+    {
+     "scene": "6KMW_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "cafe829f08fea73140cccaf40daacbe5d29cd69dc211aec1071915714a82aee0"
+    },
+    {
+     "scene": "6KMW_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ab5e0b9e9bd84e646da52473e19ef5dedac0dd5407037726ff19c2f9fc350400"
+    },
+    {
+     "scene": "6KMW_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "59b953c1fa9768632410e14cb140aa5400c57abe48e8380b9a8d1f92694ae671"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot1_sheet02_v01.png",
+   "pdb": "6KMW",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMW_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "826e18a6927f6b0d8c67bbf26bb8086c05e11fff42d6bd42b3618dbf10253002"
+    },
+    {
+     "scene": "6KMW_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f59f97f1ce3670c7b1a6c8ebe9b1d34bfeaa576f086153ee342bc91f4874c417"
+    },
+    {
+     "scene": "6KMW_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "47bc84243be9196f2e9901a8c34229ab91a95b6f0ec9f96daa51d0cdd6dc4118"
+    },
+    {
+     "scene": "6KMW_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "5ce5fa27cbdbfc3936342836a27deada3e4421da249d36e9d827ca7b551acde5"
+    },
+    {
+     "scene": "6KMW_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "2a2f70035f27bfd9c0cdbe925fd65d4f8b6cf18473d1d07eadcfb28e059d2092"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot2_sheet01_v01.png",
+   "pdb": "6KMW",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMW_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1af469dcccd56491bb5a450cc4521dc15b4e73f5ee69ba51f02266041468e2a3"
+    },
+    {
+     "scene": "6KMW_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "5c9b36ca5afcfe104e4c09cf6450336b077c3d62d3ef0c48a2bee9d216f47f34"
+    },
+    {
+     "scene": "6KMW_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "2a980b6cd9a1609e405d3a7793c9910e1a6d977ace8d639e02fd8818ede12b2c"
+    },
+    {
+     "scene": "6KMW_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "b9ef323bcb572db7765c81228bd16b261ffca678c7980d488b4a0d2dbc123199"
+    },
+    {
+     "scene": "6KMW_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "2cb56349b3f001006ab7c1edf81f2f072aa1d6b6bffc4ab84981664df631445e"
+    },
+    {
+     "scene": "6KMW_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "fa728cd9c8b41af1c15606c729470eb0b13af247abe01cd92679ff8a30532727"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot2_sheet02_v01.png",
+   "pdb": "6KMW",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMW_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "093a871abfee282a3a64ae539d97baee62af94bf24679999873854f7ebde17b3"
+    },
+    {
+     "scene": "6KMW_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "0a59e610fcee1ad6b65417aef52040369d66b6c4e244694fe9e141cb4732ae15"
+    },
+    {
+     "scene": "6KMW_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "da61d53c2184d9f7f1d0b4f861ac434cb038445c5b447a287284278e335b56d2"
+    },
+    {
+     "scene": "6KMW_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "26a3df926e8985cc5e4f8688651bbe207bb7da1c71561387a7208cd16e31a629"
+    },
+    {
+     "scene": "6KMW_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f2f766521e926b2f617b825f5e522029ff0d7209107e7327073a10638f3bad6f"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot3_sheet01_v01.png",
+   "pdb": "6KMW",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMW_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "505dbfe07d1099e1d06188b8b25eb43b1315f929089ea2042ab60dd93fabc09a"
+    },
+    {
+     "scene": "6KMW_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "72636f61dbebcac2c28eeeefd07527144717ebc68854c735ea2e97aadf8f6fec"
+    },
+    {
+     "scene": "6KMW_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "da6ff0e0eb631f2f446d3405e41b9c2f3751354da9fcf3d49a68aa4018057dac"
+    },
+    {
+     "scene": "6KMW_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "102978f11677ffb9efde27146e2c45fc20f402bdfbf6b2e090e368da9a1cc708"
+    },
+    {
+     "scene": "6KMW_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "12ecea81799f8a65b40041f89066c2a2920d4dd70168fb979150ae3c5a7e5940"
+    },
+    {
+     "scene": "6KMW_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "4ea640b4343536502ff949af39081f2b98eaeacf480e0257e1eae5136cdfd9c3"
+    }
+   ]
+  },
+  {
+   "file": "6KMW_prot3_sheet02_v01.png",
+   "pdb": "6KMW",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMW_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "fa269ee74c2954e5d2ef6f4f2bbd23e2f97955921c78ebab0d08d734e893e6f4"
+    },
+    {
+     "scene": "6KMW_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "013e643f3efa8e1e11df8634b164a94e514b23bd282255e00953a924ae4b2c90"
+    },
+    {
+     "scene": "6KMW_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "6418b48ead564027ba87131b56011d6821b2c4a845ced72a553bffeb43cc6fa1"
+    },
+    {
+     "scene": "6KMW_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMW/sections_6KMW_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1615559decbf25d4487d5a9390c0a9a79299edd5fd29beece95806eb4a300626"
+    },
+    {
+     "scene": "6KMW_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMW/meshes_6KMW_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "24be418947c35b56fcbad890bc52602e9d1bb1ac36b3f9562d7572d20fb2d76e"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot1_sheet01_v01.png",
+   "pdb": "6KMX",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMX_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "aa029e14f207bdbd3879c249666f60e150e373adec0820e73a7bbbfbd89063a7"
+    },
+    {
+     "scene": "6KMX_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "2e7383b523544cc8796acafa4e7e3c3d2b0b6aece37cf4f093516071f638e10c"
+    },
+    {
+     "scene": "6KMX_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "78f76b09c9b2b1623c6d0674eb2693c9cffc41d6cc1ccf15f65ad20ed546dbd8"
+    },
+    {
+     "scene": "6KMX_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "525e4a5fe03e64cea3b5dd4f7e769dd561eb4099226590f8371af796a207023b"
+    },
+    {
+     "scene": "6KMX_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1fb679bfb72817e8c287fcb6f70c6e8caacbf6de59a985fa57d1af13636c4d9d"
+    },
+    {
+     "scene": "6KMX_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "336df355f20f7733eea1c3fe5881f9ea38862d0f96442b9aa8323f909f857620"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot1_sheet02_v01.png",
+   "pdb": "6KMX",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMX_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "210359bf498b122bf6c8fa890f338aed7e525b69ddda794dab211f0419546b41"
+    },
+    {
+     "scene": "6KMX_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "1a6d12e7059ab1b9a804c6e49242708cab964cb4eba4d5506496ac78e4719cd9"
+    },
+    {
+     "scene": "6KMX_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "b16fd4547d678255e95b151c68667567b66cfe304f095b2f23c2dbfe40724fd7"
+    },
+    {
+     "scene": "6KMX_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "9c4c4e9005c1318f3480efa98eca490c810ff83efdf8cbc55cb601cfce3fbd2c"
+    },
+    {
+     "scene": "6KMX_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "dbb98a83cb189c124ff654712f7c61b733aa8c3bb7c6b28503f62626241c0b03"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot2_sheet01_v01.png",
+   "pdb": "6KMX",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMX_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "129bead8d4525c9979858b1790b4bcf345364c9b9d0411cc056963d099286b5f"
+    },
+    {
+     "scene": "6KMX_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "77c3db97df35633c56b8a4e80ad4580c915af51482cbca2c7d9b890f8fa5a291"
+    },
+    {
+     "scene": "6KMX_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "229582e1370ad2c46b3deb5d7fc3427f69ab79198030f0f778ec0b970a704dac"
+    },
+    {
+     "scene": "6KMX_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "582abcb05bb2a84e7e0fc2dc1efe6cc09c724e3c2ca72d3648efbb71667c60dd"
+    },
+    {
+     "scene": "6KMX_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d25c23944c8687e2676ac31b70d0fbc479490b02ae81d79498c5b17d1dc7cdfb"
+    },
+    {
+     "scene": "6KMX_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ff28786497af949d65b0cb15a79096793bdc24bba244b7249cdbc75053b4af30"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot2_sheet02_v01.png",
+   "pdb": "6KMX",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMX_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "16722586a62b14441c64c7323c4320317373cf92d097ddacac7238e7d93c11c5"
+    },
+    {
+     "scene": "6KMX_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "dd278cf68979b3c224c2f0ca20503c811dee8531bcc937b8a711a552259dd1b1"
+    },
+    {
+     "scene": "6KMX_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "32e754ee092c41bcc179cdbcddbbd4592e436154f8d039f0760b8198477ca0c7"
+    },
+    {
+     "scene": "6KMX_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "79213dd0c2ba111a098df74c4d2998759ef1149d280c6836ff3c8be2d492c3b2"
+    },
+    {
+     "scene": "6KMX_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "12d6547d6713661b16cdefa7be8d49947b44a9d3c744b6fc23039c2dac171d68"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot3_sheet01_v01.png",
+   "pdb": "6KMX",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "6KMX_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8431a464a8f2ae786176aea9ce820b0d124671182ba8e94a00a3b3cf9b2deada"
+    },
+    {
+     "scene": "6KMX_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "2449449abe2c10d0f40d943cf32ccc05eed338f9243c688d173b88180b127bb8"
+    },
+    {
+     "scene": "6KMX_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "c6f3b59268c8a474bb9ae875e29c5c8f4ddedd41c63bd6d0f64ca842861ef092"
+    },
+    {
+     "scene": "6KMX_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ec40a7f0df53f2f9e5ab6e55421e6cbd887d23f385e23ef2dcc89026dd82fb40"
+    },
+    {
+     "scene": "6KMX_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "82aa284a2e04a2f969abbca0d14a5659a5c09233b0a28bb952fc2941d3a75287"
+    },
+    {
+     "scene": "6KMX_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "68fc5a4f44663d7d398a04b57b091c187ddddd76105ebac543834dfd8f765d22"
+    }
+   ]
+  },
+  {
+   "file": "6KMX_prot3_sheet02_v01.png",
+   "pdb": "6KMX",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "6KMX_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "346beb8c07a8a9f8869042c51a9cea29209a1390edabd0ef7b3928e56d20dabb"
+    },
+    {
+     "scene": "6KMX_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.072 raw deposited EM units; display carve 2 Å.",
+     "sha256": "725bf6f262821f62249e4a02e2c3d0fcd2e79c3986fde5b06244364a55435e0f"
+    },
+    {
+     "scene": "6KMX_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "f7790c5bf8bf9c3aef4aa36b9ac29faee58a887208efc346d47decade086922b"
+    },
+    {
+     "scene": "6KMX_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/6KMX/sections_6KMX_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.06 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "91d7c36b036eb789364484eb96a536f4b2c4e65839cc626da76ac3e12cddf9ae"
+    },
+    {
+     "scene": "6KMX_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/6KMX/meshes_6KMX_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.06 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a3d927fa5712138da0e7157e5e6415a64e4c66bca999f42db2270b8bae3adccf"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot1_sheet01_v01.png",
+   "pdb": "7COY",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "7COY_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "027031260c7a23ef6c045ec38206e30298615ae883f2b5c33d7bb5f724fc289a"
+    },
+    {
+     "scene": "7COY_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ced429af28cb1be7349cbb4e77322dfb8fbc5eeb9d310f319920dd602ad42bfc"
+    },
+    {
+     "scene": "7COY_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "fd3725508e16a6cefef3a634cdec4de18591226af1c7c856fae3948a2a624fba"
+    },
+    {
+     "scene": "7COY_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "5e094802e6a6b7a6221f1bfd24a7ce9a6e2361177e26a992a3f65160bce28248"
+    },
+    {
+     "scene": "7COY_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ee704c6d4d51fc9d63fe3e22697179dddf56a7fe97130e44b206d3bb02364f5f"
+    },
+    {
+     "scene": "7COY_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "9f61ef37ea70b9492217dd8e51a4596ae8b551ba612821de30e8134ceacb5412"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot1_sheet02_v01.png",
+   "pdb": "7COY",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "7COY_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "8813c9257d365f40b3f70746863eecfedc3236e595a4fcb06bbab6170c33914a"
+    },
+    {
+     "scene": "7COY_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.007644 raw deposited EM units; display carve 2 Å.",
+     "sha256": "06c62f169b8411d68e553c328bb547144d6ffcdd570fe47cba190206f5ad5fa0"
+    },
+    {
+     "scene": "7COY_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "5244764eeb5cc1102212a64603087358fab585ef20c5527589bfc9a79a7c8fa1"
+    },
+    {
+     "scene": "7COY_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "19d584b5afdff13e886ee58e76b47dc10e48ce71ab76a7d25d0548354f49d26b"
+    },
+    {
+     "scene": "7COY_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "3fa833a589606d021c73da2692e64a89c9f69782a8d31bdbe49ea2d876725232"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot2_sheet01_v01.png",
+   "pdb": "7COY",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "7COY_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "96f57cf1524ece93fb23ed9c166e5cd2646e6d0b9325f10acabff5f67d8b7c04"
+    },
+    {
+     "scene": "7COY_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "61a9fcff2b4ed00ab9a8551e227d51519aa9fdddc3e3cfc7bc129571342d6ad9"
+    },
+    {
+     "scene": "7COY_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "650abf47646956250de3ef96bd94059e6c820aacfb99548422d3a7f0067c8e06"
+    },
+    {
+     "scene": "7COY_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "22137f69d8981353176b9e25a7a6a9fbb0d0ce8f0986408e3b3110864de240a2"
+    },
+    {
+     "scene": "7COY_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "f812b8a381b666b6e7416163b7678a2b473c7a5cd4c7d07ccb9266b5ba2f2e4c"
+    },
+    {
+     "scene": "7COY_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "05b6ecde9c840353334536383f0edd3a55f26908a785ab3912470862204e2a04"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot2_sheet02_v01.png",
+   "pdb": "7COY",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "7COY_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "eb496b437be575cc38eb175c838217ce99546361b846a0574b8eacba13a6597a"
+    },
+    {
+     "scene": "7COY_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.007644 raw deposited EM units; display carve 2 Å.",
+     "sha256": "50fb0a3906980ed9e46317146a2d8cd4f4acf6ceaffb3773bab910621ca21d4a"
+    },
+    {
+     "scene": "7COY_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "b66a6a186bd409dcd1ec8aac26d46dea5a2d5225b467f28ea7af19e7b68e6040"
+    },
+    {
+     "scene": "7COY_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "e58a530e069e0f8f16012c2f030bb03e66b4c8e202e054790d4f201aad0c3e66"
+    },
+    {
+     "scene": "7COY_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "3fb0e1fbfe53a9ea32ee6ec9c4fa1fe953baa5409824f00d696647433e4b137d"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot3_sheet01_v01.png",
+   "pdb": "7COY",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "7COY_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "53e120e27788f8fa9771b927d6406325ef9ddfce5ee150c75c6caa87cc0dccdc"
+    },
+    {
+     "scene": "7COY_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "85561eef1b6f603bdb46b9b4b774c75d960bc91aa675603ff80daf8da41bb3ce"
+    },
+    {
+     "scene": "7COY_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "cad4b5f0bf039edcc0c06906b9d78262dd7f02b966fff264228a685e21ef0c8a"
+    },
+    {
+     "scene": "7COY_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "4f19a1098484e00de7881e8755432c3042fcea4617a078bad6604a8f86a918c8"
+    },
+    {
+     "scene": "7COY_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "600c1513bc7a0336370403155cf12d05d4bca08eec72cd2e6d651fff713f8703"
+    },
+    {
+     "scene": "7COY_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "b7fc14d330bab036b9ba8b2688b89727bd554dc2d8c10f12ab219debfa2026f0"
+    }
+   ]
+  },
+  {
+   "file": "7COY_prot3_sheet02_v01.png",
+   "pdb": "7COY",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "7COY_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a72bca350c75dcdce4c99eceaafe583840af0ae16c24f616df5e7782f479cb3b"
+    },
+    {
+     "scene": "7COY_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.007644 raw deposited EM units; display carve 2 Å.",
+     "sha256": "0cfaa6e247ee57ca0d39e4001300e832304b4a5f9079f065a45b0a6d76b103aa"
+    },
+    {
+     "scene": "7COY_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "2271ad2e0d53d453ea39d2b9c54b12833b213f84d50467fdfd1411ff988b0716"
+    },
+    {
+     "scene": "7COY_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/7COY/sections_7COY_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.00637 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1dc8dc18fefb8d585eec07a36cd4d17f527a06ad80914b40f178da808d1711fa"
+    },
+    {
+     "scene": "7COY_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/7COY/meshes_7COY_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.00637 raw deposited EM units; display carve 2 Å.",
+     "sha256": "4b07498da57d1d2e6f864372c52e1c963b7865f50ebb82717bdec439341e2288"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot1_sheet01_v01.png",
+   "pdb": "9EYS",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9EYS_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "5885e4f3316c6cbfa7fa9b56a365363c055c1ed2cf15558ecb1e1be8bfdfb896"
+    },
+    {
+     "scene": "9EYS_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "e97246fbdfee50a1c0994eaf65a2f8de404d428eeeb029306e54de5db8461f1a"
+    },
+    {
+     "scene": "9EYS_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "07138f49ae573a50608d9742315bc32f043a8e16836e617630b93464f1a067b1"
+    },
+    {
+     "scene": "9EYS_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "100851e53ae7e5068faa524236276ba75bc0fd881790b3cd8116801dcc074dde"
+    },
+    {
+     "scene": "9EYS_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "991e8090056c88537036efb08d9521e7b0c626c21910bade9454538fa5724b75"
+    },
+    {
+     "scene": "9EYS_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "b394fae8db12c6d99d1f83ff0bf686fead8e19d0069c86572c5b025e62060c1b"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot1_sheet02_v01.png",
+   "pdb": "9EYS",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9EYS_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "e4e92a6cbd5a7745e7cd4f4f31d5e597f29381f2bbc07854e82831e691890123"
+    },
+    {
+     "scene": "9EYS_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.0648 raw deposited EM units; display carve 2 Å.",
+     "sha256": "00d0d6d8f8e256fdcecb0e1f04579cfb66874055303d6df728e072fb1f9526db"
+    },
+    {
+     "scene": "9EYS_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "c21269b654176e03f2f638046395c1c4062533e0d13541a396e0548c3290686a"
+    },
+    {
+     "scene": "9EYS_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8bd1b81384c7b7604859d7487e18b5b4e1aae3d120a9606ba4c173d376002d56"
+    },
+    {
+     "scene": "9EYS_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "75989837e406b4af12dd67bc2e128bdecfe4f1bc716aab9bc31a726f4e4f34f0"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot2_sheet01_v01.png",
+   "pdb": "9EYS",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9EYS_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ddea2db5d4ee87cfde44028b071ec05d4d1ad9f5b8e1a83bd7a3c2b008ead487"
+    },
+    {
+     "scene": "9EYS_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "b487d6298b9f791dc9fe7e5b3b6fe5762f936df1b3c5a51938ab68a00fa548d4"
+    },
+    {
+     "scene": "9EYS_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "263a46df5b7c5a404eeb318f70a440ec7044bac50418400ac3c8a137fbdc4d81"
+    },
+    {
+     "scene": "9EYS_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "23a7547ed14216f02067020c294f51f2a6754a46f33e3e9363d02924883a3891"
+    },
+    {
+     "scene": "9EYS_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "68f42763a7f1f9a842169ac775169c1d0c1a3cf9a89e7a9a1e74fcc70ff860cf"
+    },
+    {
+     "scene": "9EYS_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "716fa7d5846f82d9286856144c30d58f5e4c508c94bded1cc5044879c0ef2237"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot2_sheet02_v01.png",
+   "pdb": "9EYS",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9EYS_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f46f40c3c9938086d6b51f0d2f7b67d9d8d5109e3a42696f909a8033596e2a1b"
+    },
+    {
+     "scene": "9EYS_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.0648 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a55e70723474c51119d3943057de5c025f1331a976690227d6900d1b30a7f437"
+    },
+    {
+     "scene": "9EYS_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "c24d365addc8238acf998e9a3da2bbabd471e3dcb9193f1718f17813185b8e74"
+    },
+    {
+     "scene": "9EYS_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8f142fcad3b2ce8321e61af7cbb9bb5f03374314c708e3736035fcd839aba5f9"
+    },
+    {
+     "scene": "9EYS_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f4c8e686f461766b9708a32b04a4d76f8b980ac097a63874de12bcb228857da8"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot3_sheet01_v01.png",
+   "pdb": "9EYS",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9EYS_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "0bce770ef5cb59f90d46dbda43d44bb8c18c15ddabea661bc24433fd76f9c0e3"
+    },
+    {
+     "scene": "9EYS_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "0c7eed8d185a68572aec673c6025a92d18b8d40527883eb95da054200c04c561"
+    },
+    {
+     "scene": "9EYS_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "da5fb107294f982c17a2a66b16eaa453f5f62a7a6ef41bfddd87aca0a1c4646d"
+    },
+    {
+     "scene": "9EYS_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "41e97acd3157f1fd12aad6382d8d447caf1ceb795ca411caa4f8f0f859b75b9e"
+    },
+    {
+     "scene": "9EYS_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "a9445a59604f8b5d716d2e51611bf180c8ea1ae02e70c09b332a8169e8ac9e3d"
+    },
+    {
+     "scene": "9EYS_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "4205c8203a75916395750ce43a991f59aa659853a493f4a09fcbbade81027fae"
+    }
+   ]
+  },
+  {
+   "file": "9EYS_prot3_sheet02_v01.png",
+   "pdb": "9EYS",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9EYS_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "af628f3662df044726f79b5fad284add36e4ab184bcdbe5ba7c6698c6799024e"
+    },
+    {
+     "scene": "9EYS_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.0648 raw deposited EM units; display carve 2 Å.",
+     "sha256": "e48aaa9bb0f9086f730132ff6757dd94093263da7c9af6f146959c88674beb2b"
+    },
+    {
+     "scene": "9EYS_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "12d38e31d82442565d4ad0ea9816b98439a6d28fa5701196f8422d89f46509d0"
+    },
+    {
+     "scene": "9EYS_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9EYS/sections_9EYS_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.054 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "6d0c8b97162e3070b2e604615816142f2f6d4935b00dca71e58ce11c7d80d867"
+    },
+    {
+     "scene": "9EYS_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9EYS/meshes_9EYS_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.054 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ee2d4c67b895311f76517b51a5bc00695cbda1487fe39d2168d67f4f5e2331b3"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot1_sheet01_v01.png",
+   "pdb": "9I9L",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9I9L_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8d20fa2e73fb22614e7c2c53aefe7865f5ed559043378c60859848b3864eb434"
+    },
+    {
+     "scene": "9I9L_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "1fddc938190b6c656236df569c916853b7aea6afd9174d02f740e202e134ed12"
+    },
+    {
+     "scene": "9I9L_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ccd1dd81430074cec2eb4ae353b6217d474f42c0612a7be209ee00a85c5b1f5e"
+    },
+    {
+     "scene": "9I9L_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "d4f069e69b452ba1665d7a675a94123b571ed5560d50895e899c6f2ba1cdfc1e"
+    },
+    {
+     "scene": "9I9L_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "63e696d1c52b8989d51f25a418e543b7a7782f7e730af0a23ff45ef0738d7347"
+    },
+    {
+     "scene": "9I9L_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "4ee7e45940ecf5ddfa53e092f5f3838b1d59495d4af6d6cc617a5bb4b34dc62d"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot1_sheet02_v01.png",
+   "pdb": "9I9L",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9I9L_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "625c00162cd9682d9c326b4971153dadae3817e36521382d7d956f9ab70950ca"
+    },
+    {
+     "scene": "9I9L_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.156 raw deposited EM units; display carve 2 Å.",
+     "sha256": "2cab8ac4a998f8a72e999ecebd33d4a34ec4b93bb07cd8d4981847d95ff929c6"
+    },
+    {
+     "scene": "9I9L_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "05355893c332cb50c99c114cd087e3f89d272ce381cb9193047a043f6ac4ccbb"
+    },
+    {
+     "scene": "9I9L_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "e5d6a3639e4c5ed18e7de081c238212eeaa91d2723909167c639164203332d3c"
+    },
+    {
+     "scene": "9I9L_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "3709a861fb0872370c95695d6bc98d2d5b3e6798b96995b8fbfd8960a0db12f2"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot2_sheet01_v01.png",
+   "pdb": "9I9L",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9I9L_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "cdf6b2f9556eaebb0095dbdd385d1bb7a85406d0b6d4406306719ee3dfb3b4d2"
+    },
+    {
+     "scene": "9I9L_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "464c23c6eee0b906218c19abf3a4dae1f2c2aade94f6c9332bf4a8dbe9ca39f3"
+    },
+    {
+     "scene": "9I9L_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d06413001c9903790c1688cb526462e336b5e84456d7624488e9fb6948b500c5"
+    },
+    {
+     "scene": "9I9L_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "68451a7d9764e636261ede63ea159e0a9a514086145bbb4ac80775602314ad8c"
+    },
+    {
+     "scene": "9I9L_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "131a63229767204d6723111785c001e172e3654f47117ff0d71335d84500db5a"
+    },
+    {
+     "scene": "9I9L_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "257c6c84017123d44bd3582fcab9c62071c700ceae0d15670a3a6a72819ef12c"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot2_sheet02_v01.png",
+   "pdb": "9I9L",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9I9L_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "33821cf33741af77e54449e841f70d6b7ca0d070cf197c2138e52e3ace57c2ec"
+    },
+    {
+     "scene": "9I9L_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.156 raw deposited EM units; display carve 2 Å.",
+     "sha256": "b7ad1f5ea57f307deff3ebb7b187e495aac8e72d937d93dc62850cc2112ffa82"
+    },
+    {
+     "scene": "9I9L_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "ac27c878340379d1fca47b98830e5d524721157504c50048323212fca04b852c"
+    },
+    {
+     "scene": "9I9L_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "c2771383351a68f6fe08a342163b0a9f80e7c42becd69a357ebe338e9569143e"
+    },
+    {
+     "scene": "9I9L_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "085645789372ab8d359f14775fd437b4bdda96a53a1cc0f5aaab12650fb44d9a"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot3_sheet01_v01.png",
+   "pdb": "9I9L",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9I9L_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "9dde94e5272f065c4fa9710975f542eabe64e8924ccb591acb31f96bd657ad7c"
+    },
+    {
+     "scene": "9I9L_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a6e44340a7fd39686beabb69f186234b69ae70ddcde43cadd45c3949cec78c88"
+    },
+    {
+     "scene": "9I9L_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "a28f79a01e624c681be103c3940c8436cd683d7aad2a8445dd26861bc4fd65ea"
+    },
+    {
+     "scene": "9I9L_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "5ae8c60b97a9ff89497e3c1a4df189d7d00195dbcff5fb539c072431691f63b9"
+    },
+    {
+     "scene": "9I9L_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "08c14e17deb997325d6e8d5e1ac1f602b95b310e34a71d9c1c4b50014c1c77a5"
+    },
+    {
+     "scene": "9I9L_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "3edea6f0d1c9418c9abb12cc5844e7c3f73af0f7129c6807a4bbfb3664904999"
+    }
+   ]
+  },
+  {
+   "file": "9I9L_prot3_sheet02_v01.png",
+   "pdb": "9I9L",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9I9L_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "fd3c96c68782f376fb8c3f65f71707e344f238467be20d621d5b2acbc9c8f48b"
+    },
+    {
+     "scene": "9I9L_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.156 raw deposited EM units; display carve 2 Å.",
+     "sha256": "1737e9424ea6fab309f4612a209ff7f9efcc8292714f649b1ccf4021e3595823"
+    },
+    {
+     "scene": "9I9L_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "2d4ebab395c51b397199b66584cd0d423ddad3e4f5ed474b17aadad8b6391e0f"
+    },
+    {
+     "scene": "9I9L_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9I9L/sections_9I9L_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.13 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1deeec7e2033f0e417059a5fd99a62ded8a13e3b0e31b4116d6f9d7d105511a1"
+    },
+    {
+     "scene": "9I9L_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9I9L/meshes_9I9L_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.13 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ff97c5c5fd499ffd3d88da647d2278824a48628b9db7b02232155ab05d33614c"
+    }
+   ]
+  },
+  {
+   "file": "9QFP_prot1_sheet01_v01.png",
+   "pdb": "9QFP",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9QFP_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "a881fae54bfdc77300546269a2c099c8655b85cc145a166023dc62d2c203dedd"
+    },
+    {
+     "scene": "9QFP_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9QFP/meshes_9QFP_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.08 raw deposited EM units; display carve 2 Å.",
+     "sha256": "64d6d82816d6b347e00ce7c1d19de41ebdfcb348e86b9f9251c0d551bfea0246"
+    },
+    {
+     "scene": "9QFP_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "4807ed247636bf4688946be86f577a0d329bbf873ab55ca6cee0ec72f131f297"
+    },
+    {
+     "scene": "9QFP_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9QFP/meshes_9QFP_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.08 raw deposited EM units; display carve 2 Å.",
+     "sha256": "bfa0ceb6b74c3a8b90b25412c87b1991aad1b781fdd837bd4af3aaae1fd78ea7"
+    },
+    {
+     "scene": "9QFP_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "9f433e68216c7468553d08600193a7519ab83f979e67d415ed14daef5d39b9c5"
+    },
+    {
+     "scene": "9QFP_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "510d12310f7a8e664edb984d716b535835dbd827ad01101a50ae2d232bf7858b"
+    }
+   ]
+  },
+  {
+   "file": "9QFP_prot1_sheet02_v01.png",
+   "pdb": "9QFP",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9QFP_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9QFP/meshes_9QFP_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.08 raw deposited EM units; display carve 2 Å.",
+     "sha256": "2654874fade2b7866b72e2b45678bd232d2efbc12acf57c93add9f7dd7725788"
+    },
+    {
+     "scene": "9QFP_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9QFP/meshes_9QFP_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.096 raw deposited EM units; display carve 2 Å.",
+     "sha256": "3390f2c0cb057e03fb850f45e47ea7419850f4a1f38f3f23ac7ad841ee035d4f"
+    },
+    {
+     "scene": "9QFP_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8a384994096159395834ac4548ffba36e401feffdad8cad324bd735126267a77"
+    },
+    {
+     "scene": "9QFP_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9QFP/sections_9QFP_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.08 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "386afdb1454aacb86b25f6a0d92b9d4d6afd9d5177859891dc214e9b1db85f99"
+    },
+    {
+     "scene": "9QFP_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9QFP/meshes_9QFP_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.08 raw deposited EM units; display carve 2 Å.",
+     "sha256": "3b274a4f0c728a74e86e29216ef86e28f55b96ca7e9fc7bfb4c5cd67264bc0cb"
+    }
+   ]
+  },
+  {
+   "file": "9S6P_prot1_sheet01_v01.png",
+   "pdb": "9S6P",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9S6P_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "3af4b1def058aae2417065ea3f4b67c47a9a09c694bdcac8c30523b60450134b"
+    },
+    {
+     "scene": "9S6P_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9S6P/meshes_9S6P_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.2 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f6ebb30fe910b73a0d5a75fdc833473a0d2491d87b2ced6468f286c08e00ff43"
+    },
+    {
+     "scene": "9S6P_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "1bbd0c52b072fece118a3d1ecf6f461a91a8ad0d680a7971dbc3f65bf72f3070"
+    },
+    {
+     "scene": "9S6P_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9S6P/meshes_9S6P_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.2 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ae4f4f2afb43c84dc95d829d38fd8e311def477d12580342166268f5362f6c42"
+    },
+    {
+     "scene": "9S6P_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "063b2676ead84bf84710233b9e2db89b51f8747fcc09f2d70c6ce9df3031a2d0"
+    },
+    {
+     "scene": "9S6P_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "7364f6a0d4bb84807bec688d5c5a17dde5d503041b84ab8eea342e1e08f41e3a"
+    }
+   ]
+  },
+  {
+   "file": "9S6P_prot1_sheet02_v01.png",
+   "pdb": "9S6P",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9S6P_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9S6P/meshes_9S6P_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.2 raw deposited EM units; display carve 2 Å.",
+     "sha256": "91c3d46079173e2f0ef187808bf77093701da16200778a05c12131adc5576972"
+    },
+    {
+     "scene": "9S6P_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9S6P/meshes_9S6P_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.24 raw deposited EM units; display carve 2 Å.",
+     "sha256": "bad03c18e4b5cf9d33e4086e9d2174fffd09b3600340446ac0a0e5dc32c8eca7"
+    },
+    {
+     "scene": "9S6P_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "3a867a55f086db2108ba52bb9c3f6f184bb32d215b8a1cbd1b80e37e30974cf8"
+    },
+    {
+     "scene": "9S6P_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9S6P/sections_9S6P_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.2 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "431cd0cddadfc273669e0fe72922998d70e44952067f5deef57c81902451020c"
+    },
+    {
+     "scene": "9S6P_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9S6P/meshes_9S6P_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.2 raw deposited EM units; display carve 2 Å.",
+     "sha256": "07b699d010cab60abb4e0ce8753d7da07fd628a9f7a6500eb44b29ceaf1d56a9"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot1_sheet01_v01.png",
+   "pdb": "9SK3",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9SK3_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "afa7c9b2de004bc68d9d626ebc0cbdd12a698aca2fcead91f8335437102d3be2"
+    },
+    {
+     "scene": "9SK3_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "bebb644ff82b3416dfd64e21a95897d5e05bc72a8e9fa5bd97603c3bc31c6c0c"
+    },
+    {
+     "scene": "9SK3_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "237a2ac320e7c37aa7aa15a00dd85f0675bd2a2510ed588ea9e1cbdc462db1fb"
+    },
+    {
+     "scene": "9SK3_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "b0ef94e4b7cfe2f2c67cb6dc2962b31d89719dfef31ba5669525dd158dbcbfc8"
+    },
+    {
+     "scene": "9SK3_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d376d432a70114a23c218a170df5a14073a0366c804f391a5ee40c566f81b0bb"
+    },
+    {
+     "scene": "9SK3_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "83817c0e88cca36f113533befba1eaac89c3666f630cf0e62460b09a6d894859"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot1_sheet02_v01.png",
+   "pdb": "9SK3",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9SK3_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "77212bb641778331ac340338ee8d97008605bff0659a56735c1e965402a2363a"
+    },
+    {
+     "scene": "9SK3_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.12 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a1859d0ec6e984e2957cc877054c4a6cabb433acb5f5236513db74758470f11b"
+    },
+    {
+     "scene": "9SK3_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d23fbe49dbbc6f91a851fcfe5fdf5a1153849028382501bea5402409b5d0f481"
+    },
+    {
+     "scene": "9SK3_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "56d1b72a63f5a256d889aa1ed666fffcccdd73f95b7e86dd08295b09c9bd5679"
+    },
+    {
+     "scene": "9SK3_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "dcdca17bdbe2fa28735881f5dd6b01c73ad4f39dc584e4c5204ded889b85b7ab"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot2_sheet01_v01.png",
+   "pdb": "9SK3",
+   "protomer": 2,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9SK3_prot2_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_A1A_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "e9493235508523b4d1a9c1c2c154e5dcaea333b7ccaab3e0c95cf0c22d39d1f7"
+    },
+    {
+     "scene": "9SK3_prot2_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot2_A1A.png",
+     "label": "Protomer 2 · Primary contour · A1A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "25e015164e874d3cd4ce59619e51ec761cc70bccb07f663111e838a49ac1a8f2"
+    },
+    {
+     "scene": "9SK3_prot2_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_A1B_quinone_plane.png",
+     "label": "Protomer 2 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "c490d4bf67915a500811c6404824625f9e0e9d23f90ff6e7c4acf8790e4c8f2f"
+    },
+    {
+     "scene": "9SK3_prot2_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot2_A1B.png",
+     "label": "Protomer 2 · Primary contour · A1B",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "87d4c3d225376cf306318864be33b9715341347020d37b20f58fd0c30055fd96"
+    },
+    {
+     "scene": "9SK3_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_P_A_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "89d53b339b34c893699e7969742f77c27a7661fd181aa43bff3a43b5ca0b9ec2"
+    },
+    {
+     "scene": "9SK3_prot2_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_P_A_site_water.png",
+     "label": "Protomer 2 · site water",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "45648a5a4b618f648777630522dc70be1b51d692d194599bdea0ad1eb6e0aab9"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot2_sheet02_v01.png",
+   "pdb": "9SK3",
+   "protomer": 2,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9SK3_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot2_P_A.png",
+     "label": "Protomer 2 · Primary contour · P A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "77a3a78d1049ffa1386e0728ee2d90f7fc96c65c83d5c789b61636a96eb9face"
+    },
+    {
+     "scene": "9SK3_prot2_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot2_P_A_higher.png",
+     "label": "Protomer 2 · Higher contour · P A",
+     "caption": "Primary map at 0.12 raw deposited EM units; display carve 2 Å.",
+     "sha256": "8c2971b5f8409c09b19fd723f68c23e6529f2f753bdc66471a5d34ddf38acb2e"
+    },
+    {
+     "scene": "9SK3_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_special_pair_P_A_ester.png",
+     "label": "Protomer 2 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "e7231318475c0aa92b6232511f7f2dfc8c97501ebb46fe4b5e9ca4d7904561b0"
+    },
+    {
+     "scene": "9SK3_prot2_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot2_special_pair_P_B_ester.png",
+     "label": "Protomer 2 · P B ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "9a807f4836b57546e450dc91cea63d3fc8ce75b4050dda5b2e9d4bdd6aa88ccd"
+    },
+    {
+     "scene": "9SK3_prot2_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot2_special_pair.png",
+     "label": "Protomer 2 · Primary contour · special pair",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "1e3ebd9e4e9742c02af9d30206906d38749068961c3f3797c7a306e514c3a5d2"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot3_sheet01_v01.png",
+   "pdb": "9SK3",
+   "protomer": 3,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9SK3_prot3_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_A1A_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "2c0393f5908aaf44bd238e33063dc057b27b00c3bd5175e4620ffa5a00186963"
+    },
+    {
+     "scene": "9SK3_prot3_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot3_A1A.png",
+     "label": "Protomer 3 · Primary contour · A1A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "f2281f01651675fff8ba7ad1b2584a3e9db691b8d65031b93f2bf16029679787"
+    },
+    {
+     "scene": "9SK3_prot3_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_A1B_quinone_plane.png",
+     "label": "Protomer 3 · quinone plane",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "0bacb42d453b95924c145ce288332dc47844f5f74471d7334cc9ed65b32d77ee"
+    },
+    {
+     "scene": "9SK3_prot3_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot3_A1B.png",
+     "label": "Protomer 3 · Primary contour · A1B",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "44ecd206a39a1e397a84c05651372d8420737b3b75818aa284fb62cc8d332d87"
+    },
+    {
+     "scene": "9SK3_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_P_A_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "7a5a1515a7a311ebb1dca79f34d0ce41ce5e1115beb6e8048aa872d0b9f4efcb"
+    },
+    {
+     "scene": "9SK3_prot3_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_P_A_site_water.png",
+     "label": "Protomer 3 · site water",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d4a6939852a8487f6be597848be1352a8c044f602eedbd252b4b5bddc1a30295"
+    }
+   ]
+  },
+  {
+   "file": "9SK3_prot3_sheet02_v01.png",
+   "pdb": "9SK3",
+   "protomer": 3,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9SK3_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot3_P_A.png",
+     "label": "Protomer 3 · Primary contour · P A",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "0014dcca93d6d69f79892a690d178b0abace223d4c1b44084643e10604a04bc6"
+    },
+    {
+     "scene": "9SK3_prot3_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot3_P_A_higher.png",
+     "label": "Protomer 3 · Higher contour · P A",
+     "caption": "Primary map at 0.12 raw deposited EM units; display carve 2 Å.",
+     "sha256": "a91461c9621f44f13c36d6326da9d516d94bdc2d80da921c9ea56405e6a38587"
+    },
+    {
+     "scene": "9SK3_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_special_pair_P_A_ester.png",
+     "label": "Protomer 3 · P A ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d96a19b5477e2346ec4718c58e0f6c9d9c7a30ac39eac7c773fa63dbc02e90a6"
+    },
+    {
+     "scene": "9SK3_prot3_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9SK3/sections_9SK3_prot3_special_pair_P_B_ester.png",
+     "label": "Protomer 3 · P B ester",
+     "caption": "Author level 0.1 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d98e67c1882de399103b78ecfb3b74ac3b377c265f546e299af5ef5c5548cded"
+    },
+    {
+     "scene": "9SK3_prot3_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9SK3/meshes_9SK3_prot3_special_pair.png",
+     "label": "Protomer 3 · Primary contour · special pair",
+     "caption": "Primary map at 0.1 raw deposited EM units; display carve 2 Å.",
+     "sha256": "bd495920f4065bacb939c37939f67722c4dabc7a6f38584622400e7686923593"
+    }
+   ]
+  },
+  {
+   "file": "9YL7_prot1_sheet01_v01.png",
+   "pdb": "9YL7",
+   "protomer": 1,
+   "page": 1,
+   "figures": [
+    {
+     "scene": "9YL7_prot1_A1A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_A1A_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "99f3bdda7a2b25aa1c5ad36b0abe6d7c6870ffea08541c47b810ec6c18fde01f"
+    },
+    {
+     "scene": "9YL7_prot1_A1A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9YL7/meshes_9YL7_prot1_A1A.png",
+     "label": "Protomer 1 · Primary contour · A1A",
+     "caption": "Primary map at 0.0353 raw deposited EM units; display carve 2 Å.",
+     "sha256": "9acd1e001ea7402aaab0949b9cecf2f0e20f68cfaddda924d5e1b4fac37db664"
+    },
+    {
+     "scene": "9YL7_prot1_A1B",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_A1B_quinone_plane.png",
+     "label": "Protomer 1 · quinone plane",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "8c96ede4e5bf9d70f1d33a12129dddf750aa10e75ca41b603ea0509556cf01b0"
+    },
+    {
+     "scene": "9YL7_prot1_A1B",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9YL7/meshes_9YL7_prot1_A1B.png",
+     "label": "Protomer 1 · Primary contour · A1B",
+     "caption": "Primary map at 0.0353 raw deposited EM units; display carve 2 Å.",
+     "sha256": "ef5505db8b09f4bc16a436ff8f0c45f4d2a90819f94305c1df3bcbee3d03db7d"
+    },
+    {
+     "scene": "9YL7_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_P_A_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "e8dcee0907bf367179b1483bdc79f244b0c7ee027f7bfa1b9953825ef01784df"
+    },
+    {
+     "scene": "9YL7_prot1_P_A",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_P_A_site_water.png",
+     "label": "Protomer 1 · site water",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "209f1020cecb92f94d19cb22dcf8a61daa6bc150cc13ca51e5e427842f917b8d"
+    }
+   ]
+  },
+  {
+   "file": "9YL7_prot1_sheet02_v01.png",
+   "pdb": "9YL7",
+   "protomer": 1,
+   "page": 2,
+   "figures": [
+    {
+     "scene": "9YL7_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9YL7/meshes_9YL7_prot1_P_A.png",
+     "label": "Protomer 1 · Primary contour · P A",
+     "caption": "Primary map at 0.0353 raw deposited EM units; display carve 2 Å.",
+     "sha256": "7dca8cfe8b0a050d013ba7b9bcadc16899cada7c25e6ecc6efb5338cb1564167"
+    },
+    {
+     "scene": "9YL7_prot1_P_A",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9YL7/meshes_9YL7_prot1_P_A_higher.png",
+     "label": "Protomer 1 · Higher contour · P A",
+     "caption": "Primary map at 0.04236 raw deposited EM units; display carve 2 Å.",
+     "sha256": "6b37b89e36834c67632c7e0adb7a55c055ecd8e5730806ed9f20b5abe5c74946"
+    },
+    {
+     "scene": "9YL7_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_special_pair_P_A_ester.png",
+     "label": "Protomer 1 · P A ester",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "4ba6d406c010644a8de153303506b4b31838fd6162d549b108699d8824832148"
+    },
+    {
+     "scene": "9YL7_prot1_special_pair",
+     "kind": "sections",
+     "src": "media/density_all_protomers_v01/9YL7/sections_9YL7_prot1_special_pair_P_B_ester.png",
+     "label": "Protomer 1 · P B ester",
+     "caption": "Author level 0.0353 raw units; contours 0.8/1.0/1.2 × that level. Section source coverage 100.0% .",
+     "sha256": "d5973c3a911f37278fe770d6df0bc620403a0246922f04d58f75cb2d161e0a61"
+    },
+    {
+     "scene": "9YL7_prot1_special_pair",
+     "kind": "meshes",
+     "src": "media/density_all_protomers_v01/9YL7/meshes_9YL7_prot1_special_pair.png",
+     "label": "Protomer 1 · Primary contour · special pair",
+     "caption": "Primary map at 0.0353 raw deposited EM units; display carve 2 Å.",
+     "sha256": "68cfaacca7965c19da6dd9db21d4450d419d2e0b4e3b89df8b04990e253ac6e5"
+    }
+   ]
+  }
+ ]
+}

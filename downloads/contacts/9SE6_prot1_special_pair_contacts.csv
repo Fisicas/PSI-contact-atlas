@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SE6.p1.CL0:A:802:O1A~TYR:A:731:OH,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:O1A,TYR:A:731:OH,JF,G,2.79623,polar,donor–acceptor compatible,derived by homology,1.0,1.0,9.05,3.55
+9SE6.p1.CL0:A:802:OBD~THR:A:739:OG1,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:OBD,THR:A:739:OG1,JF,G,2.95064,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.91,6.33
+9SE6.p1.CL0:A:802:O2D~THR:A:739:OG1,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:O2D,THR:A:739:OG1,JF,G,3.28366,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.94,6.33
+9SE6.p1.CL0:A:802:O2D~TYR:A:600:OH,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:O2D,TYR:A:600:OH,JF,G,3.28007,polar,donor–acceptor compatible,derived by homology,1.0,1.0,6.94,6.86
+9SE6.p1.CL0:A:802:O2D~HOH:A:984:O,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:O2D,HOH:A:984:O,JF,PM,3.46340,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,6.94,5.37
+9SE6.p1.CLA:B:803:O2A~TYR:B:718:OH,9SE6_prot1_special_pair,9SE6,1,special_pair,CLA:B:803:O2A,TYR:B:718:OH,QH,H,3.82981,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,12.45,9.66
+9SE6.p1.CLA:B:803:O1D~TYR:B:722:N,9SE6_prot1_special_pair,9SE6,1,special_pair,CLA:B:803:O1D,TYR:B:722:N,QH,H,2.99655,polar,donor–acceptor compatible,derived by homology,1.0,1.0,7.23,5.67
+9SE6.p1.CL0:A:802:MG~HIS:A:676:NE2,9SE6_prot1_special_pair,9SE6,1,special_pair,CL0:A:802:MG,HIS:A:676:NE2,JF,G,2.29794,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,4.88,3.16
+9SE6.p1.CLA:B:803:MG~HIS:B:655:NE2,9SE6_prot1_special_pair,9SE6,1,special_pair,CLA:B:803:MG,HIS:B:655:NE2,QH,H,2.30724,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,5.63,5.4
+9SE6.p1.CLA:B:803:O2D~HOH:B:933:O,9SE6_prot1_special_pair,9SE6,1,special_pair,CLA:B:803:O2D,HOH:B:933:O,QH,QM,4.93599,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,9.15,14.04
+9SE6.p1.CLA:B:803:O1A~TYR:B:658:OH,9SE6_prot1_special_pair,9SE6,1,special_pair,CLA:B:803:O1A,TYR:B:658:OH,QH,H,3.17652,polar,donor–acceptor compatible,derived by homology,1.0,1.0,11.02,10.94

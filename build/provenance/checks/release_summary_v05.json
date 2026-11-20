@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "added_structures": [
+    "9SE6",
+    "9LUT",
+    "8WEY",
+    "7DKZ",
+    "9UH3",
+    "9HYU",
+    "9KZ9",
+    "8XLS"
+  ],
+  "original_counts": {
+    "structures": 14,
+    "protomers": 32,
+    "views": 128,
+    "contacts": 865,
+    "unique_contacts": 691,
+    "scene_atoms": 18378,
+    "derived_views": 16
+  },
+  "candidate_counts": {
+    "structures": 22,
+    "protomers": 40,
+    "views": 160,
+    "contacts": 1107,
+    "unique_contacts": 882,
+    "scene_atoms": 22966,
+    "derived_views": 48
+  },
+  "added_protomers": 8,
+  "added_scenes": 32,
+  "release_notes_sha256": "0d21ce6a4088f1f7fc70d955c3709754a2e043ce5f24b550e924db220733deac",
+  "interactive_density": "Separate verified 9YL7 A1A prototype; not installed in the atlas or included in this release ZIP",
+  "scientific_files_unchanged": true,
+  "publication": "Unpublished; published atlas unchanged",
+  "original_numeric_comparison_values": 1121,
+  "candidate_numeric_comparison_values": 1617,
+  "original_comparison_cells_including_blanks": 1184,
+  "candidate_comparison_cells_including_blanks": 1720,
+  "count_scope": "Numeric values and total matrix cells including blanks are listed separately."
+}

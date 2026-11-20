@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-71048">
+    <admin>
+        <current_status>
+            <date>2026-11-18</date>
+            <code>REL</code>
+            <processing_site>RCSB</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2026-11-11">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2026-11-18">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>RCSB</deposition>
+            <last_processing>RCSB</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2025-06-04</deposition>
+            <header_release>2026-11-11</header_release>
+            <map_release>2026-11-11</map_release>
+            <update>2026-11-18</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Department of Energy (DOE, United States)</funding_body>
+                <code>DE-SC0022956</code>
+                <country>United States</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Department of Energy (DOE, United States)</funding_body>
+                <code>DE-SC0018097</code>
+                <country>United States</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of a red shifted PSI monomer from 6803</title>
+        <authors_list>
+            <author>Mazor Y</author>
+            <author>Kahtun H</author>
+            <author>Asido M</author>
+            <author>Gorski C</author>
+            <author>Schlau-Cohen GS</author>
+        </authors_list>
+        <keywords>photosystem I, red chlorophylls, cyanobacteria, membrane complex, lipids, PHOTOSYNTHESIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-3181-0236" order="1">Asido M</author>
+                    <author ORCID="0009-0008-0369-7460" order="2">Khatun H</author>
+                    <author ORCID="0000-0003-2018-9261" order="3">Khmelnitskiy A</author>
+                    <author ORCID="0000-0002-3866-0077" order="4">Reppert M</author>
+                    <author ORCID="0000-0001-7746-2981" order="5">Schlau-Cohen GS</author>
+                    <author ORCID="0000-0001-5072-0928" order="6">Mazor Y</author>
+                    <title>Red states modulate energy localization between the antenna and trap in PSI.</title>
+                    <journal_abbreviation>Biorxiv</journal_abbreviation>
+                    <country>US</country>
+                    <year>2026</year>
+                    <external_references type="PUBMED">42856348</external_references>
+                    <external_references type="DOI">doi:10.64898/2026.10.01.756128</external_references>
+                    <external_references type="ISSN">2692-8205</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-71005</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>Focused monomer map after C3 expansion.</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9oz3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>PDB</db_name>
+                <accession_id>9OY9</accession_id>
+                <content_type>unspecified</content_type>
+                <details>focused monomer model</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-71005</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>Focused monomer map after C3 expansion.</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-71048</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>Structure of a red shifted PSI monomer from 6803</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>photosystem I from cyanobacteria containing two red shifting mutation in PsaB</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>photosystem I from cyanobacteria containing two red shifting mutation in PsaB</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.333</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.083036398</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTISPPEREAKAKVSVDNNPVPTSFEKWGKPGHFDRTLARGPKTTTWIWNLHANAHDFDSQTSDLEDVSRKIFSAHFGHL
+AVVFVWLSGMYFHGAKFSNYEGWLADPTHIKPSAQVVWPIVGQGILNGDVGGGFHGIQITSGLFYLWRASGFTDSYQLYC
+TAIGGLVMAALMLFAGWFHYHVKAPKLEWFQNVESMMNHHLAGLLGLGSLGWAGHQIHVSMPINKLLDAGVAPKDIPLPH
+EFILEPSKMAELYPSFAQGLTPFFTLNWGVYSDFLTFKGGLNPVTGGLWLSDTAHHHLAIAVLFIIAGHMYRTNWGIGHS
+MKEILEAHKGPFTGEGHKGLYEILTTSWHAQLAINLALLGSLTIIVAQHMYAMPPYPYQAIDYATQLSLFTHHMWIGGFL
+IVGAGAHGAIFMVRDYDPAKNVNNLLDRMLRHRDAIISHLNWVCIFLGFHSFGLYIHNDTMRALGRPQDMFSDTAIQLQP
+IFAQWVQHLHTLAPGATAPNALATASYAFGGETIAVAGKVAMMPITLGTADFMVHHIHAFTIHVTALILLKGVLYARSSR
+LVPDKANLGFRFPCDGPGRGGTCQVSGWDHVFLGLFWMYNSLSIVIFHFSWKMQSDVWGTVSPDGSVTHVTLGNFAQSAI
+TINGWLRDFLWAQAANVINSYGSALSAYGIMFLAGHFVFAFSLMFLFSGRGYWQELIESIVWAHNKLNVAPAIQPRALSI
+IQGRAVGVAHYLLGGIVTTWAFFLARSLSIG</string>
+                    <external_references type="UNIPROTKB">P29254</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I P700 chlorophyll a apoprotein A2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.081961172</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="1148">Synechocystis sp. PCC 6803</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPKFSQDLAQDPTTRRIWYGIATAHDFETHDGMTEENLYQKIFASHFGHIAIIFLWTSGTLFHVAWQGNFEQWIKD
+PLNIRPIAHAIWDPQFGEGAVNAFTQAGASNPVNIAYSGVYHWFYTIGMTTNQELYSGAVFLLVLASLFLFAGWLHLQPK
+FRPSLAWFKNAESRLNHHLAGLFGVSSLAWAGHLVHVAIPEARGQHVGWDNFLSTPPHPAGLMPFFTGNWGVYAADPDTA
+GHIFGTSEGAGTAILTFLGGFHPQTESLWLTDIAHHHLAIAVIFIIAGHMYRTNWGIGHSIKEILNAHKGPLTGAGHTNL
+YDTINNSLHFQLGLALASLGVITSLVAQHMYSLPSYAFIAQDHTTQAALYTHHQYIAGFLMVGAFAHGAIFFVRDYDPVA
+NKDNVLARMLEHKEALISHLSWVSLFLGFHTLGLYVHNDVVVAFGTPEKQILIEPVFAQWIQATSGKALYGFDVLLSNPD
+SIASTAWPNYGNVWLPGWLDAINSGTNSLFLTIGPGDFLVHHAIALGLHTTALILIKGALDARGSKLMPDKKDFGYSFPC
+DGPGRGGTCDISAWDAFYLAMFWMLNTLGWLTFYWHWKHLGVWSGNVAQFNENSTYLMGWFRDYLWANSAQLINGYNPYG
+VNNLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETIVWAHERTPLANLVRWKDKPVALSIVQARLVGLAHFTVGYVL
+TYAAFLIASTAGKFG</string>
+                    <external_references type="UNIPROTKB">P29255</external_references>
+                    <external_references type="UNIPROTKB">P29255</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I iron-sulfur center</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008837261</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHSVKIYDTCIGCTQCVRACPLDVLEMVPWDGCKAAQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA
+Y</string>
+                    <external_references type="UNIPROTKB">P32422</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I reaction center subunit II</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015663748999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTELSGQPPKFGGSTGGLLSKANREEKYAITWTSASEQVFEMPTGGAAIMNEGENLLYLARKEQCLALGTQLRTKFKPKI
+QDYKIYRVYPSGEVQYLHPADGVFPEKVNEGREAQGTKTRRIGQNPEPVTIKFSGKAPYEV</string>
+                    <external_references type="UNIPROTKB">P19569</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit IV</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008154086</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALNRGDKVRIKRTESYWYGDVGTVASVEKSGILYPVIVRFDRVNYNGFSGSASGVNTNNFAENELELVQAAAK</string>
+                    <external_references type="UNIPROTKB">P12975</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit III</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.018267081999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKHLLALLLAFTLWFNFAPSASADDFANLTPCSENPAYLAKSKNFLNTTNDPNSGKIRAERYASALCGPEGYPHLIVDGR
+FTHAGDFLIPSILFLYIAGWIGWVGRSYLIEIRESKNPEMQEVVINVPLAIKKMLGGFLWPLAAVGEYTSGKLVMKDSEI
+PTSPR</string>
+                    <external_references type="UNIPROTKB">P29256</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit VIII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004414148</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDGSYAASYLPWILIPMVGWLFPAVTMGLLFIHIESEGEG</string>
+                    <external_references type="UNIPROTKB">Q55330</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I reaction center subunit IX</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004535415</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDGLKSFLSTAPVMIMALLTFTAGILIEFNRFYPDLLFHP</string>
+                    <external_references type="UNIPROTKB">Q55329</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center subunit PsaK 1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008649268</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHSFLLATAVPATLSWSPKVAGVMIACNILAIAFGKLTIKQQNVGTPMPSSNFFGGFGLGAVLGTASFGHILGAGVILGL
+ANMGVL</string>
+                    <external_references type="UNIPROTKB">P72712</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I reaction center subunit XI</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016631794999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAESNQVVQAYNGDPFVGHLSTPISDSAFTRTFIGNLPAYRKGLSPILRGLEVGMAHGYFLIGPWTLLGPLRDSEYQYIG
+GLIGALALILVATAALSSYGLVTFQGEQGSGDTLQTADGWSQFAAGFFVGGMGGAFVAYFLLENLSVVDGIFRGLFN</string>
+                    <external_references type="UNIPROTKB">P37277</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Photosystem I reaction center subunit XII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="1148">Synechocystis sp. PCC 6803</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003382063</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MALSDTQILAALVVALLPAFLAFRLSTELYK</string>
+                    <external_references type="UNIPROTKB">P72986</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="12">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>16</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="13">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="14">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>288</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="15">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="16">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>9</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="17">
+                <name>BETA-CAROTENE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>59</number_of_copies>
+                <formula>BCR</formula>
+            </ligand>
+            <ligand macromolecule_id="18">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>15</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="19">
+                <name>DODECYL-BETA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>23</number_of_copies>
+                <formula>LMT</formula>
+            </ligand>
+            <ligand macromolecule_id="20">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="21">
+                <name>beta,beta-caroten-4-one</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000550856</theoretical>
+                </molecular_weight>
+                <number_of_copies>10</number_of_copies>
+                <formula>ECH</formula>
+            </ligand>
+            <ligand macromolecule_id="22">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1057</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">3</concentration>
+                    <buffer>
+                        <ph>8.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.5</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.5</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">35.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <particle_selection>
+                    <number_selected>3095096</number_selected>
+                </particle_selection>
+                <ctf_correction>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.7</version>
+                        </software>
+                    </software_list>
+                    <type>PHASE FLIPPING ONLY</type>
+                </ctf_correction>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <number_classes_used>1</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">1.88</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.7</version>
+                        </software>
+                    </software_list>
+                    <number_images_used>285821</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>OTHER</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.7</version>
+                        </software>
+                    </software_list>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                            <version>4.7</version>
+                        </software>
+                    </software_list>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="340737">
+        <file>emd_71048.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>440</col>
+            <row>440</row>
+            <sec>440</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>440</x>
+            <y>440</y>
+            <z>440</z>
+        </spacing>
+        <cell>
+            <a units="Å">321.64</a>
+            <b units="Å">321.64</b>
+            <c units="Å">321.64</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.17351498</minimum>
+            <maximum>0.6429538</maximum>
+            <average>0.0020545344</average>
+            <std>0.021743808</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.731</x>
+            <y units="Å">0.731</y>
+            <z units="Å">0.731</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.065</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-71048::::</label>
+        <annotation_details>RedAB PSI trimer refined at C1</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_71048_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="340737">
+                <file>emd_71048_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>440</col>
+                    <row>440</row>
+                    <sec>440</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>440</x>
+                    <y>440</y>
+                    <z>440</z>
+                </spacing>
+                <cell>
+                    <a units="Å">321.64</a>
+                    <b units="Å">321.64</b>
+                    <c units="Å">321.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3590182</minimum>
+                    <maximum>0.8411845</maximum>
+                    <average>0.0010544503</average>
+                    <std>0.043553326</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.731</x>
+                    <y units="Å">0.731</y>
+                    <z units="Å">0.731</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-71048::::</label>
+                <annotation_details>RedAB PSI trimer refined at C1 half map A</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="340737">
+                <file>emd_71048_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>440</col>
+                    <row>440</row>
+                    <sec>440</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>440</x>
+                    <y>440</y>
+                    <z>440</z>
+                </spacing>
+                <cell>
+                    <a units="Å">321.64</a>
+                    <b units="Å">321.64</b>
+                    <c units="Å">321.64</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.3433494</minimum>
+                    <maximum>0.81008345</maximum>
+                    <average>0.0010451478</average>
+                    <std>0.043551184</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.731</x>
+                    <y units="Å">0.731</y>
+                    <z units="Å">0.731</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-71048::::</label>
+                <annotation_details>RedAB PSI trimer refined at C1 half map B</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

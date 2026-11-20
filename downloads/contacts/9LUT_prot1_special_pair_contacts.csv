@@ -1,0 +1,10 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9LUT.p1.CL0:A:802:O1A~TYR:A:730:OH,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:O1A,TYR:A:730:OH,OC,E,2.93022,polar,donor–acceptor compatible,derived by homology,1.0,1.0,43.3,35.25
+9LUT.p1.CL0:A:802:OBD~THR:A:738:OG1,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:OBD,THR:A:738:OG1,OC,E,3.02741,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.22,40.58
+9LUT.p1.CL0:A:802:O2D~THR:A:738:OG1,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:O2D,THR:A:738:OG1,OC,E,3.34166,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.5,40.58
+9LUT.p1.CL0:A:802:O2D~TYR:A:598:OH,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:O2D,TYR:A:598:OH,OC,E,3.17779,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.5,45.05
+9LUT.p1.CL0:A:802:O2D~HOH:A:938:O,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:O2D,HOH:A:938:O,OC,UH,3.52806,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,35.5,41.78
+9LUT.p1.CLA:B:803:O2A~TYR:B:717:OH,9LUT_prot1_special_pair,9LUT,1,special_pair,CLA:B:803:O2A,TYR:B:717:OH,QE,F,3.74883,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,43.83,40.92
+9LUT.p1.CLA:B:803:O1D~TYR:B:721:N,9LUT_prot1_special_pair,9LUT,1,special_pair,CLA:B:803:O1D,TYR:B:721:N,QE,F,3.07860,polar,donor–acceptor compatible,derived by homology,1.0,1.0,39.82,35.36
+9LUT.p1.CL0:A:802:MG~HIS:A:675:NE2,9LUT_prot1_special_pair,9LUT,1,special_pair,CL0:A:802:MG,HIS:A:675:NE2,OC,E,2.01064,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,32.21,30.81
+9LUT.p1.CLA:B:803:MG~HIS:B:654:NE2,9LUT_prot1_special_pair,9LUT,1,special_pair,CLA:B:803:MG,HIS:B:654:NE2,QE,F,2.05693,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,33.98,32.54

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "local_links_checked": 51,
+  "broken": [],
+  "javascript_syntax_failures": [],
+  "scope": "Static paths/syntax and candidate metadata only; no browser rendering, interactions, exports, themes or responsive-layout approval."
+}

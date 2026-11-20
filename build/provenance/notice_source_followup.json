@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-20",
+ "resolved": [
+  {
+   "pdb": "7DKZ",
+   "finding": "Cultivar Alaska; 4XK8 search model excluded cofactors before Coot cofactor incorporation and phenix.refine.",
+   "source": "Wang et al., DOI 10.1111/jipb.13095, accepted manuscript pp.16–18",
+   "source_version": "Accepted Article; final typeset version/full SI not independently inspected"
+  },
+  {
+   "pdb": "9HYU",
+   "finding": "SEC and native-PAGE datasets combined; model built into composite EMD-52518; single-dataset allocation is inapplicable.",
+   "source": "DOI 10.1038/s41467-025-67637-0; PMC12830998 Results/Methods/Data availability"
+  },
+  {
+   "pdb": "9UH3",
+   "finding": "PSI–9 FCPI belongs to α-DDM preparation; starting model explicitly 8Z11.",
+   "source": "DOI 10.1016/j.bbabio.2026.149588, Results §2.1–2.2, Methods §4.1 and §4.8"
+  }
+ ],
+ "remaining": [
+  {
+   "pdb": "9LUT",
+   "finding": "Tak-1 versus Tak-2 grid allocation remains unassigned; monomer preparation protocol is explicit."
+  },
+  {
+   "pdb": "7DKZ",
+   "finding": "No quinone-bending discussion found in the reviewed 32-page accepted manuscript; final typeset/full SI not independently verified. Ligand restraint file and causal origin of distortion remain unresolved."
+  },
+  {
+   "pdb": "9HYU",
+   "finding": "Explicit PDB parent for SWISS-MODEL subunits not established; 8JJR sequence comparison is not assumed to be modeling ancestry."
+  }
+ ],
+ "source_hashes": {
+  "9HYU_article.xml": "3f5cc86b997dbcbdc188c0ef76c2635475a910e566ef14c8f31645f8292d97ca",
+  "9UH3_primary.pdf": "54a42a348d6f4eeaeab14282acf8d300feb8b74dbf91d310d8b1cae0651e9a1d"
+ }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files_checked": 830,
+  "changed": [],
+  "scope": "Fresh separate copy reproduces scientific/source/download/payload files and all five citation formats plus generated release docs/index exactly; runtime/manifest receipts excluded."
+}

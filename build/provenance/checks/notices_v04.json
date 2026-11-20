@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "entries": 22,
+  "scenes_checked": 160,
+  "stale_review_flags": 0,
+  "quinone_source_atoms_checked": 66,
+  "quinone_source_bonds_checked": 68,
+  "retained_A1_source_geometry_warnings": true,
+  "default_7DKZ_cautions": 2,
+  "scope": "Concise presentation/provenance/export consistency plus native 7DKZ planarity reproduction. Evidence does not establish actual physical quinone conformation or causal refinement mechanism."
+}

@@ -70,7 +70,7 @@ def script(sc, atlas_struct):
         "set sphere_scale, 0.25",
         "hide everything",
         "show sticks, lib_atoms",
-        "show spheres, lib_atoms and (elem Mg or resn HOH)",
+        "show spheres, lib_atoms and (elem MG or resn HOH)",
     ]
     for e, c in ELEMENT_RGB.items():
         lines += [f"set_color lib_{e}, {list(c)}", f"color lib_{e}, lib_atoms and elem {e.upper() if e != 'Mg' else 'MG'}"]

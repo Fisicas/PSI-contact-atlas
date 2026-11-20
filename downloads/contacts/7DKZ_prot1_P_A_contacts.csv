@@ -1,0 +1,10 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+7DKZ.p1.CLA:A:801:O2D~CLA:A:801:OBD,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:OBD,CLA:A:801:O2D,NC,NC,3.29689,intra,same residue,derived by homology,1.0,1.0,77.15,87.54
+7DKZ.p1.CLA:A:801:OBD~THR:A:746:OG1,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:OBD,THR:A:746:OG1,NC,E,2.93957,polar,donor–acceptor compatible,derived by homology,1.0,1.0,77.15,63.24
+7DKZ.p1.CLA:A:801:O2D~THR:A:746:OG1,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:O2D,THR:A:746:OG1,NC,E,2.89855,polar,donor–acceptor compatible,derived by homology,1.0,1.0,87.54,63.24
+7DKZ.p1.CLA:A:801:O2D~HOH:A:923:O,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:O2D,HOH:A:923:O,NC,BI,3.45561,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,87.54,76.3
+7DKZ.p1.CLA:A:801:O2D~TYR:A:606:OH,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:O2D,TYR:A:606:OH,NC,E,3.31893,polar,donor–acceptor compatible,derived by homology,1.0,1.0,87.54,75.41
+7DKZ.p1.HOH:A:923:O~THR:A:746:OG1,7DKZ_prot1_P_A,7DKZ,1,P_A,HOH:A:923:O,THR:A:746:OG1,BI,E,2.98289,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,76.3,63.24
+7DKZ.p1.HOH:A:923:O~TYR:A:606:OH,7DKZ_prot1_P_A,7DKZ,1,P_A,HOH:A:923:O,TYR:A:606:OH,BI,E,3.05186,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,76.3,75.41
+7DKZ.p1.CLA:A:801:O1A~TYR:A:738:OH,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:O1A,TYR:A:738:OH,NC,E,2.80070,polar,donor–acceptor compatible,derived by homology,1.0,1.0,85.07,73.17
+7DKZ.p1.CLA:A:801:MG~HIS:A:683:NE2,7DKZ_prot1_P_A,7DKZ,1,P_A,CLA:A:801:MG,HIS:A:683:NE2,NC,E,2.62218,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,67.08,63.1

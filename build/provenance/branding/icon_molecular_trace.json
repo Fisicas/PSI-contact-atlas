@@ -1,0 +1,517 @@
+{
+  "source_sha256": "93030464c2c808cb54b4876b6d010dc35fef8f4cef65e9ec6122d4264e7a01a5",
+  "component": "CLA",
+  "target_size": 512,
+  "representation": "CCD bond-order depiction; no stereochemical wedges",
+  "headgroup_substituents": false,
+  "atoms": {
+    "C1A": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        31.401013069091896,
+        47.38899104565046
+      ]
+    },
+    "C1B": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        14.332547428196204,
+        33.49534558776887
+      ]
+    },
+    "C1C": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        27.575391381165446,
+        16.254897564881524
+      ]
+    },
+    "C1D": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        44.69066002211996,
+        30.08336843827012
+      ]
+    },
+    "C2A": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        27.666351097736253,
+        53.953063382944705
+      ]
+    },
+    "C2B": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        8.0,
+        30.000393838486307
+      ]
+    },
+    "C2C": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        31.410710521284773,
+        10.046936617055295
+      ]
+    },
+    "C2D": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        50.638647167028985,
+        33.99516565698696
+      ]
+    },
+    "C3A": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        20.318771362467125,
+        51.804006527282304
+      ]
+    },
+    "C3B": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        9.330752098560428,
+        23.33210641245213
+      ]
+    },
+    "C3C": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        38.11446006803147,
+        11.728544884195426
+      ]
+    },
+    "C3D": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        48.40238528011376,
+        40.63695632048676
+      ]
+    },
+    "C4A": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        20.59930586591505,
+        44.26061635593007
+      ]
+    },
+    "C4B": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        16.686539476528026,
+        22.617936267027602
+      ]
+    },
+    "C4C": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        38.44056293306139,
+        19.0814489111743
+      ]
+    },
+    "C4D": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        41.40361617578659,
+        40.419071158260714
+      ]
+    },
+    "CAD": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        50.37755869428085,
+        47.583793189429024
+      ]
+    },
+    "CBD": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        43.89947428955192,
+        51.83015803523564
+      ]
+    },
+    "CHA": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        38.25848698236265,
+        46.62927650657604
+      ]
+    },
+    "CHB": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        14.916150544203727,
+        40.185056302329116
+      ]
+    },
+    "CHC": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        20.432673923930988,
+        16.732615449142447
+      ]
+    },
+    "CHD": {
+      "element": "C",
+      "display_label": null,
+      "xy": [
+        44.3056927960604,
+        22.997930411522546
+      ]
+    },
+    "MG": {
+      "element": "MG",
+      "display_label": null,
+      "xy": [
+        29.409852188407427,
+        31.631414318422586
+      ]
+    },
+    "NA": {
+      "element": "N",
+      "display_label": null,
+      "xy": [
+        26.913237454150163,
+        42.09757319539358
+      ]
+    },
+    "NB": {
+      "element": "N",
+      "display_label": null,
+      "xy": [
+        19.397635422816126,
+        29.005587856600275
+      ]
+    },
+    "NC": {
+      "element": "N",
+      "display_label": null,
+      "xy": [
+        31.961382061673913,
+        21.561015449944907
+      ]
+    },
+    "ND": {
+      "element": "N",
+      "display_label": null,
+      "xy": [
+        39.1776186512184,
+        33.940807325398154
+      ]
+    },
+    "OBD": {
+      "element": "O",
+      "display_label": null,
+      "xy": [
+        56.0,
+        50.250036258210116
+      ]
+    }
+  },
+  "bonds": [
+    {
+      "a": "MG",
+      "b": "NA",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "MG",
+      "b": "NB",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "MG",
+      "b": "NC",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "MG",
+      "b": "ND",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHA",
+      "b": "C1A",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHA",
+      "b": "C4D",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHA",
+      "b": "CBD",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHB",
+      "b": "C4A",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHB",
+      "b": "C1B",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHC",
+      "b": "C4B",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHC",
+      "b": "C1C",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHD",
+      "b": "C4C",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CHD",
+      "b": "C1D",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "NA",
+      "b": "C1A",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "NA",
+      "b": "C4A",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C1A",
+      "b": "C2A",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C2A",
+      "b": "C3A",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C3A",
+      "b": "C4A",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "NB",
+      "b": "C1B",
+      "order": "SING",
+      "aromatic": "Y"
+    },
+    {
+      "a": "NB",
+      "b": "C4B",
+      "order": "SING",
+      "aromatic": "Y"
+    },
+    {
+      "a": "C1B",
+      "b": "C2B",
+      "order": "DOUB",
+      "aromatic": "Y"
+    },
+    {
+      "a": "C2B",
+      "b": "C3B",
+      "order": "SING",
+      "aromatic": "Y"
+    },
+    {
+      "a": "C3B",
+      "b": "C4B",
+      "order": "DOUB",
+      "aromatic": "Y"
+    },
+    {
+      "a": "NC",
+      "b": "C1C",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "NC",
+      "b": "C4C",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "C1C",
+      "b": "C2C",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C2C",
+      "b": "C3C",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "C3C",
+      "b": "C4C",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "ND",
+      "b": "C1D",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "ND",
+      "b": "C4D",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C1D",
+      "b": "C2D",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C2D",
+      "b": "C3D",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "C3D",
+      "b": "C4D",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "C3D",
+      "b": "CAD",
+      "order": "SING",
+      "aromatic": "N"
+    },
+    {
+      "a": "CAD",
+      "b": "OBD",
+      "order": "DOUB",
+      "aromatic": "N"
+    },
+    {
+      "a": "CAD",
+      "b": "CBD",
+      "order": "SING",
+      "aromatic": "N"
+    }
+  ],
+  "phytyl_placeholders": {},
+  "omitted_heavy_atoms": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "CAA",
+    "CAB",
+    "CAC",
+    "CBA",
+    "CBB",
+    "CBC",
+    "CED",
+    "CGA",
+    "CGD",
+    "CMA",
+    "CMB",
+    "CMC",
+    "CMD",
+    "O1A",
+    "O1D",
+    "O2A",
+    "O2D"
+  ],
+  "projection": {
+    "origin_A": [
+      72.56571428571428,
+      131.06664285714285,
+      76.4585357142857
+    ],
+    "plane_axes": [
+      [
+        -0.06105464980327335,
+        -0.4648084559336862,
+        -0.8833037014696257
+      ],
+      [
+        0.8630397929290109,
+        0.4199908907188865,
+        -0.2806598787397409
+      ]
+    ],
+    "singular_values_A": [
+      15.061003684393329,
+      12.132556972570091,
+      0.5308374828271677
+    ],
+    "rotation_radians": 0.7359743725183215,
+    "display_scale": 5.011817165668909
+  }
+}

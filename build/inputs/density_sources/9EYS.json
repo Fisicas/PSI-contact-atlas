@@ -1,0 +1,40 @@
+{
+ "pdb": "9EYS",
+ "method": "Cryo-EM",
+ "protomers": [
+  1,
+  2,
+  3
+ ],
+ "state": "source_ready",
+ "records": [
+  {
+   "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-50063",
+   "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-50063",
+   "file": "raw_maps/9EYS/emdb_entry.json",
+   "bytes": 68717,
+   "sha256": "8904b57a5e5da9ab560f4dd7d1b261c5f8cea6ab68e0c728ddd810d4f7e71d43",
+   "retrieved_utc": "2026-11-20T05:09:43.169630+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-50063/header/emd-50063.xml",
+   "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-50063/header/emd-50063.xml",
+   "file": "raw_maps/9EYS/emdb_header.xml",
+   "bytes": 41731,
+   "sha256": "be211638277b2a782c56c2a6ce4730621ee331be762d0ee0beb86db0f70aa6f2",
+   "retrieved_utc": "2026-11-20T05:09:43.560308+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-50063/map/emd_50063.map.gz",
+   "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-50063/map/emd_50063.map.gz",
+   "file": "raw_maps/9EYS/primary.map.gz",
+   "bytes": 437373260,
+   "sha256": "47b8629e571cca6407ed7e739d66ebf3c54689a47012e446c1e50f86f96d9707",
+   "retrieved_utc": "2026-11-20T05:26:35.425076+00:00"
+  }
+ ],
+ "emdb": "EMD-50063",
+ "metadata_file": "raw_maps/9EYS/emdb_entry.json",
+ "map_file": "raw_maps/9EYS/primary.map.gz",
+ "map_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-50063/map/emd_50063.map.gz"
+}

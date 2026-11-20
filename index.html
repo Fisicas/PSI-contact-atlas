@@ -3,31 +3,46 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PSI Contact Atlas</title>
-<meta name="description" content="Native heavy-atom separations around the PSI special pair, P_A network and A1 quinone sites in 14 deposited structures. Version 1.0.0, doi:10.5281/zenodo.24318460.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4f7a'/%3E%3Ccircle cx='16' cy='16' r='4.5' fill='%2334c26a'/%3E%3Cg stroke='%23fff' stroke-width='2'%3E%3Cpath d='M16 4v6M16 22v6M4 16h6M22 16h6'/%3E%3C/g%3E%3C/svg%3E">
-<link rel="stylesheet" href="css/style.css?v=1.0.0">
+<meta property="og:title" content="PSI Contact Atlas">
+<meta property="og:description" content="P700 and A1 quinone environments: source-qualified native-coordinate contacts with optional density views.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://fisicas.github.io/PSI-contact-atlas/media/branding/social-preview.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="PSI Contact Atlas with the chlorin icon and a native-coordinate P_A environment from 9EYS.">
+<meta name="twitter:card" content="summary_large_image">
+
+<title>PSI Contact Atlas — 1.1.0</title>
+<meta name="description" content="Unpublished PSI Contact Atlas candidate: 22 structures, 40 deposited protomers, 160 scenes. Source-qualified heavy-atom measurements and optional density views.">
+<link rel="icon" type="image/svg+xml" href="media/branding/favicon.svg">
+<link rel="alternate icon" href="media/branding/favicon.ico">
+<link rel="apple-touch-icon" href="media/branding/icon-180.png">
+<link rel="stylesheet" href="css/style.css?v=1.1.0">
 </head>
 <body>
+
 <a class="skip" href="#app">Skip to content</a>
 <header class="site">
   <div class="site-inner">
-    <a class="brand" href="#/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7"/><circle cx="16" cy="16" r="4.5"/><path d="M16 4v6M16 22v6M4 16h6M22 16h6"/></svg><span>PSI Contact Atlas</span></a>
+    <a class="brand" href="#/"><img src="media/branding/psi-contact-atlas.svg" width="34" height="34" alt=""><span>PSI Contact Atlas</span></a>
     <nav class="nav" aria-label="Main">
       <a href="#/" data-nav="library">Structures</a>
       <a href="#/compare/pa-network" data-nav="compare">Compare</a>
       <a href="#/methods" data-nav="methods">Methods</a>
     </nav>
-    <a class="status" href="https://doi.org/10.5281/zenodo.24318460" title="Version 1.0.0; cite this DOI. Not peer reviewed.">v1.0.0 · DOI 10.5281/zenodo.24318460</a>
+    <span class="status" title="Published release">1.1.0</span>
     <button id="theme" class="icon" aria-label="Toggle light/dark theme">☾</button>
   </div>
 </header>
 <main id="app" tabindex="-1"><noscript><p class="wrap">This library needs JavaScript to draw the molecular scenes. The contact tables are also available as CSV in <code>downloads/</code>.</p></noscript></main>
-<footer class="site-foot"><div class="wrap">Deposited coordinates from the PDB; values recomputed locally. Version 1.0.0 · cite <a href="https://doi.org/10.5281/zenodo.24318460">doi:10.5281/zenodo.24318460</a> · not peer reviewed. <a href="#/methods">Methods &amp; verification</a></div></footer>
-<script src="data/atlas.js?v=1.0.0"></script>
-<script src="js/viewer.js?v=1.0.0"></script>
-<script src="js/gif.js?v=1.0.0"></script>
+<footer class="site-foot"><div class="wrap">Released 1.1.0. Deposited heavy-atom separations; 0.01 Å is display precision. <a href="docs/SCIENTIFIC_REVIEW.md">Scientific review</a> · <a href="docs/COMPARISON_SCOPE.md">Comparison scope</a> · <a href="docs/CITATION.md">Citation</a> · <a href="docs/VALIDATION.md">Validation receipts</a>.</div></footer>
+<script src="data/atlas.js?v=1.1.0"></script>
+<script src="js/viewer.js?v=1.1.0"></script>
+<script src="js/gif.js?v=1.1.0"></script>
 <script>window.PSI_PUBLIC = true;</script>
-<script src="js/app.js?v=1.0.0"></script>
+<script src="data/density_review.js?v=1.1.0"></script>
+<script src="data/release_notices.js?v=1.1.0"></script>
+<script src="js/density_review.js?v=1.1.0"></script>
+<script src="js/app.js?v=1.1.0"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "entries": [
+    "7DKZ",
+    "9KZ9",
+    "1JB0"
+  ],
+  "prepared_scenes": 8,
+  "unavailable_scenes": 4,
+  "native_CIF_roundtrip_max_error_A": 0.0,
+  "mesh_scenes": 8,
+  "mesh_images": 10,
+  "scope": "Fresh external work directory, existing hash-bound map cache. Native sections/crops, full-precision CIFs, optional mesh figures and explicit unavailability; no new experimental-quality approval."
+}

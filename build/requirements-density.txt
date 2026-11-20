@@ -1,0 +1,5 @@
+# Additional preparation dependency used for the optional density recipe.
+# Install in a suitable project environment; do not upgrade a shared environment silently.
+-r requirements.txt
+matplotlib==3.11.2
+# Meshes use the separately documented PyMOL 3.1 environment.

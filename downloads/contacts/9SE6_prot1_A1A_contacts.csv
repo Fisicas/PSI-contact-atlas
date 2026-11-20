@@ -1,0 +1,5 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9SE6.p1.MET:A:684:O~PQN:A:845:O1,9SE6_prot1_A1A,9SE6,1,A1A,PQN:A:845:O1,MET:A:684:O,AH,G,3.14876,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,derived by homology,1.0,1.0,5.44,6.52
+9SE6.p1.PQN:A:845:O1~SER:A:688:OG,9SE6_prot1_A1A,9SE6,1,A1A,PQN:A:845:O1,SER:A:688:OG,AH,G,3.19642,polar,donor–acceptor compatible,derived by homology,1.0,1.0,5.44,7.58
+9SE6.p1.PQN:A:845:O1~TRP:A:693:NE1,9SE6_prot1_A1A,9SE6,1,A1A,PQN:A:845:O1,TRP:A:693:NE1,AH,G,3.26356,polar,donor–acceptor compatible,derived by homology,1.0,1.0,5.44,4.12
+9SE6.p1.LEU:A:718:N~PQN:A:845:O4,9SE6_prot1_A1A,9SE6,1,A1A,PQN:A:845:O4,LEU:A:718:N,AH,G,2.92648,polar,donor–acceptor compatible,derived by homology,1.0,1.0,5.97,6.7

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "lazy_loading": true,
+  "viewer_failure_retains_static_fallback": true,
+  "invalid_routes": 8,
+  "representative_loads": [
+    [
+      "HTTP",
+      "9YL7_prot1_A1A"
+    ],
+    [
+      "HTTP",
+      "7DKZ_prot1_A1B"
+    ],
+    [
+      "HTTP",
+      "9AU4_prot1_A1A"
+    ],
+    [
+      "file",
+      "9YL7_prot1_A1A"
+    ],
+    [
+      "file",
+      "7DKZ_prot1_A1B"
+    ],
+    [
+      "file",
+      "9AU4_prot1_A1A"
+    ]
+  ],
+  "native_CIF_download_hashes": [
+    "5OY0_prot3_P_A",
+    "9AU4_prot1_A1A",
+    "9EYS_prot3_P_A",
+    "9YL7_prot1_A1A",
+    "9OZ3_prot3_A1B",
+    "7DKZ_prot1_A1B",
+    "9HYU_prot1_special_pair"
+  ],
+  "JS_errors": [],
+  "input_bindings_sha256": {
+    "density.html": "92ad95f5c04238f8202c5cd05bd3e02851cd61ccb19393aa497ca318567c184a",
+    "js/density_viewer.js": "baa125942f06add5d2eee9a300c6219d22572aaf709e082e49ba5954526f12d7",
+    "css/density_viewer.css": "e5f0b13c06a3e51eca7cd3ac0fa6269c95784143a58767c4bb89063b699ed347",
+    "js/density_review.js": "66fd57e582fb948364a73f42c6d51c19bf08a7aff989d16f8a2dda917bb66b0d",
+    "data/density_interactive_index.js": "73c01c2eca2b0d65b2b74c351002a72784e0d27de49efee8e942bf32f807fd7e"
+  },
+  "changes_after_full_browser_run": "One own-property lookup guard for unknown/inherited scene keys; scene/map/interaction algorithms unchanged. Six representative HTTP/file loads and eight invalid routes rechecked after guard."
+}

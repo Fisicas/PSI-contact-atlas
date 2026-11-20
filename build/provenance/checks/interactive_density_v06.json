@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "available_scenes": 156,
+  "available_protomers": 39,
+  "unavailable_scenes": [
+    "1JB0_prot1_A1A",
+    "1JB0_prot1_A1B",
+    "1JB0_prot1_special_pair",
+    "1JB0_prot1_P_A"
+  ],
+  "map_payloads": 172,
+  "voxels": 8664627,
+  "native_atoms": 22379,
+  "matched_static_presets": 208,
+  "source_coordinates_unchanged": true,
+  "contacts_and_bonds_unchanged": true,
+  "scope": "Independent archived-source XYZ, distances, native crop bytes/voxel order/affine samples, source presets and static-image hashes. Real-browser/parser/interaction review is recorded separately; positive density does not validate chemistry."
+}

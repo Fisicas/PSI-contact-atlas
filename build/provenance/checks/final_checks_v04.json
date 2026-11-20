@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "results": {
+    "metadata": {
+      "status": "PASS",
+      "seconds": 0.28
+    },
+    "notices": {
+      "status": "PASS",
+      "seconds": 0.55
+    },
+    "scientific_context": {
+      "status": "PASS",
+      "seconds": 8.97
+    },
+    "closure": {
+      "status": "PASS",
+      "seconds": 7.94
+    },
+    "density": {
+      "status": "PASS",
+      "seconds": 0.86
+    },
+    "downloads": {
+      "status": "PASS",
+      "seconds": 0.52
+    },
+    "density_DOM": {
+      "status": "PASS"
+    },
+    "unit_tests": {
+      "status": "PASS",
+      "tests": 23,
+      "seconds": 66.14
+    }
+  },
+  "scope": "Fresh checks against v04 local candidate; remote CI not run and final publication date/DOI not assigned."
+}

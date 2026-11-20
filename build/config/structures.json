@@ -9,7 +9,9 @@
   "condition": "Reference",
   "description": "Cyanobacterial PSI determined by X-ray crystallography; the numbering and display-alignment reference for this library. The deposited P_A component is CLA; no epimer reassignment is made here.",
   "context": "1 deposited protomer",
-  "notes": [],
+  "notes": [
+   "Source-geometry caution: the reference quinone C–O distances are approximately 1.42 Å and have official ligand-geometry flags. This is a numbering/alignment reference, not a chemical-geometry gold standard; released experimental density is unavailable."
+  ],
   "citations": [
    {
     "doi": "10.1038/35082000",
@@ -92,10 +94,129 @@
      "1JB0_prot1_A1B",
      "1JB0_prot1_special_pair",
      "1JB0_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:A:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.220762876237637
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2334313924981812
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.185644972156498
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.45,
+      "reported_bond_outliers": 6,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "P_B": {
+      "identity": "CLA:B:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2168389375755517
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2337592958109809
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1975078287844372
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.39,
+      "reported_bond_outliers": 6,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.416487204319195
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.4238237250446444
+       }
+      ],
+      "ring_plane_RMS_A": 0.004096399651911318,
+      "max_abs_reported_bond_Z": 9.4,
+      "reported_bond_outliers": 17,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.4057613595486247
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.417047635049716
+       }
+      ],
+      "ring_plane_RMS_A": 0.008092621947887594,
+      "max_abs_reported_bond_Z": 9.07,
+      "reported_bond_outliers": 17,
+      "Q_score": null,
+      "residue_inclusion": null
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "date": "2026-11-20",
+   "status": "source geometry audited; no new individual local-map screen",
+   "density_screened_protomers": [],
+   "disposition": "RETAIN_NATIVE_COORDINATE_RECORD_WITH_SOURCE_VALIDATION_CONTEXT",
+   "validation_context": "downloads/validation/cofactor_geometry.csv"
+  }
  },
  {
   "pdb": "5OY0",
@@ -189,7 +310,119 @@
      "5OY0_prot1_A1B",
      "5OY0_prot1_special_pair",
      "5OY0_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:1:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2197417759509548
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2208599428271742
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.218750589743455
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.18,
+      "reported_bond_outliers": 9,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "P_B": {
+      "identity": "CLA:2:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2191841534403256
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2196401108523864
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.216545930082386
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.1,
+      "reported_bond_outliers": 10,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_A": {
+      "identity": "PQN:1:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2511518692788464
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2516828671832403
+       }
+      ],
+      "ring_plane_RMS_A": 0.0012303480038175305,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_B": {
+      "identity": "PQN:2:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2509720220692375
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2480981531914879
+       }
+      ],
+      "ring_plane_RMS_A": 0.004476558425922264,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": null,
+      "residue_inclusion": null
+     }
+    }
    },
    {
     "number": 2,
@@ -243,7 +476,119 @@
      "5OY0_prot2_A1B",
      "5OY0_prot2_special_pair",
      "5OY0_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:A:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2201028645159322
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2221444268170676
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.219964753589217
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.01,
+      "reported_bond_outliers": 9,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "P_B": {
+      "identity": "CLA:B:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2194351151250327
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2192993889935435
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2160049342005252
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.04,
+      "reported_bond_outliers": 9,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2486612831348642
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.251837848924532
+       }
+      ],
+      "ring_plane_RMS_A": 0.0015892892379278764,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.213467758121319
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2096788830098664
+       }
+      ],
+      "ring_plane_RMS_A": 0.005160476307766485,
+      "max_abs_reported_bond_Z": 2.48,
+      "reported_bond_outliers": 2,
+      "Q_score": null,
+      "residue_inclusion": null
+     }
+    }
    },
    {
     "number": 3,
@@ -297,10 +642,133 @@
      "5OY0_prot3_A1B",
      "5OY0_prot3_special_pair",
      "5OY0_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:a:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2190299422081563
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2197495644598488
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2187165380021716
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.12,
+      "reported_bond_outliers": 9,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "P_B": {
+      "identity": "CLA:b:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2169835660353012
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2185688326885764
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2165615479703422
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.16,
+      "reported_bond_outliers": 10,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_A": {
+      "identity": "PQN:a:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2501615895555291
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2503319559220971
+       }
+      ],
+      "ring_plane_RMS_A": 0.001944025914146393,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_B": {
+      "identity": "PQN:b:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2261790244495252
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.218849457480287
+       }
+      ],
+      "ring_plane_RMS_A": 0.007946025959057369,
+      "max_abs_reported_bond_Z": 2.34,
+      "reported_bond_outliers": 2,
+      "Q_score": null,
+      "residue_inclusion": null
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: broad quinone/ester features are visible in model-phased weighted maps. Protomer 2 site-water feature persists at 1.5 full-cell sigma; protomers 1/3 have no assigned reference-site water, which is not biological absence. A few diagnostic oxygen samples lie just below 1 sigma. Protomer 3 P_A Mg–His676 NE2/ND1 separations are 3.92402/3.74700 A; positive density does not establish normal axial coordination.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_AXIAL_GEOMETRY_AND_LOCAL_DENSITY_CAUTIONS",
+   "source_figures_inspected": 29,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "6KMW",
@@ -312,7 +780,9 @@
   "condition": "WL",
   "description": "White-light-grown Halomicronema hongdechloris PSI, paired with the far-red-light-grown 6KMX in the Kato study.",
   "context": "Trimer",
-  "notes": [],
+  "notes": [
+   "The official ligand-validation report contains quinone ring-bond outliers. Local density coverage does not establish accurate intraligand bond geometry; check the per-cofactor validation context before chemical interpretation."
+  ],
   "citations": [
    {
     "doi": "10.1038/s41467-019-13898-5",
@@ -394,7 +864,119 @@
      "6KMW_prot1_A1B",
      "6KMW_prot1_special_pair",
      "6KMW_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:aA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2122780209176554
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2763216679191967
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2125312367110443
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.95,
+      "reported_bond_outliers": 18,
+      "Q_score": "0.721",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:aB:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2120858055434958
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2784967735587054
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2043359165946987
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.99,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.71",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:aA:844",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.240904911747871
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2422117371849313
+       }
+      ],
+      "ring_plane_RMS_A": 0.001652647187311186,
+      "max_abs_reported_bond_Z": 7.31,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.58",
+      "residue_inclusion": "0.5758"
+     },
+     "A1_B": {
+      "identity": "PQN:aB:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2418671426525405
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2371911735863597
+       }
+      ],
+      "ring_plane_RMS_A": 0.01323683933395368,
+      "max_abs_reported_bond_Z": 7.23,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.717",
+      "residue_inclusion": "0.9091"
+     }
+    }
    },
    {
     "number": 2,
@@ -448,7 +1030,119 @@
      "6KMW_prot2_A1B",
      "6KMW_prot2_special_pair",
      "6KMW_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:bA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.212925389296471
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2764395794552903
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2130313268831936
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.97,
+      "reported_bond_outliers": 18,
+      "Q_score": "0.723",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:bB:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2129014799232645
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.278109150268488
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2045683874317596
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.01,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.71",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:bA:844",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2408061895396891
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.242021738940195
+       }
+      ],
+      "ring_plane_RMS_A": 0.0017644046581269872,
+      "max_abs_reported_bond_Z": 7.31,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.605",
+      "residue_inclusion": "0.6061"
+     },
+     "A1_B": {
+      "identity": "PQN:bB:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2423984867988174
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2364679534868739
+       }
+      ],
+      "ring_plane_RMS_A": 0.0132104378549675,
+      "max_abs_reported_bond_Z": 7.22,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.715",
+      "residue_inclusion": "0.9091"
+     }
+    }
    },
    {
     "number": 3,
@@ -502,10 +1196,133 @@
      "6KMW_prot3_A1B",
      "6KMW_prot3_special_pair",
      "6KMW_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:cA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2136581067170684
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2762766157851475
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.213572000336201
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.98,
+      "reported_bond_outliers": 18,
+      "Q_score": "0.717",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:cB:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.212417007468961
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2779769168494304
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2038342909221416
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.02,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.708",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:cA:844",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2406873095183841
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2419601442880668
+       }
+      ],
+      "ring_plane_RMS_A": 0.0016754963280043707,
+      "max_abs_reported_bond_Z": 7.31,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.592",
+      "residue_inclusion": "0.5758"
+     },
+     "A1_B": {
+      "identity": "PQN:cB:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2417036683524807
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2362548280997647
+       }
+      ],
+      "ring_plane_RMS_A": 0.013256199185370425,
+      "max_abs_reported_bond_Z": 7.22,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.703",
+      "residue_inclusion": "0.9091"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: quinone headgroup, ester-region and assigned site-water features are visible over the displayed author levels. Intraligand geometry flags remain; positive contours are not an atom-by-atom fit or occupancy approval.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_QUINONE_RING_GEOMETRY_CAUTION",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "6KMX",
@@ -518,7 +1335,8 @@
   "description": "Far-red-light-grown Halomicronema PSI, paired with 6KMW. The growth condition does not by itself establish the identity of every reaction-center pigment.",
   "context": "Trimer",
   "notes": [
-   "All three A1_B quinones contain 28 of the usual 33 phylloquinone heavy atoms. Missing atoms are not reconstructed."
+   "All three A1_B quinones contain 28 of the usual 33 phylloquinone heavy atoms. Missing atoms are not reconstructed.",
+   "The official ligand-validation report contains quinone ring-bond outliers. Local density coverage does not establish accurate intraligand bond geometry; check the per-cofactor validation context before chemical interpretation."
   ],
   "citations": [
    {
@@ -601,7 +1419,119 @@
      "6KMX_prot1_A1B",
      "6KMX_prot1_special_pair",
      "6KMX_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:aA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2187066915382159
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2823271813386572
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2196470801014558
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.28,
+      "reported_bond_outliers": 20,
+      "Q_score": "0.704",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:aB:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2191242758636396
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2832638076405032
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.209394063157251
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.81,
+      "reported_bond_outliers": 20,
+      "Q_score": "0.7",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:aA:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2473620164170338
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2484049823675072
+       }
+      ],
+      "ring_plane_RMS_A": 0.0008493515090591808,
+      "max_abs_reported_bond_Z": 7.58,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.594",
+      "residue_inclusion": "0.4242"
+     },
+     "A1_B": {
+      "identity": "PQN:aB:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2461689291585083
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.247258192997749
+       }
+      ],
+      "ring_plane_RMS_A": 0.008037236841905824,
+      "max_abs_reported_bond_Z": 7.31,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.69",
+      "residue_inclusion": "0.7143"
+     }
+    }
    },
    {
     "number": 2,
@@ -655,7 +1585,119 @@
      "6KMX_prot2_A1B",
      "6KMX_prot2_special_pair",
      "6KMX_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:bA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2179724955843685
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2823264015062523
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2200741780727922
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.25,
+      "reported_bond_outliers": 20,
+      "Q_score": "0.708",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:bB:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2189261667549736
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2820803406963337
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.209529660653257
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.84,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.705",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:bA:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2478004648179792
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2475343682640638
+       }
+      ],
+      "ring_plane_RMS_A": 0.0007186594833140876,
+      "max_abs_reported_bond_Z": 7.57,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.577",
+      "residue_inclusion": "0.4545"
+     },
+     "A1_B": {
+      "identity": "PQN:bB:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2468436148932076
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2468307824239668
+       }
+      ],
+      "ring_plane_RMS_A": 0.00798661011266738,
+      "max_abs_reported_bond_Z": 7.35,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.7",
+      "residue_inclusion": "0.7143"
+     }
+    }
    },
    {
     "number": 3,
@@ -709,10 +1751,133 @@
      "6KMX_prot3_A1B",
      "6KMX_prot3_special_pair",
      "6KMX_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:cA:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2181514684143422
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2816415255444704
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2193485965875455
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.28,
+      "reported_bond_outliers": 20,
+      "Q_score": "0.71",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:cB:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2190410165371688
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.281856076164559
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.208700541904388
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.86,
+      "reported_bond_outliers": 20,
+      "Q_score": "0.708",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:cA:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2475632248507427
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2483949695509062
+       }
+      ],
+      "ring_plane_RMS_A": 0.000750500925823947,
+      "max_abs_reported_bond_Z": 7.61,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.596",
+      "residue_inclusion": "0.4545"
+     },
+     "A1_B": {
+      "identity": "PQN:cB:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2469591011737506
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.247844140908633
+       }
+      ],
+      "ring_plane_RMS_A": 0.007941373232646804,
+      "max_abs_reported_bond_Z": 7.38,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.685",
+      "residue_inclusion": "0.7143"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: broad quinone/ester features and assigned site-water features remain visible across displayed levels. Deposited missing atoms and intraligand outliers are retained; density does not clear chemical geometry.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_QUINONE_RING_GEOMETRY_CAUTION",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "7COY",
@@ -724,7 +1889,9 @@
   "condition": "Chl d / P740",
   "description": "Chlorophyll d-containing Acaryochloris PSI with the P740 donor system. Strain identity and pigment chemistry are shown separately from growth-light conditions.",
   "context": "Trimer",
-  "notes": [],
+  "notes": [
+   "The official ligand-validation report contains quinone ring-bond outliers. Local density coverage does not establish accurate intraligand bond geometry; check the per-cofactor validation context before chemical interpretation."
+  ],
   "citations": [
    {
     "doi": "10.1038/s41467-021-22502-8",
@@ -810,7 +1977,133 @@
      "7COY_prot1_A1B",
      "7COY_prot1_special_pair",
      "7COY_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:aA:3101",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.1862938084639891
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3147205026164464
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2698369974134396
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2552075525585473
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.66,
+      "reported_bond_outliers": 21,
+      "Q_score": "0.695",
+      "residue_inclusion": "0.9385"
+     },
+     "P_B": {
+      "identity": "CL7:aB:3003",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.22943116928116
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1542564706338032
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3052884738631598
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.1528807397124972
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 7.38,
+      "reported_bond_outliers": 30,
+      "Q_score": "0.692",
+      "residue_inclusion": "0.8154"
+     },
+     "A1_A": {
+      "identity": "PQN:aA:3144",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.1553956032459378
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.147722091797482
+       }
+      ],
+      "ring_plane_RMS_A": 0.004022041400155111,
+      "max_abs_reported_bond_Z": 5.48,
+      "reported_bond_outliers": 11,
+      "Q_score": "0.579",
+      "residue_inclusion": "0.5152"
+     },
+     "A1_B": {
+      "identity": "PQN:aB:3027",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.1512028491973005
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.1088142315104021
+       }
+      ],
+      "ring_plane_RMS_A": 0.009616693721932143,
+      "max_abs_reported_bond_Z": 6.18,
+      "reported_bond_outliers": 14,
+      "Q_score": "0.696",
+      "residue_inclusion": "0.9091"
+     }
+    }
    },
    {
     "number": 2,
@@ -864,7 +2157,133 @@
      "7COY_prot2_A1B",
      "7COY_prot2_special_pair",
      "7COY_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:bA:3101",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.1805168359663492
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3113111758846585
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2573567512842072
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2455083299601135
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.94,
+      "reported_bond_outliers": 22,
+      "Q_score": "0.706",
+      "residue_inclusion": "0.9385"
+     },
+     "P_B": {
+      "identity": "CL7:bB:804",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2362528058613167
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1467754793332567
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3024227424304324
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.135160781563584
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 7.81,
+      "reported_bond_outliers": 30,
+      "Q_score": "0.698",
+      "residue_inclusion": "0.8615"
+     },
+     "A1_A": {
+      "identity": "PQN:bA:3143",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.1488102541325242
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.143196396075505
+       }
+      ],
+      "ring_plane_RMS_A": 0.004631875929264552,
+      "max_abs_reported_bond_Z": 5.24,
+      "reported_bond_outliers": 12,
+      "Q_score": "0.603",
+      "residue_inclusion": "0.5455"
+     },
+     "A1_B": {
+      "identity": "PQN:bB:828",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.1495786184511523
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.1102134929823029
+       }
+      ],
+      "ring_plane_RMS_A": 0.008280513320057406,
+      "max_abs_reported_bond_Z": 6.3,
+      "reported_bond_outliers": 13,
+      "Q_score": "0.702",
+      "residue_inclusion": "0.9091"
+     }
+    }
    },
    {
     "number": 3,
@@ -918,10 +2337,147 @@
      "7COY_prot3_A1B",
      "7COY_prot3_special_pair",
      "7COY_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:cA:3101",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.1690205301875711
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3230589556025125
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2533838199051566
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2510063948677514
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.81,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.704",
+      "residue_inclusion": "0.9538"
+     },
+     "P_B": {
+      "identity": "CL7:cB:804",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2324568957979891
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1582426343387655
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.3025690000917391
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.140646746368062
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 7.82,
+      "reported_bond_outliers": 31,
+      "Q_score": "0.688",
+      "residue_inclusion": "0.8462"
+     },
+     "A1_A": {
+      "identity": "PQN:cA:3143",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.1476031544048773
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.1425353386219825
+       }
+      ],
+      "ring_plane_RMS_A": 0.003769043937385699,
+      "max_abs_reported_bond_Z": 5.13,
+      "reported_bond_outliers": 10,
+      "Q_score": "0.609",
+      "residue_inclusion": "0.5455"
+     },
+     "A1_B": {
+      "identity": "PQN:cB:828",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.150304742231369
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.1083853120643663
+       }
+      ],
+      "ring_plane_RMS_A": 0.009102191000417571,
+      "max_abs_reported_bond_Z": 6.35,
+      "reported_bond_outliers": 13,
+      "Q_score": "0.686",
+      "residue_inclusion": "0.9091"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: broad cofactor envelopes are visible, but A1_A O1 samples only 0.473–0.570 times the author contour and P_B ester O2A 0.356–0.923 times it. Native oxygen-containing planes confirm contour-sensitive local features. Hold oxygen-specific contact/placement conclusions at these sites; no absence, occupancy, redox or chemistry inference. Existing quinone ring-bond flags remain.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_OXYGEN_POSITION_AND_RING_GEOMETRY_CAUTIONS",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "9AU4",
@@ -1020,7 +2576,119 @@
      "9AU4_prot1_A1B",
      "9AU4_prot1_P_A",
      "9AU4_prot1_special_pair"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2317568753613732
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2243365550370517
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.238800226025166
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.02,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.695",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:B:2104",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2311007269918959
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2253644355864173
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2224753576248513
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.42,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.723",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "A1AGD:A:840",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2340125607140302
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2282336911190843
+       }
+      ],
+      "ring_plane_RMS_A": 0.0042354561837226155,
+      "max_abs_reported_bond_Z": 3.98,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.72",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "A1AGD:B:2153",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2170045193013856
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2325323525165592
+       }
+      ],
+      "ring_plane_RMS_A": 0.012151660099750036,
+      "max_abs_reported_bond_Z": 9.18,
+      "reported_bond_outliers": 6,
+      "Q_score": "0.768",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 2,
@@ -1074,7 +2742,119 @@
      "9AU4_prot2_A1B",
      "9AU4_prot2_P_A",
      "9AU4_prot2_special_pair"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:G:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.231453206581566
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2241735988004276
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.238838568983059
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.03,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.694",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:H:2103",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.231152711892385
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2256565587471966
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2225158485680088
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.42,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.72",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "A1AGD:G:840",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2344853178551725
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2282043803862603
+       }
+      ],
+      "ring_plane_RMS_A": 0.0041909500285498185,
+      "max_abs_reported_bond_Z": 3.98,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.718",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "A1AGD:H:2153",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.216903447279188
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.232555881086122
+       }
+      ],
+      "ring_plane_RMS_A": 0.012092576234518764,
+      "max_abs_reported_bond_Z": 9.17,
+      "reported_bond_outliers": 6,
+      "Q_score": "0.756",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 3,
@@ -1128,10 +2908,133 @@
      "9AU4_prot3_A1B",
      "9AU4_prot3_P_A",
      "9AU4_prot3_special_pair"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:a:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2316415874758133
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2241666553210773
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.238063407099978
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.02,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.695",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:b:2103",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2310601122609923
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2252489542945895
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2226082774135039
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.43,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.722",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "A1AGD:a:840",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2343309928864286
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2281323218611309
+       }
+      ],
+      "ring_plane_RMS_A": 0.0041482784273906784,
+      "max_abs_reported_bond_Z": 3.98,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.729",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "A1AGD:b:2153",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2165294899836963
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2328381888958513
+       }
+      ],
+      "ring_plane_RMS_A": 0.012189354915970386,
+      "max_abs_reported_bond_Z": 9.19,
+      "reported_bond_outliers": 6,
+      "Q_score": "0.757",
+      "residue_inclusion": "1.0000"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers were screened. Author 0.0149 raw-unit contours flood the sections; carved meshes do not overcome that limitation. Explicit alternative mean+3SD displays show localized cofactor/ester features but water-region features can merge with adjacent density. Neither is a statistical support/occupancy criterion. Current EMDB metadata explicitly describe the primary map as unsharpened and unmasked; the author 0.0149 level has no stated sigma unit or justified conversion to the alternative display.",
+   "preparation": "Keep deposited A1AGD names and component-specific O1/O2 labels. The alternative 3.0006282866 raw-unit level is exploratory and not an author recommendation.",
+   "disposition": "RETAIN_BOTH_CONTOUR_OPTIONS_WITH_EXPLICIT_INTERPRETATION_LIMITS",
+   "source_figures_inspected": 66,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "9EYS",
@@ -1225,7 +3128,119 @@
      "9EYS_prot1_A1B",
      "9EYS_prot1_special_pair",
      "9EYS_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.230733505109842
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2246292164977943
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.233038709327464
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.71,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.717",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2306342533019246
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.225159490515424
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2284963184722768
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.74,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.724",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2109053282977913
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2097724773692404
+       }
+      ],
+      "ring_plane_RMS_A": 0.0004427881131687273,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.699",
+      "residue_inclusion": "0.9394"
+     },
+     "A1_B": {
+      "identity": "PQN:B:840",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.211380505910511
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2110962930337152
+       }
+      ],
+      "ring_plane_RMS_A": 0.002914904266197752,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.709",
+      "residue_inclusion": "0.9394"
+     }
+    }
    },
    {
     "number": 2,
@@ -1279,7 +3294,119 @@
      "9EYS_prot2_A1B",
      "9EYS_prot2_special_pair",
      "9EYS_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:N:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.230879434225815
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.224499647080404
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.233036335231056
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.67,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.728",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:O:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.23068591366768
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2251913340373022
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2286025150959263
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.76,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.718",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:N:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2113566644881875
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.211541351749906
+       }
+      ],
+      "ring_plane_RMS_A": 0.00043272933843415307,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.715",
+      "residue_inclusion": "0.9697"
+     },
+     "A1_B": {
+      "identity": "PQN:O:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2108702335097883
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2114262239607652
+       }
+      ],
+      "ring_plane_RMS_A": 0.002969156759168647,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.714",
+      "residue_inclusion": "0.9394"
+     }
+    }
    },
    {
     "number": 3,
@@ -1333,10 +3460,133 @@
      "9EYS_prot3_A1B",
      "9EYS_prot3_special_pair",
      "9EYS_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:a:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2307332174358516
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2248441727419683
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2331418771171716
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.62,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.722",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:b:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.230874153234201
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2251462168247165
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.228916444596609
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.76,
+      "reported_bond_outliers": 8,
+      "Q_score": "0.719",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:a:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.211415696530328
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.211181619824198
+       }
+      ],
+      "ring_plane_RMS_A": 0.0006402470775276533,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.716",
+      "residue_inclusion": "0.9394"
+     },
+     "A1_B": {
+      "identity": "PQN:b:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2115630492054612
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.211566641047855
+       }
+      ],
+      "ring_plane_RMS_A": 0.0035680013534604314,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.701",
+      "residue_inclusion": "0.9394"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: broad quinone/ester features and distinct assigned site-water features remain visible across displayed author levels. Slab-projected positions and contour appearance do not provide atom-by-atom fit or occupancy validation.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_SOURCE_VALIDATION_CAVEATS",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "9I9L",
@@ -1430,7 +3680,119 @@
      "9I9L_prot1_A1B",
      "9I9L_prot1_special_pair",
      "9I9L_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2318840522549186
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2253377655977193
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2336869504456969
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.8,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.752",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2315134434101815
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2253535794618604
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2298013975028679
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.82,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.736",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2125281432197668
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2120776683859666
+       }
+      ],
+      "ring_plane_RMS_A": 0.00039259421141913384,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.733",
+      "residue_inclusion": "0.9697"
+     },
+     "A1_B": {
+      "identity": "PQN:B:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.211992903980871
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2122410169599112
+       }
+      ],
+      "ring_plane_RMS_A": 0.0029385458177191726,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.727",
+      "residue_inclusion": "0.9394"
+     }
+    }
    },
    {
     "number": 2,
@@ -1484,7 +3846,119 @@
      "9I9L_prot2_A1B",
      "9I9L_prot2_special_pair",
      "9I9L_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:N:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2317497540490958
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2251029658359396
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2336635142533776
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.74,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.746",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:O:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2315524072080848
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2251190616834087
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2293850572542657
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.86,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.739",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:N:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.212403324022153
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2121661853887815
+       }
+      ],
+      "ring_plane_RMS_A": 0.0004848602094177214,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.727",
+      "residue_inclusion": "0.9697"
+     },
+     "A1_B": {
+      "identity": "PQN:O:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.212115821446134
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.212654607627418
+       }
+      ],
+      "ring_plane_RMS_A": 0.003156901354014948,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.733",
+      "residue_inclusion": "0.9394"
+     }
+    }
    },
    {
     "number": 3,
@@ -1538,10 +4012,133 @@
      "9I9L_prot3_A1B",
      "9I9L_prot3_special_pair",
      "9I9L_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:a:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2314421753781213
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2252832520686985
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.233705236634717
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.74,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.75",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:b:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2315363332845797
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2251648287883683
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2296193664707633
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.84,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.736",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:a:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.212437187280232
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2122187854508812
+       }
+      ],
+      "ring_plane_RMS_A": 0.0005226533972215081,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.724",
+      "residue_inclusion": "0.9697"
+     },
+     "A1_B": {
+      "identity": "PQN:b:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2123398240592551
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2124491281286716
+       }
+      ],
+      "ring_plane_RMS_A": 0.0031679863826152305,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.738",
+      "residue_inclusion": "0.9394"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: quinone/ester envelopes and assigned site-water features remain visible across displayed author levels. No equal occupancy or independent protomer replication is inferred.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_SOURCE_VALIDATION_CAVEATS",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "9QFP",
@@ -1641,10 +4238,131 @@
      "9QFP_prot1_A1B",
      "9QFP_prot1_special_pair",
      "9QFP_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:847",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.263946992559407
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2676584713557426
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2334840898852393
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.07,
+      "reported_bond_outliers": 11,
+      "Q_score": "0.862",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:834",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2225665626050866
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2395842044815015
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1882617556750743
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.79,
+      "reported_bond_outliers": 15,
+      "Q_score": "0.852",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:837",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.239779819161458
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2241838097279285
+       }
+      ],
+      "ring_plane_RMS_A": 0.024865383061880308,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.8",
+      "residue_inclusion": "0.8788"
+     },
+     "A1_B": {
+      "identity": "PQN:B:823",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2200508186137082
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.226980032437392
+       }
+      ],
+      "ring_plane_RMS_A": 0.028599486398336715,
+      "max_abs_reported_bond_Z": 2.82,
+      "reported_bond_outliers": 1,
+      "Q_score": "0.729",
+      "residue_inclusion": "0.7879"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "Both quinone headgroup envelopes, reviewed ester regions and the assigned site-water feature remain visible across displayed author levels. Ring-center holes and detailed contour shape are display observations, not chemical or occupancy assignments.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_SOURCE_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
  },
  {
   "pdb": "9S6P",
@@ -1740,10 +4458,145 @@
      "9S6P_prot1_A1B",
      "9S6P_prot1_special_pair",
      "9S6P_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:A:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2291419771531555
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.2176181667501846
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2236036940120856
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2311937296786348
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.68,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.668",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CL7:B:1022",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2280264655128765
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2264799223794816
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.2165397650714156
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2231344979192007
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.67,
+      "reported_bond_outliers": 10,
+      "Q_score": "0.658",
+      "residue_inclusion": "0.9692"
+     },
+     "A1_A": {
+      "identity": "PQN:A:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2102685652366483
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2091422579663602
+       }
+      ],
+      "ring_plane_RMS_A": 0.0005760712577353568,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.658",
+      "residue_inclusion": "0.7879"
+     },
+     "A1_B": {
+      "identity": "PQN:B:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2090913943950283
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2104590038494112
+       }
+      ],
+      "ring_plane_RMS_A": 0.0017518996623593168,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.657",
+      "residue_inclusion": "0.9697"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "Quinone/ester envelopes are visible, but modeled site water HOH:A:909:O has no distinct feature at the displayed author contour: native point value 0.072970 raw units versus author level 0.2 (0.365 times). Retain as a deposited positional assignment with weak local map support; do not claim conserved occupancy or biological absence.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_WEAK_SITE_WATER_SUPPORT_CAUTION",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
  },
  {
   "pdb": "9SK3",
@@ -1834,7 +4687,133 @@
      "9SK3_prot1_A1B",
      "9SK3_prot1_special_pair",
      "9SK3_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:aA:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2298117742158747
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.2172132105757147
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2232236099748999
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2312111922817839
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.58,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.638",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CL7:aB:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.228695649866125
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2284758849891708
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.216113892692581
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2237789833135826
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.55,
+      "reported_bond_outliers": 10,
+      "Q_score": "0.624",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:aA:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2110660593047475
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2109203111683216
+       }
+      ],
+      "ring_plane_RMS_A": 0.001154982477173132,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.59",
+      "residue_inclusion": "0.8485"
+     },
+     "A1_B": {
+      "identity": "PQN:aB:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2088560708372142
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2108988397054499
+       }
+      ],
+      "ring_plane_RMS_A": 0.0013382774215395818,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.626",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 2,
@@ -1888,7 +4867,133 @@
      "9SK3_prot2_A1B",
      "9SK3_prot2_special_pair",
      "9SK3_prot2_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:bA:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2298719445535908
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.2164550957598121
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.22343491857967
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.231904622931515
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.67,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.645",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CL7:bB:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2273931725409126
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.226817427329751
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.216951519165827
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.223338873738608
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.64,
+      "reported_bond_outliers": 11,
+      "Q_score": "0.631",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_A": {
+      "identity": "PQN:bA:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2109611884779778
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2109719237042522
+       }
+      ],
+      "ring_plane_RMS_A": 0.0009452989637332495,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.561",
+      "residue_inclusion": "0.8182"
+     },
+     "A1_B": {
+      "identity": "PQN:bB:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2099962809860247
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.211027249899885
+       }
+      ],
+      "ring_plane_RMS_A": 0.0009837265763155,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.636",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 3,
@@ -1942,10 +5047,147 @@
      "9SK3_prot3_A1B",
      "9SK3_prot3_special_pair",
      "9SK3_prot3_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "G9R:cA:1011",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2288307450580733
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.2168956405542928
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.22443333832429
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2311372791041795
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.57,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.65",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CL7:cB:1021",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2270619381270145
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2282695143981672
+       },
+       {
+        "atoms": [
+         "CAB",
+         "OBB"
+        ],
+        "distance_A": 1.21655332805427
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.223989379038876
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.62,
+      "reported_bond_outliers": 11,
+      "Q_score": "0.628",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:cA:2001",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2112926979058614
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2108666317972092
+       }
+      ],
+      "ring_plane_RMS_A": 0.001144018216444225,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.568",
+      "residue_inclusion": "0.8182"
+     },
+     "A1_B": {
+      "identity": "PQN:cB:2002",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2099099140018856
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2105527663014006
+       }
+      ],
+      "ring_plane_RMS_A": 0.0009337991866693185,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.621",
+      "residue_inclusion": "1.0000"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "All three protomers screened: broad quinone/ester envelopes remain visible, but modeled site waters HOH:aA/bA/cA:3210:O lack distinct author-contour features. Native samples are 0.45595/0.15762/0.06388 times author level 0.1 raw units. Retain deposited positions with weak local support; no water conservation, occupancy equality or absence inference.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_WITH_WEAK_SITE_WATER_SUPPORT_CAUTION",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
  },
  {
   "pdb": "9YL7",
@@ -2030,10 +5272,131 @@
      "9YL7_prot1_A1A",
      "9YL7_prot1_special_pair",
      "9YL7_prot1_P_A"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2177376564761226
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2717086930582824
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.216660182631114
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 7.5,
+      "reported_bond_outliers": 23,
+      "Q_score": "0.839",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:853",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.213004946403763
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2794979484156892
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.208249146492575
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 7.57,
+      "reported_bond_outliers": 22,
+      "Q_score": "0.829",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PL9:A:854",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.2258030021173796
+       },
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.2173861343057972
+       }
+      ],
+      "ring_plane_RMS_A": 0.006466740478082988,
+      "max_abs_reported_bond_Z": 2.88,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.703",
+      "residue_inclusion": "0.9000"
+     },
+     "A1_B": {
+      "identity": "A1AGD:B:831",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O2"
+        ],
+        "distance_A": 1.207301536485426
+       },
+       {
+        "atoms": [
+         "C4",
+         "O1"
+        ],
+        "distance_A": 1.1846910989789605
+       }
+      ],
+      "ring_plane_RMS_A": 0.0029899585191770334,
+      "max_abs_reported_bond_Z": 2.15,
+      "reported_bond_outliers": 1,
+      "Q_score": "0.771",
+      "residue_inclusion": "1.0000"
+     }
+    }
    }
   ],
-  "scene_origin": "curated"
+  "scene_origin": "curated",
+  "scientific_review": {
+   "density": "Both deposited quinone headgroup envelopes, ester-region features and assigned site-water feature remain visible across displayed levels. Preserve PL9/A1AGD identities and their different carbonyl atom labels; a positive contour does not establish a semiquinone or redox state.",
+   "preparation": "Retain source preparation, condition, component and mapping metadata; no additional biological independence or model-ancestry claim is inferred from this density screen.",
+   "disposition": "RETAIN_COMPONENT_IDENTITIES_AND_SOURCE_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
  },
  {
   "pdb": "9OY9",
@@ -2042,11 +5405,23 @@
   "resolution": "1.76",
   "pdb_url": "https://www.rcsb.org/structure/9OY9",
   "pdb_doi": "10.2210/pdb9OY9/pdb",
-  "condition": "PsaB red-shift variant",
-  "description": "PSI from Synechocystis sp. PCC 6803 that the depositors describe as carrying two red-shifting mutations in PsaB. Relative to 9YL7 the deposited PsaB differs at His95→Gln (an antenna-chlorophyll ligand) and around residues 486–493; all of these residues lie at least 17 Å from the atoms shown in these scenes. No primary publication is linked yet.",
+  "condition": "PsaB H95Q/linker variant",
+  "description": "Engineered Synechocystis sp. PCC 6803 PSI monomer. Current deposited sequence-difference annotations identify PsaB H95Q and an AWPNYGNV linker segment at author residues 486–493. The linked primary study is a bioRxiv preprint.",
   "context": "1 deposited protomer",
-  "notes": [],
-  "citations": [],
+  "notes": [
+   "The primary study is a preprint, not certified by peer review. Monomer/trimer reconstructions and deposited protomers are not independent biological replicates.",
+   "Current 2026-11-18 metadata were checked against the archived coordinate snapshot: all atom identities, coordinates, occupancies and B factors agree exactly."
+  ],
+  "citations": [
+   {
+    "doi": "10.64898/2026.10.01.756128",
+    "title": "Red states modulate energy localization between the antenna and trap in PSI.",
+    "author_short": "Asido et al.",
+    "year": 2026,
+    "verified_date": "2026-11-20",
+    "publication_type": "preprint"
+   }
+  ],
   "lineage": [
    {
     "text": "Starting-model ancestry is not established from the deposited metadata.",
@@ -2056,7 +5431,7 @@
   ],
   "lineage_short": "Starting-model ancestry is not established from the deposited metadata.",
   "growth_light": null,
-  "genotype": null,
+  "genotype": "Deposited PsaB H95Q; AWPNYGNV linker segment at author residues 486–493. No distinct allele is inferred from the related assembly.",
   "deposition_authors": [
    "Mazor, Y.",
    "Kahtun, H.",
@@ -2065,7 +5440,7 @@
    "Schlau-Cohen, G.S."
   ],
   "deposition_date": "2025-06-04",
-  "selector": "9OY9 — Synechocystis sp. PCC 6803 — Cryo-EM 1.76 Å — PsaB red-shift variant",
+  "selector": "9OY9 — Synechocystis sp. PCC 6803 — Cryo-EM 1.76 Å — PsaB H95Q/linker variant",
   "protomers": [
    {
     "number": 1,
@@ -2119,10 +5494,131 @@
      "9OY9_prot1_P_A",
      "9OY9_prot1_A1A",
      "9OY9_prot1_A1B"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.22418217598527
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.215763957353588
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2234614828428523
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 2.79,
+      "reported_bond_outliers": 6,
+      "Q_score": "0.764",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:846",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2039293999234357
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.203882469346589
+       }
+      ],
+      "ring_plane_RMS_A": 0.0013905675616434814,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.758",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2245770698490084
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2169239910528553
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.223387101452355
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.04,
+      "reported_bond_outliers": 3,
+      "Q_score": "0.758",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2034429774609436
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2027859327411765
+       }
+      ],
+      "ring_plane_RMS_A": 0.0030417612025976162,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.74",
+      "residue_inclusion": "1.0000"
+     }
+    }
    }
   ],
-  "scene_origin": "derived by rule (tools/derive_scenes.py)"
+  "scene_origin": "derived by rule (tools/derive_scenes.py)",
+  "scientific_review": {
+   "density": "Quinone headgroup and ester-region envelopes are visible; A939 site-water feature persists across displayed levels. No redox or hydrogen-bond assignment is made.",
+   "preparation": "Current deposited annotations identify PsaB H95Q plus AWPNYGNV linker segment at author residues 486–493. Linked primary study is a preprint. Monomer assembly; do not invent a second engineered genotype.",
+   "disposition": "RETAIN_CORRECT_PRIMARY_CITATION_METADATA",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
  },
  {
   "pdb": "9OZ3",
@@ -2131,11 +5627,23 @@
   "resolution": "1.88",
   "pdb_url": "https://www.rcsb.org/structure/9OZ3",
   "pdb_doi": "10.2210/pdb9OZ3/pdb",
-  "condition": "PsaB red-shift variant",
-  "description": "PSI from Synechocystis sp. PCC 6803 that the depositors describe as carrying two red-shifting mutations in PsaB. Relative to 9YL7 the deposited PsaB differs at His95→Gln (an antenna-chlorophyll ligand) and around residues 486–493; all of these residues lie at least 17 Å from the atoms shown in these scenes. No primary publication is linked yet. The entry title says monomer, but the deposited model contains three PsaA/PsaB copies; each is shown as a protomer.",
+  "condition": "PsaB H95Q/linker variant",
+  "description": "Engineered Synechocystis sp. PCC 6803 PSI trimer refined in C1. Current deposited sequence-difference annotations identify PsaB H95Q and an AWPNYGNV linker segment at author residues 486–493. The linked primary study is a bioRxiv preprint. The deposition title says monomer, while the primary study and the three deposited PsaA/PsaB copies identify a trimer; all three deposited protomers are shown.",
   "context": "3 deposited protomers",
-  "notes": [],
-  "citations": [],
+  "notes": [
+   "The primary study is a preprint, not certified by peer review. Monomer/trimer reconstructions and deposited protomers are not independent biological replicates.",
+   "Current 2026-11-18 metadata were checked against the archived coordinate snapshot: all atom identities, coordinates, occupancies and B factors agree exactly."
+  ],
+  "citations": [
+   {
+    "doi": "10.64898/2026.10.01.756128",
+    "title": "Red states modulate energy localization between the antenna and trap in PSI.",
+    "author_short": "Asido et al.",
+    "year": 2026,
+    "verified_date": "2026-11-20",
+    "publication_type": "preprint"
+   }
+  ],
   "lineage": [
    {
     "text": "Starting-model ancestry is not established from the deposited metadata.",
@@ -2145,7 +5653,7 @@
   ],
   "lineage_short": "Starting-model ancestry is not established from the deposited metadata.",
   "growth_light": null,
-  "genotype": null,
+  "genotype": "Deposited PsaB H95Q; AWPNYGNV linker segment at author residues 486–493. No distinct allele is inferred from the related assembly.",
   "deposition_authors": [
    "Mazor, Y.",
    "Kahtun, H.",
@@ -2154,7 +5662,7 @@
    "Schlau-Cohen, G.S."
   ],
   "deposition_date": "2025-06-04",
-  "selector": "9OZ3 — Synechocystis sp. PCC 6803 — Cryo-EM 1.88 Å — PsaB red-shift variant",
+  "selector": "9OZ3 — Synechocystis sp. PCC 6803 — Cryo-EM 1.88 Å — PsaB H95Q/linker variant",
   "protomers": [
    {
     "number": 1,
@@ -2208,7 +5716,119 @@
      "9OZ3_prot1_P_A",
      "9OZ3_prot1_A1A",
      "9OZ3_prot1_A1B"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2272183994709442
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2200303274919062
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2285117012059592
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.04,
+      "reported_bond_outliers": 5,
+      "Q_score": "0.741",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2082855622740984
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2072240885601782
+       }
+      ],
+      "ring_plane_RMS_A": 0.000992696259048436,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.735",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:805",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2273064002114549
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2216439743231406
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2285426325528952
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.02,
+      "reported_bond_outliers": 3,
+      "Q_score": "0.736",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:B:844",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.207325142619013
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.206629189104927
+       }
+      ],
+      "ring_plane_RMS_A": 0.003098204269099606,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.72",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 2,
@@ -2262,7 +5882,119 @@
      "9OZ3_prot2_P_A",
      "9OZ3_prot2_A1A",
      "9OZ3_prot2_A1B"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:G:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2289235126727707
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2208112057152831
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2282402045202587
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 2.98,
+      "reported_bond_outliers": 5,
+      "Q_score": "0.736",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:G:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2075408895768198
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2062209581996015
+       }
+      ],
+      "ring_plane_RMS_A": 0.0006501575914878972,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.73",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:H:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2282027519916996
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.220821444765787
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.227730426437336
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.15,
+      "reported_bond_outliers": 3,
+      "Q_score": "0.733",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:H:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2070662782134314
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2075003105589615
+       }
+      ],
+      "ring_plane_RMS_A": 0.002862865276615139,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.727",
+      "residue_inclusion": "1.0000"
+     }
+    }
    },
    {
     "number": 3,
@@ -2316,9 +6048,1908 @@
      "9OZ3_prot3_P_A",
      "9OZ3_prot3_A1A",
      "9OZ3_prot3_A1B"
-    ]
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:a:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2270374892398421
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2204167321042516
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2290260371529997
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.1,
+      "reported_bond_outliers": 4,
+      "Q_score": "0.742",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:a:846",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.20986156232851
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2076137627569539
+       }
+      ],
+      "ring_plane_RMS_A": 0.0004944939518314352,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.728",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:b:805",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.228031351391322
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2202995533884287
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2282739922346169
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.17,
+      "reported_bond_outliers": 4,
+      "Q_score": "0.733",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:b:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.207878719077367
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2071921967938555
+       }
+      ],
+      "ring_plane_RMS_A": 0.004191034069754634,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.73",
+      "residue_inclusion": "1.0000"
+     }
+    }
    }
   ],
-  "scene_origin": "derived by rule (tools/derive_scenes.py)"
+  "scene_origin": "derived by rule (tools/derive_scenes.py)",
+  "scientific_review": {
+   "density": "All three deposited protomers were screened separately. Quinone/ester-region envelopes remain visible. Water-site features differ in size and contour sensitivity, with protomer 2 particularly small at higher levels; do not infer equal occupancy or independent replication.",
+   "preparation": "Primary study identifies the trimer refined in C1, despite the deposited monomer title. Three deposited PsaA/PsaB pairs are retained. Current H95Q/linker annotations agree across B/H/b; do not assign a different allele without evidence.",
+   "disposition": "RETAIN_CORRECT_ASSEMBLY_DESCRIPTION_AND_PRIMARY_CITATION",
+   "source_figures_inspected": 33,
+   "protomers_screened": [
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "pdb": "9SE6",
+  "organism": "Chlamydomonas reinhardtii",
+  "method": "Cryo-EM",
+  "resolution": "1.83",
+  "pdb_url": "https://www.rcsb.org/structure/9SE6",
+  "pdb_doi": "10.2210/pdb9SE6/pdb",
+  "condition": "Green alga, PsaB-His20 PSI preparation",
+  "description": "PSI core model from the cytochrome-c6 crosslinking study; PsaB carries an N-terminal His20 affinity tag. No cytochrome c6 is modeled in this entry. Not an unmodified wild-type preparation.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Primary Methods establish a PsaB His20 tag. The literal entity mutation string No and the RCSB mutation flag are not used to infer an unmodified wild-type sample.",
+   "Study conditions: TAP medium, 25 °C, continuous light about 20 µmol photons m−2 s−1. The deposited core model does not establish absence of cytochrome c6 from the experimental preparation."
+  ],
+  "citations": [
+   {
+    "doi": "10.1038/s41467-026-70944-9",
+    "title": "Cryo-EM structure of Chlamydomonas reinhardtii Photosystem I complexed with cytochrome c 6 .",
+    "author_short": "Ogawa et al.",
+    "year": 2026,
+    "verified_date": "2026-11-19"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Deposited starting model: 7ZQC. The primary study uses tagged PSI and a chemical crosslinking preparation; the 1.83 Å PSI-core model is distinct from the focused cytochrome-c6-bound 9SE7 model.",
+    "doi": "",
+    "locator": "Pilot intake evidence: intake/9SE6/article_fulltext.xml; Methods (strain and preparation), Results (global versus focused reconstruction); current mmCIF starting-model and sequence-difference categories."
+   }
+  ],
+  "lineage_short": "Deposited starting model: 7ZQC. The primary study uses tagged PSI and a chemical crosslinking preparation; the 1.83 Å PSI-core model is distinct from the focused cytochrome-c6-bound 9SE7 model.",
+  "growth_light": null,
+  "genotype": "PsaB His20 tag after the third N-terminal residue (primary Methods); no particular cytochrome-c6 mutant assigned to this PSI-only model.",
+  "deposition_authors": [
+   "Mahapatra, G.P.",
+   "Schuller, J.M."
+  ],
+  "deposition_date": "2025-08-15",
+  "selector": "9SE6 — Chlamydomonas reinhardtii — Cryo-EM 1.83 Å — Green alga, PsaB-His20 PSI preparation",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "802",
+      "label_asym": "JF",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "845",
+      "label_asym": "AH",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "803",
+      "label_asym": "QH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "843",
+      "label_asym": "EJ",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9SE6_prot1_special_pair",
+     "9SE6_prot1_P_A",
+     "9SE6_prot1_A1A",
+     "9SE6_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2008086840958256
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.217475340448408
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1989867868329456
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.32,
+      "reported_bond_outliers": 4,
+      "Q_score": "0.779",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.211193246926352
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2111150043245433
+       }
+      ],
+      "ring_plane_RMS_A": 0.0007948309865558707,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.771",
+      "residue_inclusion": "0.9697"
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2300276831844084
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2233334280154546
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2290572338992225
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.0,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.769",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2116251833384741
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2108611505453544
+       }
+      ],
+      "ring_plane_RMS_A": 0.0050888629340374225,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.762",
+      "residue_inclusion": "0.9394"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Both quinone headgroups and reviewed P_A/P_B ester regions occupy positive features across displayed 0.8/1.0/1.2 author levels. A984 water-site feature remains distinct. No atom-by-atom fit or occupancy approval is inferred.",
+   "preparation": "PsaB-His20 tagged preparation associated with the Cyt-c6 crosslinking study; not unmodified wild type. No modeled Cyt-c6 is inferred.",
+   "disposition": "RETAIN_WITH_PREPARATION_AND_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "9LUT",
+  "organism": "Marchantia polymorpha",
+  "method": "Cryo-EM",
+  "resolution": "1.94",
+  "pdb_url": "https://www.rcsb.org/structure/9LUT",
+  "pdb_doi": "10.2210/pdb9LUT/pdb",
+  "condition": "Liverwort, PSI-LHCI monomer",
+  "description": "Monomeric PSI-LHCI core with four Lhca subunits from liverwort. The related 9LUU dimer was isolated under different detergent conditions; it is not a replicate of this entry.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Monomeric PSI-LHCI: 13 core and four Lhca subunits. The primary study used Tak-1 and Tak-2 accessions; the specific accession represented by this grid remains unassigned.",
+   "Monomer preparation used 3.6% α-DDM solubilization and 0.03% α-DDM thereafter. Growth was at 20 °C under continuous 10–15 μmol photons m−2 s−1 light. The related 9LUU dimer used a different preparation."
+  ],
+  "citations": [
+   {
+    "doi": "10.1038/s42003-026-09631-w",
+    "title": "Structural study of monomeric and dimeric photosystem I-LHCI supercomplexes from a bryophyte.",
+    "author_short": "Tsai et al.",
+    "year": 2026,
+    "verified_date": "2026-11-19"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Deposited and primary-study starting model: 6L35 (moss PSI-LHCI). Monomer and dimer preparations used different α-DDM concentrations; 9LUU is a related study model, not an independent monomer replicate.",
+    "doi": "",
+    "locator": "Pilot intake evidence: intake/9LUT/article_fulltext.xml; Results, Methods and Table 1 map 9LUT to monomer and 9LUU to dimer; current mmCIF assembly and starting-model categories."
+   }
+  ],
+  "lineage_short": "Deposited and primary-study starting model: 6L35 (moss PSI-LHCI). Monomer and dimer preparations used different α-DDM concentrations; 9LUU is a related study model, not an independent monomer replicate.",
+  "growth_light": "Continuous 10–15 μmol photons m−2 s−1; 20 °C (primary Methods).",
+  "genotype": null,
+  "deposition_authors": [
+   "Tsai, P.-C.",
+   "La Rocca, R.",
+   "Shen, J.-R.",
+   "Akita, F."
+  ],
+  "deposition_date": "2025-02-10",
+  "selector": "9LUT — Marchantia polymorpha — Cryo-EM 1.94 Å — Liverwort, PSI-LHCI monomer",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "802",
+      "label_asym": "OC",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:844",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "844",
+      "label_asym": "EE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "803",
+      "label_asym": "QE",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "843",
+      "label_asym": "EG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9LUT_prot1_special_pair",
+     "9LUT_prot1_P_A",
+     "9LUT_prot1_A1A",
+     "9LUT_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.202235417877901
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2227501788999993
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1991655432007937
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.78,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.76",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:844",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2087456308090578
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2104416549342756
+       }
+      ],
+      "ring_plane_RMS_A": 0.0021260523339013565,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.73",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2024425142184634
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2224753576248593
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1963327296366741
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.46,
+      "reported_bond_outliers": 7,
+      "Q_score": "0.745",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2089255560207341
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2113211795390937
+       }
+      ],
+      "ring_plane_RMS_A": 0.008142585220660619,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.748",
+      "residue_inclusion": "1.0000"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Both quinone headgroups and reviewed ester regions have positive features; A938 water-site feature remains distinct across displayed levels. Chlorophyll geometry outliers remain separate from this density observation.",
+   "preparation": "Monomer with 13 core/4 LHCI subunits. Related 9LUU dimer has a different preparation; exact Tak1/Tak2 grid allocation is not established.",
+   "disposition": "RETAIN_WITH_PREPARATION_AND_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "8WEY",
+  "organism": "Cyanidium caldarium RK-1 (NIES-2137)",
+  "method": "Cryo-EM",
+  "resolution": "1.92",
+  "pdb_url": "https://www.rcsb.org/structure/8WEY",
+  "pdb_doi": "10.2210/pdb8WEY/pdb",
+  "condition": "Red alga, PSI-LHCI monomer",
+  "description": "Red-algal PSI-LHCI monomer; native PsaA/PsaB roles and reference-site water were rechecked against deposited coordinates. Strain RK-1 (NIES-2137).",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Primary-study growth: 30 µmol photons m−2 s−1, 30 °C, air with 3% CO2. Different C. caldarium strains or preparations are not pooled as identical conditions.",
+   "P_A-network residue mapping and water position were recomputed for this entry; a cyanobacterial template is not treated as a conservation claim.",
+   "The official ligand-validation report contains quinone ring-bond outliers. Local density coverage does not establish accurate intraligand bond geometry; check the per-cofactor validation context before chemical interpretation."
+  ],
+  "citations": [
+   {
+    "doi": "10.1073/pnas.2319658121",
+    "title": "The structure of PSI-LHCI from Cyanidium caldarium provides evolutionary insights into conservation and diversity of red-lineage LHCs.",
+    "author_short": "Kato et al.",
+    "year": 2024,
+    "verified_date": "2026-11-19"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Initial model is deposited as an in silico model. The primary study describes Phyre2 homology models, manual map fitting, and refinement; an explicit starting PDB is not established.",
+    "doi": "",
+    "locator": "Pilot intake evidence: intake/8WEY/article_fulltext.xml; Results and Methods (strain, growth, model building); current mmCIF."
+   }
+  ],
+  "lineage_short": "Initial model is deposited as an in silico model. The primary study describes Phyre2 homology models, manual map fitting, and refinement; an explicit starting PDB is not established.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Kato, K.",
+   "Hamaguchi, T.",
+   "Nakajima, Y.",
+   "Kawakami, K.",
+   "Yonekura, K.",
+   "Shen, J.R.",
+   "Nagao, R."
+  ],
+  "deposition_date": "2023-09-19",
+  "selector": "8WEY — Cyanidium caldarium RK-1 (NIES-2137) — Cryo-EM 1.92 Å — Red alga, PSI-LHCI monomer",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "R",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:840",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "840",
+      "label_asym": "EB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "804",
+      "label_asym": "BC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:842",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "842",
+      "label_asym": "ND",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "8WEY_prot1_special_pair",
+     "8WEY_prot1_P_A",
+     "8WEY_prot1_A1A",
+     "8WEY_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2229427623564437
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2736168968728367
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2191939960482132
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.08,
+      "reported_bond_outliers": 18,
+      "Q_score": "0.848",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:840",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2379083164758151
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2415333261737176
+       }
+      ],
+      "ring_plane_RMS_A": 0.007592281741923904,
+      "max_abs_reported_bond_Z": 7.3,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.694",
+      "residue_inclusion": "0.8485"
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2202462866159438
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2625802944763647
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.205256819105374
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.71,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.806",
+      "residue_inclusion": "0.9846"
+     },
+     "A1_B": {
+      "identity": "PQN:B:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2337998216890727
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2482267422227458
+       }
+      ],
+      "ring_plane_RMS_A": 0.011204151194395317,
+      "max_abs_reported_bond_Z": 6.8,
+      "reported_bond_outliers": 2,
+      "Q_score": "0.795",
+      "residue_inclusion": "1.0000"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Both quinone ring envelopes and reviewed ester regions are visible across displayed levels; A1002 water-site feature persists. Ring-bond geometry outliers are not cleared by these contours.",
+   "preparation": "Strain RK-1 / NIES-2137. Phyre2/in-silico model ancestry is distinct from an explicit starting-PDB accession.",
+   "disposition": "RETAIN_WITH_QUINONE_RING_GEOMETRY_CAUTION",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "7DKZ",
+  "organism": "Pisum sativum (pea)",
+  "method": "X-ray crystallography",
+  "resolution": "2.3930",
+  "pdb_url": "https://www.rcsb.org/structure/7DKZ",
+  "pdb_doi": "10.2210/pdb7DKZ/pdb",
+  "condition": "Flowering plant, PSI-LHCI, X-ray",
+  "description": "Pea PSI-LHCI crystal structure at deposited resolution 2.393 Å (RCSB display: 2.39 Å). Deposited source name Pisum sativum; the RCSB resolved taxonomy displays Lathyrus oleraceus for taxon 3888.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Sample: Pisum sativum var. Alaska (pea). Cultivation follows Qin et al. (2015); detailed growth parameters and engineering status are not independently established here.",
+   "Source taxonomy: deposited name Pisum sativum; current RCSB taxonomic display Lathyrus oleraceus, taxon 3888. These labels refer to the same source taxon in this entry.",
+   "Purification used β-DDM, followed by β-DDTM during the final sucrose gradient. Crystallization used sitting drops at 285 K; the paper discusses pH 9.0 crystallization. These conditions do not establish the cause of quinone distortion.",
+   "P_A is deposited as CLA; atom/component identities are retained. The source component label is not an independent chlorophyll epimer assignment."
+  ],
+  "citations": [
+   {
+    "doi": "10.1111/jipb.13095",
+    "title": "Structure of plant photosystem I-light harvesting complex I supercomplex at 2.4 angstrom resolution.",
+    "author_short": "Wang et al.",
+    "year": 2021,
+    "verified_date": "2026-11-19"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Molecular replacement used 4XK8 with cofactors, lipids and detergents removed. Cofactors were incorporated using Coot and the structure refined with phenix.refine. The unusual quinone geometry is present in the deposited 7DKZ model.",
+    "doi": "10.1111/jipb.13095",
+    "locator": "Wang et al., accepted manuscript, Methods pp. 16–18; literature version and coordinate check in docs/7DKZ_QUINONE_REVIEW.md."
+   }
+  ],
+  "lineage_short": "Molecular replacement used 4XK8 with cofactors, lipids and detergents removed. Cofactors were incorporated using Coot and the structure refined with phenix.refine. The unusual quinone geometry is present in the deposited 7DKZ model.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Wang, J.",
+   "Yu, L.J.",
+   "Wang, W."
+  ],
+  "deposition_date": "2020-11-25",
+  "selector": "7DKZ — Pisum sativum (pea) — X-ray crystallography 2.3930 Å — Flowering plant, PSI-LHCI, X-ray",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CLA:A:801",
+      "component": "CLA",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "NC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:842",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "842",
+      "label_asym": "CE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "804",
+      "label_asym": "TE",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "843",
+      "label_asym": "GG",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "7DKZ_prot1_special_pair",
+     "7DKZ_prot1_P_A",
+     "7DKZ_prot1_A1A",
+     "7DKZ_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CLA:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2353307249477772
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.227397246208414
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2274677185164617
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.15,
+      "reported_bond_outliers": 7,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_A": {
+      "identity": "PQN:A:842",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.4345797293981273
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.4383344534565017
+       }
+      ],
+      "ring_plane_RMS_A": 0.3040655146673747,
+      "max_abs_reported_bond_Z": 10.31,
+      "reported_bond_outliers": 16,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "P_B": {
+      "identity": "CLA:B:804",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2328965893374824
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2382701643825562
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2315717599880214
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.02,
+      "reported_bond_outliers": 10,
+      "Q_score": null,
+      "residue_inclusion": null
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.4313556511223897
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.421101685313195
+       }
+      ],
+      "ring_plane_RMS_A": 0.28960621762503835,
+      "max_abs_reported_bond_Z": 10.43,
+      "reported_bond_outliers": 14,
+      "Q_score": null,
+      "residue_inclusion": null
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Weighted main map covers broad cofactor features, including carbonyl-centered sections. A923 water is contour-sensitive, visible near 1 sigma and not supported at 1.5 sigma. Model-phased maps do not rescue severe quinone geometry.",
+   "preparation": "Primary accepted manuscript establishes Pisum sativum var. Alaska, β-DDM/β-DDTM preparation and 285 K crystallization. Molecular-replacement model 4XK8 excluded cofactors; Coot incorporated them. Unusual quinone geometry remains unresolved; no causal pH/refinement mechanism is established.",
+   "disposition": "RETAIN_COORDINATE_RECORD_HOLD_A1_CHEMICAL_GEOMETRY_AND_STRONG_WATER_CLAIMS",
+   "source_figures_inspected": 15,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "9UH3",
+  "organism": "Chrysotila roscoffensis",
+  "method": "Cryo-EM",
+  "resolution": "1.74",
+  "pdb_url": "https://www.rcsb.org/structure/9UH3",
+  "pdb_doi": "10.2210/pdb9UH3/pdb",
+  "condition": "Haptophyte, PSI-9 FCPI",
+  "description": "PSI with nine FCPI antenna subunits from Chrysotila roscoffensis. Part of the related 1/4/6/8/9-FCPI study series, not a physiological time course.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "PSI–9 FCPI is the α-DDM preparation: 0.5% α-DDM solubilization; final cryo-EM buffer contained 0.05% α-DDM. The PSI–4 FCPI classes came from the same fraction; the 1/6/8-FCPI reconstructions came from SML.",
+   "Culture: seawater F/2 medium, 20 °C, air with 3% CO2, continuous light 4.60 μmol photons m−2 s−1, 20 days. Antenna classes describe preparations/reconstructions, not an ordered acclimation series or independent biological replicates."
+  ],
+  "citations": [
+   {
+    "doi": "10.1016/j.bbabio.2026.149588",
+    "title": "Multiple structures of photosystem I-FCPI supercomplexes from a coccolithophore alga reveal a modular antenna organization.",
+    "author_short": "La Rocca et al.",
+    "year": 2026,
+    "verified_date": "2026-11-20"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "The primary paper explicitly identifies 8Z11 (Isochrysis galbana PSI–FCPI) as the starting model for PSI–9 FCPI. Subunit sequences were replaced using the C. roscoffensis RNA-seq-derived sequences before rebuilding/refinement.",
+    "doi": "10.1016/j.bbabio.2026.149588",
+    "locator": "Primary Results §2.1–2.2; Methods §4.1, §4.6–4.8; author institutional full text, pp. 2–3 and 10–11."
+   }
+  ],
+  "lineage_short": "The primary paper explicitly identifies 8Z11 (Isochrysis galbana PSI–FCPI) as the starting model for PSI–9 FCPI. Subunit sequences were replaced using the C. roscoffensis RNA-seq-derived sequences before rebuilding/refinement.",
+  "growth_light": "Continuous 4.60 μmol photons m−2 s−1; 20 °C; 20 days; air with 3% CO2 (primary Methods §4.1).",
+  "genotype": null,
+  "deposition_authors": [
+   "La Rocca, R.",
+   "Tsai, P.-C.",
+   "Kato, K.",
+   "Nakajima, Y.",
+   "Akita, F.",
+   "Shen, J.-R."
+  ],
+  "deposition_date": "2025-04-14",
+  "selector": "9UH3 — Chrysotila roscoffensis — Cryo-EM 1.74 Å — Haptophyte, PSI-9 FCPI",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:849",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "849",
+      "label_asym": "RB",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "801",
+      "label_asym": "AC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:837",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "837",
+      "label_asym": "FB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:835",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "835",
+      "label_asym": "ID",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9UH3_prot1_special_pair",
+     "9UH3_prot1_P_A",
+     "9UH3_prot1_A1A",
+     "9UH3_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:849",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.1905855702132537
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.217845638822931
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1948079343559637
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.12,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.831",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2014166637765684
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2219185733918534
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1964087930134941
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.48,
+      "reported_bond_outliers": 6,
+      "Q_score": "0.833",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:837",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.22704074911963
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2279841204184938
+       }
+      ],
+      "ring_plane_RMS_A": 0.02617155077268342,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.778",
+      "residue_inclusion": "0.9091"
+     },
+     "A1_B": {
+      "identity": "PQN:B:835",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2292457036735898
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2275284110765146
+       }
+      ],
+      "ring_plane_RMS_A": 0.027939243013724968,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.789",
+      "residue_inclusion": "1.0000"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Both quinone headgroups and reviewed ester regions occupy positive features across displayed levels. A961 water-site density persists; lower-level connectivity to neighboring density prevents treating it as an independent occupancy measurement.",
+   "preparation": "Primary paper resolves PSI–9 FCPI to the α-DDM preparation and explicitly names 8Z11 as the starting model. Culture and preparation remain source-specific; related antenna reconstructions are not independent biological replicates.",
+   "disposition": "RETAIN_WITH_STUDY_SERIES_AND_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "9HYU",
+  "organism": "Chromera velia",
+  "method": "Cryo-EM",
+  "resolution": "1.84",
+  "pdb_url": "https://www.rcsb.org/structure/9HYU",
+  "pdb_doi": "10.2210/pdb9HYU/pdb",
+  "condition": "Alveolate, PSI-FCP with SOD heterodimer",
+  "description": "PSI-FCP supercomplex with the PsaSOD1/PsaSOD2 heterodimer. PsaA is naturally split: pocket-bearing C-terminal fragment author chain A and N-terminal fragment author chain a; chain IDs are case-sensitive.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Split PsaA: author chain A is the pocket-bearing C-terminal fragment, chain a the N-terminal fragment; PsaB is chain B. The pocket display frame uses A/B; the neighborhood screen includes A/a/B.",
+   "Preparation and map: SEC Dataset 1 and native-PAGE Dataset 2 were combined for the 1.84 Å consensus reconstruction; focused maps were merged into the composite EMD-52518 map used for model building. 9HYU is not assigned to only one purification dataset."
+  ],
+  "citations": [
+   {
+    "doi": "10.1038/s41467-025-67637-0",
+    "title": "The cryo-EM structure of Photosystem I from Chromera velia with a bound superoxide dismutase heterodimer.",
+    "author_short": "Yuan et al.",
+    "year": 2025,
+    "verified_date": "2026-11-20"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Known subunits were predicted with SWISS-MODEL, fitted and rebuilt with Coot/ISOLDE, and refined against the study maps. The composite EMD-52518 map combines consensus/focused regions from the study; an explicit starting-PDB parent is not established.",
+    "doi": "10.1038/s41467-025-67637-0",
+    "locator": "Primary Results, Cryo-EM/data processing, Model building and Data availability; PMC12830998."
+   }
+  ],
+  "lineage_short": "Known subunits were predicted with SWISS-MODEL, fitted and rebuilt with Coot/ISOLDE, and refined against the study maps. The composite EMD-52518 map combines consensus/focused regions from the study; an explicit starting-PDB parent is not established.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Yuan, X.",
+   "Qian, P.",
+   "Sobotka, R.",
+   "Naschberger, A."
+  ],
+  "deposition_date": "2025-01-10",
+  "selector": "9HYU — Chromera velia — Cryo-EM 1.84 Å — Alveolate, PSI-FCP with SOD heterodimer",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:407",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "407",
+      "label_asym": "CA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:1207",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "1207",
+      "label_asym": "UH",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:416",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "416",
+      "label_asym": "LA",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:1232",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "1232",
+      "label_asym": "TI",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9HYU_prot1_special_pair",
+     "9HYU_prot1_P_A",
+     "9HYU_prot1_A1A",
+     "9HYU_prot1_A1B"
+    ],
+    "psaA_fragments": [
+     "A",
+     "a"
+    ],
+    "core_chains": [
+     "A",
+     "a",
+     "B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:407",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2017129440927408
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2159152931022765
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1981506583063768
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.64,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.794",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:1207",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.1990938245191833
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2171068153617604
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1983693086857596
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 6.05,
+      "reported_bond_outliers": 4,
+      "Q_score": "0.747",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:416",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2236461906940252
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2234026320063152
+       }
+      ],
+      "ring_plane_RMS_A": 0.023983200949222183,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.764",
+      "residue_inclusion": "0.7879"
+     },
+     "A1_B": {
+      "identity": "PQN:B:1232",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2255810866686703
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2259579927550488
+       }
+      ],
+      "ring_plane_RMS_A": 0.031473778297467295,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.676",
+      "residue_inclusion": "0.6667"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Quinone ring envelopes, ester features and A524 water-site feature are visible. Some slab-projected atom labels lie outside in-plane contours; positive full-3D atom samples distinguish this from absent local density.",
+   "preparation": "Split PsaA A/a chain identities retained. Primary study explicitly combines SEC Dataset 1 and native-PAGE Dataset 2, producing the consensus and composite maps used for 9HYU; exact allocation to a single dataset is inapplicable, not unknown. SWISS-MODEL is stated; no explicit PDB parent is inferred.",
+   "disposition": "RETAIN_WITH_SPLIT_CHAIN_AND_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "9KZ9",
+  "organism": "Rhodomonas sp. NIES-2332",
+  "method": "Cryo-EM",
+  "resolution": "2.08",
+  "pdb_url": "https://www.rcsb.org/structure/9KZ9",
+  "pdb_doi": "10.2210/pdb9KZ9/pdb",
+  "condition": "Cryptophyte, PSI-14 ACPI",
+  "description": "PSI with fourteen ACPI antenna subunits from Rhodomonas sp. NIES-2332. The related eleven-ACPI entry 9L0K is a study assembly, not an independent replicate.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "P_A O1D has Tyr602 OH and Thr742 OG1 N/O proximity candidates at 3.08575 and 3.30006 Å. Donor hydrogens, protonation and angles were not verified; these are not confirmed hydrogen bonds.",
+   "The deposited P_A Mg to homologous His679 NE2 separation is 3.05697 Å, beyond the automatic discovery cutoff of 3.0 Å. An explicit source-hash-bound mapping report establishes the cofactor role by sequence and nearest-anchor identity; the general cutoff is unchanged.",
+   "Primary study: Rhodomonas sp. NIES-2332 cells grown in F/2 medium at 20 °C with 3% CO2. PsaA/PsaB sequences were obtained from cDNA; several smaller core subunits were modeled using R. salina sequences.",
+   "Source-geometry caution: deposited quinone C–O distances are 1.39311–1.39568 Å, with official carbonyl bond Z scores about +7.8 to +7.9. Strong density and ring planarity do not establish correct carbonyl chemistry; hold quantitative A₁ chemical-geometry/redox interpretation."
+  ],
+  "citations": [
+   {
+    "doi": "10.3389/fpls.2025.1716939",
+    "title": "Structural analysis of PSI-ACPI and PSII-ACPII supercomplexes from a cryptophyte alga Rhodomonas sp. NIES-2332.",
+    "author_short": "Zhang et al.",
+    "year": 2025,
+    "verified_date": "2026-11-20"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Primary model-building Methods use Rhodomonas salina PSI-ACPI 8WM6 as the starting model. The empty deposited initial-model category is distinguished from this paper evidence.",
+    "doi": "10.3389/fpls.2025.1716939",
+    "locator": "Primary Methods and deposited initial-model category; mapping/metadata reports in expansion intake."
+   }
+  ],
+  "lineage_short": "Primary model-building Methods use Rhodomonas salina PSI-ACPI 8WM6 as the starting model. The empty deposited initial-model category is distinguished from this paper evidence.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Zhang, W.Y.",
+   "Akita, F.",
+   "Shen, J.R."
+  ],
+  "deposition_date": "2024-12-10",
+  "selector": "9KZ9 — Rhodomonas sp. NIES-2332 — Cryo-EM 2.08 Å — Cryptophyte, PSI-14 ACPI",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "DA",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "803",
+      "label_asym": "IC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:841",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "841",
+      "label_asym": "RB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "843",
+      "label_asym": "WD",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "9KZ9_prot1_special_pair",
+     "9KZ9_prot1_P_A",
+     "9KZ9_prot1_A1A",
+     "9KZ9_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2040191028384912
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2217647072984144
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.1993173058036075
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 4.8,
+      "reported_bond_outliers": 10,
+      "Q_score": "0.72",
+      "residue_inclusion": "0.9846"
+     },
+     "P_B": {
+      "identity": "CLA:B:803",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2312095678640642
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.223423475334672
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2236702987324541
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 3.68,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.713",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:841",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.393113778555065
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.3934033873936205
+       }
+      ],
+      "ring_plane_RMS_A": 0.0008048211272508342,
+      "max_abs_reported_bond_Z": 8.34,
+      "reported_bond_outliers": 10,
+      "Q_score": "0.718",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_B": {
+      "identity": "PQN:B:843",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.3956819121848558
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.3934697700345002
+       }
+      ],
+      "ring_plane_RMS_A": 0.00849238643692704,
+      "max_abs_reported_bond_Z": 8.35,
+      "reported_bond_outliers": 9,
+      "Q_score": "0.699",
+      "residue_inclusion": "1.0000"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Broad positive features cover both quinone headgroups; reviewed ester sites and A914 water-site feature remain visible. Strong density and nearly planar quinone rings do not validate the long deposited carbonyl bonds. Mg axial geometry requires a separate qualified interpretation.",
+   "preparation": "PSI-14 ACPI; related 9L0K is another study assembly rather than an independent replicate. Primary model-building source is 8WM6.",
+   "disposition": "RETAIN_COORDINATE_RECORD_HOLD_A1_CHEMICAL_GEOMETRY_AND_MG_COORDINATION_CLAIMS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
+ },
+ {
+  "pdb": "8XLS",
+  "organism": "Thalassiosira pseudonana CCMP1335",
+  "method": "Cryo-EM",
+  "resolution": "2.3",
+  "pdb_url": "https://www.rcsb.org/structure/8XLS",
+  "pdb_doi": "10.2210/pdb8XLS/pdb",
+  "condition": "Diatom, PSI-5 FCPI",
+  "description": "Diatom PSI monomer associated with five FCPI subunits. Core-pocket comparisons retain the PsaA/PsaB alignment frame rather than aligning the peripheral antenna.",
+  "context": "1 deposited protomer",
+  "notes": [
+   "Primary study identifies five FCPI subunits associated with one PSI core from strain CCMP1335. Native assembly and antenna architecture are not inferred from the cropped contact scenes.",
+   "The deposited initial-model category records an experimental model with source Other but no accession. An explicit starting PDB accession is not assigned from that category.",
+   "Primary model-building Methods use ModelAngelo, postprocessed and Topaz-denoised maps, followed by refinement including protein-cofactor coordination restraints. This is source-study processing, not processing performed by this atlas."
+  ],
+  "citations": [
+   {
+    "doi": "10.7554/eLife.99858",
+    "title": "Structural basis for molecular assembly of fucoxanthin chlorophyll a / c -binding proteins in a diatom photosystem I supercomplex.",
+    "author_short": "Kato et al.",
+    "year": 2024,
+    "verified_date": "2026-11-20"
+   }
+  ],
+  "lineage": [
+   {
+    "text": "Primary Methods describe ModelAngelo-generated subunit models and manual adjustment against postprocessed and Topaz-denoised maps. The deposited initial-model category records experimental model / Other without an accession; an explicit starting PDB is not established.",
+    "doi": "10.7554/eLife.99858",
+    "locator": "Primary Methods: Model building and refinement; Table 1. Author institutional copy and deposited initial-model category."
+   }
+  ],
+  "lineage_short": "Primary Methods describe ModelAngelo-generated subunit models and manual adjustment against postprocessed and Topaz-denoised maps. The deposited initial-model category records experimental model / Other without an accession; an explicit starting PDB is not established.",
+  "growth_light": null,
+  "genotype": null,
+  "deposition_authors": [
+   "Kato, K.",
+   "Nakajima, Y.",
+   "Shen, J.R.",
+   "Nagao, R."
+  ],
+  "deposition_date": "2023-12-26",
+  "selector": "8XLS — Thalassiosira pseudonana CCMP1335 — Cryo-EM 2.3 Å — Diatom, PSI-5 FCPI",
+  "protomers": [
+   {
+    "number": 1,
+    "cofactors": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "component": "CL0",
+      "chain": "A",
+      "residue": "801",
+      "label_asym": "R",
+      "name": "Chl a′ (deposited CL0)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "P_B": {
+      "identity": "CLA:B:802",
+      "component": "CLA",
+      "chain": "B",
+      "residue": "802",
+      "label_asym": "VC",
+      "name": "Chl a (deposited CLA)",
+      "heavy_atoms": 65,
+      "atoms_note": ""
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "component": "PQN",
+      "chain": "A",
+      "residue": "845",
+      "label_asym": "JB",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     },
+     "A1_B": {
+      "identity": "PQN:B:839",
+      "component": "PQN",
+      "chain": "B",
+      "residue": "839",
+      "label_asym": "GE",
+      "name": "Phylloquinone",
+      "heavy_atoms": 33,
+      "atoms_note": ""
+     }
+    },
+    "psaA": "A",
+    "psaB": "B",
+    "network_status": "Isolated P_A network available.",
+    "views": [
+     "8XLS_prot1_special_pair",
+     "8XLS_prot1_P_A",
+     "8XLS_prot1_A1A",
+     "8XLS_prot1_A1B"
+    ],
+    "cofactor_validation": {
+     "P_A": {
+      "identity": "CL0:A:801",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2136383316293173
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.27762631469456
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.213389879634739
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 8.69,
+      "reported_bond_outliers": 17,
+      "Q_score": "0.777",
+      "residue_inclusion": "1.0000"
+     },
+     "P_B": {
+      "identity": "CLA:B:802",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "CGA",
+         "O1A"
+        ],
+        "distance_A": 1.2157405150771268
+       },
+       {
+        "atoms": [
+         "CAD",
+         "OBD"
+        ],
+        "distance_A": 1.2828877581456612
+       },
+       {
+        "atoms": [
+         "CGD",
+         "O1D"
+        ],
+        "distance_A": 1.2098454446746396
+       }
+      ],
+      "ring_plane_RMS_A": null,
+      "max_abs_reported_bond_Z": 5.01,
+      "reported_bond_outliers": 19,
+      "Q_score": "0.766",
+      "residue_inclusion": "1.0000"
+     },
+     "A1_A": {
+      "identity": "PQN:A:845",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2077723295389673
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.207768189678784
+       }
+      ],
+      "ring_plane_RMS_A": 0.0024766921673898957,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.724",
+      "residue_inclusion": "0.7576"
+     },
+     "A1_B": {
+      "identity": "PQN:B:839",
+      "carbonyl_bonds": [
+       {
+        "atoms": [
+         "C1",
+         "O1"
+        ],
+        "distance_A": 1.2093742183460008
+       },
+       {
+        "atoms": [
+         "C4",
+         "O4"
+        ],
+        "distance_A": 1.2045887264954775
+       }
+      ],
+      "ring_plane_RMS_A": 0.006874820411166666,
+      "max_abs_reported_bond_Z": null,
+      "reported_bond_outliers": 0,
+      "Q_score": "0.731",
+      "residue_inclusion": "0.9697"
+     }
+    }
+   }
+  ],
+  "scene_origin": "derived by homology plus diagnostic-neighborhood supplement",
+  "scientific_review": {
+   "density": "Both quinone headgroup envelopes and ester-region features are visible; A955 water-site feature remains distinct over the displayed levels. Source chlorophyll bond outliers remain recorded.",
+   "preparation": "Five-FCPI diatom assembly, CCMP1335. ModelAngelo/processed-map primary Methods are distinct from sparse deposition initial-model categories.",
+   "disposition": "RETAIN_WITH_MODEL_BUILDING_AND_VALIDATION_CAVEATS",
+   "source_figures_inspected": 11,
+   "protomers_screened": [
+    1
+   ]
+  }
  }
 ]

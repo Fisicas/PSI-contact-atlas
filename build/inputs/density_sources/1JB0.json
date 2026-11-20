@@ -1,0 +1,10 @@
+{
+ "pdb": "1JB0",
+ "method": "X-ray crystallography",
+ "protomers": [
+  1
+ ],
+ "state": "source_error",
+ "records": [],
+ "error": "HTTP Error 404: Not Found; HTTP Error 404: Not Found"
+}

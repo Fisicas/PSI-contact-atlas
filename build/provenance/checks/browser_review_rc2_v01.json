@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "candidate": "1.1.0-rc.2",
+  "date": "2026-11-20",
+  "authorization": "User explicitly approved an isolated local test browser; no personal/open browser was controlled.",
+  "isolation": "Fresh chromium.launch(headless=True) and nonpersistent browser contexts. No personal profile, existing browser connection, external website, or published atlas used.",
+  "chrome": {
+    "browser": "chrome",
+    "version": "157.0.8103.79",
+    "scene_checks": 160,
+    "comparison_tables": 4,
+    "numeric_comparison_cells": 1617,
+    "theme_viewport_route_checks": 42,
+    "PNG_exports": 10,
+    "GIF_exports": 8,
+    "byte_exact_native_downloads": 25,
+    "screenshots": 77,
+    "javascript_errors": 0,
+    "failed_requests": 0,
+    "issues": 0,
+    "blocked_external_requests": 0
+  },
+  "edge": {
+    "browser": "edge",
+    "version": "157.0.4341.60",
+    "scene_checks": 6,
+    "comparison_tables": 4,
+    "numeric_comparison_cells": 1617,
+    "theme_viewport_route_checks": 42,
+    "PNG_exports": 10,
+    "GIF_exports": 8,
+    "byte_exact_native_downloads": 25,
+    "screenshots": 45,
+    "javascript_errors": 0,
+    "failed_requests": 0,
+    "issues": 0,
+    "blocked_external_requests": 0
+  },
+  "supplement": {
+    "status": "PASS",
+    "phone_GIFs": [
+      {
+        "engine": "chrome",
+        "mode": "http",
+        "dimensions": [
+          480,
+          534
+        ],
+        "frames": 75,
+        "frame_duration_ms": 80,
+        "total_duration_ms": 6000,
+        "sha256": "861843251f9bd5d419badd200446d75e4e5daf0574537f9bc4a165a585ae73f4"
+      },
+      {
+        "engine": "chrome",
+        "mode": "file",
+        "dimensions": [
+          480,
+          534
+        ],
+        "frames": 75,
+        "frame_duration_ms": 80,
+        "total_duration_ms": 6000,
+        "sha256": "861843251f9bd5d419badd200446d75e4e5daf0574537f9bc4a165a585ae73f4"
+      },
+      {
+        "engine": "edge",
+        "mode": "http",
+        "dimensions": [
+          480,
+          534
+        ],
+        "frames": 75,
+        "frame_duration_ms": 80,
+        "total_duration_ms": 6000,
+        "sha256": "861843251f9bd5d419badd200446d75e4e5daf0574537f9bc4a165a585ae73f4"
+      },
+      {
+        "engine": "edge",
+        "mode": "file",
+        "dimensions": [
+          480,
+          534
+        ],
+        "frames": 75,
+        "frame_duration_ms": 80,
+        "total_duration_ms": 6000,
+        "sha256": "861843251f9bd5d419badd200446d75e4e5daf0574537f9bc4a165a585ae73f4"
+      }
+    ],
+    "filter_checks": [
+      {
+        "engine": "chrome",
+        "entries": 22,
+        "search_rows": 1,
+        "xray_rows": 3,
+        "em_rows": 19,
+        "phone_comparison_horizontal_scroll": true
+      },
+      {
+        "engine": "edge",
+        "entries": 22,
+        "search_rows": 1,
+        "xray_rows": 3,
+        "em_rows": 19,
+        "phone_comparison_horizontal_scroll": true
+      }
+    ],
+    "errors": []
+  },
+  "molecular_style_preservation": {
+    "status": "PASS",
+    "pairs": 64,
+    "molecule_and_label_regions_identical": 64,
+    "whole_bitmaps_identical": 48,
+    "isolated_bar_scanline_differences": 16,
+    "molecular_and_label_code_byte_identical": true,
+    "navigation_errors": [],
+    "navigation_checks": [
+      "Scene resize callbacks after navigation: no errors",
+      "Delayed scene payloads cannot replace a newer comparison/methods page",
+      "Delayed structure previews ignored after leaving their page"
+    ],
+    "comparison_scope": "Raw canvas bitmaps at equal integer host dimensions, at desktop and phone viewport widths. This isolates the molecular renderer from fractional DOM screenshot crop/scrollbar rasterization; no source or molecular style is modified.",
+    "limitation": "Full DOM element screenshots are sensitive to fractional clipping. At matched integer host sizes, all molecule/label regions match pixel for pixel; 16 phone pairs differ only on one horizontal scale-bar stroke scanline. No change to scale-bar algorithm, native geometry or labels is claimed."
+  },
+  "download_payloads": {
+    "status": "PASS",
+    "scenes": 160,
+    "assets": 480,
+    "source_bytes": 3196608,
+    "scope": "Exact identities, UTF-8 round trips and source-byte hashes for CSV/mmCIF/PML download payloads. No coordinate/line-ending conversion."
+  },
+  "input_sha256": {
+    "js/app.js": "04965e48d17549ad96412845ae1b0956e204bd4309aa9ca0dab2bf3e805f485d",
+    "js/viewer.js": "0b4ad0546a33d63b392e588bdacc5b95064cd7b95b33e3c98180427a6f2412e8",
+    "js/density_review.js": "e2844c5c67dd22ef873ece138b479af38c042afc4d3fc3a3910b79764075e449",
+    "css/style.css": "17be7e1daf07d3ad2e1214057978a49162c5d0fc67b1c97cb9a2f2c9e563a375",
+    "data/atlas.js": "5a02308bcc31897e121d5f37a830b0b31d2816746ceb1df0e2cc1eb9631baf46",
+    "data/density_review.js": "2b0ab41c4629ab2a3072898e294d569ce9804ab4f3e1c6f63409f97b92ba0a24"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "playwright": "1.65.2",
+    "pillow": "12.3.0"
+  },
+  "fixes": [
+    "Disconnect scene resize observers; ignore callbacks and asynchronous preview/scene loads after their owner is removed.",
+    "Wrap PNG/GIF export-footer captions at narrow viewports; molecular drawing and label routines remain byte-identical.",
+    "Save canonical CSV/mmCIF/PML bytes from file:// previews through lazy per-scene text payloads; retain original HTTP anchors."
+  ],
+  "manual_visual_review": {
+    "new_entry_canvas_sheets": [
+      "9SE6",
+      "9LUT",
+      "8WEY",
+      "7DKZ",
+      "9UH3",
+      "9HYU",
+      "9KZ9",
+      "8XLS"
+    ],
+    "environments_per_sheet": 4,
+    "additional_examples": [
+      "Desktop/phone original-style 9LUT",
+      "Phone dark 9KZ9 P_A with geometry/mapping qualifications",
+      "Tablet dark 9HYU A1_B with split-chain metadata",
+      "Phone light home",
+      "Phone dark 9AU4 protomer 3 optional mesh/contour variants",
+      "Actual narrow-export PNG footer and phone GIF first frame"
+    ]
+  },
+  "scope_limits": [
+    "Windows headless Chrome and Edge; emulated 1440/768/390px widths at device scale 1. Not physical mobile hardware, Safari/Firefox or a complete accessibility audit.",
+    "All 160 scenes receive real-browser functional checks in Chrome; Edge receives six representative/edge scenes plus all comparison, layout, export and download cases.",
+    "Baseline bitmap comparison normalizes integer host sizes to isolate drawing. All 64 molecule/label regions match; 16 full phone bitmaps differ only on one scale-bar stroke scanline.",
+    "Browser/technical checks do not clear the retained scientific geometry/preparation/mapping limitations. GitHub CI and publication were not performed."
+  ]
+}

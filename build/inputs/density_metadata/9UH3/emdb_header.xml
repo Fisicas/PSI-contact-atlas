@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-64153">
+    <admin>
+        <current_status>
+            <date>2026-09-23</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2026-04-01">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <mask part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </mask>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2026-04-08">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_volume</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_volume</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-08-12">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_validate_chiral</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_chem_comp_atom.pdbx_stereo_config</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2026-08-12">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.1" date="2026-09-16">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                            <item>_pdbx_modification_feature.ref_pcm_id</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2026-09-16">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.2" date="2026-09-23">
+                <change_list>
+                    <model>
+                        <revision_group>DATA_COLLECTION</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.4" date="2026-09-23">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2025-04-14</deposition>
+            <header_release>2026-04-01</header_release>
+            <map_release>2026-04-01</map_release>
+            <update>2026-09-23</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Not funded</funding_body>
+            </grant_reference>
+        </grant_support>
+        <title>PSI-9 FCPI supercomplex from haptophyte Chrysotila roscoffensis</title>
+        <authors_list>
+            <author>La Rocca R</author>
+            <author>Tsai P-C</author>
+            <author>Kato K</author>
+            <author>Nakajima Y</author>
+            <author>Akita F</author>
+            <author>Shen J-R</author>
+        </authors_list>
+        <keywords>photosystem I, photosynthesis, chlorophyll, light-harvesting complex, biogenesis, assembly, LHCI, FCPI, coccolithophore, haptophyte</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">La Rocca R</author>
+                    <author order="2">Tsai PC</author>
+                    <author order="3">Kato K</author>
+                    <author order="4">Nakajima Y</author>
+                    <author order="5">Akita F</author>
+                    <author order="6">Shen JR</author>
+                    <title>Multiple structures of photosystem I-FCPI supercomplexes from a coccolithophore alga reveal a modular antenna organization.</title>
+                    <journal_abbreviation>Biochim Biophys Acta Bioenerg</journal_abbreviation>
+                    <country>NE</country>
+                    <volume>1867</volume>
+                    <first_page>149588</first_page>
+                    <last_page>149588</last_page>
+                    <year>2026</year>
+                    <external_references type="PUBMED">41864554</external_references>
+                    <external_references type="DOI">doi:10.1016/j.bbabio.2026.149588</external_references>
+                    <external_references type="ISSN">1879-2650</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9uh3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-64153</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>PSI-9 FCPI supercomplex from haptophyte Chrysotila roscoffensis</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>Photosystem I (PSI) with 9 fucoxanthin chlorophyll a/c binding protein I (FCPI) supercomplex from haptophyte Chrysotila roscoffensis</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Photosystem I (PSI) with 9 fucoxanthin chlorophyll a/c binding protein I (FCPI) supercomplex from haptophyte Chrysotila roscoffensis</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>PSI-9 FCPI supercomplex.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1 (psaA)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08336893799999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKIGSKELEAKKVQVVVDKDPVVTSFEKWAQPGHFSRTLAKGPKTTTWIWNLHADAHDFDSQTSSLEDISRKIFSAHFGQ
+LAIIFLWISGMYFHGARFSNYSAWLANPTTIKPSAQVVWPIVGQEILNGDVGGGFAGVQITSGFFQLWRASGITSEIELY
+WTAIGGLIMSALMVFAGWFHYHKAAPKLEWFQNAESMMNHHLAGLLGLGCLGWAGHQIHVSLPINKLLDAGVSPQEIPLP
+YELIFNQDLMAQLYPSFKQGLVPFFTLNWSAYSDFLTFKGGLNPITGSLWLSDTAHHHLALSVLFIFAGHMYRTNWGIGH
+SMKEILEAHKGPLTGEGHKGLYEILTTSWHAQLAINLAMMGSVSIIVAHHMYAMPPYPYIGIDYPTQLSLFTHHMWIGGF
+CVCGAGAHASIFMVRDYSPVQSYNNLLDRVLRHRDAIISHLNWVCIFLGTHSFGLYIHNDTMRALGRPQDMFSDKAIQLQ
+PIFAQWVQSLHTLAPGNTAPNALATTSYAFGGDVVAVNGKIAMMPIALGTADFLVHHIHAFTIHVTVLILLKGTLFARNS
+RLIPDKANLGFRFPCDGPGRGGTCQVSAWDHVFLGLFWMYNCISVVIFHFSWKMQSDVWGTVSAAGKISHVTGGNFANSA
+LTINGWLRDFLWSEASQVIQSYGSALSAYGLIFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHSKLKLAPAIQPRALS
+ITQGRAVGLAHYLLGGIGTTWSFFLARIISVG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I P700 chlorophyll a apoprotein A2 (psaB)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.082002906</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPKFSQALAQDPATRRIWYGIATAHDLESHDGMSEENLYQKIFASHFGHLAIIFLWTSGNLFHVAWQGNFQQWVLN
+PLKVKPIAHAIWDPHFGQSAIKAFTRAGVSYPVNIATSGVYHWWYTIGMRTNNDLYFGALGLLILSTALLFAGWLHLQPK
+FRPGLAWFKNNESRLNHHLSGLFGVSSLAWSGHLIHVAIPESRGQHIGWDNFTSTLPHPDGLTPFFTGNWGLYAENPDTV
+KHIFGTSEGAGTAILTFLGGFHPQTQSMWLTDIAHHHLAIAVLFIFAGHMYRTNWGIGHSMKEILDAHVPPKGRLGAGHR
+GLFETITDSLHMQLGLALASLGVATSLVAQHMYALPPYAFMAKDYVTQAALYTHHQYIAGFLMVGAFAHGAIFFVRDYDP
+EVNKDNVLARMLQHKEAIISHLSWVSLFLGFHTLGLYIHNDVCVAFGTPEKQILFEPVFAQFIQASSGKAVYGFDVLLSS
+STSAATVASSKIWLPGWLEAINSGKNSLFLTIGPGDFLVHHAIALGLHTTTLILVKGALDARGSKLMPDKKDFGYSFPCD
+GPGRGGTCDISAWDAFYLAMFWMLNTIGWVTFYWHFKHMTIWGGNAAAFNESSTYLMGWLRDYLWLNSSPLINGYNAFGM
+NAQAVWAWMFLFGHLIWATGFMFLISWRGYWQELIETLVWAHERTPIANLVRWKDKPVALSIVQARLVGLAHFTVGYIFT
+YAPFVIASTTGKFG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I iron-sulfur center (psaC)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008836193999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHNVRIYDTCIGCTQCVRACPCDVLEMVPWDGCKAGQIASAPRAEDCIGCKRCETACPTDFLSVRVYLGSETTRSLGLS
+Y</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I reaction center subunit II (psaD)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015936089</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSTDILNLQIPSPTFGGSTGGWLRAAETEEKYAITWTSKKEQVFEMPTSGSAIMQKGENLLYLAKKEQCLALGSQLRTGF
+KIQDYKIYRIFPNSEIQYLHPKDGVFPEKLNEGRIGVGNVDHSIGKNKQPVNVKFSGRNTFD</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit IV (psaE)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007342328</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVSRGSVVRVMRPESYWFQETGTVATIAKGGDRYPVVVRFDKVNYAGVATNNFAVDELVEVSAPPAK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit III (psaF)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020163416</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRILSILFLFSVIGNAPLVASADVSGLVPCKDSSVFNRRLDGSVKKLTTRLKNYEEGTPAYLALEQQIAQTKTRFAMYA
+DKGLLCGTDGLPHLIADGRFSHAGEFMIPGVGFLYITGWIGWAGRSYLQFSKKTDKPNESEIIINVPVALSMMSAAFIWP
+LAAWKELVSGQLLVSADEITVSPR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit VIII (psaI)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0039006819999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTASFLPSILTPVVTLIFPGLCFALFFVLIEQEEI</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I reaction center subunit IX (psaJ)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.004340065999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDKNLLTYLSTAPVLLTAWMTITAGFSIEFLRFFPDAAA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center subunit XI (psaL)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015045253</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSEFVKPYNNDPFVGNLSTPVTTSTATKLYLGNLPIYRKGLSSLRRGLEIGMAHGYFLVGPFYLLGPLRNSESALLIGLF
+AAFGLILILTLALTIYGLASFQDNETGDALESSSGWQKFTSGFFVGASGGAVVAYVLLANI</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I reaction center subunit XII (psaM)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0030826779999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MITDGQIFLALTVALTAAIFAIGLGRQLY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Fucoxanthin chlorophyll a/c binding protein III (FCPI-3)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021458887</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTATAFSGPSLPVGRAAAPAISMMAERSASIPFLNKPPALDGSMVGDVGFDPLGFSTTITELGGDLNYVREAELMHGRQA
+MLATVGFVFPSIFGKIPSDWSASVSTDPLVAQYQLPGTVLGQLIFSIAVAEGIRASIIFKKDSVPGEHGFDPAGFIPKFC
+NTPEKMAEMKLKELKHCRIAMIAITGFFFQETITGHVVPFL</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Fucoxanthin chlorophyll a/c binding protein VI (FCPI-6)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024382199</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSLVASAPAFVPPTGLVAPAMQPLTQIRMAEGPMYDAPLAPSGMGAEFINAERAPISSYVGASWEAGDVVYDPLDLCEL
+WKVSANNPDAAFLREAELKHCRLAMLAFAGIIHTSAGFHIPGEIWAVDDWSAALSTVQAKNPAALGQIFAGIGIIEGYTS
+KGVFDMWFGKTTVRAPGKLGFDPLGLMPKDKEGAAKMELSELKNGRMAMIAVAGIACNHYIPGSVPGCPFP</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>Fucoxanthin chlorophyll a/c binding protein IV (FCPI-4)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.02106448</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSLVSGSLAFTAPLTPAVTQTRAHAPNMLKSQALPFVEAPKALDGSMVGDVGFDPLNLSDGLDLKFMREAELKHGRICM
+LAWLGYVVVDLGITAPGAPSVSSLAAHDTAVKEGAMYLLLMLVSGFEAISTPAVYEMMSGQSDRKPGDFQLDPFGWAKGD
+KAEKMMLSEVIHCRTAMLAFSGVVTQSALKEIGFPYF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>Photosystem I reaction center subunit psaR</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009637013</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MELKAQDTWWGDKDYPDSIVLGIGKGVPSIVYSVSSLIALALGSYCVAESNLLNILSGSTVNGFYVVGAVLVPYSWGLHV
+AAWIQKQNGK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>Fucoxanthin chlorophyll a/c binding protein II (FCPI-2)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022708201</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAVRTLLLCAAIGSAAALTAPVTRAVRPAVRRTTDVQAVVNFDSAASQWNAEFPYLAKFGFGPSAKAERWNGRHAMFGWV
+VIVATGYAQSHGLIPSPDVPLSYSSWGGLAQMGFNEYITNERAVIMIAHTHFLAFSLAAAFGPKVLDSLTLANGESDEEP
+AGFMPAIQPGLTASAELLNGRMAMLGLVLLVLTSAFTGKEILDVVNIGLGGLLLK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>Fucoxanthin chlorophyll a/c binding protein I (FCPI-1)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020547621</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAAYLISLASPSFVPGAAVHHIAPTITSQQQIVAKVDGLVGDSAPLGFFDPLGYTKKASPADLKKYRECELKHGRVAMLA
+SMGMVVADFWHPLYGGGNSANPLVAITQVPKAGLLQILAFIGFMEVMGQLNMQRADYEPGNFLGSGQWETSESWDDYQTR
+ELNNGRLAMFASIGMLAHAALTGKGPLELIF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>Fucoxanthin chlorophyll a/c binding protein VII (FCPI-7)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022153486</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSLVSASFAFNAAPAVVPATRAGVVSMAISNPSNAVPFLTAPPSQSSGLPGAETGFDPLYLSEYIDVKWAREAELKHGR
+ICMLACLGILVQEFISLPGYPGYDANPVAAFSSVDPQALAQIFVGMSIVELVSNKGKYSSMDMFEDGTKTPGDFGFDPLN
+YGKDPSKRAELEMKELKNGRLAMLGFSGMIHQVLITGKPLLAGLGDILS</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>Fucoxanthin chlorophyll a/c binding protein VIII (FCPI-8)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.018375294999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>VEYSQSMPFLVKRKALNGYVGDVGFDPLGFSEILPMDWLREAELKHCRVCMLATVGFVFTDFLTLPGSIYQVSTLDAHDV
+SVASGSMSQLLLWIGIAEIISVVAIQQMLAGSGRAPGEFGFDPMGFAKDASKKADLEMKELANGRLAMMAFSGMVTQAVL
+TGNSFPYLY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>Fucoxanthin chlorophyll a/c binding protein IX (FCPI-9)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021144477</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLSTVLLAQNAAGFAPQLTPAHSASRVAGVAMQAKSKAIPFLNQPPALDGTLAGDVGFDPLMLSSLIPLKWAREAELKHC
+RLAMLATAGWLAVDFGITAPDAPQVSSLAAHDATVDKGPMWFLLLVASVFEIVGGTPKVFQLLNDPDAAGPGEYKFNPLN
+IKSDKVMEEKEIANGRLAMMAFSGIVTQAALTGNGFPYMY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>Fucoxanthin chlorophyll a/c binding protein V (FCPI-5)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021379759999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MISMVNAALAFAGQHAVLNGVARATAPVMQQKSQSVPFLDRPAALDGTMVGDVGFDPLGISSGIPMAWLRESELKHGRVC
+MLATVGYIAVDMGIRAPYAETLSVTSLTAHDATVATGQMWLLLIACGVLEVAGAAGIAATLSGSDRKPGYFAFDPLGFGK
+DPKQMERMELSEIKNGRLAMLAFSGIVTQDALFEHAKNFPYL</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>Photosystem I reaction center subunit psaK</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="418908">Chrysotila roscoffensis</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008915401</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVDPSAVDAASQLLAIADPGFTPAKTAVMAASNLLVMGTTKIQGKSLIGGTKHDEMVDTFGMTWLLATASLGHIVGVGAI
+LGLTATGVL</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="22">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>175</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="23">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="24">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="25">
+                <name>BETA-CAROTENE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>19</number_of_copies>
+                <formula>BCR</formula>
+            </ligand>
+            <ligand macromolecule_id="26">
+                <name>DODECYL-ALPHA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>11</number_of_copies>
+                <formula>LMU</formula>
+            </ligand>
+            <ligand macromolecule_id="27">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="28">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="29">
+                <name>DIGALACTOSYL DIACYL GLYCEROL (DGDG)</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0009492989999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>DGD</formula>
+            </ligand>
+            <ligand macromolecule_id="30">
+                <name>1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007951159999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>SQD</formula>
+            </ligand>
+            <ligand macromolecule_id="31">
+                <name>(3S,3'R,5R,6S,7cis)-7',8'-didehydro-5,6-dihydro-5,6-epoxy-beta,beta-carotene-3,3'-diol</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000582855</theoretical>
+                </molecular_weight>
+                <number_of_copies>31</number_of_copies>
+                <formula>DD6</formula>
+            </ligand>
+            <ligand macromolecule_id="32">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="33">
+                <name>Chlorophyll c1</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000610941</theoretical>
+                </molecular_weight>
+                <number_of_copies>10</number_of_copies>
+                <formula>KC1</formula>
+            </ligand>
+            <ligand macromolecule_id="34">
+                <name>(3S,3'S,5R,5'R,6S,6'R,8'R)-3,5'-dihydroxy-8-oxo-6',7'-didehydro-5,5',6,6',7,8-hexahydro-5,6-epoxy-beta,beta-caroten-3'- yl acetate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0006589059999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>7</number_of_copies>
+                <formula>A86</formula>
+            </ligand>
+            <ligand macromolecule_id="35">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>514</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.5</ph>
+                        <component>
+                            <concentration units="mM">10.0</concentration>
+                            <formula>HEPES</formula>
+                            <name>4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid</name>
+                        </component>
+                        <component>
+                            <concentration units="mM">50.0</concentration>
+                            <formula>NaCl</formula>
+                            <name>sodium chloride</name>
+                        </component>
+                        <component>
+                            <concentration units="%">0.05</concentration>
+                            <formula>alpha-DDM</formula>
+                            <name>n-Dodecyl alpha-maltoside</name>
+                        </component>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil R1.2/1.3</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">10</time>
+                            <pressure units="kPa">0.007</pressure>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">281</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.8</nominal_defocus_max>
+                    <nominal_magnification>165000.0</nominal_magnification>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>8Z11</pdb_id>
+                    </pdb_model>
+                    <details>PSI-FCPI supercomplex from haptophyte I. galbana.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <number_classes_used>12</number_classes_used>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>FOURIER SPACE</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">1.74</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>191444</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>MAXIMUM LIKELIHOOD</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="864001">
+        <file>emd_64153.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>600</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>600</z>
+        </spacing>
+        <cell>
+            <a units="Å">436.2</a>
+            <b units="Å">436.2</b>
+            <c units="Å">436.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.618427</minimum>
+            <maximum>1.8847094</maximum>
+            <average>-0.000115612565</average>
+            <std>0.01953725</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.727</x>
+            <y units="Å">0.727</y>
+            <z units="Å">0.727</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.065</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-64153::::</label>
+        <annotation_details>Cryo-EM map of the PSI-9 FCPI supercomplex from haptophyte Chrysotila roscoffensis.</annotation_details>
+    </map>
+    <interpretation>
+        <segmentation_list>
+            <segmentation>
+                <file>emd_64153_msk_1.map</file>
+            </segmentation>
+        </segmentation_list>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_64153_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.2</a>
+                    <b units="Å">436.2</b>
+                    <c units="Å">436.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.25527352</minimum>
+                    <maximum>1.0314012</maximum>
+                    <average>0.000099408804</average>
+                    <std>0.026631767</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.727</x>
+                    <y units="Å">0.727</y>
+                    <z units="Å">0.727</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-64153::::</label>
+                <annotation_details>Half-A map.</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_64153_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.2</a>
+                    <b units="Å">436.2</b>
+                    <c units="Å">436.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.2621576</minimum>
+                    <maximum>1.0967927</maximum>
+                    <average>0.00009591158</average>
+                    <std>0.026598504</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.727</x>
+                    <y units="Å">0.727</y>
+                    <z units="Å">0.727</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-64153::::</label>
+                <annotation_details>Half-B map.</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

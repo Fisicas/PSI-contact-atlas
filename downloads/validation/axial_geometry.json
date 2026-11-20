@@ -1,0 +1,193 @@
+{
+ "scope": "Descriptive full-precision native Mg/histidine geometry. No fitted positions, coordinate uncertainty, tautomer assignment or coordination validation.",
+ "entries": [
+  {
+   "pdb": "9KZ9",
+   "protomer": 1,
+   "source_sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+   "Mg": "CL0:A:801:MG",
+   "histidine": "HIS:A:679",
+   "Mg_out_of_N4_plane_A": 0.3945504069433803,
+   "Mg_occupancy": 1.0,
+   "Mg_B_A2": 32.26,
+   "distances": {
+    "NE2": {
+     "distance_A": 3.056972031275375,
+     "angle_from_N4_normal_deg": 17.837905547036886,
+     "occupancy": 1.0,
+     "B_A2": 30.44,
+     "in_existing_P_A_scene": true
+    },
+    "ND1": {
+     "distance_A": 5.1307837607913,
+     "angle_from_N4_normal_deg": 12.203379473567592,
+     "occupancy": 1.0,
+     "B_A2": 30.44,
+     "in_existing_P_A_scene": true
+    },
+    "CG": {
+     "distance_A": 4.733611200764174,
+     "angle_from_N4_normal_deg": 20.913687688220165,
+     "occupancy": 1.0,
+     "B_A2": 30.44,
+     "in_existing_P_A_scene": true
+    },
+    "CE1": {
+     "distance_A": 4.285754076005764,
+     "angle_from_N4_normal_deg": 17.62168335164423,
+     "occupancy": 1.0,
+     "B_A2": 30.44,
+     "in_existing_P_A_scene": true
+    },
+    "CD2": {
+     "distance_A": 3.414125656738486,
+     "angle_from_N4_normal_deg": 25.08607012096556,
+     "occupancy": 1.0,
+     "B_A2": 30.44,
+     "in_existing_P_A_scene": true
+    }
+   }
+  },
+  {
+   "pdb": "5OY0",
+   "protomer": 1,
+   "source_sha256": "dd86be78a715e672351432da85e32073a32cee040cadd00b800ae74d15f82864",
+   "Mg": "CLA:1:1011:MG",
+   "histidine": "HIS:1:676",
+   "Mg_out_of_N4_plane_A": 0.06995460993529717,
+   "Mg_occupancy": 1.0,
+   "Mg_B_A2": 60.19,
+   "distances": {
+    "NE2": {
+     "distance_A": 2.937272544385342,
+     "angle_from_N4_normal_deg": 11.418532816730538,
+     "occupancy": 1.0,
+     "B_A2": 74.5,
+     "in_existing_P_A_scene": true
+    },
+    "ND1": {
+     "distance_A": 5.00837159164533,
+     "angle_from_N4_normal_deg": 17.630270846789884,
+     "occupancy": 1.0,
+     "B_A2": 77.04,
+     "in_existing_P_A_scene": true
+    },
+    "CG": {
+     "distance_A": 4.944466401948745,
+     "angle_from_N4_normal_deg": 23.194636722055506,
+     "occupancy": 1.0,
+     "B_A2": 72.08,
+     "in_existing_P_A_scene": true
+    },
+    "CE1": {
+     "distance_A": 3.9431284533983764,
+     "angle_from_N4_normal_deg": 17.559983227452012,
+     "occupancy": 1.0,
+     "B_A2": 75.61,
+     "in_existing_P_A_scene": true
+    },
+    "CD2": {
+     "distance_A": 3.7430833546689857,
+     "angle_from_N4_normal_deg": 26.589530559842597,
+     "occupancy": 1.0,
+     "B_A2": 74.22,
+     "in_existing_P_A_scene": true
+    }
+   }
+  },
+  {
+   "pdb": "5OY0",
+   "protomer": 2,
+   "source_sha256": "dd86be78a715e672351432da85e32073a32cee040cadd00b800ae74d15f82864",
+   "Mg": "CLA:A:1011:MG",
+   "histidine": "HIS:A:676",
+   "Mg_out_of_N4_plane_A": 0.060911966881060334,
+   "Mg_occupancy": 1.0,
+   "Mg_B_A2": 49.21,
+   "distances": {
+    "NE2": {
+     "distance_A": 2.8140350033359525,
+     "angle_from_N4_normal_deg": 14.982891778702433,
+     "occupancy": 1.0,
+     "B_A2": 42.47,
+     "in_existing_P_A_scene": true
+    },
+    "ND1": {
+     "distance_A": 4.890804637275955,
+     "angle_from_N4_normal_deg": 13.279451748590075,
+     "occupancy": 1.0,
+     "B_A2": 45.3,
+     "in_existing_P_A_scene": true
+    },
+    "CG": {
+     "distance_A": 4.936568038627646,
+     "angle_from_N4_normal_deg": 22.51713683041031,
+     "occupancy": 1.0,
+     "B_A2": 38.02,
+     "in_existing_P_A_scene": true
+    },
+    "CE1": {
+     "distance_A": 3.745666963305735,
+     "angle_from_N4_normal_deg": 13.61318390922148,
+     "occupancy": 1.0,
+     "B_A2": 45.38,
+     "in_existing_P_A_scene": true
+    },
+    "CD2": {
+     "distance_A": 3.7694787438053066,
+     "angle_from_N4_normal_deg": 29.89718186364034,
+     "occupancy": 1.0,
+     "B_A2": 42.86,
+     "in_existing_P_A_scene": true
+    }
+   }
+  },
+  {
+   "pdb": "5OY0",
+   "protomer": 3,
+   "source_sha256": "dd86be78a715e672351432da85e32073a32cee040cadd00b800ae74d15f82864",
+   "Mg": "CLA:a:1011:MG",
+   "histidine": "HIS:a:676",
+   "Mg_out_of_N4_plane_A": 0.04518017346686756,
+   "Mg_occupancy": 1.0,
+   "Mg_B_A2": 54.81,
+   "distances": {
+    "NE2": {
+     "distance_A": 3.9240189856829324,
+     "angle_from_N4_normal_deg": 9.295255302254574,
+     "occupancy": 1.0,
+     "B_A2": 72.45,
+     "in_existing_P_A_scene": true
+    },
+    "ND1": {
+     "distance_A": 3.747000133440088,
+     "angle_from_N4_normal_deg": 31.346936579621588,
+     "occupancy": 1.0,
+     "B_A2": 69.52,
+     "in_existing_P_A_scene": true
+    },
+    "CG": {
+     "distance_A": 4.937470911306728,
+     "angle_from_N4_normal_deg": 22.82655508277494,
+     "occupancy": 1.0,
+     "B_A2": 70.37,
+     "in_existing_P_A_scene": true
+    },
+    "CE1": {
+     "distance_A": 2.9846865832110496,
+     "angle_from_N4_normal_deg": 19.09632365559927,
+     "occupancy": 1.0,
+     "B_A2": 71.28,
+     "in_existing_P_A_scene": true
+    },
+    "CD2": {
+     "distance_A": 5.014202030233731,
+     "angle_from_N4_normal_deg": 7.842734055975872,
+     "occupancy": 1.0,
+     "B_A2": 72.13,
+     "in_existing_P_A_scene": true
+    }
+   }
+  }
+ ]
+}

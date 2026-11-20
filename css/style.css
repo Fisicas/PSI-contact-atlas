@@ -357,3 +357,19 @@ table.kvt th { text-transform: none; letter-spacing: 0; font-size: .86rem; white
 .gif-panel .go-btn:disabled { opacity: .6; cursor: progress; }
 .gif-panel progress { width: 160px; height: 8px; }
 button.link.inline { display: inline; font-size: inherit; }
+
+/* Optional density review figures; no molecular viewer or label style overrides. */
+.density-options { margin-top: 14px; }
+.density-choice { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.density-choice button { padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.density-choice button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.density-figures { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,300px),1fr)); gap: 12px; }
+.density-figures figure { margin: 0; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; }
+.density-figures img { display: block; width: 100%; height: auto; background: white; }
+.density-figures figcaption { padding: 10px; font-size: .82rem; color: var(--ink-2); }
+
+/* Approved chlorin branding; molecular canvas/label styling is unchanged. */
+.brand img { width:34px; height:34px; display:block; flex-shrink:0; }
+
+/* Interactive mesh links retain each original static image. */
+.density-links { display:block; margin-top:6px; }

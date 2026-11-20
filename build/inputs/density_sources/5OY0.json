@@ -1,0 +1,21 @@
+{
+ "pdb": "5OY0",
+ "method": "X-ray crystallography",
+ "protomers": [
+  1,
+  2,
+  3
+ ],
+ "state": "source_ready",
+ "records": [
+  {
+   "url": "https://files.rcsb.org/download/5OY0-sf.cif",
+   "final_url": "https://files.rcsb.org/download/5OY0-sf.cif",
+   "file": "raw_maps/5OY0/5OY0-sf.cif",
+   "bytes": 35049790,
+   "sha256": "b27d22bb216885fd8aa7b5c9316ff55a4c22cd36e7a10086531b7968551ebd16",
+   "retrieved_utc": "2026-11-20T05:09:38.920802+00:00"
+  }
+ ],
+ "map_file": "raw_maps/5OY0/5OY0-sf.cif"
+}

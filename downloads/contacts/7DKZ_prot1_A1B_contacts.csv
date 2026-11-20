@@ -1,0 +1,5 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+7DKZ.p1.PQN:B:843:O1~TRP:B:671:NE1,7DKZ_prot1_A1B,7DKZ,1,A1B,PQN:B:843:O1,TRP:B:671:NE1,GG,F,2.78437,polar,donor–acceptor compatible,derived by homology,1.0,1.0,90.37,83.92
+7DKZ.p1.PQN:B:843:O1~SER:B:666:OG,7DKZ_prot1_A1B,7DKZ,1,A1B,PQN:B:843:O1,SER:B:666:OG,GG,F,3.05311,polar,donor–acceptor compatible,derived by homology,1.0,1.0,90.37,77.81
+7DKZ.p1.MET:B:662:O~PQN:B:843:O1,7DKZ_prot1_A1B,7DKZ,1,A1B,PQN:B:843:O1,MET:B:662:O,GG,F,3.67705,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,90.37,71.48
+7DKZ.p1.LEU:B:700:N~PQN:B:843:O4,7DKZ_prot1_A1B,7DKZ,1,A1B,PQN:B:843:O4,LEU:B:700:N,GG,F,2.84171,polar,donor–acceptor compatible,derived by homology,1.0,1.0,84.62,65.97

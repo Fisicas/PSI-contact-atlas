@@ -1,0 +1,14 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+8XLS.p1.HOH:A:955:O~TYR:A:600:OH,8XLS_prot1_P_A,8XLS,1,P_A,HOH:A:955:O,TYR:A:600:OH,BL,A,3.41665,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,28.94,29.8
+8XLS.p1.HOH:A:955:O~SER:A:604:OG,8XLS_prot1_P_A,8XLS,1,P_A,HOH:A:955:O,SER:A:604:OG,BL,A,2.98824,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,28.94,33.03
+8XLS.p1.GLY:A:736:O~HOH:A:955:O,8XLS_prot1_P_A,8XLS,1,P_A,HOH:A:955:O,GLY:A:736:O,BL,A,3.47902,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,28.94,36.29
+8XLS.p1.HOH:A:955:O~THR:A:740:OG1,8XLS_prot1_P_A,8XLS,1,P_A,HOH:A:955:O,THR:A:740:OG1,BL,A,2.59710,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,28.94,33.13
+8XLS.p1.CL0:A:801:O2D~HOH:A:955:O,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O2D,HOH:A:955:O,R,BL,3.51589,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,36.88,28.94
+8XLS.p1.CL0:A:801:MG~HIS:A:677:NE2,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:MG,HIS:A:677:NE2,R,A,2.45321,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,20.2,22.15
+8XLS.p1.CL0:A:801:O2D~CL0:A:801:OBD,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:OBD,CL0:A:801:O2D,R,R,3.60467,intra,same residue,derived by homology,1.0,1.0,24.96,36.88
+8XLS.p1.CL0:A:801:OBD~THR:A:740:OG1,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:OBD,THR:A:740:OG1,R,A,2.93110,polar,donor–acceptor compatible,derived by homology,1.0,1.0,24.96,33.13
+8XLS.p1.CL0:A:801:O2D~THR:A:740:OG1,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O2D,THR:A:740:OG1,R,A,3.25711,polar,donor–acceptor compatible,derived by homology,1.0,1.0,36.88,33.13
+8XLS.p1.CL0:A:801:O2D~TYR:A:600:OH,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O2D,TYR:A:600:OH,R,A,3.24542,polar,donor–acceptor compatible,derived by homology,1.0,1.0,36.88,29.8
+8XLS.p1.CL0:A:801:O1A~TYR:A:732:OH,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O1A,TYR:A:732:OH,R,A,2.65261,polar,donor–acceptor compatible,derived by homology,1.0,1.0,45.87,25.45
+8XLS.p1.CL0:A:801:O1A~TRP:A:680:NE1,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O1A,TRP:A:680:NE1,R,A,3.47181,polar,donor–acceptor compatible,derived by homology,1.0,1.0,45.87,20.83
+8XLS.p1.CL0:A:801:O2A~TYR:A:600:OH,8XLS_prot1_P_A,8XLS,1,P_A,CL0:A:801:O2A,TYR:A:600:OH,R,A,3.33538,polar,donor–acceptor compatible,derived by homology,1.0,1.0,46.62,29.8

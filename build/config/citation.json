@@ -1,0 +1,31 @@
+{
+  "title": "PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites",
+  "authors": [
+    {
+      "family_names": "Nelson",
+      "given_names": "Michael Raymond",
+      "orcid": "0009-0004-9809-9842"
+    }
+  ],
+  "type": "dataset",
+  "repository_code": "https://github.com/Fisicas/PSI-contact-atlas",
+  "url": "https://fisicas.github.io/PSI-contact-atlas/",
+  "licenses": [
+    "CC-BY-4.0",
+    "MIT"
+  ],
+  "zenodo_primary_license": "cc-by-4.0",
+  "keywords": [
+    "photosystem I",
+    "special pair",
+    "P700",
+    "phylloquinone",
+    "A1 quinone",
+    "heavy-atom contacts",
+    "cryo-EM",
+    "X-ray crystallography",
+    "PyMOL"
+  ],
+  "license_scope": "Curated/derived data, figures and documentation: CC BY 4.0. Code: MIT. Unmodified wwPDB source files retain their source terms; see LICENSE-DATA.md.",
+  "schema_url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json"
+}

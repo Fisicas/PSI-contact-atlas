@@ -1,0 +1,1688 @@
+{
+    "_id": "67d758956e5018e151f591ba",
+    "admin": {
+        "authors_list": {
+            "author": [
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Gaullier G"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Boyka J"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Zouni A"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Blikstad C"
+                }
+            ]
+        },
+        "current_status": {
+            "code": {
+                "valueOf_": "REL"
+            },
+            "date": "2026-10-28T00:00:00",
+            "processing_site": "PDBe"
+        },
+        "grant_support": {
+            "grant_reference": [
+                {
+                    "code": "EXC 2008/1-390540038",
+                    "country": "Germany",
+                    "funding_body": "Germanys Excellence Strategy",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "SFB1078 - TP A5",
+                    "country": "Germany",
+                    "funding_body": "German Research Foundation (DFG)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "2019-03700_VR",
+                    "country": "Sweden",
+                    "funding_body": "Swedish Research Council",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "2019-01171_Formas",
+                    "country": "Sweden",
+                    "funding_body": "Formas",
+                    "instance_type": "grant_reference"
+                }
+            ]
+        },
+        "key_dates": {
+            "deposition": "2025-03-12T00:00:00",
+            "header_release": "2026-09-30T00:00:00",
+            "map_release": "2026-09-30T00:00:00",
+            "update": "2026-10-28T00:00:00"
+        },
+        "keywords": "Monomeric Photosystem I, mPSI, photosynthesis",
+        "revision_history": {
+            "revision": [
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "instance_type": "model",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "metadata",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            }
+                        ]
+                    },
+                    "date": "2026-09-30T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.0"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "citation",
+                                        "citation_author",
+                                        "em_admin"
+                                    ]
+                                },
+                                "instance_type": "model",
+                                "items": {
+                                    "item": [
+                                        "_citation.country",
+                                        "_citation.journal_abbrev",
+                                        "_citation.journal_id_CSD",
+                                        "_citation.journal_id_ISSN",
+                                        "_citation.journal_volume",
+                                        "_citation.pdbx_database_id_DOI",
+                                        "_citation.pdbx_database_id_PubMed",
+                                        "_citation.title",
+                                        "_citation.year",
+                                        "_em_admin.last_update"
+                                    ]
+                                },
+                                "revision_group": "DATABASE_REFERENCES"
+                            },
+                            {
+                                "categories": {
+                                    "category": [
+                                        "citation",
+                                        "citation_author",
+                                        "em_admin"
+                                    ]
+                                },
+                                "instance_type": "metadata",
+                                "items": {
+                                    "item": [
+                                        "_citation.country",
+                                        "_citation.journal_abbrev",
+                                        "_citation.journal_id_CSD",
+                                        "_citation.journal_id_ISSN",
+                                        "_citation.journal_volume",
+                                        "_citation.pdbx_database_id_DOI",
+                                        "_citation.pdbx_database_id_PubMed",
+                                        "_citation.title",
+                                        "_citation.year",
+                                        "_em_admin.last_update"
+                                    ]
+                                },
+                                "revision_group": "EXPERIMENTAL_SUMMARY"
+                            }
+                        ]
+                    },
+                    "date": "2026-10-28T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.1"
+                }
+            ]
+        },
+        "sites": {
+            "deposition": "PDBe",
+            "last_processing": "PDBe"
+        },
+        "title": "Monomeric Photosystem I Cryo-EM structure at 1.8 A resolution"
+    },
+    "crossreferences": {
+        "citation_list": {
+            "primary_citation": {
+                "citation_type": {
+                    "author": [
+                        {
+                            "ORCID": "0009-0005-3869-7768",
+                            "instance_type": "author",
+                            "order": 1,
+                            "valueOf_": "Boyka J"
+                        },
+                        {
+                            "ORCID": "0000-0003-3405-6021",
+                            "instance_type": "author",
+                            "order": 2,
+                            "valueOf_": "Gaullier G"
+                        },
+                        {
+                            "ORCID": "0000-0002-5111-8901",
+                            "instance_type": "author",
+                            "order": 3,
+                            "valueOf_": "Forsman J"
+                        },
+                        {
+                            "ORCID": "0000-0002-5502-1744",
+                            "instance_type": "author",
+                            "order": 4,
+                            "valueOf_": "Graca AT"
+                        },
+                        {
+                            "ORCID": "0000-0001-5495-9186",
+                            "instance_type": "author",
+                            "order": 5,
+                            "valueOf_": "Golub M"
+                        },
+                        {
+                            "ORCID": "0000-0002-1360-0174",
+                            "instance_type": "author",
+                            "order": 6,
+                            "valueOf_": "Croy N"
+                        },
+                        {
+                            "ORCID": "0000-0002-8774-8112",
+                            "instance_type": "author",
+                            "order": 7,
+                            "valueOf_": "Wood K"
+                        },
+                        {
+                            "ORCID": "0000-0003-3586-360X",
+                            "instance_type": "author",
+                            "order": 8,
+                            "valueOf_": "Duff AP"
+                        },
+                        {
+                            "ORCID": "0000-0003-1684-3160",
+                            "instance_type": "author",
+                            "order": 9,
+                            "valueOf_": "Moir M"
+                        },
+                        {
+                            "ORCID": "0000-0001-5995-9660",
+                            "instance_type": "author",
+                            "order": 10,
+                            "valueOf_": "Pieper J"
+                        },
+                        {
+                            "ORCID": "0000-0003-2790-7721",
+                            "instance_type": "author",
+                            "order": 11,
+                            "valueOf_": "Messinger J"
+                        },
+                        {
+                            "ORCID": "0000-0002-8818-2616",
+                            "instance_type": "author",
+                            "order": 12,
+                            "valueOf_": "Muh F"
+                        },
+                        {
+                            "ORCID": "0000-0003-0561-6990",
+                            "instance_type": "author",
+                            "order": 13,
+                            "valueOf_": "Zouni A"
+                        },
+                        {
+                            "ORCID": "0000-0001-5740-926X",
+                            "instance_type": "author",
+                            "order": 14,
+                            "valueOf_": "Blikstad C"
+                        }
+                    ],
+                    "country": "NE",
+                    "external_references": [
+                        {
+                            "instance_type": "external_references",
+                            "type_": "PUBMED",
+                            "valueOf_": "42881318"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "DOI",
+                            "valueOf_": "doi:10.1007/s11120-026-01237-x"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "ISSN",
+                            "valueOf_": "0166-8595"
+                        }
+                    ],
+                    "journal_abbreviation": "Photosynth.Res.",
+                    "published": true,
+                    "title": "High-resolution structure of monomeric photosystem I from Thermosynechococcus vestitus.",
+                    "volume": "164",
+                    "year": "2026"
+                }
+            }
+        },
+        "emdb_list": {
+            "emdb_reference": [
+                {
+                    "emdb_id": "EMD-10557",
+                    "instance_type": "emdb_reference",
+                    "relationship": {
+                        "other": "other EM volume"
+                    }
+                },
+                {
+                    "emdb_id": "EMD-10558",
+                    "instance_type": "emdb_reference",
+                    "relationship": {
+                        "other": "other EM volume"
+                    }
+                },
+                {
+                    "emdb_id": "EMD-10559",
+                    "instance_type": "emdb_reference",
+                    "relationship": {
+                        "other": "other EM volume"
+                    }
+                }
+            ]
+        },
+        "other_db_list": {
+            "db_reference": [
+                {
+                    "accession_id": "6TRA",
+                    "content_type": "unspecified",
+                    "db_name": "PDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "6TRC",
+                    "content_type": "unspecified",
+                    "db_name": "PDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "6TRD",
+                    "content_type": "unspecified",
+                    "db_name": "PDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "EMD-10557",
+                    "content_type": "other EM volume",
+                    "db_name": "EMDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "EMD-10558",
+                    "content_type": "other EM volume",
+                    "db_name": "EMDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "EMD-10559",
+                    "content_type": "other EM volume",
+                    "db_name": "EMDB",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "EMD-53120",
+                    "content_type": "associated EM volume",
+                    "db_name": "EMDB",
+                    "details": "Monomeric Photosystem I Cryo-EM structure at 1.8 A resolution",
+                    "instance_type": "db_reference"
+                }
+            ]
+        },
+        "pdb_list": {
+            "pdb_reference": [
+                {
+                    "instance_type": "pdb_reference",
+                    "pdb_id": "9qfp",
+                    "relationship": {
+                        "in_frame": "FULLOVERLAP"
+                    }
+                }
+            ]
+        }
+    },
+    "emdb_id": "EMD-53120",
+    "interpretation": {
+        "additional_map_list": {
+            "additional_map": [
+                {
+                    "annotation_details": "Unfiltered, unsharpened map from final non-uniform refinement in CryoSPARC.",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 512,
+                        "row": 512,
+                        "sec": 512
+                    },
+                    "file": "emd_53120_additional_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "additional_map",
+                    "label": "::::EMDATABANK.org::::EMD-53120::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        }
+                    },
+                    "size_kbytes": 536871,
+                    "spacing": {
+                        "x": 512,
+                        "y": 512,
+                        "z": 512
+                    },
+                    "statistics": {
+                        "average": 0.00011664033,
+                        "maximum": 0.36961985,
+                        "minimum": -0.0724958,
+                        "std": 0.005547792
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        },
+        "half_map_list": {
+            "half_map": [
+                {
+                    "annotation_details": "Half-map B from final non-uniform refinement in CryoSPARC.",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 512,
+                        "row": 512,
+                        "sec": 512
+                    },
+                    "file": "emd_53120_half_map_2.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-53120::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        }
+                    },
+                    "size_kbytes": 536871,
+                    "spacing": {
+                        "x": 512,
+                        "y": 512,
+                        "z": 512
+                    },
+                    "statistics": {
+                        "average": 0.00018784945,
+                        "maximum": 0.440314,
+                        "minimum": -0.09991491,
+                        "std": 0.010706982
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                },
+                {
+                    "annotation_details": "Half-map A from final non-uniform refinement in CryoSPARC.",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "331.776"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 512,
+                        "row": 512,
+                        "sec": 512
+                    },
+                    "file": "emd_53120_half_map_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-53120::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.648"
+                        }
+                    },
+                    "size_kbytes": 536871,
+                    "spacing": {
+                        "x": 512,
+                        "y": 512,
+                        "z": 512
+                    },
+                    "statistics": {
+                        "average": 0.00018784634,
+                        "maximum": 0.44990274,
+                        "minimum": -0.100841746,
+                        "std": 0.010715639
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        },
+        "modelling_list": {
+            "modelling": [
+                {
+                    "details": "Alphafold2 predictions fetched from AlphaFold-DB were placed into the map by rigid body fitting.\nTermini not supported by the map were trimmed.\nEvery residue was visually inspected at least once, and its fit to density adjusted if necessary, using ISOLDE.",
+                    "initial_model": [
+                        {
+                            "access_code": "P0A405",
+                            "chain": {
+                                "chain_id": "A",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A407",
+                            "chain": {
+                                "chain_id": "B",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A415",
+                            "chain": {
+                                "chain_id": "C",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A420",
+                            "chain": {
+                                "chain_id": "D",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A423",
+                            "chain": {
+                                "chain_id": "E",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A401",
+                            "chain": {
+                                "chain_id": "F",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A427",
+                            "chain": {
+                                "chain_id": "I",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A429",
+                            "chain": {
+                                "chain_id": "J",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A425",
+                            "chain": {
+                                "chain_id": "K",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "P0A403",
+                            "chain": {
+                                "chain_id": "M",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        },
+                        {
+                            "access_code": "Q8DKP6",
+                            "chain": {
+                                "chain_id": "X",
+                                "initial_model_type": "in silico model",
+                                "source_name": "AlphaFold"
+                            },
+                            "instance_type": "initial_model"
+                        }
+                    ],
+                    "instance_type": "modelling",
+                    "refinement_protocol": "FLEXIBLE FIT",
+                    "refinement_space": "REAL"
+                }
+            ]
+        },
+        "segmentation_list": {
+            "segmentation": [
+                {
+                    "file": "emd_53120_msk_2.map",
+                    "instance_type": "segmentation"
+                },
+                {
+                    "file": "emd_53120_msk_1.map",
+                    "instance_type": "segmentation"
+                }
+            ]
+        }
+    },
+    "map": {
+        "annotation_details": "Sharpened map from final non-uniform refinement in CryoSPARC. Sharpening B-factor from Guinier fit: -35.8.",
+        "axis_order": {
+            "fast": "X",
+            "medium": "Y",
+            "slow": "Z"
+        },
+        "cell": {
+            "a": {
+                "units": "\u212b",
+                "valueOf_": "331.776"
+            },
+            "alpha": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "b": {
+                "units": "\u212b",
+                "valueOf_": "331.776"
+            },
+            "beta": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "c": {
+                "units": "\u212b",
+                "valueOf_": "331.776"
+            },
+            "gamma": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            }
+        },
+        "contour_list": {
+            "contour": [
+                {
+                    "instance_type": "contour",
+                    "level": 0.08,
+                    "primary": true,
+                    "source": "AUTHOR"
+                }
+            ]
+        },
+        "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+        "dimensions": {
+            "col": 512,
+            "row": 512,
+            "sec": 512
+        },
+        "file": "emd_53120.map.gz",
+        "format": "CCP4",
+        "label": "::::EMDATABANK.org::::EMD-53120::::",
+        "origin": {
+            "col": 0,
+            "row": 0,
+            "sec": 0
+        },
+        "pixel_spacing": {
+            "x": {
+                "units": "\u212b",
+                "valueOf_": "0.648"
+            },
+            "y": {
+                "units": "\u212b",
+                "valueOf_": "0.648"
+            },
+            "z": {
+                "units": "\u212b",
+                "valueOf_": "0.648"
+            }
+        },
+        "size_kbytes": 536871,
+        "spacing": {
+            "x": 512,
+            "y": 512,
+            "z": 512
+        },
+        "statistics": {
+            "average": 0.00011664033,
+            "maximum": 1.4683826,
+            "minimum": -0.51073664,
+            "std": 0.016124183
+        },
+        "symmetry": {
+            "space_group": 1
+        }
+    },
+    "sample": {
+        "macromolecule_list": {
+            "macromolecule": [
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 1,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.083267773"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A1"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A405"
+                            }
+                        ],
+                        "string": "MTISPPEREPKVRVVVDNDPVPTSFEKWAKPGHFDRTLARGPQTTTWIWNLHALAHDFDTHTSDLEDISRKIFSAHFGHL AVVFIWLSGMYFHGAKFSNYEAWLADPTGIKPSAQVVWPIVGQGILNGDVGGGFHGIQITSGLFQLWRASGITNEFQLYC TAIGGLVMAGLMLFAGWFHYHKRAPKLEWFQNVESMLNHHLAGLLGLGSLAWAGHQIHVSLPINKLLDAGVAAKDIPLPH EFILNPSLMAELYPKVDWGFFSGVIPFFTFNWAAYSDFLTFNGGLNPVTGGLWLSDTAHHHLAIAVLFIIAGHMYRTNWG IGHSLKEILEAHKGPFTGAGHKGLYEVLTTSWHAQLAINLAMMGSLSIIVAQHMYAMPPYPYLATDYPTQLSLFTHHMWI GGFLVVGGAAHGAIFMVRDYDPAMNQNNVLDRVLRHRDAIISHLNWVCIFLGFHSFGLYVHNDTMRAFGRPQDMFSDTGI QLQPVFAQWVQNLHTLAPGGTAPNAAATASVAFGGDVVAVGGKVAMMPIVLGTADFMVHHIHAFTIHVTVLILLKGVLFA RSSRLIPDKANLGFRFPCDGPGRGGTCQVSGWDHVFLGLFWMYNCISVVIFHFSWKMQSDVWGTVAPDGTVSHITGGNFA QSAITINGWLRDFLWAQASQVIGSYGSALSAYGLLFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLKVAPAIQPR ALSIIQGRAVGVAHYLLGGIATTWAFFLARIISVG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 2,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.083123648"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A2"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A407"
+                            }
+                        ],
+                        "string": "MATKFPKFSQDLAQDPTTRRIWYAIAMAHDFESHDGMTEENLYQKIFASHFGHLAIIFLWVSGSLFHVAWQGNFEQWVQD PVNTRPIAHAIWDPQFGKAAVDAFTQAGASNPVDIAYSGVYHWWYTIGMRTNGDLYQGAIFLLILASLALFAGWLHLQPK FRPSLSWFKNAESRLNHHLAGLFGVSSLAWAGHLIHVAIPESRGQHVGWDNFLSTMPHPAGLAPFFTGNWGVYAQNPDTA SHVFGTAQGAGTAILTFLGGFHPQTESLWLTDMAHHHLAIAVLFIVAGHMYRTQFGIGHSIKEMMDAKDFFGTKVEGPFN MPHQGIYETYNNSLHFQLGWHLACLGVITSLVAQHMYSLPPYAFIAQDHTTMAALYTHHQYIAGFLMVGAFAHGAIFLVR DYDPAQNKGNVLDRVLQHKEAIISHLSWVSLFLGFHTLGLYVHNDVVVAFGTPEKQILIEPVFAQFIQAAHGKLLYGFDT LLSNPDSIASTAWPNYGNVWLPGWLDAINSGTNSLFLTIGPGDFLVHHAIALGLHTTTLILVKGALDARGSKLMPDKKDF GYAFPCDGPGRGGTCDISAWDAFYLAMFWMLNTIGWVTFYWHWKHLGVWEGNVAQFNESSTYLMGWLRDYLWLNSSQLIN GYNPFGTNNLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLVWAHERTPLANLVRWKDKPVALSIVQARLVGLAHF SVGYILTYAAFLIASTAAKFG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 3,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008809207"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I iron-sulfur center"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A415"
+                            }
+                        ],
+                        "string": "MAHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKAGQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA Y"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 4,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015389494"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit II"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A420"
+                            }
+                        ],
+                        "string": "MTTLTGQPPLYGGSTGGLLSAADTEEKYAITWTSPKEQVFEMPTAGAAVMREGENLVYFARKEQCLALAAQQLRPRKIND YKIYRIFPDGETVLIHPKDGVFPEKVNKGREAVNSVPRSIGQNPNPSQLKFTGKKPYDP"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 5,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008399485"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IV"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A423"
+                            }
+                        ],
+                        "string": "MVQRGSKVKILRPESYWYNEVGTVASVDQTPGVKYPVIVRFDKVNYTGYSGSASGVNTNNFALHEVQEVAPPKKGK"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 6,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.017716586"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit III"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A401"
+                            }
+                        ],
+                        "string": "MRRFLALLLVLTLWLGFTPLASADVAGLVPCKDSPAFQKRAAAAVNTTADPASGQKRFERYSQALCGEDGLPHLVVDGRL SRAGDFLIPSVLFLYIAGWIGWVGRAYLIAVRNSGEANEKEIIIDVPLAIKCMLTGFAWPLAALKELASGELTAKDNEIT VSPR"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 7,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0042972340000000005"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit VIII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A427"
+                            }
+                        ],
+                        "string": "MMGSYAASFLPWIFIPVVCWLMPTVVMGLLFLYIEGEA"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 8,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.004770698"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IX"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A429"
+                            }
+                        ],
+                        "string": "MKHFLTYLSTAPVLAAIWMTITAGILIEFNRFYPDLLFHPL"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 9,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008483983"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit PsaK"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A425"
+                            }
+                        ],
+                        "string": "MVLATLPDTTWTPSVGLVVILCNLFAIALGRYAIQSRGKGPGLPIALPALFEGFGLPELLATTSFGHLLAAGVVSGLQYA GAL"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 10,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0034261149999999995"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit XII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P0A403"
+                            }
+                        ],
+                        "string": "MALTDTQVYVALVIALLPAVLAFRLSTELYK"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 11,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.004424317"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I 4.8K protein"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 197221,
+                            "valueOf_": "Thermosynechococcus vestitus BP-1"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "Q8DKP6"
+                            }
+                        ],
+                        "string": "MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK"
+                    }
+                },
+                {
+                    "formula": "LMT",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 12,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000510615"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "DODECYL-BETA-D-MALTOSIDE"
+                    },
+                    "number_of_copies": "16"
+                },
+                {
+                    "formula": "CLA",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 13,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A"
+                    },
+                    "number_of_copies": "90"
+                },
+                {
+                    "formula": "PQN",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 14,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000450696"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PHYLLOQUINONE"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "BCR",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 15,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000536873"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "BETA-CAROTENE"
+                    },
+                    "number_of_copies": "19"
+                },
+                {
+                    "formula": "LHG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 16,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00072297"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE"
+                    },
+                    "number_of_copies": "5"
+                },
+                {
+                    "formula": "SF4",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 17,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00035163999999999996"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "IRON/SULFUR CLUSTER"
+                    },
+                    "number_of_copies": "3"
+                },
+                {
+                    "formula": "CL0",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 18,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A ISOMER"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "LMG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 19,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007871579999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "MG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 20,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "2.4305e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "MAGNESIUM ION"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "SQD",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 21,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007951159999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "HOH",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 22,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "1.8015e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "water"
+                    },
+                    "number_of_copies": "1183"
+                }
+            ]
+        },
+        "name": {
+            "valueOf_": "Monomeric photosystem I"
+        },
+        "supramolecule_list": {
+            "supramolecule": [
+                {
+                    "details": "Endogeneous photosystem I complex purified from its native source organism Thermosynechococcus vestitus BP-1.",
+                    "instance_type": "complex_supramolecule",
+                    "macromolecule_list": {
+                        "macromolecule": [
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 1
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 2
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 3
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 4
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 5
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 6
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 7
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 8
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 9
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 10
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 11
+                            }
+                        ]
+                    },
+                    "name": {
+                        "valueOf_": "Monomeric photosystem I"
+                    },
+                    "natural_source": [
+                        {
+                            "database": "NCBI",
+                            "instance_type": "natural_source",
+                            "organism": {
+                                "ncbi": 197221,
+                                "valueOf_": "Thermosynechococcus vestitus BP-1"
+                            }
+                        }
+                    ],
+                    "parent": 0,
+                    "supramolecule_id": 1
+                }
+            ]
+        }
+    },
+    "structure_determination_list": {
+        "structure_determination": [
+            {
+                "aggregation_state": "particle",
+                "image_processing": [
+                    {
+                        "ctf_correction": {
+                            "details": "Patch CTF estimation job in CryoSPARC, run with default settings.",
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC",
+                                        "version": "4.5"
+                                    }
+                                ]
+                            },
+                            "type_": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+                        },
+                        "final_angle_assignment": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC",
+                                        "version": "4.5"
+                                    }
+                                ]
+                            },
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "final_reconstruction": {
+                            "algorithm": "FOURIER SPACE",
+                            "applied_symmetry": {
+                                "point_group": "C1"
+                            },
+                            "details": "Resolution as reported by CryoSPARC, using its mask auto-tightening procedure.",
+                            "number_images_used": 712866,
+                            "resolution": {
+                                "res_type": "BY AUTHOR",
+                                "units": "\u212b",
+                                "valueOf_": "1.74"
+                            },
+                            "resolution_method": "FSC 0.143 CUT-OFF",
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC",
+                                        "version": "4.5"
+                                    }
+                                ]
+                            }
+                        },
+                        "final_three_d_classification": {
+                            "number_classes": 4,
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC",
+                                        "version": "4.5"
+                                    }
+                                ]
+                            }
+                        },
+                        "image_processing_id": 1,
+                        "image_recording_id": 1,
+                        "initial_angle_assignment": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC",
+                                        "version": "4.5"
+                                    }
+                                ]
+                            },
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "instance_type": "singleparticle_processing",
+                        "particle_selection": [
+                            {
+                                "details": "Topaz was trained with a manually picked set of 1010 particles.",
+                                "instance_type": "particle_selection",
+                                "number_selected": 1000224
+                            }
+                        ],
+                        "startup_model": [
+                            {
+                                "insilico_model": "Initial model computed from the particle images by an ab initio reconstruction job in CryoSPARC.",
+                                "instance_type": "startup_model",
+                                "type_of_model": "INSILICO MODEL"
+                            }
+                        ]
+                    }
+                ],
+                "instance_type": "structure_determination",
+                "method": "singleParticle",
+                "microscopy_list": {
+                    "microscopy": [
+                        {
+                            "acceleration_voltage": {
+                                "units": "kV",
+                                "valueOf_": "300"
+                            },
+                            "alignment_procedure": {
+                                "coma_free": {}
+                            },
+                            "cooling_holder_cryogen": "NITROGEN",
+                            "electron_source": "FIELD EMISSION GUN",
+                            "illumination_mode": "FLOOD BEAM",
+                            "image_recording_list": {
+                                "image_recording": [
+                                    {
+                                        "average_electron_dose_per_image": {
+                                            "units": "e/\u212b^2",
+                                            "valueOf_": "40.0"
+                                        },
+                                        "film_or_detector_model": {
+                                            "valueOf_": "GATAN K3 BIOQUANTUM (6k x 4k)"
+                                        },
+                                        "image_recording_id": 1,
+                                        "instance_type": "image_recording",
+                                        "number_grids_imaged": 1,
+                                        "number_real_images": 22001
+                                    }
+                                ]
+                            },
+                            "imaging_mode": "BRIGHT FIELD",
+                            "instance_type": "single_particle_microscopy",
+                            "microscope": "TFS KRIOS",
+                            "microscopy_id": 1,
+                            "nominal_cs": {
+                                "units": "mm",
+                                "valueOf_": "2.7"
+                            },
+                            "nominal_defocus_max": {
+                                "units": "\u00b5m",
+                                "valueOf_": "1.4000000000000001"
+                            },
+                            "nominal_defocus_min": {
+                                "units": "\u00b5m",
+                                "valueOf_": "0.4"
+                            },
+                            "nominal_magnification": 130000.0,
+                            "specialist_optics": {
+                                "energy_filter": {
+                                    "name": "GIF Bioquantum",
+                                    "slit_width": {
+                                        "units": "eV",
+                                        "valueOf_": "20"
+                                    }
+                                }
+                            },
+                            "specimen_holder_model": "FEI TITAN KRIOS AUTOGRID HOLDER"
+                        }
+                    ]
+                },
+                "specimen_preparation_list": {
+                    "specimen_preparation": [
+                        {
+                            "buffer": {
+                                "component": [
+                                    {
+                                        "concentration": {
+                                            "units": "mM",
+                                            "valueOf_": "25.0"
+                                        },
+                                        "instance_type": "component",
+                                        "name": "Tricin"
+                                    },
+                                    {
+                                        "concentration": {
+                                            "units": "mM",
+                                            "valueOf_": "25.0"
+                                        },
+                                        "formula": "NaCl",
+                                        "instance_type": "component",
+                                        "name": "sodium chloride"
+                                    },
+                                    {
+                                        "concentration": {
+                                            "units": "% w/v",
+                                            "valueOf_": "0.02"
+                                        },
+                                        "instance_type": "component",
+                                        "name": "n-dodecyl-beta-D-maltoside"
+                                    }
+                                ],
+                                "ph": 8.0
+                            },
+                            "concentration": {
+                                "units": "mg/mL",
+                                "valueOf_": "2.5"
+                            },
+                            "details": "Concentration is expressed in mM chlorophyll.",
+                            "grid": {
+                                "details": "Current 20 mA.\nPerformed with a Pelco easiGlow device.",
+                                "material": "COPPER",
+                                "mesh": 300,
+                                "model": "Quantifoil R1.2/1.3",
+                                "pretreatment": {
+                                    "atmosphere": "OTHER",
+                                    "pressure": {
+                                        "units": "kPa",
+                                        "valueOf_": "0.04"
+                                    },
+                                    "time": {
+                                        "units": "s",
+                                        "valueOf_": "60"
+                                    },
+                                    "type_": "GLOW DISCHARGE"
+                                },
+                                "support_film": [
+                                    {
+                                        "film_material": "CARBON",
+                                        "film_topology": "HOLEY",
+                                        "film_type_id": 1,
+                                        "instance_type": "support_film"
+                                    }
+                                ]
+                            },
+                            "instance_type": "single_particle_preparation",
+                            "preparation_id": 1,
+                            "vitrification": {
+                                "chamber_humidity": {
+                                    "units": "percentage",
+                                    "valueOf_": "100"
+                                },
+                                "chamber_temperature": {
+                                    "units": "K",
+                                    "valueOf_": "277"
+                                },
+                                "cryogen_name": "ETHANE",
+                                "details": "Delay time 30 s\nBlot time 2 s\nBlot force 0\nDrain time 0 s. ",
+                                "instrument": "FEI VITROBOT MARK IV"
+                            }
+                        }
+                    ]
+                },
+                "structure_determination_id": 1
+            }
+        ]
+    },
+    "version": "3.0.11.7"
+}

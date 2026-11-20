@@ -1,5 +1,5 @@
 # PSI Contact Atlas — 9OZ3 protomer 2, A1_B quinone
-# Synechocystis sp. PCC 6803 · PsaB red-shift variant · Cryo-EM 1.88 Å
+# Synechocystis sp. PCC 6803 · PsaB H95Q/linker variant · Cryo-EM 1.88 Å
 #
 # Run from the repository root:   pymol downloads/pymol/9OZ3_prot2_A1B.pml
 # Distances are Euclidean heavy-atom separations (Å). Short N/O···O pairs are hydrogen-bond CANDIDATES:
@@ -23,7 +23,7 @@ set stick_radius, 0.13
 set sphere_scale, 0.25
 hide everything
 show sticks, lib_atoms
-show spheres, lib_atoms and (elem Mg or resn HOH)
+show spheres, lib_atoms and (elem MG or resn HOH)
 set_color lib_C, [0.5, 0.5, 0.5]
 color lib_C, lib_atoms and elem C
 set_color lib_N, [0.15, 0.3, 0.9]

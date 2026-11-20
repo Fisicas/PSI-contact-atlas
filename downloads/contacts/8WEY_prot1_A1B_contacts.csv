@@ -1,0 +1,5 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+8WEY.p1.PQN:B:842:O1~TRP:B:669:NE1,8WEY_prot1_A1B,8WEY,1,A1B,PQN:B:842:O1,TRP:B:669:NE1,ND,B,3.33075,polar,donor–acceptor compatible,derived by homology,1.0,1.0,28.78,24.17
+8WEY.p1.PQN:B:842:O1~SER:B:664:OG,8WEY_prot1_A1B,8WEY,1,A1B,PQN:B:842:O1,SER:B:664:OG,ND,B,3.17145,polar,donor–acceptor compatible,derived by homology,1.0,1.0,28.78,25.29
+8WEY.p1.MET:B:660:O~PQN:B:842:O1,8WEY_prot1_A1B,8WEY,1,A1B,PQN:B:842:O1,MET:B:660:O,ND,B,3.26212,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,derived by homology,1.0,1.0,28.78,21.61
+8WEY.p1.LEU:B:698:N~PQN:B:842:O4,8WEY_prot1_A1B,8WEY,1,A1B,PQN:B:842:O4,LEU:B:698:N,ND,B,2.92585,polar,donor–acceptor compatible,derived by homology,1.0,1.0,25.52,30.43

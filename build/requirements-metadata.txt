@@ -1,0 +1,3 @@
+# Offline citation/release-metadata verification; no environment upgrade implied.
+PyYAML==6.0.3
+jsonschema==4.26.0

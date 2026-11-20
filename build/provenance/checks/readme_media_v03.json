@@ -1,0 +1,734 @@
+{
+  "status": "PASS",
+  "local_media_layout_checks": [
+    {
+      "width": 1280,
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 225,
+          "right": 273,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 830,
+          "left": 225,
+          "right": 1055,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 225,
+          "right": 273,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 830,
+          "left": 225,
+          "right": 1055,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 225,
+          "right": 945,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 97,
+          "right": 145,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 830,
+          "left": 97,
+          "right": 927,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 97,
+          "right": 145,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 830,
+          "left": 97,
+          "right": 927,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 97,
+          "right": 817,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        },
+        {
+          "width": 830,
+          "scrollWidth": 830
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 720,
+          "left": 24,
+          "right": 744,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        },
+        {
+          "width": 720,
+          "scrollWidth": 720
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 342,
+          "left": 24,
+          "right": 366,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "width": 342,
+          "scrollWidth": 342
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "media/branding/icon-192.png",
+          "width": 48,
+          "left": 24,
+          "right": 72,
+          "naturalWidth": 192
+        },
+        {
+          "src": "media/branding/social-preview.png",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 1280
+        },
+        {
+          "src": "media/spin_1JB0_prot1_P_A.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_7COY_prot1_special_pair.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 460
+        },
+        {
+          "src": "media/spin_9YL7_prot1_A1A.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 540
+        },
+        {
+          "src": "media/spin_9AU4_prot1_A1B.gif",
+          "width": 272,
+          "left": 24,
+          "right": 296,
+          "naturalWidth": 540
+        }
+      ],
+      "captions": [
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        },
+        {
+          "width": 272,
+          "scrollWidth": 272
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "path": "media/branding/icon-192.png",
+      "sha256": "5fd80162d0fdc05202b3b2ce94a6963e0292e921c026317e353793f7e2ca5c31",
+      "width": 192,
+      "height": 192,
+      "frames": 1
+    },
+    {
+      "path": "media/branding/social-preview.png",
+      "sha256": "f0716975e3c5848eca115aebabdf9947295df2ff5f6acad44a844002b0d23029",
+      "width": 1280,
+      "height": 640,
+      "frames": 1
+    },
+    {
+      "path": "media/spin_1JB0_prot1_P_A.gif",
+      "sha256": "6be1a7fc4c5f1a183f9c5e8574e2d7627a56796fc6a1cf9c79fb5061e9fad102",
+      "width": 460,
+      "height": 460,
+      "frames": 144
+    },
+    {
+      "path": "media/spin_7COY_prot1_special_pair.gif",
+      "sha256": "b9e0e24d819d958a82a4d236e235fc5a5b991fe70650f1c0f4138cec482198d8",
+      "width": 460,
+      "height": 460,
+      "frames": 144
+    },
+    {
+      "path": "media/spin_9YL7_prot1_A1A.gif",
+      "sha256": "9e932717801fe4612071d446a767d3c1a9bff1dcfeaeaa3aa1b9415c67fa8de6",
+      "width": 540,
+      "height": 390,
+      "frames": 144
+    },
+    {
+      "path": "media/spin_9AU4_prot1_A1B.gif",
+      "sha256": "ff09756a19b11de2a60da206f7c270eefa32742ac6c41805d6bc919bacddf0bc",
+      "width": 540,
+      "height": 390,
+      "frames": 144
+    }
+  ],
+  "source_readme_sha256": "de177d427fe74b97b5b624a5052b6b07c0c45fc8ebbd53fa91bfc56dc649417c",
+  "browser": "157.0.8103.79",
+  "errors": [],
+  "scope": "Exact raw HTML media blocks and wrapping captions from the generated README, rendered locally under GitHub-like max-width constraints. Five viewport widths in light/dark; all four GIFs remain animated. No GitHub-hosted rendering, personal browser or remote publication.",
+  "github_markdown_API": "Not called: automatic approval review rejected transfer of unpublished README; local-only fallback used."
+}

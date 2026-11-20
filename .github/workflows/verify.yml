@@ -12,13 +12,45 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r build/requirements.txt
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+      - run: pip install -r build/requirements.txt -r build/requirements-metadata.txt
       - name: Independent verification of the committed outputs (archived inputs, strict)
         run: python tools/verify_public.py
+      - name: Source-bound scientific review context
+        run: python tools/verify_review_context.py
+      - name: Scoped scientific closure and retained qualifications
+        run: python tools/verify_scientific_closure.py
+      - name: Official citation schema and release-state consistency
+        run: python tools/verify_release_metadata.py
+      - name: Reviewed notice scope and native quinone evidence
+        run: python tools/verify_release_notices.py
+      - name: Native social-preview chemistry and asset integrity
+        run: python tools/verify_branding.py
+      - name: Exact file-preview download bytes
+        run: python tools/verify_download_payloads.py
+      - name: Optional density source and figure integrity
+        run: python tools/verify_density_views.py
+      - name: Interactive density native atoms, map grids, presets and fallbacks
+        run: python tools/verify_interactive_density.py
+      - name: README and proposed About counts
+        run: python tools/verify_readme_counts.py
+      - name: All-scene density DOM contract
+        run: node tests/test_density_options_all.cjs . "$RUNNER_TEMP/density-options-report.json"
       - name: Deliberate-corruption tests (on the committed files)
         run: python -m unittest discover -s tests -v
       # Last, because the rebuild rewrites data/verification.json with this runner's tool versions.
       - name: Clean rebuild reproduces the committed data and tables
         run: |
           python tools/build_atlas.py
-          git diff --stat --exit-code -- data/atlas.js data/views data/sources.json downloads build/provenance/alignment_to_1JB0.csv build/provenance/site_water.csv
+          git diff --stat --exit-code -- data/atlas.js data/views data/downloads data/sources.json downloads build/provenance/alignment_to_1JB0.csv build/provenance/site_water.csv
+          python tools/verify_review_context.py
+          python tools/verify_scientific_closure.py
+          python tools/verify_release_metadata.py
+          python tools/verify_release_notices.py
+          python tools/verify_branding.py
+          python tools/verify_density_views.py
+          python tools/verify_interactive_density.py
+          python tools/verify_readme_counts.py
+          python tools/verify_download_payloads.py

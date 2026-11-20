@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "counts": {
+    "Structures": 22,
+    "Deposited protomers": 40,
+    "Scenes": 160,
+    "Scene contact rows": 1107,
+    "Unique atom pairs": 882,
+    "Numeric homologous comparison values": 1617,
+    "Comparison cells, including blanks": 1720,
+    "Interactive density scenes": 156,
+    "Protomers with experimental-density figures": 39,
+    "Scenes with experimental-density figures": 156
+  },
+  "about_characters": 283,
+  "scope": "Canonical CSV/atlas coverage versus rendered README count table and proposed GitHub About text; selected rows/pairs are not confirmed hydrogen bonds. No remote description changed."
+}

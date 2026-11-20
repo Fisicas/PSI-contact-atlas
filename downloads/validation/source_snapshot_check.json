@@ -1,0 +1,664 @@
+{
+ "date": "2026-11-20",
+ "scope": "Atom identity, XYZ, occupancy and B; archived sources retained",
+ "entries": [
+  {
+   "pdb": "1JB0",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/1JB0.cif.gz",
+   "current_uncompressed_sha256": "79965a3ca14c684a8cbcf20f5d4c2b894ce834d15c369971d4e0f22fd96c8677",
+   "archived_uncompressed_sha256": "32794600d79441475c6064e95d4e5403e38220805bb37a7fc684464e4aa8b184",
+   "archived_atoms": 24198,
+   "current_atoms": 24198,
+   "common_atoms": 24198,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "8",
+    "data_content_type": "Structure model",
+    "major_revision": "2",
+    "minor_revision": "0",
+    "revision_date": "2024-10-30"
+   },
+   "current_latest_revision": {
+    "ordinal": "9",
+    "data_content_type": "Structure model",
+    "major_revision": "2",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "5OY0",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/5OY0.cif.gz",
+   "current_uncompressed_sha256": "56f5fd86debed65e3abd2d47f3fe759033ecb7afdb50d1f503346abfbafb7c02",
+   "archived_uncompressed_sha256": "dd86be78a715e672351432da85e32073a32cee040cadd00b800ae74d15f82864",
+   "archived_atoms": 77117,
+   "current_atoms": 77117,
+   "common_atoms": 77117,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "6",
+    "data_content_type": "Structure model",
+    "major_revision": "3",
+    "minor_revision": "1",
+    "revision_date": "2025-10-01",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "7",
+    "data_content_type": "Structure model",
+    "major_revision": "3",
+    "minor_revision": "2",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "6KMW",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/6KMW.cif.gz",
+   "current_uncompressed_sha256": "8573e968b714a21fdc3f958b6098c823d4480e7ecbb7c7395b87452e46180b77",
+   "archived_uncompressed_sha256": "3b9f200a3e1b104b5e6f3e348ac2cf96febd33e7a292e3de7f62b9647ea8f887",
+   "archived_atoms": 64083,
+   "current_atoms": 64083,
+   "common_atoms": 64083,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "6",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "8",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "2",
+    "revision_date": "2026-10-07",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "6KMX",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/6KMX.cif.gz",
+   "current_uncompressed_sha256": "5b2ccc6e25a224e7d721d65f78eeb369c2601e5b850616dfc2505269ba75f245",
+   "archived_uncompressed_sha256": "773d4d7ef838da06f0c6a367d57f34c9458962bae4c0869e50601aedb08adb26",
+   "archived_atoms": 65112,
+   "current_atoms": 65112,
+   "common_atoms": 65112,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "6",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "8",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "2",
+    "revision_date": "2026-10-07",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "7COY",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/7COY.cif.gz",
+   "current_uncompressed_sha256": "51593d3f3ace0ee2024e491a1459d4b59974ae65adc8850130c6fbf8ca704a35",
+   "archived_uncompressed_sha256": "1e38bd60e63b8c88d8c981b80a701595d418624537680eaa2ebd07ff80c46882",
+   "archived_atoms": 57966,
+   "current_atoms": 57966,
+   "common_atoms": 57966,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "3",
+    "data_content_type": "Structure model",
+    "major_revision": "1",
+    "minor_revision": "2",
+    "revision_date": "2024-11-13"
+   },
+   "current_latest_revision": {
+    "ordinal": "10",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "7DKZ",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/7DKZ.cif.gz",
+   "current_uncompressed_sha256": "5b6dcd3c508c05486fc14f3434e2253924091fb43978fb5784f9b247a65a40bc",
+   "archived_uncompressed_sha256": "5b6dcd3c508c05486fc14f3434e2253924091fb43978fb5784f9b247a65a40bc",
+   "archived_atoms": 36093,
+   "current_atoms": 36093,
+   "common_atoms": 36093,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "7",
+    "data_content_type": "Structure model",
+    "major_revision": "3",
+    "minor_revision": "1",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "7",
+    "data_content_type": "Structure model",
+    "major_revision": "3",
+    "minor_revision": "1",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "8WEY",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/8WEY.cif.gz",
+   "current_uncompressed_sha256": "3f48324987ba2cef77de58ad96ff2e8f7393e779a6d0cb2b0586095498da0a4c",
+   "archived_uncompressed_sha256": "3f48324987ba2cef77de58ad96ff2e8f7393e779a6d0cb2b0586095498da0a4c",
+   "archived_atoms": 36163,
+   "current_atoms": 36163,
+   "common_atoms": 36163,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "11",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "11",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "8XLS",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/8XLS.cif.gz",
+   "current_uncompressed_sha256": "073b7f4dc8456e1130a05f4836e76a4408057767bb983ebe1641e64e7b1f48f6",
+   "archived_uncompressed_sha256": "073b7f4dc8456e1130a05f4836e76a4408057767bb983ebe1641e64e7b1f48f6",
+   "archived_atoms": 37637,
+   "current_atoms": 37637,
+   "common_atoms": 37637,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "6",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "6",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9AU4",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9AU4.cif.gz",
+   "current_uncompressed_sha256": "02578efb2ca85c45c4d3248e5233f06472c7a20386691080250b4ee291839c49",
+   "archived_uncompressed_sha256": "02578efb2ca85c45c4d3248e5233f06472c7a20386691080250b4ee291839c49",
+   "archived_atoms": 73866,
+   "current_atoms": 73866,
+   "common_atoms": 73866,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "4",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "4",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-08-12",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9EYS",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9EYS.cif.gz",
+   "current_uncompressed_sha256": "1e20da924d61eec3a3f05f401e526c00a3fd39e15f7cc6a7bb0ca243eaea7da3",
+   "archived_uncompressed_sha256": "56dee27e49e632d03ba54197f03229e99d8e81c70cbf2ec41773a5b05a3b300a",
+   "archived_atoms": 75954,
+   "current_atoms": 75954,
+   "common_atoms": 75954,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "8",
+    "data_content_type": "Structure model",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2025-10-22",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "12",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "2",
+    "revision_date": "2026-09-02",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9HYU",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9HYU.cif.gz",
+   "current_uncompressed_sha256": "3f3f899418e2d7170a224da41ba51bd1c5b3328961e3982b92befaddbf035457",
+   "archived_uncompressed_sha256": "3f3f899418e2d7170a224da41ba51bd1c5b3328961e3982b92befaddbf035457",
+   "archived_atoms": 92028,
+   "current_atoms": 92028,
+   "common_atoms": 92028,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "11",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "11",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9I9L",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9I9L.cif.gz",
+   "current_uncompressed_sha256": "aaa0f33e9d7eb9804b1767b370514da18932ebf5f17faa93b6af8a3e15cbaa46",
+   "archived_uncompressed_sha256": "b690b6fbc0887b8286ced6939de45a1504342832b056c03e34cfbff9d3c40b40",
+   "archived_atoms": 75954,
+   "current_atoms": 75954,
+   "common_atoms": 75954,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "1",
+    "data_content_type": "Structure model",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2025-10-22",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "11",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "2",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9KZ9",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9KZ9.cif.gz",
+   "current_uncompressed_sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+   "archived_uncompressed_sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+   "archived_atoms": 61938,
+   "current_atoms": 61938,
+   "common_atoms": 61938,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-10-28",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-10-28",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9LUT",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9LUT.cif.gz",
+   "current_uncompressed_sha256": "8702fc17b1455510e3a217b24e560770165a07f654cfa4f3e1205e884fecbd72",
+   "archived_uncompressed_sha256": "8702fc17b1455510e3a217b24e560770165a07f654cfa4f3e1205e884fecbd72",
+   "archived_atoms": 36239,
+   "current_atoms": 36239,
+   "common_atoms": 36239,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9OY9",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9OY9.cif.gz",
+   "current_uncompressed_sha256": "c67960cea0d48ef6fcb74ef56a5b360fbe22eaeccf70675e33358312b97964f5",
+   "archived_uncompressed_sha256": "3bf55e6da09cac13040c4f22091525709ecabcc54814d3e29936fed5e249903e",
+   "archived_atoms": 25286,
+   "current_atoms": 25286,
+   "common_atoms": 25286,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "2",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-11-11",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "4",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-11-18",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9OZ3",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9OZ3.cif.gz",
+   "current_uncompressed_sha256": "854f293ca415e86ef6001ecea1aeb8e50aa83d3b422a3b4d9cd1480f06ddb197",
+   "archived_uncompressed_sha256": "bb6747b19b9e4c876ce47b2b7cd8da3f559b7968f355af083a81ab1f2d19bc6b",
+   "archived_atoms": 76301,
+   "current_atoms": 76301,
+   "common_atoms": 76301,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "2",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-11-11",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "4",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-11-18",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9QFP",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9QFP.cif.gz",
+   "current_uncompressed_sha256": "72981ca6f721062e8cd0df292871ff6072dc16a8163d9df90829133753b9d645",
+   "archived_uncompressed_sha256": "01192b5659e3a79181089a1648588dbf1b3912cf09b763d9109124114ef91b66",
+   "archived_atoms": 25572,
+   "current_atoms": 25572,
+   "common_atoms": 25572,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "2",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-09-30",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "4",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-10-28",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9S6P",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9S6P.cif.gz",
+   "current_uncompressed_sha256": "3f06c850f9a42abc1b6b63e4b930374c2277ee1f519e6688069efca13a4d8067",
+   "archived_uncompressed_sha256": "45e8bca7756f0d20f037ead25a30898beb47a67777a24bab2635fae09c420ddf",
+   "archived_atoms": 23856,
+   "current_atoms": 23856,
+   "common_atoms": 23856,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "7",
+    "data_content_type": "Primary map",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-07-08",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "9",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-09-02",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9SE6",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9SE6.cif.gz",
+   "current_uncompressed_sha256": "bd2a215c514ef08073992c46bcb9e5e715bfd77fec5572912837d9e10141b502",
+   "archived_uncompressed_sha256": "bd2a215c514ef08073992c46bcb9e5e715bfd77fec5572912837d9e10141b502",
+   "archived_atoms": 48478,
+   "current_atoms": 48478,
+   "common_atoms": 48478,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "13",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "3",
+    "revision_date": "2026-09-16",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9SK3",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9SK3.cif.gz",
+   "current_uncompressed_sha256": "39dacd3d09c6445a370574beb3f79266240dfa61887e27e844e9bae980eb1d85",
+   "archived_uncompressed_sha256": "d29c298423b42a489f066de0f69307b60f95546c092c1405d5888e49d17003f3",
+   "archived_atoms": 70575,
+   "current_atoms": 70575,
+   "common_atoms": 70575,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "7",
+    "data_content_type": "Primary map",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-07-08",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "9",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "1",
+    "revision_date": "2026-09-02",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9UH3",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9UH3.cif.gz",
+   "current_uncompressed_sha256": "5cebfafe132e8f576ee14166fc74141ff487d4e9a9cd75ae5d429e412e439e91",
+   "archived_uncompressed_sha256": "5cebfafe132e8f576ee14166fc74141ff487d4e9a9cd75ae5d429e412e439e91",
+   "archived_atoms": 42258,
+   "current_atoms": 42258,
+   "common_atoms": 42258,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "16",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "4",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "16",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "4",
+    "revision_date": "2026-09-23",
+    "part_number": null
+   }
+  },
+  {
+   "pdb": "9YL7",
+   "status": "IDENTICAL_ATOM_RECORDS",
+   "url": "https://files.rcsb.org/download/9YL7.cif.gz",
+   "current_uncompressed_sha256": "da63e202d1aabf94dfb362958e14b2a40c45b9e9de18ba27c18a61a1d44c5d4d",
+   "archived_uncompressed_sha256": "da63e202d1aabf94dfb362958e14b2a40c45b9e9de18ba27c18a61a1d44c5d4d",
+   "archived_atoms": 25616,
+   "current_atoms": 25616,
+   "common_atoms": 25616,
+   "removed_atoms": 0,
+   "added_atoms": 0,
+   "max_coordinate_shift_A": 0.0,
+   "changed_position_occupancy_or_B_records": 0,
+   "archived_latest_revision": {
+    "ordinal": "2",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-10-14",
+    "part_number": null
+   },
+   "current_latest_revision": {
+    "ordinal": "2",
+    "data_content_type": "EM metadata",
+    "major_revision": "1",
+    "minor_revision": "0",
+    "revision_date": "2026-10-14",
+    "part_number": null
+   }
+  }
+ ]
+}

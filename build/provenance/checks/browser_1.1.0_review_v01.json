@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "version": "1.1.0",
+  "engine": "Chrome 157.0.8103.79",
+  "scope": "Fresh isolated local final-version smoke test; six representative scenes, all comparison tables and 42 layouts; not a repeated 160-scene scientific screen.",
+  "counts": {
+    "scenes": 6,
+    "comparisons": 4,
+    "layouts": 42,
+    "exports": 18,
+    "downloads": 25,
+    "issues": 0,
+    "errors": 0,
+    "request_failures": 0
+  },
+  "visually_inspected_screenshots": [
+    "home_1440_light.png",
+    "home_390_dark.png",
+    "methods_390_light.png"
+  ],
+  "input_bindings_sha256": {
+    "js/app.js": "56c8d6bf02350728b029c09f30a85ea4b642d8a74804d905e1fc853b8acf42f3",
+    "js/viewer.js": "0b4ad0546a33d63b392e588bdacc5b95064cd7b95b33e3c98180427a6f2412e8",
+    "js/density_review.js": "e2844c5c67dd22ef873ece138b479af38c042afc4d3fc3a3910b79764075e449",
+    "css/style.css": "17be7e1daf07d3ad2e1214057978a49162c5d0fc67b1c97cb9a2f2c9e563a375",
+    "data/atlas.js": "e0a4802c6e78727510472db680aa61f8ef13e14ec6cb041781b08099996eb561",
+    "data/density_review.js": "52d90eb7efcf53f3aeeacca2c96ee8e2585769fb80863638ad84cd8d554e5a2c",
+    "index.html": "c6b7320f41ddfe5b32d2aeb5509eae6d85032bf58e392f8ae8ef35702f87a4c7"
+  }
+}

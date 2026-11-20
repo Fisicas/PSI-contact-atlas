@@ -1,0 +1,12 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+8WEY.p1.HOH:A:1002:O~TYR:A:596:OH,8WEY_prot1_P_A,8WEY,1,P_A,HOH:A:1002:O,TYR:A:596:OH,VI,A,2.80529,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,30.33,27.58
+8WEY.p1.HOH:A:1002:O~SER:A:600:OG,8WEY_prot1_P_A,8WEY,1,P_A,HOH:A:1002:O,SER:A:600:OG,VI,A,3.10409,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,30.33,23.68
+8WEY.p1.GLY:A:732:O~HOH:A:1002:O,8WEY_prot1_P_A,8WEY,1,P_A,HOH:A:1002:O,GLY:A:732:O,VI,A,3.25086,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,30.33,24.96
+8WEY.p1.HOH:A:1002:O~THR:A:736:OG1,8WEY_prot1_P_A,8WEY,1,P_A,HOH:A:1002:O,THR:A:736:OG1,VI,A,2.68305,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,30.33,21.57
+8WEY.p1.CL0:A:801:O2D~HOH:A:1002:O,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:O2D,HOH:A:1002:O,R,VI,3.19211,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,23.55,30.33
+8WEY.p1.CL0:A:801:MG~HIS:A:673:NE2,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:MG,HIS:A:673:NE2,R,A,2.27400,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,21.52,22.35
+8WEY.p1.CL0:A:801:O2D~CL0:A:801:OBD,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:OBD,CL0:A:801:O2D,R,R,3.67902,intra,same residue,derived by homology,1.0,1.0,23.53,23.55
+8WEY.p1.CL0:A:801:OBD~THR:A:736:OG1,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:OBD,THR:A:736:OG1,R,A,2.75723,polar,donor–acceptor compatible,derived by homology,1.0,1.0,23.53,21.57
+8WEY.p1.CL0:A:801:O2D~THR:A:736:OG1,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:O2D,THR:A:736:OG1,R,A,3.32733,polar,donor–acceptor compatible,derived by homology,1.0,1.0,23.55,21.57
+8WEY.p1.CL0:A:801:O2D~TYR:A:596:OH,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:O2D,TYR:A:596:OH,R,A,3.08099,polar,donor–acceptor compatible,derived by homology,1.0,1.0,23.55,27.58
+8WEY.p1.CL0:A:801:O1A~TYR:A:728:OH,8WEY_prot1_P_A,8WEY,1,P_A,CL0:A:801:O1A,TYR:A:728:OH,R,A,2.59945,polar,donor–acceptor compatible,derived by homology,1.0,1.0,30.02,23.38

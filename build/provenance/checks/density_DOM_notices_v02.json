@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scene_panels": 160,
+  "protomers": 40,
+  "unavailable_panels": 4,
+  "image_references": 462,
+  "checks": [
+    "Closed default and lazy image creation for every scene",
+    "Section/mesh switching",
+    "Native scene/protomer asset identity",
+    "Explicit unavailable-data messages in both modes",
+    "No automatic promotion of unreviewed maps",
+    "Prior scientific flags retained",
+    "No mutation of source notes",
+    "Event cleanup",
+    "Unknown-scene fallback"
+  ],
+  "limitation": "DOM contract harness; no browser control, screenshot or browser interaction test."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reviewed_entries": 21,
+  "reviewed_protomers": 39,
+  "packaged_figures_scope": 462,
+  "additional_baseline_figure_hashes_checked": 260,
+  "native_axial_distances_checked": 20,
+  "diagnostic_points_checked": 388,
+  "water_points": 37,
+  "scene_warning_checks": 16,
+  "direct_native_map_samples_checked": 118,
+  "max_direct_sampling_difference": 0.0,
+  "limitations": "Scoped review and record consistency only. No hydrogen-bond, occupancy, redox, atom-fit, normal-coordination or biological-replication approval. Map ratios are source-specific display context."
+}

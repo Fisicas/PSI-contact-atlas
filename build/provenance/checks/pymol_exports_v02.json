@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scripts": 160,
+  "distances": 2214,
+  "max_dev_crop_A": 3.232597351088273e-05,
+  "max_dev_full_A": 3.232597351088273e-05,
+  "problems": [],
+  "Mg_checks": 320,
+  "scope": "All 160 PML exports executed as crop and full current model (verified atom-identical to archived source). Native endpoint selection, measured distances and intended Mg sphere visibility; no scientific fit approval.",
+  "pymol_version": "3.1.0"
+}

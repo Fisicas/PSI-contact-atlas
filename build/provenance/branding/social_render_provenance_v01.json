@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scene": "9EYS_prot1_P_A",
+  "subject": "Native deposited P_A environment, Chroococcidiopsis thermalis PCC 7203, FRL preparation",
+  "source_url": "https://www.rcsb.org/structure/9EYS",
+  "pymol_version": [
+    "3.1.0",
+    3.0,
+    3000000,
+    1760432987,
+    "",
+    0
+  ],
+  "source_files": [
+    {
+      "path": "downloads/pymol/9EYS_prot1_P_A.pml",
+      "sha256": "dedb22b2da24db0f2e30a74f674404f1dd48d8ed172c2b16ea865365840906a1"
+    },
+    {
+      "path": "downloads/cif/9EYS_prot1_P_A.cif",
+      "sha256": "36c0cb6a6b26c39f82ea22bf140a9b76aa034afabf647712fdf78f2383a09a03"
+    },
+    {
+      "path": "data/views/9EYS_prot1_P_A.js",
+      "sha256": "5cbeda49ee227deedcfb15eff3433763b4399a7a5f74668c270613e6d19103db"
+    }
+  ],
+  "loaded_atoms": 128,
+  "max_coordinate_change_A": 0.0,
+  "display_changes": [
+    "Phytyl atoms C1\u2013C20 hidden; source file and loaded atoms unchanged",
+    "Atom/residue/distance labels hidden for social-banner legibility",
+    "Long C/S packing and intramolecular oxygen distances disabled",
+    "Existing Mg/polar/water pairs retained; polar candidate color changed to green, water retains cyan",
+    "Orthographic camera turned +25 degrees about y then -10 about x; framing recomputed around visible core",
+    "Mg sphere scale 0.45 for visual emphasis; atom positions unchanged",
+    "Transparent ray trace; shadows off; no fitting/refinement/coordinate edits"
+  ],
+  "contact_interpretation": "Displayed pairs are archived heavy-atom separations, not confirmed hydrogen bonds",
+  "camera_view": [
+    -0.07792118191719055,
+    -0.6147443056106567,
+    -0.7848681807518005,
+    0.1805124282836914,
+    -0.7829494476318359,
+    0.595320463180542,
+    -0.9804807305335999,
+    -0.09529007226228714,
+    0.17197760939598083,
+    0.0,
+    -0.0,
+    -70.44012451171875,
+    327.349853515625,
+    250.89869689941406,
+    266.4624328613281,
+    55.53553009033203,
+    85.34471893310547,
+    20.0
+  ]
+}

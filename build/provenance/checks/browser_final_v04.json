@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "structure_revision_labels_checked": 22,
+  "curator_notice_viewports_checked": [
+    1440,
+    390
+  ],
+  "default_structure_cautions": 2,
+  "default_A1B_cautions": 1,
+  "provenance_closed_by_default": true,
+  "JS_errors": [],
+  "browser_version": "157.0.8103.79",
+  "input_bindings_sha256": {
+    "js/app.js": "f9e61c900b87c90890022febd991bd1f59aba1c37c9e00f675badea45cda9a2b",
+    "js/density_review.js": "ec7a46c2ccc756da8c613fc88ad7ea1efc9d39daca413844990c41f8b38db862",
+    "data/release_notices.js": "de0d6b25ce5a93696b6cbcc3398ae8ebbd3c1fd0d305270eadd8f24158c3be4c",
+    "data/atlas.js": "efa99623e06825e3fe2a9df361a6a83fddef06c7a5d7693a9e8ea31a3cae5b3c",
+    "index.html": "0ebe7a519da371793fdb23a5ec4b2e804ff4675767f6e7f84df86ecc7b0124d8"
+  },
+  "scope": "Final metadata/citation cleanup checked after the full all-160-scene notice/browser run; isolated local session only."
+}

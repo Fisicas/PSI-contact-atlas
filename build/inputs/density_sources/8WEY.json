@@ -1,0 +1,13 @@
+{
+ "pdb": "8WEY",
+ "method": "Cryo-EM",
+ "protomers": [
+  1
+ ],
+ "state": "source_ready",
+ "records": [],
+ "emdb": "EMD-37480",
+ "metadata_file": "raw_maps/8WEY/emdb_entry.json",
+ "map_file": "raw_maps/8WEY/primary.map.gz",
+ "reuse_previous_source": true
+}

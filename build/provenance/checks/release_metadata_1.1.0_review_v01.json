@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "version": "1.1.0",
+  "publication_status": "unpublished-release-review",
+  "citation_formats": [
+    "CFF 1.2.0",
+    "BibTeX",
+    "RIS",
+    "CSL-JSON",
+    "Zenodo JSON"
+  ],
+  "official_CFF_schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "authors_ORCID_licenses_counts_consistent": true,
+  "scientific_dispositions_accepted": true,
+  "release_date": null,
+  "version_doi": null,
+  "concept_doi_context_only": "10.5281/zenodo.24318459",
+  "versions": {
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.26.0"
+  },
+  "limitations": "Official CFF schema validated offline. Zenodo JSON checked for selected fields/cross-format consistency, not against a complete Zenodo server schema; no upload, DOI reservation, release or remote CI is claimed."
+}

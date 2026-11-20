@@ -1,0 +1,1723 @@
+{
+    "_id": "6591eaa195c550e608ac4f71",
+    "admin": {
+        "authors_list": {
+            "author": [
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Kato K"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Nakajima Y"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Shen JR"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Nagao R"
+                }
+            ]
+        },
+        "current_status": {
+            "code": {
+                "valueOf_": "REL"
+            },
+            "date": "2026-08-12T00:00:00",
+            "processing_site": "PDBj"
+        },
+        "grant_support": {
+            "grant_reference": [
+                {
+                    "funding_body": "Not funded",
+                    "instance_type": "grant_reference"
+                }
+            ]
+        },
+        "key_dates": {
+            "deposition": "2023-12-26T00:00:00",
+            "header_release": "2024-10-30T00:00:00",
+            "map_release": "2024-10-30T00:00:00",
+            "update": "2026-08-12T00:00:00"
+        },
+        "keywords": "Photosystem I, ELECTRON TRANSPORT, PHOTOSYNTHESIS",
+        "revision_history": {
+            "revision": [
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "instance_type": "model",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "metadata",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            }
+                        ]
+                    },
+                    "date": "2024-10-30T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.0"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "em_admin"
+                                    ]
+                                },
+                                "instance_type": "metadata",
+                                "items": {
+                                    "item": [
+                                        "_em_admin.last_update"
+                                    ]
+                                },
+                                "revision_group": "EXPERIMENTAL_SUMMARY"
+                            }
+                        ]
+                    },
+                    "date": "2026-08-12T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.1"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "chem_comp",
+                                        "chem_comp_atom",
+                                        "chem_comp_bond",
+                                        "citation",
+                                        "citation_author",
+                                        "em_admin",
+                                        "entity",
+                                        "pdbx_entity_nonpoly"
+                                    ]
+                                },
+                                "instance_type": "model",
+                                "items": {
+                                    "item": [
+                                        "_chem_comp.name",
+                                        "_chem_comp.pdbx_synonyms",
+                                        "_chem_comp_atom.atom_id",
+                                        "_chem_comp_bond.atom_id_1",
+                                        "_chem_comp_bond.atom_id_2",
+                                        "_chem_comp_bond.pdbx_stereo_config",
+                                        "_chem_comp_bond.value_order",
+                                        "_em_admin.last_update",
+                                        "_entity.pdbx_description",
+                                        "_pdbx_entity_nonpoly.name"
+                                    ]
+                                },
+                                "revision_group": "STRUCTURE_SUMMARY"
+                            }
+                        ]
+                    },
+                    "date": "2024-11-27T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.2"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "chem_comp",
+                                        "chem_comp_atom",
+                                        "em_admin",
+                                        "pdbx_modification_feature",
+                                        "pdbx_nonpoly_atom_coordination",
+                                        "pdbx_struct_conn_angle",
+                                        "pdbx_validate_chiral",
+                                        "pdbx_validate_close_contact",
+                                        "struct_conn",
+                                        "struct_conn_type"
+                                    ]
+                                },
+                                "description": "Metalloprotein remediation",
+                                "instance_type": "model",
+                                "items": {
+                                    "item": [
+                                        "_chem_comp.formula",
+                                        "_chem_comp_atom.pdbx_stereo_config",
+                                        "_em_admin.last_update"
+                                    ]
+                                },
+                                "provider": "REPOSITORY",
+                                "revision_group": "STRUCTURE_SUMMARY",
+                                "revision_type": "REMEDIATION"
+                            }
+                        ]
+                    },
+                    "date": "2026-08-12T00:00:00",
+                    "instance_type": "revision",
+                    "version": "2.0"
+                }
+            ]
+        },
+        "sites": {
+            "deposition": "PDBj",
+            "last_processing": "PDBj"
+        },
+        "title": "PSI-FCPI of the diatom Thalassiosira pseudonana CCMP1335"
+    },
+    "crossreferences": {
+        "citation_list": {
+            "primary_citation": {
+                "citation_type": {
+                    "author": [
+                        {
+                            "ORCID": "0000-0001-9846-5903",
+                            "instance_type": "author",
+                            "order": 1,
+                            "valueOf_": "Kato K"
+                        },
+                        {
+                            "ORCID": "0000-0002-0529-8075",
+                            "instance_type": "author",
+                            "order": 2,
+                            "valueOf_": "Nakajima Y"
+                        },
+                        {
+                            "instance_type": "author",
+                            "order": 3,
+                            "valueOf_": "Xing J"
+                        },
+                        {
+                            "instance_type": "author",
+                            "order": 4,
+                            "valueOf_": "Kumazawa M"
+                        },
+                        {
+                            "instance_type": "author",
+                            "order": 5,
+                            "valueOf_": "Ogawa H"
+                        },
+                        {
+                            "ORCID": "0000-0003-4471-8797",
+                            "instance_type": "author",
+                            "order": 6,
+                            "valueOf_": "Shen JR"
+                        },
+                        {
+                            "ORCID": "0000-0003-0241-8008",
+                            "instance_type": "author",
+                            "order": 7,
+                            "valueOf_": "Ifuku K"
+                        },
+                        {
+                            "ORCID": "0000-0001-8212-3001",
+                            "instance_type": "author",
+                            "order": 8,
+                            "valueOf_": "Nagao R"
+                        }
+                    ],
+                    "country": "US",
+                    "external_references": [
+                        {
+                            "instance_type": "external_references",
+                            "type_": "PUBMED",
+                            "valueOf_": "39480899"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "DOI",
+                            "valueOf_": "doi:10.7554/eLife.99858"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "ISSN",
+                            "valueOf_": "2050-084X"
+                        }
+                    ],
+                    "journal": "eLife",
+                    "journal_abbreviation": "eLife",
+                    "published": true,
+                    "title": "Structural basis for molecular assembly of fucoxanthin chlorophyll a / c -binding proteins in a diatom photosystem I supercomplex.",
+                    "volume": "13",
+                    "year": "2024"
+                }
+            }
+        },
+        "other_db_list": {
+            "db_reference": [
+                {
+                    "accession_id": "EMD-38457",
+                    "content_type": "associated EM volume",
+                    "db_name": "EMDB",
+                    "details": "PSI-FCPI of the diatom Thalassiosira pseudonana CCMP1335",
+                    "instance_type": "db_reference"
+                }
+            ]
+        },
+        "pdb_list": {
+            "pdb_reference": [
+                {
+                    "instance_type": "pdb_reference",
+                    "pdb_id": "8xls",
+                    "relationship": {
+                        "in_frame": "FULLOVERLAP"
+                    }
+                }
+            ]
+        }
+    },
+    "emdb_id": "EMD-38457",
+    "interpretation": {
+        "additional_map_list": {
+            "additional_map": [
+                {
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 254,
+                        "row": 254,
+                        "sec": 254
+                    },
+                    "file": "emd_38457_additional_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "additional_map",
+                    "label": "::::EMDATABANK.org::::EMD-38457::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        }
+                    },
+                    "size_kbytes": 65549,
+                    "spacing": {
+                        "x": 254,
+                        "y": 254,
+                        "z": 254
+                    },
+                    "statistics": {
+                        "average": 0.0006081149,
+                        "maximum": 0.07631893,
+                        "minimum": -0.024207784,
+                        "std": 0.003494318
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        },
+        "half_map_list": {
+            "half_map": [
+                {
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 254,
+                        "row": 254,
+                        "sec": 254
+                    },
+                    "file": "emd_38457_half_map_2.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-38457::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        }
+                    },
+                    "size_kbytes": 65549,
+                    "spacing": {
+                        "x": 254,
+                        "y": 254,
+                        "z": 254
+                    },
+                    "statistics": {
+                        "average": 0.00049937225,
+                        "maximum": 0.06505326,
+                        "minimum": -0.031492054,
+                        "std": 0.005223949
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                },
+                {
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "191.008"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 254,
+                        "row": 254,
+                        "sec": 254
+                    },
+                    "file": "emd_38457_half_map_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-38457::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.752"
+                        }
+                    },
+                    "size_kbytes": 65549,
+                    "spacing": {
+                        "x": 254,
+                        "y": 254,
+                        "z": 254
+                    },
+                    "statistics": {
+                        "average": 0.00049865874,
+                        "maximum": 0.059104912,
+                        "minimum": -0.027809998,
+                        "std": 0.005200603
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        },
+        "modelling_list": {
+            "modelling": [
+                {
+                    "initial_model": [
+                        {
+                            "chain": {
+                                "initial_model_type": "experimental model",
+                                "source_name": "Other"
+                            },
+                            "details": "ModelAngelo",
+                            "instance_type": "initial_model"
+                        }
+                    ],
+                    "instance_type": "modelling",
+                    "refinement_protocol": "FLEXIBLE FIT",
+                    "refinement_space": "RECIPROCAL"
+                }
+            ]
+        }
+    },
+    "map": {
+        "axis_order": {
+            "fast": "X",
+            "medium": "Y",
+            "slow": "Z"
+        },
+        "cell": {
+            "a": {
+                "units": "\u212b",
+                "valueOf_": "191.008"
+            },
+            "alpha": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "b": {
+                "units": "\u212b",
+                "valueOf_": "191.008"
+            },
+            "beta": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "c": {
+                "units": "\u212b",
+                "valueOf_": "191.008"
+            },
+            "gamma": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            }
+        },
+        "contour_list": {
+            "contour": [
+                {
+                    "instance_type": "contour",
+                    "level": 0.012,
+                    "primary": true,
+                    "source": "AUTHOR"
+                }
+            ]
+        },
+        "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+        "dimensions": {
+            "col": 254,
+            "row": 254,
+            "sec": 254
+        },
+        "file": "emd_38457.map.gz",
+        "format": "CCP4",
+        "label": "::::EMDATABANK.org::::EMD-38457::::",
+        "origin": {
+            "col": 0,
+            "row": 0,
+            "sec": 0
+        },
+        "pixel_spacing": {
+            "x": {
+                "units": "\u212b",
+                "valueOf_": "0.752"
+            },
+            "y": {
+                "units": "\u212b",
+                "valueOf_": "0.752"
+            },
+            "z": {
+                "units": "\u212b",
+                "valueOf_": "0.752"
+            }
+        },
+        "size_kbytes": 65549,
+        "spacing": {
+            "x": 254,
+            "y": 254,
+            "z": 254
+        },
+        "statistics": {
+            "average": 0.0005549062,
+            "maximum": 0.097367026,
+            "minimum": -0.040055446,
+            "std": 0.004254923
+        },
+        "symmetry": {
+            "space_group": 1
+        }
+    },
+    "sample": {
+        "macromolecule_list": {
+            "macromolecule": [
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 1,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.08372582799999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A1"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0M8"
+                            }
+                        ],
+                        "string": "MAISSTERRSKNVQVFVEKDAVETSFAKWAQPGHFSRTLAKGPKTTTWIWNLHADAHDFDSQTSSLEEVSRKIFSAHFGQ LAIIFLWISGMHFHGAYFSNYSAWLTDPISIKQSSQVVWPIVGQEILNADVGGNFQGIQTTSGWFQMWRAEGITSEVELY WTAIGGLAMSAIMLFAGWFHYHKAAPKLEWFQNAESMMNHHLAGLLGLGCLSWSGHQIHIALPINKLLDAGVSPQEIPLP HEFLINRDLMAQLYPSFSKGLAPFFGGNWGEYSDFLTFKGGLNPVTGGLWLSDIAHHHLALSVLFIIAGHMYRTNWGIGH NMKEILEAHKGPFTGEGHKGLYEILTTSWHAQLAINLAMMGSLSIIVAHHMYAMPPYPYLATDYATQLSLFTHHMWIGGF CVVGGAAHGAIFMVRDYTPANNYNNLLDRVLRHRDAIISHLNWVCIFLGCHAFGFYIHNDTMRALGRPQDMFSDKAIQLQ PIFAQWIQNIHLLAPGTTAPNALATTSYAFGGDVIEVGGKIAMMPIKLGTADFMVHHIHAFTIHVTVLILLKGVLYARSS KLIPDKANLGFRFPCDGPGRGGTCQSSSWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGTITPDGAISHITGGNFAQSS ITINGWLRDFLWSQASQVIQSYGSASSAYGLIFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLNFAPTIQPRALS ITQGRAVGLAHYLLGGIGTTWAFFLARAISIT"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 2,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.082173875"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A2"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0M9"
+                            }
+                        ],
+                        "string": "MATKFPKFSQALAQDPATRRIWYGIATAHDLEAHDGMTEENLYQKIFASHFGHLAIIFLWTSGNLFHVAWQGNFEKWVSN PLKTRPIAHSIWDPHFGESALKAFSKGNTYPVNITFSGLYQWWYTIGFRTNQELYKGSIGLLLLASVLLIAGWLHLQPKF RPSLSWFKNNESRLNHHLSGLLGFSSLAWTGHLVHVAIPASRGVHVGWDNFLTTPPHPAGLTPFFTGNWTVYAENPDSAT HVFNTSEGSGTAILTFLGGFHPQTQSLWLSDMAHHHLAIAVVFIVAGHMYRTNFGIGHNMKEILDAHRPPGGRLGAGHVG LFETITNSLHMQLGLALACLGVATSLTAQHMYALTPYAYLSKDFTTEAALYTHHQYIAGFLMVGAFAHGAIFFVRDYDPE LNKNNVLARMLEHKEAIISHLSWASLFLGFHTLGLYIHNDTVVAFGQPEKQILFEPLFAEYIQAASGKAVYQFNVLLASS TSPATAAGNQVWLPGWLEAINNPKTDLFLKIGPGDFLVHHAIALGLHVTALILVKGALDARGSKLMPDKKDFGYSFPCDG PGRGGTCDISAWDAFYLAMFWMLNTIGWVTFYWHWKHMTIWGGNPGQFDESSNYIMGWLRDYLWLNSSPLINGYNPFGMN NLSVWSWMFLFGHLIWATGFMFLISWRGYWQELIETLVWAHERTPLANLIRWRDKPVALSIVQARLVGLVHFSVGYILTY AAFVIASTSGKFA"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 3,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008807169"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I iron-sulfur center"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0W4"
+                            }
+                        ],
+                        "string": "MSHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKSGQIASSPRVEDCVGCKRCETACPTDFLSVRVYLGAETTRSLGLA Y"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 4,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015535667999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit II"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0T5"
+                            }
+                        ],
+                        "string": "MTLNLKTPFPTFGGSTGGWLRAAEVEEKYAITWTSTKEQIFEMPTGGAAIMRNGENLLYLARKEQCLALSTQLRTFKIND YKIYRIFPSGEVQYLHPKDGVFPEKVNPGRTSVNSRGFSIGKNPNPASIKFSGITTYES"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 5,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.007520497"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IV"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0P9"
+                            }
+                        ],
+                        "string": "MIDRNSKVRILRKESYWFNQIGTVATVDQSGIRYPAVVRFESVNYAGTNTNNFALDELVEVKKEK"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 6,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.020382460999999998"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit III"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0V0"
+                            }
+                        ],
+                        "string": "MKRVNLLTLLFAVLIALTPNQALAEIGGLTKCSESAAFTKRLNASVKKLEQRASQYEADSPPALALKQQVERTQARFDKY SRSELLCGADGLPHLVADGRWSHAAEFILPGFGFIYISGWIGWVGRKYLRAVSTSANPSESEIIINVPLALKIMTTGYIW PISAWQELISNDLVAVSEEITVSPR"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 7,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.003919688"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit VIII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0S9"
+                            }
+                        ],
+                        "string": "MAASFLPSILVPLVGLIFPAFSMALFFLYVQTDDIA"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 8,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.004854705"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IX"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0V1"
+                            }
+                        ],
+                        "string": "MNDFQKYLSTAPVLLTLWMTFTAGFIIEVNRFFPDMLGLYF"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 9,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015715207"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit XI"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0U5"
+                            }
+                        ],
+                        "string": "MANFIKPYNDDPFVGHLATPITSSSLTRALLKNLPAYRFGLTPLLRGLEIGLAHGYFLIGPFAQLGPLRNSDIGLLAGFL STIGLILILTLGLTIYGAAAFGQEKSNGSELQTKKSWDQFKGGFFVGACGSAGFAFICLSSIPTFALN"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 10,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.003271954"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit XII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0T0S1"
+                            }
+                        ],
+                        "string": "MITDFQVYIALMAALLASVLAIRLGATLYQ"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 11,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.020048312000000002"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit Psa29"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B8BUW3"
+                            }
+                        ],
+                        "string": "MKIVLIALSAASVSAFAPNAFGVRRTCYFEWLDLTIPSCGETTSLNVDLDYGMKNSYVPATGGDGGQGQFGAQSPNDWRV AGTSPVGETSYAGAADGGEEPWFAEAISTVSLDLQKADETLKAFTKDAAAFKIEEFAAEKPYGFTSSDAAMEELVGKLGY SKFLEMSTKQLMKTWGTLHPDPAAAKEE"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 12,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.007166824999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Unknown protein"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "string": "(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK) (UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK) (UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK) (UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK) (UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK)(UNK) (UNK)(UNK)(UNK)(UNK)"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 13,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.023695039"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Fucoxanthin chlorophyll a/c-binding protein RedCAP"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "string": "MKTAALVTLALAGSAQAFAPSTSRVSVSRTSTSVASSVFDDAVKDWAEEYPQFAAWGWGPSVQAEIWNGRHAMFGWVVMC ACAYAKGHGLIPDADQTLDLKEWGTLATISGKNTITNERAIILIANVHALMVGLAATISPNSFADTLLLDPNHPMYEWQM ERNSKLGGVMPNLGKMGVTPEAELANGRMAMMGIITCIAYSGIQGQSMIDTINEWVGGAYF"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 14,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.021438559"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Fucoxanthin chl a/c light-harvesting protein"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B8C2K6"
+                            }
+                        ],
+                        "string": "MLKAVLTTSLIAAASAFAPASVGRSTVALNEMSKSIPFLTVPEKLDGSMAGDVGFDPMGLSDIQTDLNYARWAELKHGRI CMLAVVGMVWQEYGPHLPGDAYATKDPWEAISSVGFASNFQTLLAIGVVELANWNKYYGDGTPGDIGWTGGQLSKMNDAQ IKTRMESEIVHCRLAMIAFIGATHQTFLLHKGLLDFSY"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 15,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.021210223"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Pt17531-like protein"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B8CEQ3"
+                            }
+                        ],
+                        "string": "MKTAILATLAASAAAFAPASISSPSTTQLSAWRDEVVVGITAPVGFFDPLGLSKGKDDATMAYYREAELKNGRVAMAACL GWYLNAGGVHPAFNSELSNDPLKAMVELPAVGWLQFVLGCGAIEWLGQQIKERPGYVPGDLLGASYWVDNSDEGWVMYQN KELNNGRLAMLAIVGMVYQDVFVGDYGDMMYKQLVR"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 16,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.021502491999999998"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Fucoxanthin chl a/c light-harvesting protein, major type"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B5YM25"
+                            }
+                        ],
+                        "string": "MKTACLIASSLIASASAFAPAPVAKSTTALSADFSGEIGAANAELGCWDPLNFCTDQASFDKMRYAELKHGRVAQLAAWG YATTWSGARFPGCEDFPAGHEAVLKIGTENLIPVLVVAGALETLWKQKEGSFPGDFSATSFPVGFGPFAKTEADMIDLRT KELNNGRAAMMGILGMIVHEQIDGKPFIFFDKFEIYAPFGN"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 17,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.02111209"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Fucoxanthin chlorophyll a/c-binding protein Lhcq8"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 296543,
+                            "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B8C770"
+                            }
+                        ],
+                        "string": "MKSVCIALLASSVSAFAPSQQGPVKSALSYASELDSMTGTGIESPKVFDPLNLSDYVPVDWARRAELSNGRSAMLATVGW FFPKVFGTFDSTDVTTTDPIDAIMQADPQWWAQWILICGVFETWKYKKEMEGKSFLGGADPAVDYLKLWPADAAAQEEMK TKELKNARLAMIGIAGFAANHFIPGSCPVPDFIA"
+                    }
+                },
+                {
+                    "formula": "CL0",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 18,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A ISOMER"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "CLA",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 19,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A"
+                    },
+                    "number_of_copies": "138"
+                },
+                {
+                    "formula": "PQN",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 20,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000450696"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PHYLLOQUINONE"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "SF4",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 21,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00035163999999999996"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "IRON/SULFUR CLUSTER"
+                    },
+                    "number_of_copies": "3"
+                },
+                {
+                    "formula": "BCR",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 22,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000536873"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "BETA-CAROTENE"
+                    },
+                    "number_of_copies": "20"
+                },
+                {
+                    "formula": "LHG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 23,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00072297"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE"
+                    },
+                    "number_of_copies": "7"
+                },
+                {
+                    "formula": "LMT",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 24,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000510615"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "DODECYL-BETA-D-MALTOSIDE"
+                    },
+                    "number_of_copies": "4"
+                },
+                {
+                    "formula": "UNL",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 25,
+                    "name": {
+                        "valueOf_": "UNKNOWN LIGAND"
+                    },
+                    "number_of_copies": "89"
+                },
+                {
+                    "formula": "DGD",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 26,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0009492989999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "DIGALACTOSYL DIACYL GLYCEROL (DGDG)"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "5X6",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 27,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000568871"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Zeaxanthin"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "DD6",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 28,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000582855"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "(3S,3'R,5R,6S,7cis)-7',8'-didehydro-5,6-dihydro-5,6-epoxy-beta,beta-carotene-3,3'-diol"
+                    },
+                    "number_of_copies": "7"
+                },
+                {
+                    "formula": "LMG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 29,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007871579999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "KC1",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 30,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000610941"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Chlorophyll c1"
+                    },
+                    "number_of_copies": "7"
+                },
+                {
+                    "formula": "A86",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 31,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0006589059999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "(3S,3'S,5R,5'R,6S,6'R,8'R)-3,5'-dihydroxy-8-oxo-6',7'-didehydro-5,5',6,6',7,8-hexahydro-5,6-epoxy-beta,beta-caroten-3'- yl acetate"
+                    },
+                    "number_of_copies": "15"
+                },
+                {
+                    "formula": "HOH",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 32,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "1.8015e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "water"
+                    },
+                    "number_of_copies": "922"
+                }
+            ]
+        },
+        "name": {
+            "valueOf_": "PSI-FCPI"
+        },
+        "supramolecule_list": {
+            "supramolecule": [
+                {
+                    "instance_type": "complex_supramolecule",
+                    "macromolecule_list": {
+                        "macromolecule": [
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 1
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 2
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 3
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 4
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 5
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 6
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 7
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 8
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 9
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 10
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 11
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 12
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 13
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 14
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 15
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 16
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 17
+                            }
+                        ]
+                    },
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.55"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PSI-FCPI"
+                    },
+                    "natural_source": [
+                        {
+                            "database": "NCBI",
+                            "instance_type": "natural_source",
+                            "organism": {
+                                "ncbi": 296543,
+                                "valueOf_": "Thalassiosira pseudonana CCMP1335"
+                            }
+                        }
+                    ],
+                    "parent": 0,
+                    "supramolecule_id": 1
+                }
+            ]
+        }
+    },
+    "structure_determination_list": {
+        "structure_determination": [
+            {
+                "aggregation_state": "particle",
+                "image_processing": [
+                    {
+                        "ctf_correction": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "CTFFIND",
+                                        "version": "4.1"
+                                    }
+                                ]
+                            },
+                            "type_": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+                        },
+                        "final_angle_assignment": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "RELION",
+                                        "version": "4.0"
+                                    }
+                                ]
+                            },
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "final_reconstruction": {
+                            "algorithm": "FOURIER SPACE",
+                            "applied_symmetry": {
+                                "point_group": "C1"
+                            },
+                            "number_images_used": 75667,
+                            "resolution": {
+                                "res_type": "BY AUTHOR",
+                                "units": "\u212b",
+                                "valueOf_": "2.3"
+                            },
+                            "resolution_method": "FSC 0.143 CUT-OFF",
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "RELION",
+                                        "version": "4.0"
+                                    }
+                                ]
+                            }
+                        },
+                        "final_three_d_classification": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "RELION",
+                                        "version": "4.0"
+                                    }
+                                ]
+                            }
+                        },
+                        "image_processing_id": 1,
+                        "image_recording_id": 1,
+                        "initial_angle_assignment": {
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "RELION",
+                                        "version": "4.0"
+                                    }
+                                ]
+                            },
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "instance_type": "singleparticle_processing",
+                        "particle_selection": [
+                            {
+                                "instance_type": "particle_selection",
+                                "number_selected": 2733572
+                            }
+                        ],
+                        "startup_model": [
+                            {
+                                "insilico_model": "An initial model was generated de novo from 2D classification.",
+                                "instance_type": "startup_model",
+                                "type_of_model": "INSILICO MODEL"
+                            }
+                        ]
+                    }
+                ],
+                "instance_type": "structure_determination",
+                "method": "singleParticle",
+                "microscopy_list": {
+                    "microscopy": [
+                        {
+                            "acceleration_voltage": {
+                                "units": "kV",
+                                "valueOf_": "300"
+                            },
+                            "electron_source": "FIELD EMISSION GUN",
+                            "illumination_mode": "FLOOD BEAM",
+                            "image_recording_list": {
+                                "image_recording": [
+                                    {
+                                        "average_electron_dose_per_image": {
+                                            "units": "e/\u212b^2",
+                                            "valueOf_": "50.0"
+                                        },
+                                        "detector_mode": "COUNTING",
+                                        "film_or_detector_model": {
+                                            "valueOf_": "GATAN K3 (6k x 4k)"
+                                        },
+                                        "image_recording_id": 1,
+                                        "instance_type": "image_recording"
+                                    }
+                                ]
+                            },
+                            "imaging_mode": "BRIGHT FIELD",
+                            "instance_type": "single_particle_microscopy",
+                            "microscope": "JEOL CRYO ARM 300",
+                            "microscopy_id": 1,
+                            "nominal_defocus_max": {
+                                "units": "\u00b5m",
+                                "valueOf_": "1.8"
+                            },
+                            "nominal_defocus_min": {
+                                "units": "\u00b5m",
+                                "valueOf_": "1.2"
+                            },
+                            "nominal_magnification": 60000.0
+                        }
+                    ]
+                },
+                "specimen_preparation_list": {
+                    "specimen_preparation": [
+                        {
+                            "buffer": {
+                                "component": [
+                                    {
+                                        "concentration": {
+                                            "units": "mM",
+                                            "valueOf_": "20.0"
+                                        },
+                                        "formula": "MES-NaOH",
+                                        "instance_type": "component",
+                                        "name": "MES"
+                                    },
+                                    {
+                                        "concentration": {
+                                            "units": "%",
+                                            "valueOf_": "0.03"
+                                        },
+                                        "formula": "DDM",
+                                        "instance_type": "component",
+                                        "name": "DDM"
+                                    }
+                                ],
+                                "ph": 6.5
+                            },
+                            "concentration": {
+                                "units": "mg/mL",
+                                "valueOf_": "3.0"
+                            },
+                            "grid": {
+                                "material": "COPPER",
+                                "mesh": 300,
+                                "model": "Quantifoil R1.2/1.3",
+                                "pretreatment": {
+                                    "time": {
+                                        "units": "s",
+                                        "valueOf_": "10"
+                                    },
+                                    "type_": "GLOW DISCHARGE"
+                                },
+                                "support_film": [
+                                    {
+                                        "film_material": "CARBON",
+                                        "film_type_id": 1,
+                                        "instance_type": "support_film"
+                                    }
+                                ]
+                            },
+                            "instance_type": "single_particle_preparation",
+                            "preparation_id": 1,
+                            "vitrification": {
+                                "chamber_humidity": {
+                                    "units": "percentage",
+                                    "valueOf_": "100"
+                                },
+                                "chamber_temperature": {
+                                    "units": "K",
+                                    "valueOf_": "277"
+                                },
+                                "cryogen_name": "ETHANE",
+                                "instrument": "FEI VITROBOT MARK IV"
+                            }
+                        }
+                    ]
+                },
+                "structure_determination_id": 1
+            }
+        ]
+    },
+    "version": "3.0.11.7"
+}

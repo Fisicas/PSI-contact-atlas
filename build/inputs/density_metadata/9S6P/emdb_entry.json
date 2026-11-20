@@ -1,0 +1,1315 @@
+{
+    "_id": "689919ee6e5018e151f422f7",
+    "admin": {
+        "authors_list": {
+            "author": [
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Consoli G"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Leong HF"
+                }
+            ]
+        },
+        "current_status": {
+            "code": {
+                "valueOf_": "REL"
+            },
+            "date": "2026-09-02T00:00:00",
+            "processing_site": "PDBe"
+        },
+        "grant_support": {
+            "grant_reference": [
+                {
+                    "code": "714.018.001",
+                    "country": "Netherlands",
+                    "funding_body": "Netherlands Organisation for Scientific Research (NWO)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "country": "European Union",
+                    "funding_body": "European Research Council (ERC)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "BB/R001383/1",
+                    "country": "United Kingdom",
+                    "funding_body": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "BB/V002015/1",
+                    "country": "United Kingdom",
+                    "funding_body": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "BB/R00921X",
+                    "country": "United Kingdom",
+                    "funding_body": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+                    "instance_type": "grant_reference"
+                },
+                {
+                    "code": "BB/Z516740/1",
+                    "country": "United Kingdom",
+                    "funding_body": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+                    "instance_type": "grant_reference"
+                }
+            ]
+        },
+        "key_dates": {
+            "deposition": "2025-08-01T00:00:00",
+            "header_release": "2026-07-08T00:00:00",
+            "map_release": "2026-07-08T00:00:00",
+            "update": "2026-09-02T00:00:00"
+        },
+        "keywords": "Photosystem I, Chlorophyll d, long wavelength, ELECTRON TRANSPORT",
+        "revision_history": {
+            "revision": [
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "instance_type": "model",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "metadata",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "fsc",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "half_map",
+                                "part": 1,
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "half_map",
+                                "part": 2,
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "image",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "primary_map",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            }
+                        ]
+                    },
+                    "date": "2026-07-08T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.0"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "chem_comp",
+                                        "chem_comp_bond",
+                                        "em_admin",
+                                        "pdbx_modification_feature",
+                                        "pdbx_nonpoly_atom_coordination",
+                                        "pdbx_nonpoly_atom_coordination_sphere",
+                                        "pdbx_nonpoly_atom_coordination_sphere_order",
+                                        "pdbx_struct_conn_angle",
+                                        "struct_conn"
+                                    ]
+                                },
+                                "description": "Metalloprotein remediation",
+                                "instance_type": "model",
+                                "items": {
+                                    "item": [
+                                        "_chem_comp.formula",
+                                        "_em_admin.last_update",
+                                        "_struct_conn.pdbx_dist_value",
+                                        "_struct_conn.ptnr1_auth_asym_id",
+                                        "_struct_conn.ptnr1_auth_comp_id",
+                                        "_struct_conn.ptnr1_auth_seq_id",
+                                        "_struct_conn.ptnr1_label_asym_id",
+                                        "_struct_conn.ptnr1_label_atom_id",
+                                        "_struct_conn.ptnr1_label_comp_id",
+                                        "_struct_conn.ptnr1_label_seq_id",
+                                        "_struct_conn.ptnr2_auth_asym_id",
+                                        "_struct_conn.ptnr2_auth_comp_id",
+                                        "_struct_conn.ptnr2_auth_seq_id",
+                                        "_struct_conn.ptnr2_label_asym_id",
+                                        "_struct_conn.ptnr2_label_atom_id",
+                                        "_struct_conn.ptnr2_label_comp_id",
+                                        "_struct_conn.ptnr2_label_seq_id"
+                                    ]
+                                },
+                                "provider": "REPOSITORY",
+                                "revision_group": "STRUCTURE_SUMMARY",
+                                "revision_type": "REMEDIATION"
+                            }
+                        ]
+                    },
+                    "date": "2026-09-02T00:00:00",
+                    "instance_type": "revision",
+                    "version": "2.0"
+                },
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "categories": {
+                                    "category": [
+                                        "em_admin"
+                                    ]
+                                },
+                                "instance_type": "metadata",
+                                "items": {
+                                    "item": [
+                                        "_em_admin.last_update"
+                                    ]
+                                },
+                                "revision_group": "EXPERIMENTAL_SUMMARY"
+                            }
+                        ]
+                    },
+                    "date": "2026-09-02T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.1"
+                }
+            ]
+        },
+        "sites": {
+            "deposition": "PDBe",
+            "last_processing": "PDBe"
+        },
+        "title": "Local refinement of a PSI monomer of A. marina NIES-2412"
+    },
+    "crossreferences": {
+        "citation_list": {
+            "primary_citation": {
+                "citation_type": {
+                    "author": [
+                        {
+                            "ORCID": "0000-0001-7255-4609",
+                            "instance_type": "author",
+                            "order": 1,
+                            "valueOf_": "Oliver TJ"
+                        },
+                        {
+                            "ORCID": "0000-0002-2048-5629",
+                            "instance_type": "author",
+                            "order": 2,
+                            "valueOf_": "Elias E"
+                        },
+                        {
+                            "ORCID": "0009-0005-8681-9088",
+                            "instance_type": "author",
+                            "order": 3,
+                            "valueOf_": "Consoli G"
+                        },
+                        {
+                            "ORCID": "0009-0005-2058-9574",
+                            "instance_type": "author",
+                            "order": 4,
+                            "valueOf_": "Leong HF"
+                        },
+                        {
+                            "ORCID": "0000-0002-9849-885X",
+                            "instance_type": "author",
+                            "order": 5,
+                            "valueOf_": "Cordon-Preciado V"
+                        },
+                        {
+                            "ORCID": "0000-0002-7026-2175",
+                            "instance_type": "author",
+                            "order": 6,
+                            "valueOf_": "Fantuzzi A"
+                        },
+                        {
+                            "ORCID": "0000-0003-2076-4115",
+                            "instance_type": "author",
+                            "order": 7,
+                            "valueOf_": "Cardona T"
+                        },
+                        {
+                            "ORCID": "0000-0002-3124-154X",
+                            "instance_type": "author",
+                            "order": 8,
+                            "valueOf_": "Rutherford AW"
+                        },
+                        {
+                            "ORCID": "0000-0003-3469-834X",
+                            "instance_type": "author",
+                            "order": 9,
+                            "valueOf_": "Croce R"
+                        }
+                    ],
+                    "country": "US",
+                    "external_references": [
+                        {
+                            "instance_type": "external_references",
+                            "type_": "PUBMED",
+                            "valueOf_": "42268959"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "DOI",
+                            "valueOf_": "doi:10.1126/sciadv.aed7355"
+                        },
+                        {
+                            "instance_type": "external_references",
+                            "type_": "ISSN",
+                            "valueOf_": "2375-2548"
+                        }
+                    ],
+                    "first_page": "eaed7355",
+                    "journal": "Sci Adv",
+                    "journal_abbreviation": "Sci Adv",
+                    "last_page": "eaed7355",
+                    "published": true,
+                    "title": "Far-red chlorophyll d clusters extend photosystem I absorption toward the red limit.",
+                    "volume": "12",
+                    "year": "2026"
+                }
+            }
+        },
+        "emdb_list": {
+            "emdb_reference": [
+                {
+                    "details": "Global refinment of PSI trimer",
+                    "emdb_id": "EMD-54956",
+                    "instance_type": "emdb_reference",
+                    "relationship": {
+                        "other": "consensus EM volume"
+                    }
+                }
+            ]
+        },
+        "other_db_list": {
+            "db_reference": [
+                {
+                    "accession_id": "EMD-54627",
+                    "content_type": "associated EM volume",
+                    "db_name": "EMDB",
+                    "details": "Local refinement of a PSI monomer of A. marina NIES-2412",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "EMD-54956",
+                    "content_type": "consensus EM volume",
+                    "db_name": "EMDB",
+                    "details": "Global refinment of PSI trimer",
+                    "instance_type": "db_reference"
+                },
+                {
+                    "accession_id": "9SK3",
+                    "content_type": "unspecified",
+                    "db_name": "PDB",
+                    "details": "Model of PSI trimer",
+                    "instance_type": "db_reference"
+                }
+            ]
+        },
+        "pdb_list": {
+            "pdb_reference": [
+                {
+                    "instance_type": "pdb_reference",
+                    "pdb_id": "9s6p",
+                    "relationship": {
+                        "in_frame": "FULLOVERLAP"
+                    }
+                }
+            ]
+        }
+    },
+    "emdb_id": "EMD-54627",
+    "interpretation": {
+        "half_map_list": {
+            "half_map": [
+                {
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 600,
+                        "row": 600,
+                        "sec": 600
+                    },
+                    "file": "emd_54627_half_map_2.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-54627::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        }
+                    },
+                    "size_kbytes": 864001,
+                    "spacing": {
+                        "x": 600,
+                        "y": 600,
+                        "z": 600
+                    },
+                    "statistics": {
+                        "average": -3.569186e-05,
+                        "maximum": 1.6508355,
+                        "minimum": -0.6284329,
+                        "std": 0.06679706
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                },
+                {
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "634.8"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 600,
+                        "row": 600,
+                        "sec": 600
+                    },
+                    "file": "emd_54627_half_map_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-54627::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "1.058"
+                        }
+                    },
+                    "size_kbytes": 864001,
+                    "spacing": {
+                        "x": 600,
+                        "y": 600,
+                        "z": 600
+                    },
+                    "statistics": {
+                        "average": -4.1358682e-05,
+                        "maximum": 1.6531849,
+                        "minimum": -0.645318,
+                        "std": 0.06674247
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        }
+    },
+    "map": {
+        "axis_order": {
+            "fast": "X",
+            "medium": "Y",
+            "slow": "Z"
+        },
+        "cell": {
+            "a": {
+                "units": "\u212b",
+                "valueOf_": "634.8"
+            },
+            "alpha": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "b": {
+                "units": "\u212b",
+                "valueOf_": "634.8"
+            },
+            "beta": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "c": {
+                "units": "\u212b",
+                "valueOf_": "634.8"
+            },
+            "gamma": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            }
+        },
+        "contour_list": {
+            "contour": [
+                {
+                    "instance_type": "contour",
+                    "level": 0.2,
+                    "primary": true,
+                    "source": "AUTHOR"
+                }
+            ]
+        },
+        "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+        "dimensions": {
+            "col": 600,
+            "row": 600,
+            "sec": 600
+        },
+        "file": "emd_54627.map.gz",
+        "format": "CCP4",
+        "label": "::::EMDATABANK.org::::EMD-54627::::",
+        "origin": {
+            "col": 0,
+            "row": 0,
+            "sec": 0
+        },
+        "pixel_spacing": {
+            "x": {
+                "units": "\u212b",
+                "valueOf_": "1.058"
+            },
+            "y": {
+                "units": "\u212b",
+                "valueOf_": "1.058"
+            },
+            "z": {
+                "units": "\u212b",
+                "valueOf_": "1.058"
+            }
+        },
+        "size_kbytes": 864001,
+        "spacing": {
+            "x": 600,
+            "y": 600,
+            "z": 600
+        },
+        "statistics": {
+            "average": -0.00040643223,
+            "maximum": 1.6340985,
+            "minimum": -0.5045137,
+            "std": 0.018221866
+        },
+        "symmetry": {
+            "space_group": 1
+        }
+    },
+    "sample": {
+        "macromolecule_list": {
+            "macromolecule": [
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 1,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.082083172"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A2"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GV97"
+                            }
+                        ],
+                        "string": "MATKFPSFSQDLAQDPTTRRIWYGIATVHDFETHDGMTEENLYQKIFATHFGHLSIIFLWTAGLLFHVAWQGNFEQWIQD PLTVRPIAHAIWDPHLGDAATQAFTQAGASGPVDLCYSGVYHWWYTIGMRTNGDLYSGSIFLMVVAAVMLFAGWLHLQPK FRPSLAWFRDAESQMNHHLAVLFGASSLGWTGHLIHVAIPEARGQHVGWDNFLSTMPHPAGLAPFFTGRWAVYAQNPDTT GHIFGTSEGAGTAILTFVGGFHPQTEALWLTDIAHHHLAIAVLYIVAGHMYRTQFGIGHSMKEIMDAHRDPWYGATLEGL YDTYNESLHFQLAFHLAALGVITEVVAQHMYSLPSYAFISQDYVTQAALYTHHQYIGGFLALGAYAHGGIFFVRDYDPER NKGNALSRLLEHKEAIISHLSWVSMFLGFHTLDLYVHNDVVVAFGTPEKQILPEPIFAEWVQAAHGKLLLGLDSLLSNPQ SIAATAWPNYGDVWLPGWLDAVNGSSTPFLNIGPGDFLVHHGIAFSIHVTVLICVKGCLDARGSKLMPDKKDFGYSFPCD GPGRGGTCDISAWDSFYLATFWMLNTIGWVTFYFNWKQLSVWSGNLAQFNNDSTYLMGWLRDYLWGYSAQLINGYTPFGV NSLSVWAWIFLLGHLCWATGFLFLISWRGYWQELIETLVWAHQRTPLANLVMWKDKPVALSIVQGRLVGLVHFAVGYFVT YGAFVIGATAPLG"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 2,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015125149999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit II"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVK4"
+                            }
+                        ],
+                        "string": "MAETLTGQTPLFGGSTGGLLSSAETEEKYAITWTSPKQQVFEMPTGGAAVMNEGENLLYLARKEQCLALGLRQLRIKKIM DYKIYRVLPDGSNTLLHPKDGVFPEKSNEGRAAVNSVARSIGENPNPGAIKYTGKQAYD"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 3,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.009350654"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IV"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVJ0"
+                            }
+                        ],
+                        "string": "MVQRGSKVRILRPESYWFREIGTVASVDKSGIKYPVIVRFDTCNYNGISGTAAGINTNNFGVHELEEVEAPKAKAKKPAA APKAEG"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 4,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0036483369999999998"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Psa27 protein"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVM8"
+                            }
+                        ],
+                        "string": "MISDILPAIMTPLVVLIGGGAAMTAFFYYVEREG"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 5,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.005457358"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IX"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B0C7S6"
+                            }
+                        ],
+                        "string": "PPQIDSEKGFMKFFSTAPVIAFVFFTLTAGFLVELNRFFPDILFFPY"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 6,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008894473"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit PsaK"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVI7"
+                            }
+                        ],
+                        "string": "MFTPTFLTVAVRAVNWTPTVGVVMIAANIMAIAIAKYSIQYPNVGPSMPASSLFGGFSFNAVLGTQVFGHVLGAGAILGL TYLGVL"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 7,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015588004"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PsaL"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "string": "MTMEMVKHGGDPFVGDLATPVNSSGIVKAWINNLPAYRKGMSANARGLEIGMAHGYYLYGPFATSGPVRGTTMALVSGVL SASCVIIVLTVAMQLYSSLSVPKPRPSVTTADPGSDFGTKEGWSAIGSGFLIGGCGGAVIAGVLSYAIAIFAG"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 8,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.003204925"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PsaM"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "string": "MELSDLQIVIALVVALLPALLALNLGTALSK"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 9,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0029735749999999996"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PsaX2"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "string": "KNPWPTLPLIWSGIGILAAIWITLQIG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 10,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.083573766"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A1"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVI9"
+                            }
+                        ],
+                        "string": "MTNSPGGPETKGRTAEVDINPVKASLEVAGKPGHFNKSLSKGPQTTTWIWNLHALAHDFDTQTNDLEEISRKIFSAHFGH LAIVFVWISGMIFHAARFSNYYAWLADPLGNKPSAHVVWPIVGQDILNADVGNGFHGIQITSGLFHILRGAGMTAPIELY STSIGALVAAAVTMYAGYFHYHKKAPKLEWFQNAEATIGGHLINLLGLGNLAWTGHLIHVSLPINKMLDSGMAPEDIPIP HEYLLDKAFMADLYPSFAQGLAPYFTLNWGVYSDFLTFKGGLDPQTGGLWMTDIAHHHLALAVMYIIAGHMYRTNWGIGH HMREIMDAHKGPFTGEGHKGLYDVLTTSWHAQLAINLACWGSFSIVCAHHMYAMPPYPYLATDYATQLNLFVHHMWLGGF YIVGGAAHAAIFMVRDYDPAMNQNNVLDRMLRHRDTIIAHLNWVCLFLGFHSFDLYIHNDEMRSLGRPQDMFSDTAIQLQ PIFAQWVQNLQANVAGTIRAPLAEGATSLAWGGDPMFVGGKVAMQHVSLGTADFMIHHIHAFQIHVTVLILLKGVLYARS SRLIPDKASLGFRFPCDGPGRGGTCQSSGWDHVFLGLFWMYNCISIVNFHFFWKMQSDVWGTANASGGINYLTAGNWAQS SITINGWLRDFLWAQSVQVINSYGSALSAYGILFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHSKLKIAPAIQPRAM SITQGRAVGLGHYLLGGIVTSWSFYLARILALG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 11,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008825207"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I iron-sulfur center"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "B0CB42"
+                            }
+                        ],
+                        "string": "MSHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKAGQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA Y"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 12,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.017691422"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit III"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 2762543,
+                            "valueOf_": "Acaryochloris marina NIES-2412"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "A0AAT9GVR1"
+                            }
+                        ],
+                        "string": "MRRLFAVLVVLTLWLGVVPPASADIGGLVPCSESPQFQERAAKARNTTGDPESGRKRFEMYSSALCGADDGLPRIIAGGP WSRAGDFLIPGLLFIYIAGGIGNASRNYQIANRKKNPKNPAMGEIIIDVPLALSSTIAALAWPLKALGEVTSGKLTVPDS DVTVSPR"
+                    }
+                },
+                {
+                    "formula": "CL7",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 13,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000895462"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL D"
+                    },
+                    "number_of_copies": "93"
+                },
+                {
+                    "formula": "PHO",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 14,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0008712"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PHEOPHYTIN A"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "PQN",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 15,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000450696"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "PHYLLOQUINONE"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "A1JPJ",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 16,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000536873"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "(6'S)-beta,epsilon-carotene"
+                    },
+                    "number_of_copies": "21"
+                },
+                {
+                    "formula": "LMG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 17,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007871579999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "SF4",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 18,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00035163999999999996"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "IRON/SULFUR CLUSTER"
+                    },
+                    "number_of_copies": "3"
+                },
+                {
+                    "formula": "LHG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 19,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00072297"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "G9R",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 20,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000895462"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL D ISOMER"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "HOH",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 21,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "1.8015e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "water"
+                    },
+                    "number_of_copies": "39"
+                }
+            ]
+        },
+        "name": {
+            "valueOf_": "Photosystem I"
+        },
+        "supramolecule_list": {
+            "supramolecule": [
+                {
+                    "details": "Chlorophyll d containing photosystem I from A. marina NIES-2412",
+                    "instance_type": "complex_supramolecule",
+                    "macromolecule_list": {
+                        "macromolecule": [
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 10
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 1
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 11
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 2
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 3
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 12
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 4
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 5
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 6
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 7
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 8
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 9
+                            }
+                        ]
+                    },
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.311"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I"
+                    },
+                    "natural_source": [
+                        {
+                            "database": "NCBI",
+                            "instance_type": "natural_source",
+                            "organism": {
+                                "ncbi": 2762543,
+                                "valueOf_": "Acaryochloris marina"
+                            }
+                        }
+                    ],
+                    "parent": 0,
+                    "supramolecule_id": 1
+                }
+            ]
+        }
+    },
+    "structure_determination_list": {
+        "structure_determination": [
+            {
+                "aggregation_state": "particle",
+                "image_processing": [
+                    {
+                        "ctf_correction": {
+                            "type_": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+                        },
+                        "final_angle_assignment": {
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "final_reconstruction": {
+                            "number_images_used": 151833,
+                            "resolution": {
+                                "res_type": "BY AUTHOR",
+                                "units": "\u212b",
+                                "valueOf_": "2.44"
+                            },
+                            "resolution_method": "FSC 0.143 CUT-OFF",
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC"
+                                    }
+                                ]
+                            }
+                        },
+                        "image_processing_id": 1,
+                        "image_recording_id": 1,
+                        "initial_angle_assignment": {
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "instance_type": "singleparticle_processing",
+                        "startup_model": [
+                            {
+                                "instance_type": "startup_model",
+                                "type_of_model": "NONE"
+                            }
+                        ]
+                    }
+                ],
+                "instance_type": "structure_determination",
+                "method": "singleParticle",
+                "microscopy_list": {
+                    "microscopy": [
+                        {
+                            "acceleration_voltage": {
+                                "units": "kV",
+                                "valueOf_": "300"
+                            },
+                            "electron_source": "FIELD EMISSION GUN",
+                            "illumination_mode": "SPOT SCAN",
+                            "image_recording_list": {
+                                "image_recording": [
+                                    {
+                                        "average_electron_dose_per_image": {
+                                            "units": "e/\u212b^2",
+                                            "valueOf_": "50.0"
+                                        },
+                                        "film_or_detector_model": {
+                                            "valueOf_": "GATAN K3 BIOQUANTUM (6k x 4k)"
+                                        },
+                                        "image_recording_id": 1,
+                                        "instance_type": "image_recording"
+                                    }
+                                ]
+                            },
+                            "imaging_mode": "BRIGHT FIELD",
+                            "instance_type": "single_particle_microscopy",
+                            "microscope": "TFS KRIOS",
+                            "microscopy_id": 1,
+                            "nominal_cs": {
+                                "units": "mm",
+                                "valueOf_": "2.7"
+                            },
+                            "nominal_defocus_max": {
+                                "units": "\u00b5m",
+                                "valueOf_": "2.0"
+                            },
+                            "nominal_defocus_min": {
+                                "units": "\u00b5m",
+                                "valueOf_": "0.8"
+                            }
+                        }
+                    ]
+                },
+                "specimen_preparation_list": {
+                    "specimen_preparation": [
+                        {
+                            "buffer": {
+                                "details": "50 mM MES, 1 M betaine monohydrate, 20 mM CaCl2, 5 mM MgCl2 and 10% (v/v) glycerol, pH 6.5 adjusted with NaOH",
+                                "ph": 6.5
+                            },
+                            "instance_type": "single_particle_preparation",
+                            "preparation_id": 1,
+                            "vitrification": {
+                                "chamber_humidity": {
+                                    "units": "percentage",
+                                    "valueOf_": "95"
+                                },
+                                "chamber_temperature": {
+                                    "units": "K",
+                                    "valueOf_": "277"
+                                },
+                                "cryogen_name": "ETHANE",
+                                "instrument": "FEI VITROBOT MARK IV"
+                            }
+                        }
+                    ]
+                },
+                "structure_determination_id": 1
+            }
+        ]
+    },
+    "version": "3.0.11.7"
+}

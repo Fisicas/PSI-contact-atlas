@@ -1,0 +1,264 @@
+{
+  "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-43843",
+  "retrieved_UTC": "2026-11-20T17:00:55.857698+00:00",
+  "map": {
+    "annotation_details": "unsharpened and unmasked map",
+    "axis_order": {
+      "fast": "Z",
+      "medium": "Y",
+      "slow": "X"
+    },
+    "cell": {
+      "a": {
+        "units": "\u212b",
+        "valueOf_": "266.24"
+      },
+      "alpha": {
+        "units": "deg",
+        "valueOf_": "90.0"
+      },
+      "b": {
+        "units": "\u212b",
+        "valueOf_": "266.24"
+      },
+      "beta": {
+        "units": "deg",
+        "valueOf_": "90.0"
+      },
+      "c": {
+        "units": "\u212b",
+        "valueOf_": "266.24"
+      },
+      "gamma": {
+        "units": "deg",
+        "valueOf_": "90.0"
+      }
+    },
+    "contour_list": {
+      "contour": [
+        {
+          "instance_type": "contour",
+          "level": 0.0149,
+          "primary": true,
+          "source": "AUTHOR"
+        }
+      ]
+    },
+    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+    "dimensions": {
+      "col": 320,
+      "row": 320,
+      "sec": 320
+    },
+    "file": "emd_43843.map.gz",
+    "format": "CCP4",
+    "label": "::::EMDATABANK.org::::EMD-43843::::",
+    "origin": {
+      "col": 0,
+      "row": 0,
+      "sec": 0
+    },
+    "pixel_spacing": {
+      "x": {
+        "units": "\u212b",
+        "valueOf_": "0.83199996"
+      },
+      "y": {
+        "units": "\u212b",
+        "valueOf_": "0.83199996"
+      },
+      "z": {
+        "units": "\u212b",
+        "valueOf_": "0.83199996"
+      }
+    },
+    "size_kbytes": 131073,
+    "spacing": {
+      "x": 320,
+      "y": 320,
+      "z": 320
+    },
+    "statistics": {
+      "average": 0.0014400833,
+      "maximum": 59.97203,
+      "minimum": -21.8255,
+      "std": 1.0002513
+    },
+    "symmetry": {
+      "space_group": 1
+    }
+  },
+  "revision_history": {
+    "revision": [
+      {
+        "change_list": {
+          "revision_change_sub_group": [
+            {
+              "instance_type": "model",
+              "provider": "REPOSITORY",
+              "revision_type": "INITIAL_RELEASE"
+            },
+            {
+              "instance_type": "metadata",
+              "provider": "REPOSITORY",
+              "revision_type": "INITIAL_RELEASE"
+            }
+          ]
+        },
+        "date": "2024-12-25T00:00:00",
+        "instance_type": "revision",
+        "version": "1.0"
+      },
+      {
+        "change_list": {
+          "revision_change_sub_group": [
+            {
+              "categories": {
+                "category": [
+                  "chem_comp_atom",
+                  "em_admin",
+                  "pdbx_modification_feature",
+                  "pdbx_nonpoly_atom_coordination",
+                  "pdbx_validate_chiral"
+                ]
+              },
+              "description": "Metalloprotein remediation",
+              "instance_type": "model",
+              "items": {
+                "item": [
+                  "_chem_comp_atom.pdbx_stereo_config",
+                  "_em_admin.last_update"
+                ]
+              },
+              "provider": "REPOSITORY",
+              "revision_group": "STRUCTURE_SUMMARY",
+              "revision_type": "REMEDIATION"
+            },
+            {
+              "categories": {
+                "category": [
+                  "em_admin"
+                ]
+              },
+              "instance_type": "metadata",
+              "items": {
+                "item": [
+                  "_em_admin.last_update"
+                ]
+              },
+              "revision_group": "EXPERIMENTAL_SUMMARY"
+            }
+          ]
+        },
+        "date": "2026-08-12T00:00:00",
+        "instance_type": "revision",
+        "version": "1.1"
+      }
+    ]
+  },
+  "crossreferences": {
+    "citation_list": {
+      "primary_citation": {
+        "citation_type": {
+          "author": [
+            {
+              "ORCID": "0000-0002-8011-0052",
+              "instance_type": "author",
+              "order": 1,
+              "valueOf_": "Gisriel CJ"
+            },
+            {
+              "instance_type": "author",
+              "order": 2,
+              "valueOf_": "Kurashov V"
+            },
+            {
+              "ORCID": "0000-0001-8394-184X",
+              "instance_type": "author",
+              "order": 3,
+              "valueOf_": "Iwig DF"
+            },
+            {
+              "ORCID": "0000-0003-1382-9945",
+              "instance_type": "author",
+              "order": 4,
+              "valueOf_": "Russell BP"
+            },
+            {
+              "ORCID": "0000-0002-8058-5998",
+              "instance_type": "author",
+              "order": 5,
+              "valueOf_": "Vinyard DJ"
+            },
+            {
+              "ORCID": "0000-0002-7040-1892",
+              "instance_type": "author",
+              "order": 6,
+              "valueOf_": "Brudvig GW"
+            },
+            {
+              "ORCID": "0000-0002-3650-1582",
+              "instance_type": "author",
+              "order": 7,
+              "valueOf_": "Golbeck JH"
+            },
+            {
+              "ORCID": "0000-0001-5443-9017",
+              "instance_type": "author",
+              "order": 8,
+              "valueOf_": "Lakshmi KV"
+            }
+          ],
+          "country": "US",
+          "external_references": [
+            {
+              "instance_type": "external_references",
+              "type_": "PUBMED",
+              "valueOf_": "39612342"
+            },
+            {
+              "instance_type": "external_references",
+              "type_": "DOI",
+              "valueOf_": "doi:10.1126/sciadv.adp4937"
+            },
+            {
+              "instance_type": "external_references",
+              "type_": "ISSN",
+              "valueOf_": "2375-2548"
+            }
+          ],
+          "first_page": "eadp4937",
+          "journal": "Sci Adv",
+          "journal_abbreviation": "Sci Adv",
+          "last_page": "eadp4937",
+          "published": true,
+          "title": "Cryo-EM structure of a photosystem I variant containing an unusual plastoquinone derivative in its electron transfer chain.",
+          "volume": "10",
+          "year": "2024"
+        }
+      }
+    },
+    "other_db_list": {
+      "db_reference": [
+        {
+          "accession_id": "EMD-43843",
+          "content_type": "associated EM volume",
+          "db_name": "EMDB",
+          "details": "Structure of photosystem I with plastoquinone-4 in the A1-binding sites",
+          "instance_type": "db_reference"
+        }
+      ]
+    },
+    "pdb_list": {
+      "pdb_reference": [
+        {
+          "instance_type": "pdb_reference",
+          "pdb_id": "9au4",
+          "relationship": {
+            "in_frame": "FULLOVERLAP"
+          }
+        }
+      ]
+    }
+  }
+}

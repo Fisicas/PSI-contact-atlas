@@ -1,0 +1,14 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9KZ9.p1.HOH:A:914:O~TYR:A:602:OH,9KZ9_prot1_P_A,9KZ9,1,P_A,HOH:A:914:O,TYR:A:602:OH,GQ,A,3.26767,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,33.5,30.45
+9KZ9.p1.HOH:A:914:O~SER:A:606:OG,9KZ9_prot1_P_A,9KZ9,1,P_A,HOH:A:914:O,SER:A:606:OG,GQ,A,3.03494,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,33.5,30.04
+9KZ9.p1.GLY:A:738:O~HOH:A:914:O,9KZ9_prot1_P_A,9KZ9,1,P_A,HOH:A:914:O,GLY:A:738:O,GQ,A,3.27593,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,33.5,31.27
+9KZ9.p1.HOH:A:914:O~THR:A:742:OG1,9KZ9_prot1_P_A,9KZ9,1,P_A,HOH:A:914:O,THR:A:742:OG1,GQ,A,2.45651,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,33.5,32.02
+9KZ9.p1.CL0:A:801:O2D~HOH:A:914:O,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O2D,HOH:A:914:O,DA,GQ,5.55160,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,33.5
+9KZ9.p1.CL0:A:801:MG~HIS:A:679:NE2,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:MG,HIS:A:679:NE2,DA,A,3.05697,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,32.26,30.44
+9KZ9.p1.CL0:A:801:O2D~CL0:A:801:OBD,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:OBD,CL0:A:801:O2D,DA,DA,3.35270,intra,same residue,derived by homology,1.0,1.0,32.26,32.26
+9KZ9.p1.CL0:A:801:OBD~THR:A:742:OG1,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:OBD,THR:A:742:OG1,DA,A,3.42960,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,32.02
+9KZ9.p1.CL0:A:801:O2D~THR:A:742:OG1,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O2D,THR:A:742:OG1,DA,A,4.80624,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,32.02
+9KZ9.p1.CL0:A:801:O2D~TYR:A:602:OH,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O2D,TYR:A:602:OH,DA,A,5.09171,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,32.26,30.45
+9KZ9.p1.CL0:A:801:O1A~TYR:A:734:OH,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O1A,TYR:A:734:OH,DA,A,2.79113,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,30.12
+9KZ9.p1.CL0:A:801:O1D~TYR:A:602:OH,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O1D,TYR:A:602:OH,DA,A,3.08575,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,30.45
+9KZ9.p1.CL0:A:801:O1D~THR:A:742:OG1,9KZ9_prot1_P_A,9KZ9,1,P_A,CL0:A:801:O1D,THR:A:742:OG1,DA,A,3.30006,polar,donor–acceptor compatible,derived by homology,1.0,1.0,32.26,32.02

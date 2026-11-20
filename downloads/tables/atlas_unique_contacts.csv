@@ -690,3 +690,194 @@ contact_id,pdb,protomer,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,conta
 9OZ3.p3.PQN:b:845:O1~TRP:b:672:NE1,9OZ3,3,PQN:b:845:O1,TRP:b:672:NE1,NP,X,3.27455,polar,donor–acceptor compatible,1.0,1.0,37.71,35.65,9OZ3_prot3_A1B
 9OZ3.p3.PQN:b:845:O1~SER:b:667:OG,9OZ3,3,PQN:b:845:O1,SER:b:667:OG,NP,X,3.38760,polar,donor–acceptor compatible,1.0,1.0,37.71,36.89,9OZ3_prot3_A1B
 9OZ3.p3.LEU:b:701:N~PQN:b:845:O4,9OZ3,3,PQN:b:845:O4,LEU:b:701:N,NP,X,2.94021,polar,donor–acceptor compatible,1.0,1.0,41.72,40.39,9OZ3_prot3_A1B
+9SE6.p1.CL0:A:802:O1A~TYR:A:731:OH,9SE6,1,CL0:A:802:O1A,TYR:A:731:OH,JF,G,2.79623,polar,donor–acceptor compatible,1.0,1.0,9.05,3.55,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CL0:A:802:OBD~THR:A:739:OG1,9SE6,1,CL0:A:802:OBD,THR:A:739:OG1,JF,G,2.95064,polar,donor–acceptor compatible,1.0,1.0,6.91,6.33,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CL0:A:802:O2D~THR:A:739:OG1,9SE6,1,CL0:A:802:O2D,THR:A:739:OG1,JF,G,3.28366,polar,donor–acceptor compatible,1.0,1.0,6.94,6.33,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CL0:A:802:O2D~TYR:A:600:OH,9SE6,1,CL0:A:802:O2D,TYR:A:600:OH,JF,G,3.28007,polar,donor–acceptor compatible,1.0,1.0,6.94,6.86,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CL0:A:802:O2D~HOH:A:984:O,9SE6,1,CL0:A:802:O2D,HOH:A:984:O,JF,PM,3.46340,water,water-involved; water can donate or accept,1.0,1.0,6.94,5.37,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CLA:B:803:O2A~TYR:B:718:OH,9SE6,1,CLA:B:803:O2A,TYR:B:718:OH,QH,H,3.82981,context,beyond the 3.5 Å screen,1.0,1.0,12.45,9.66,9SE6_prot1_special_pair
+9SE6.p1.CLA:B:803:O1D~TYR:B:722:N,9SE6,1,CLA:B:803:O1D,TYR:B:722:N,QH,H,2.99655,polar,donor–acceptor compatible,1.0,1.0,7.23,5.67,9SE6_prot1_special_pair
+9SE6.p1.CL0:A:802:MG~HIS:A:676:NE2,9SE6,1,CL0:A:802:MG,HIS:A:676:NE2,JF,G,2.29794,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,4.88,3.16,9SE6_prot1_special_pair 9SE6_prot1_P_A
+9SE6.p1.CLA:B:803:MG~HIS:B:655:NE2,9SE6,1,CLA:B:803:MG,HIS:B:655:NE2,QH,H,2.30724,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,5.63,5.4,9SE6_prot1_special_pair
+9SE6.p1.CLA:B:803:O2D~HOH:B:933:O,9SE6,1,CLA:B:803:O2D,HOH:B:933:O,QH,QM,4.93599,context,beyond the 3.5 Å screen,1.0,1.0,9.15,14.04,9SE6_prot1_special_pair
+9SE6.p1.CLA:B:803:O1A~TYR:B:658:OH,9SE6,1,CLA:B:803:O1A,TYR:B:658:OH,QH,H,3.17652,polar,donor–acceptor compatible,1.0,1.0,11.02,10.94,9SE6_prot1_special_pair
+9SE6.p1.HOH:A:984:O~TYR:A:600:OH,9SE6,1,HOH:A:984:O,TYR:A:600:OH,PM,G,2.99199,water,water-involved; water can donate or accept,1.0,1.0,5.37,6.86,9SE6_prot1_P_A
+9SE6.p1.HOH:A:984:O~SER:A:604:OG,9SE6,1,HOH:A:984:O,SER:A:604:OG,PM,G,2.88407,water,water-involved; water can donate or accept,1.0,1.0,5.37,6.87,9SE6_prot1_P_A
+9SE6.p1.GLY:A:735:O~HOH:A:984:O,9SE6,1,HOH:A:984:O,GLY:A:735:O,PM,G,3.40057,water,water-involved; water can donate or accept,1.0,1.0,5.37,7.08,9SE6_prot1_P_A
+9SE6.p1.HOH:A:984:O~THR:A:739:OG1,9SE6,1,HOH:A:984:O,THR:A:739:OG1,PM,G,2.80444,water,water-involved; water can donate or accept,1.0,1.0,5.37,6.33,9SE6_prot1_P_A
+9SE6.p1.CL0:A:802:O2D~CL0:A:802:OBD,9SE6,1,CL0:A:802:OBD,CL0:A:802:O2D,JF,JF,3.69267,intra,same residue,1.0,1.0,6.91,6.94,9SE6_prot1_P_A
+9SE6.p1.MET:A:684:O~PQN:A:845:O1,9SE6,1,PQN:A:845:O1,MET:A:684:O,AH,G,3.14876,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,5.44,6.52,9SE6_prot1_A1A
+9SE6.p1.PQN:A:845:O1~SER:A:688:OG,9SE6,1,PQN:A:845:O1,SER:A:688:OG,AH,G,3.19642,polar,donor–acceptor compatible,1.0,1.0,5.44,7.58,9SE6_prot1_A1A
+9SE6.p1.PQN:A:845:O1~TRP:A:693:NE1,9SE6,1,PQN:A:845:O1,TRP:A:693:NE1,AH,G,3.26356,polar,donor–acceptor compatible,1.0,1.0,5.44,4.12,9SE6_prot1_A1A
+9SE6.p1.LEU:A:718:N~PQN:A:845:O4,9SE6,1,PQN:A:845:O4,LEU:A:718:N,AH,G,2.92648,polar,donor–acceptor compatible,1.0,1.0,5.97,6.7,9SE6_prot1_A1A
+9SE6.p1.PQN:B:843:O1~TRP:B:672:NE1,9SE6,1,PQN:B:843:O1,TRP:B:672:NE1,EJ,H,3.25556,polar,donor–acceptor compatible,1.0,1.0,6.64,5.11,9SE6_prot1_A1B
+9SE6.p1.PQN:B:843:O1~SER:B:667:OG,9SE6,1,PQN:B:843:O1,SER:B:667:OG,EJ,H,3.27535,polar,donor–acceptor compatible,1.0,1.0,6.64,6.93,9SE6_prot1_A1B
+9SE6.p1.MET:B:663:O~PQN:B:843:O1,9SE6,1,PQN:B:843:O1,MET:B:663:O,EJ,H,3.09944,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,6.64,4.46,9SE6_prot1_A1B
+9SE6.p1.LEU:B:701:N~PQN:B:843:O4,9SE6,1,PQN:B:843:O4,LEU:B:701:N,EJ,H,3.04813,polar,donor–acceptor compatible,1.0,1.0,7.98,10.42,9SE6_prot1_A1B
+9LUT.p1.CL0:A:802:O1A~TYR:A:730:OH,9LUT,1,CL0:A:802:O1A,TYR:A:730:OH,OC,E,2.93022,polar,donor–acceptor compatible,1.0,1.0,43.3,35.25,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CL0:A:802:OBD~THR:A:738:OG1,9LUT,1,CL0:A:802:OBD,THR:A:738:OG1,OC,E,3.02741,polar,donor–acceptor compatible,1.0,1.0,32.22,40.58,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CL0:A:802:O2D~THR:A:738:OG1,9LUT,1,CL0:A:802:O2D,THR:A:738:OG1,OC,E,3.34166,polar,donor–acceptor compatible,1.0,1.0,35.5,40.58,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CL0:A:802:O2D~TYR:A:598:OH,9LUT,1,CL0:A:802:O2D,TYR:A:598:OH,OC,E,3.17779,polar,donor–acceptor compatible,1.0,1.0,35.5,45.05,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CL0:A:802:O2D~HOH:A:938:O,9LUT,1,CL0:A:802:O2D,HOH:A:938:O,OC,UH,3.52806,context,beyond the 3.5 Å screen,1.0,1.0,35.5,41.78,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CLA:B:803:O2A~TYR:B:717:OH,9LUT,1,CLA:B:803:O2A,TYR:B:717:OH,QE,F,3.74883,context,beyond the 3.5 Å screen,1.0,1.0,43.83,40.92,9LUT_prot1_special_pair
+9LUT.p1.CLA:B:803:O1D~TYR:B:721:N,9LUT,1,CLA:B:803:O1D,TYR:B:721:N,QE,F,3.07860,polar,donor–acceptor compatible,1.0,1.0,39.82,35.36,9LUT_prot1_special_pair
+9LUT.p1.CL0:A:802:MG~HIS:A:675:NE2,9LUT,1,CL0:A:802:MG,HIS:A:675:NE2,OC,E,2.01064,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,32.21,30.81,9LUT_prot1_special_pair 9LUT_prot1_P_A
+9LUT.p1.CLA:B:803:MG~HIS:B:654:NE2,9LUT,1,CLA:B:803:MG,HIS:B:654:NE2,QE,F,2.05693,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,33.98,32.54,9LUT_prot1_special_pair
+9LUT.p1.HOH:A:938:O~TYR:A:598:OH,9LUT,1,HOH:A:938:O,TYR:A:598:OH,UH,E,3.29685,water,water-involved; water can donate or accept,1.0,1.0,41.78,45.05,9LUT_prot1_P_A
+9LUT.p1.HOH:A:938:O~SER:A:602:OG,9LUT,1,HOH:A:938:O,SER:A:602:OG,UH,E,2.78044,water,water-involved; water can donate or accept,1.0,1.0,41.78,37.49,9LUT_prot1_P_A
+9LUT.p1.GLY:A:734:O~HOH:A:938:O,9LUT,1,HOH:A:938:O,GLY:A:734:O,UH,E,3.35587,water,water-involved; water can donate or accept,1.0,1.0,41.78,41.59,9LUT_prot1_P_A
+9LUT.p1.HOH:A:938:O~THR:A:738:OG1,9LUT,1,HOH:A:938:O,THR:A:738:OG1,UH,E,2.64845,water,water-involved; water can donate or accept,1.0,1.0,41.78,40.58,9LUT_prot1_P_A
+9LUT.p1.CL0:A:802:O2D~CL0:A:802:OBD,9LUT,1,CL0:A:802:OBD,CL0:A:802:O2D,OC,OC,3.73475,intra,same residue,1.0,1.0,32.22,35.5,9LUT_prot1_P_A
+9LUT.p1.MET:A:683:O~PQN:A:844:O1,9LUT,1,PQN:A:844:O1,MET:A:683:O,EE,E,3.16572,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,35.24,38.78,9LUT_prot1_A1A
+9LUT.p1.PQN:A:844:O1~SER:A:687:OG,9LUT,1,PQN:A:844:O1,SER:A:687:OG,EE,E,3.40042,polar,donor–acceptor compatible,1.0,1.0,35.24,41.74,9LUT_prot1_A1A
+9LUT.p1.PQN:A:844:O1~TRP:A:692:NE1,9LUT,1,PQN:A:844:O1,TRP:A:692:NE1,EE,E,3.46919,polar,donor–acceptor compatible,1.0,1.0,35.24,31.78,9LUT_prot1_A1A
+9LUT.p1.LEU:A:717:N~PQN:A:844:O4,9LUT,1,PQN:A:844:O4,LEU:A:717:N,EE,E,3.00128,polar,donor–acceptor compatible,1.0,1.0,39.34,38.29,9LUT_prot1_A1A
+9LUT.p1.PQN:B:843:O1~TRP:B:671:NE1,9LUT,1,PQN:B:843:O1,TRP:B:671:NE1,EG,F,3.42646,polar,donor–acceptor compatible,1.0,1.0,37.91,30.84,9LUT_prot1_A1B
+9LUT.p1.PQN:B:843:O1~SER:B:666:OG,9LUT,1,PQN:B:843:O1,SER:B:666:OG,EG,F,3.19476,polar,donor–acceptor compatible,1.0,1.0,37.91,37.07,9LUT_prot1_A1B
+9LUT.p1.MET:B:662:O~PQN:B:843:O1,9LUT,1,PQN:B:843:O1,MET:B:662:O,EG,F,3.16468,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,37.91,34.62,9LUT_prot1_A1B
+9LUT.p1.LEU:B:700:N~PQN:B:843:O4,9LUT,1,PQN:B:843:O4,LEU:B:700:N,EG,F,3.07029,polar,donor–acceptor compatible,1.0,1.0,38.5,41.9,9LUT_prot1_A1B
+8WEY.p1.CL0:A:801:O1A~TYR:A:728:OH,8WEY,1,CL0:A:801:O1A,TYR:A:728:OH,R,A,2.59945,polar,donor–acceptor compatible,1.0,1.0,30.02,23.38,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CL0:A:801:OBD~THR:A:736:OG1,8WEY,1,CL0:A:801:OBD,THR:A:736:OG1,R,A,2.75723,polar,donor–acceptor compatible,1.0,1.0,23.53,21.57,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CL0:A:801:O2D~THR:A:736:OG1,8WEY,1,CL0:A:801:O2D,THR:A:736:OG1,R,A,3.32733,polar,donor–acceptor compatible,1.0,1.0,23.55,21.57,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CL0:A:801:O2D~TYR:A:596:OH,8WEY,1,CL0:A:801:O2D,TYR:A:596:OH,R,A,3.08099,polar,donor–acceptor compatible,1.0,1.0,23.55,27.58,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CL0:A:801:O2D~HOH:A:1002:O,8WEY,1,CL0:A:801:O2D,HOH:A:1002:O,R,VI,3.19211,water,water-involved; water can donate or accept,1.0,1.0,23.55,30.33,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CLA:B:804:O2A~TYR:B:715:OH,8WEY,1,CLA:B:804:O2A,TYR:B:715:OH,BC,B,3.85842,context,beyond the 3.5 Å screen,1.0,1.0,31.51,27.14,8WEY_prot1_special_pair
+8WEY.p1.CLA:B:804:O1D~TYR:B:719:N,8WEY,1,CLA:B:804:O1D,TYR:B:719:N,BC,B,3.07580,polar,donor–acceptor compatible,1.0,1.0,29.74,23.66,8WEY_prot1_special_pair
+8WEY.p1.CL0:A:801:MG~HIS:A:673:NE2,8WEY,1,CL0:A:801:MG,HIS:A:673:NE2,R,A,2.27400,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,21.52,22.35,8WEY_prot1_special_pair 8WEY_prot1_P_A
+8WEY.p1.CLA:B:804:MG~HIS:B:652:NE2,8WEY,1,CLA:B:804:MG,HIS:B:652:NE2,BC,B,2.28228,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,21.93,22.58,8WEY_prot1_special_pair
+8WEY.p1.CL0:A:801:O2A~HOH:A:934:O,8WEY,1,CL0:A:801:O2A,HOH:A:934:O,R,VI,4.92762,context,beyond the 3.5 Å screen,1.0,1.0,30.77,18.93,8WEY_prot1_special_pair
+8WEY.p1.CLA:B:804:O2D~HOH:B:902:O,8WEY,1,CLA:B:804:O2D,HOH:B:902:O,BC,WI,4.77852,context,beyond the 3.5 Å screen,1.0,1.0,30.86,30.84,8WEY_prot1_special_pair
+8WEY.p1.HOH:A:1002:O~TYR:A:596:OH,8WEY,1,HOH:A:1002:O,TYR:A:596:OH,VI,A,2.80529,water,water-involved; water can donate or accept,1.0,1.0,30.33,27.58,8WEY_prot1_P_A
+8WEY.p1.HOH:A:1002:O~SER:A:600:OG,8WEY,1,HOH:A:1002:O,SER:A:600:OG,VI,A,3.10409,water,water-involved; water can donate or accept,1.0,1.0,30.33,23.68,8WEY_prot1_P_A
+8WEY.p1.GLY:A:732:O~HOH:A:1002:O,8WEY,1,HOH:A:1002:O,GLY:A:732:O,VI,A,3.25086,water,water-involved; water can donate or accept,1.0,1.0,30.33,24.96,8WEY_prot1_P_A
+8WEY.p1.HOH:A:1002:O~THR:A:736:OG1,8WEY,1,HOH:A:1002:O,THR:A:736:OG1,VI,A,2.68305,water,water-involved; water can donate or accept,1.0,1.0,30.33,21.57,8WEY_prot1_P_A
+8WEY.p1.CL0:A:801:O2D~CL0:A:801:OBD,8WEY,1,CL0:A:801:OBD,CL0:A:801:O2D,R,R,3.67902,intra,same residue,1.0,1.0,23.53,23.55,8WEY_prot1_P_A
+8WEY.p1.MET:A:681:O~PQN:A:840:O1,8WEY,1,PQN:A:840:O1,MET:A:681:O,EB,A,3.12730,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,24.3,24.7,8WEY_prot1_A1A
+8WEY.p1.PQN:A:840:O1~SER:A:685:OG,8WEY,1,PQN:A:840:O1,SER:A:685:OG,EB,A,3.06929,polar,donor–acceptor compatible,1.0,1.0,24.3,24.97,8WEY_prot1_A1A
+8WEY.p1.PQN:A:840:O1~TRP:A:690:NE1,8WEY,1,PQN:A:840:O1,TRP:A:690:NE1,EB,A,3.32492,polar,donor–acceptor compatible,1.0,1.0,24.3,23.63,8WEY_prot1_A1A
+8WEY.p1.LEU:A:715:N~PQN:A:840:O4,8WEY,1,PQN:A:840:O4,LEU:A:715:N,EB,A,2.81510,polar,donor–acceptor compatible,1.0,1.0,26.81,25.91,8WEY_prot1_A1A
+8WEY.p1.PHE:A:682:N~PQN:A:840:O1,8WEY,1,PQN:A:840:O1,PHE:A:682:N,EB,A,3.45960,polar,donor–acceptor compatible,1.0,1.0,24.3,22.97,8WEY_prot1_A1A
+8WEY.p1.PQN:B:842:O1~TRP:B:669:NE1,8WEY,1,PQN:B:842:O1,TRP:B:669:NE1,ND,B,3.33075,polar,donor–acceptor compatible,1.0,1.0,28.78,24.17,8WEY_prot1_A1B
+8WEY.p1.PQN:B:842:O1~SER:B:664:OG,8WEY,1,PQN:B:842:O1,SER:B:664:OG,ND,B,3.17145,polar,donor–acceptor compatible,1.0,1.0,28.78,25.29,8WEY_prot1_A1B
+8WEY.p1.MET:B:660:O~PQN:B:842:O1,8WEY,1,PQN:B:842:O1,MET:B:660:O,ND,B,3.26212,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,28.78,21.61,8WEY_prot1_A1B
+8WEY.p1.LEU:B:698:N~PQN:B:842:O4,8WEY,1,PQN:B:842:O4,LEU:B:698:N,ND,B,2.92585,polar,donor–acceptor compatible,1.0,1.0,25.52,30.43,8WEY_prot1_A1B
+7DKZ.p1.CLA:A:801:O1A~TYR:A:738:OH,7DKZ,1,CLA:A:801:O1A,TYR:A:738:OH,NC,E,2.80070,polar,donor–acceptor compatible,1.0,1.0,85.07,73.17,7DKZ_prot1_special_pair 7DKZ_prot1_P_A
+7DKZ.p1.CLA:A:801:OBD~THR:A:746:OG1,7DKZ,1,CLA:A:801:OBD,THR:A:746:OG1,NC,E,2.93957,polar,donor–acceptor compatible,1.0,1.0,77.15,63.24,7DKZ_prot1_special_pair 7DKZ_prot1_P_A
+7DKZ.p1.CLA:A:801:O2D~THR:A:746:OG1,7DKZ,1,CLA:A:801:O2D,THR:A:746:OG1,NC,E,2.89855,polar,donor–acceptor compatible,1.0,1.0,87.54,63.24,7DKZ_prot1_special_pair 7DKZ_prot1_P_A
+7DKZ.p1.CLA:B:804:O1A~TRP:B:657:NE1,7DKZ,1,CLA:B:804:O1A,TRP:B:657:NE1,TE,F,3.63683,context,beyond the 3.5 Å screen,1.0,1.0,67.06,63.28,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:B:804:O1D~TYR:B:721:N,7DKZ,1,CLA:B:804:O1D,TYR:B:721:N,TE,F,3.01469,polar,donor–acceptor compatible,1.0,1.0,69.38,65.08,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:A:801:O1D~HOH:A:923:O,7DKZ,1,CLA:A:801:O1D,HOH:A:923:O,NC,BI,5.35890,context,beyond the 3.5 Å screen,1.0,1.0,84.07,76.3,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:A:801:MG~HIS:A:683:NE2,7DKZ,1,CLA:A:801:MG,HIS:A:683:NE2,NC,E,2.62218,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,67.08,63.1,7DKZ_prot1_special_pair 7DKZ_prot1_P_A
+7DKZ.p1.CLA:B:804:MG~HIS:B:654:NE2,7DKZ,1,CLA:B:804:MG,HIS:B:654:NE2,TE,F,2.68857,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,64.17,70.52,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:A:801:O2A~HOH:A:903:O,7DKZ,1,CLA:A:801:O2A,HOH:A:903:O,NC,BI,4.97643,context,beyond the 3.5 Å screen,1.0,1.0,83.12,81.02,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:B:804:O2D~HOH:B:916:O,7DKZ,1,CLA:B:804:O2D,HOH:B:916:O,TE,CI,4.86114,context,beyond the 3.5 Å screen,1.0,1.0,65.43,63.74,7DKZ_prot1_special_pair
+7DKZ.p1.CLA:A:801:O2D~TYR:A:606:OH,7DKZ,1,CLA:A:801:O2D,TYR:A:606:OH,NC,E,3.31893,polar,donor–acceptor compatible,1.0,1.0,87.54,75.41,7DKZ_prot1_special_pair 7DKZ_prot1_P_A
+7DKZ.p1.CLA:A:801:O2D~CLA:A:801:OBD,7DKZ,1,CLA:A:801:OBD,CLA:A:801:O2D,NC,NC,3.29689,intra,same residue,1.0,1.0,77.15,87.54,7DKZ_prot1_P_A
+7DKZ.p1.CLA:A:801:O2D~HOH:A:923:O,7DKZ,1,CLA:A:801:O2D,HOH:A:923:O,NC,BI,3.45561,water,water-involved; water can donate or accept,1.0,1.0,87.54,76.3,7DKZ_prot1_P_A
+7DKZ.p1.HOH:A:923:O~THR:A:746:OG1,7DKZ,1,HOH:A:923:O,THR:A:746:OG1,BI,E,2.98289,water,water-involved; water can donate or accept,1.0,1.0,76.3,63.24,7DKZ_prot1_P_A
+7DKZ.p1.HOH:A:923:O~TYR:A:606:OH,7DKZ,1,HOH:A:923:O,TYR:A:606:OH,BI,E,3.05186,water,water-involved; water can donate or accept,1.0,1.0,76.3,75.41,7DKZ_prot1_P_A
+7DKZ.p1.MET:A:691:O~PQN:A:842:O1,7DKZ,1,PQN:A:842:O1,MET:A:691:O,CE,E,3.10352,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,57.92,58.91,7DKZ_prot1_A1A
+7DKZ.p1.PQN:A:842:O1~SER:A:695:OG,7DKZ,1,PQN:A:842:O1,SER:A:695:OG,CE,E,3.04648,polar,donor–acceptor compatible,1.0,1.0,57.92,53.92,7DKZ_prot1_A1A
+7DKZ.p1.PQN:A:842:O1~TRP:A:700:NE1,7DKZ,1,PQN:A:842:O1,TRP:A:700:NE1,CE,E,2.99685,polar,donor–acceptor compatible,1.0,1.0,57.92,63.06,7DKZ_prot1_A1A
+7DKZ.p1.LEU:A:725:N~PQN:A:842:O4,7DKZ,1,PQN:A:842:O4,LEU:A:725:N,CE,E,2.86158,polar,donor–acceptor compatible,1.0,1.0,67.16,61.09,7DKZ_prot1_A1A
+7DKZ.p1.PQN:B:843:O1~TRP:B:671:NE1,7DKZ,1,PQN:B:843:O1,TRP:B:671:NE1,GG,F,2.78437,polar,donor–acceptor compatible,1.0,1.0,90.37,83.92,7DKZ_prot1_A1B
+7DKZ.p1.PQN:B:843:O1~SER:B:666:OG,7DKZ,1,PQN:B:843:O1,SER:B:666:OG,GG,F,3.05311,polar,donor–acceptor compatible,1.0,1.0,90.37,77.81,7DKZ_prot1_A1B
+7DKZ.p1.MET:B:662:O~PQN:B:843:O1,7DKZ,1,PQN:B:843:O1,MET:B:662:O,GG,F,3.67705,context,beyond the 3.5 Å screen,1.0,1.0,90.37,71.48,7DKZ_prot1_A1B
+7DKZ.p1.LEU:B:700:N~PQN:B:843:O4,7DKZ,1,PQN:B:843:O4,LEU:B:700:N,GG,F,2.84171,polar,donor–acceptor compatible,1.0,1.0,84.62,65.97,7DKZ_prot1_A1B
+9UH3.p1.CL0:A:849:O1A~TYR:A:721:OH,9UH3,1,CL0:A:849:O1A,TYR:A:721:OH,RB,A,2.75148,polar,donor–acceptor compatible,1.0,1.0,20.0,5.45,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CL0:A:849:OBD~THR:A:729:OG1,9UH3,1,CL0:A:849:OBD,THR:A:729:OG1,RB,A,2.91676,polar,donor–acceptor compatible,1.0,1.0,20.0,3.48,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CL0:A:849:O2D~THR:A:729:OG1,9UH3,1,CL0:A:849:O2D,THR:A:729:OG1,RB,A,3.29554,polar,donor–acceptor compatible,1.0,1.0,20.0,3.48,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CL0:A:849:O2D~TYR:A:589:OH,9UH3,1,CL0:A:849:O2D,TYR:A:589:OH,RB,A,3.39344,polar,donor–acceptor compatible,1.0,1.0,20.0,4.1,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CL0:A:849:O2D~HOH:A:961:O,9UH3,1,CL0:A:849:O2D,HOH:A:961:O,RB,HK,3.28516,water,water-involved; water can donate or accept,1.0,1.0,20.0,11.77,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CLA:B:801:O2A~TYR:B:715:OH,9UH3,1,CLA:B:801:O2A,TYR:B:715:OH,AC,B,3.91663,context,beyond the 3.5 Å screen,1.0,1.0,3.72,2.45,9UH3_prot1_special_pair
+9UH3.p1.CLA:B:801:O1D~TYR:B:719:N,9UH3,1,CLA:B:801:O1D,TYR:B:719:N,AC,B,3.06698,polar,donor–acceptor compatible,1.0,1.0,3.72,3.12,9UH3_prot1_special_pair
+9UH3.p1.CL0:A:849:MG~HIS:A:666:NE2,9UH3,1,CL0:A:849:MG,HIS:A:666:NE2,RB,A,2.12110,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,20.0,11.77,9UH3_prot1_special_pair 9UH3_prot1_P_A
+9UH3.p1.CLA:B:801:MG~HIS:B:652:NE2,9UH3,1,CLA:B:801:MG,HIS:B:652:NE2,AC,B,1.90320,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,3.72,11.77,9UH3_prot1_special_pair
+9UH3.p1.HOH:A:961:O~TYR:A:589:OH,9UH3,1,HOH:A:961:O,TYR:A:589:OH,HK,A,3.23260,water,water-involved; water can donate or accept,1.0,1.0,11.77,4.1,9UH3_prot1_P_A
+9UH3.p1.HOH:A:961:O~SER:A:593:OG,9UH3,1,HOH:A:961:O,SER:A:593:OG,HK,A,2.82805,water,water-involved; water can donate or accept,1.0,1.0,11.77,3.34,9UH3_prot1_P_A
+9UH3.p1.GLY:A:725:O~HOH:A:961:O,9UH3,1,HOH:A:961:O,GLY:A:725:O,HK,A,3.26513,water,water-involved; water can donate or accept,1.0,1.0,11.77,4.03,9UH3_prot1_P_A
+9UH3.p1.HOH:A:961:O~THR:A:729:OG1,9UH3,1,HOH:A:961:O,THR:A:729:OG1,HK,A,2.75354,water,water-involved; water can donate or accept,1.0,1.0,11.77,3.48,9UH3_prot1_P_A
+9UH3.p1.CL0:A:849:O2D~CL0:A:849:OBD,9UH3,1,CL0:A:849:OBD,CL0:A:849:O2D,RB,RB,3.64969,intra,same residue,1.0,1.0,20.0,20.0,9UH3_prot1_P_A
+9UH3.p1.MET:A:674:O~PQN:A:837:O1,9UH3,1,PQN:A:837:O1,MET:A:674:O,FB,A,3.05968,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,4.91,4.68,9UH3_prot1_A1A
+9UH3.p1.PQN:A:837:O1~SER:A:678:OG,9UH3,1,PQN:A:837:O1,SER:A:678:OG,FB,A,3.18187,polar,donor–acceptor compatible,1.0,1.0,4.91,3.12,9UH3_prot1_A1A
+9UH3.p1.PQN:A:837:O1~TRP:A:683:NE1,9UH3,1,PQN:A:837:O1,TRP:A:683:NE1,FB,A,3.13410,polar,donor–acceptor compatible,1.0,1.0,4.91,5.23,9UH3_prot1_A1A
+9UH3.p1.LEU:A:708:N~PQN:A:837:O4,9UH3,1,PQN:A:837:O4,LEU:A:708:N,FB,A,2.79528,polar,donor–acceptor compatible,1.0,1.0,4.91,3.43,9UH3_prot1_A1A
+9UH3.p1.PHE:A:675:N~PQN:A:837:O1,9UH3,1,PQN:A:837:O1,PHE:A:675:N,FB,A,3.47127,polar,donor–acceptor compatible,1.0,1.0,4.91,2.79,9UH3_prot1_A1A
+9UH3.p1.PQN:B:835:O1~TRP:B:669:NE1,9UH3,1,PQN:B:835:O1,TRP:B:669:NE1,ID,B,3.31215,polar,donor–acceptor compatible,1.0,1.0,5.05,4.79,9UH3_prot1_A1B
+9UH3.p1.PQN:B:835:O1~SER:B:664:OG,9UH3,1,PQN:B:835:O1,SER:B:664:OG,ID,B,3.22146,polar,donor–acceptor compatible,1.0,1.0,5.05,4.84,9UH3_prot1_A1B
+9UH3.p1.MET:B:660:O~PQN:B:835:O1,9UH3,1,PQN:B:835:O1,MET:B:660:O,ID,B,3.30901,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,5.05,11.77,9UH3_prot1_A1B
+9UH3.p1.LEU:B:698:N~PQN:B:835:O4,9UH3,1,PQN:B:835:O4,LEU:B:698:N,ID,B,3.03440,polar,donor–acceptor compatible,1.0,1.0,5.05,3.89,9UH3_prot1_A1B
+9HYU.p1.CL0:A:407:O1A~TYR:A:376:OH,9HYU,1,CL0:A:407:O1A,TYR:A:376:OH,CA,C,2.66345,polar,donor–acceptor compatible,1.0,1.0,26.12,21.59,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CL0:A:407:OBD~THR:A:384:OG1,9HYU,1,CL0:A:407:OBD,THR:A:384:OG1,CA,C,2.94374,polar,donor–acceptor compatible,1.0,1.0,21.68,24.92,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CL0:A:407:O2D~THR:A:384:OG1,9HYU,1,CL0:A:407:O2D,THR:A:384:OG1,CA,C,3.30787,polar,donor–acceptor compatible,1.0,1.0,25.44,24.92,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CL0:A:407:O2D~TYR:A:244:OH,9HYU,1,CL0:A:407:O2D,TYR:A:244:OH,CA,C,3.36175,polar,donor–acceptor compatible,1.0,1.0,25.44,25.86,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CL0:A:407:O2D~HOH:A:524:O,9HYU,1,CL0:A:407:O2D,HOH:A:524:O,CA,JJ,3.31187,water,water-involved; water can donate or accept,1.0,1.0,25.44,27.08,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CLA:B:1207:O2A~TYR:B:1125:OH,9HYU,1,CLA:B:1207:O2A,TYR:B:1125:OH,UH,S,3.97633,context,beyond the 3.5 Å screen,1.0,1.0,26.85,27.2,9HYU_prot1_special_pair
+9HYU.p1.CLA:B:1207:O1D~TYR:B:1129:N,9HYU,1,CLA:B:1207:O1D,TYR:B:1129:N,UH,S,3.07356,polar,donor–acceptor compatible,1.0,1.0,26.59,19.29,9HYU_prot1_special_pair
+9HYU.p1.CL0:A:407:MG~HIS:A:321:NE2,9HYU,1,CL0:A:407:MG,HIS:A:321:NE2,CA,C,1.90628,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,20.72,17.53,9HYU_prot1_special_pair 9HYU_prot1_P_A
+9HYU.p1.CLA:B:1207:MG~HIS:B:1062:NE2,9HYU,1,CLA:B:1207:MG,HIS:B:1062:NE2,UH,S,1.90506,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,21.89,18.12,9HYU_prot1_special_pair
+9HYU.p1.HOH:A:524:O~TYR:A:244:OH,9HYU,1,HOH:A:524:O,TYR:A:244:OH,JJ,C,3.02347,water,water-involved; water can donate or accept,1.0,1.0,27.08,25.86,9HYU_prot1_P_A
+9HYU.p1.HOH:A:524:O~SER:A:248:OG,9HYU,1,HOH:A:524:O,SER:A:248:OG,JJ,C,3.14163,water,water-involved; water can donate or accept,1.0,1.0,27.08,24.92,9HYU_prot1_P_A
+9HYU.p1.GLY:A:380:O~HOH:A:524:O,9HYU,1,HOH:A:524:O,GLY:A:380:O,JJ,C,3.17410,water,water-involved; water can donate or accept,1.0,1.0,27.08,24.94,9HYU_prot1_P_A
+9HYU.p1.HOH:A:524:O~THR:A:384:OG1,9HYU,1,HOH:A:524:O,THR:A:384:OG1,JJ,C,2.61421,water,water-involved; water can donate or accept,1.0,1.0,27.08,24.92,9HYU_prot1_P_A
+9HYU.p1.CL0:A:407:O2D~CL0:A:407:OBD,9HYU,1,CL0:A:407:OBD,CL0:A:407:O2D,CA,CA,3.50484,intra,same residue,1.0,1.0,21.68,25.44,9HYU_prot1_P_A
+9HYU.p1.MET:A:329:O~PQN:A:416:O1,9HYU,1,PQN:A:416:O1,MET:A:329:O,LA,C,3.12212,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,24.87,22.75,9HYU_prot1_A1A
+9HYU.p1.PQN:A:416:O1~SER:A:333:OG,9HYU,1,PQN:A:416:O1,SER:A:333:OG,LA,C,3.24741,polar,donor–acceptor compatible,1.0,1.0,24.87,25.04,9HYU_prot1_A1A
+9HYU.p1.PQN:A:416:O1~TRP:A:338:NE1,9HYU,1,PQN:A:416:O1,TRP:A:338:NE1,LA,C,3.27986,polar,donor–acceptor compatible,1.0,1.0,24.87,20.13,9HYU_prot1_A1A
+9HYU.p1.LEU:A:363:N~PQN:A:416:O4,9HYU,1,PQN:A:416:O4,LEU:A:363:N,LA,C,2.79641,polar,donor–acceptor compatible,1.0,1.0,27.58,27.18,9HYU_prot1_A1A
+9HYU.p1.PQN:B:1232:O1~TRP:B:1079:NE1,9HYU,1,PQN:B:1232:O1,TRP:B:1079:NE1,TI,S,3.31569,polar,donor–acceptor compatible,1.0,1.0,27.0,17.96,9HYU_prot1_A1B
+9HYU.p1.PQN:B:1232:O1~SER:B:1074:OG,9HYU,1,PQN:B:1232:O1,SER:B:1074:OG,TI,S,3.38716,polar,donor–acceptor compatible,1.0,1.0,27.0,24.85,9HYU_prot1_A1B
+9HYU.p1.MET:B:1070:O~PQN:B:1232:O1,9HYU,1,PQN:B:1232:O1,MET:B:1070:O,TI,S,3.38854,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,27.0,21.32,9HYU_prot1_A1B
+9HYU.p1.LEU:B:1108:N~PQN:B:1232:O4,9HYU,1,PQN:B:1232:O4,LEU:B:1108:N,TI,S,2.91714,polar,donor–acceptor compatible,1.0,1.0,27.73,25.04,9HYU_prot1_A1B
+9KZ9.p1.CL0:A:801:O1A~TYR:A:734:OH,9KZ9,1,CL0:A:801:O1A,TYR:A:734:OH,DA,A,2.79113,polar,donor–acceptor compatible,1.0,1.0,32.26,30.12,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:OBD~THR:A:742:OG1,9KZ9,1,CL0:A:801:OBD,THR:A:742:OG1,DA,A,3.42960,polar,donor–acceptor compatible,1.0,1.0,32.26,32.02,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:O2D~THR:A:742:OG1,9KZ9,1,CL0:A:801:O2D,THR:A:742:OG1,DA,A,4.80624,context,beyond the 3.5 Å screen,1.0,1.0,32.26,32.02,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:O2D~TYR:A:602:OH,9KZ9,1,CL0:A:801:O2D,TYR:A:602:OH,DA,A,5.09171,context,beyond the 3.5 Å screen,1.0,1.0,32.26,30.45,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:O2D~HOH:A:914:O,9KZ9,1,CL0:A:801:O2D,HOH:A:914:O,DA,GQ,5.55160,context,beyond the 3.5 Å screen,1.0,1.0,32.26,33.5,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CLA:B:803:O2A~TYR:B:716:OH,9KZ9,1,CLA:B:803:O2A,TYR:B:716:OH,IC,B,3.93849,context,beyond the 3.5 Å screen,1.0,1.0,30.7,30.78,9KZ9_prot1_special_pair
+9KZ9.p1.CLA:B:803:O1D~TYR:B:720:N,9KZ9,1,CLA:B:803:O1D,TYR:B:720:N,IC,B,2.99211,polar,donor–acceptor compatible,1.0,1.0,30.7,30.38,9KZ9_prot1_special_pair
+9KZ9.p1.CL0:A:801:MG~HIS:A:679:NE2,9KZ9,1,CL0:A:801:MG,HIS:A:679:NE2,DA,A,3.05697,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,32.26,30.44,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CLA:B:803:MG~HIS:B:653:NE2,9KZ9,1,CLA:B:803:MG,HIS:B:653:NE2,IC,B,1.90735,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,30.7,29.79,9KZ9_prot1_special_pair
+9KZ9.p1.CLA:B:803:O2D~HOH:B:953:O,9KZ9,1,CLA:B:803:O2D,HOH:B:953:O,IC,HQ,4.94351,context,beyond the 3.5 Å screen,1.0,1.0,30.7,30.96,9KZ9_prot1_special_pair
+9KZ9.p1.CL0:A:801:O1D~TYR:A:602:OH,9KZ9,1,CL0:A:801:O1D,TYR:A:602:OH,DA,A,3.08575,polar,donor–acceptor compatible,1.0,1.0,32.26,30.45,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:O1D~THR:A:742:OG1,9KZ9,1,CL0:A:801:O1D,THR:A:742:OG1,DA,A,3.30006,polar,donor–acceptor compatible,1.0,1.0,32.26,32.02,9KZ9_prot1_special_pair 9KZ9_prot1_P_A
+9KZ9.p1.HOH:A:914:O~TYR:A:602:OH,9KZ9,1,HOH:A:914:O,TYR:A:602:OH,GQ,A,3.26767,water,water-involved; water can donate or accept,1.0,1.0,33.5,30.45,9KZ9_prot1_P_A
+9KZ9.p1.HOH:A:914:O~SER:A:606:OG,9KZ9,1,HOH:A:914:O,SER:A:606:OG,GQ,A,3.03494,water,water-involved; water can donate or accept,1.0,1.0,33.5,30.04,9KZ9_prot1_P_A
+9KZ9.p1.GLY:A:738:O~HOH:A:914:O,9KZ9,1,HOH:A:914:O,GLY:A:738:O,GQ,A,3.27593,water,water-involved; water can donate or accept,1.0,1.0,33.5,31.27,9KZ9_prot1_P_A
+9KZ9.p1.HOH:A:914:O~THR:A:742:OG1,9KZ9,1,HOH:A:914:O,THR:A:742:OG1,GQ,A,2.45651,water,water-involved; water can donate or accept,1.0,1.0,33.5,32.02,9KZ9_prot1_P_A
+9KZ9.p1.CL0:A:801:O2D~CL0:A:801:OBD,9KZ9,1,CL0:A:801:OBD,CL0:A:801:O2D,DA,DA,3.35270,intra,same residue,1.0,1.0,32.26,32.26,9KZ9_prot1_P_A
+9KZ9.p1.MET:A:687:O~PQN:A:841:O1,9KZ9,1,PQN:A:841:O1,MET:A:687:O,RB,A,2.99062,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,33.87,31.69,9KZ9_prot1_A1A
+9KZ9.p1.PQN:A:841:O1~SER:A:691:OG,9KZ9,1,PQN:A:841:O1,SER:A:691:OG,RB,A,3.08090,polar,donor–acceptor compatible,1.0,1.0,33.87,32.74,9KZ9_prot1_A1A
+9KZ9.p1.PQN:A:841:O1~TRP:A:696:NE1,9KZ9,1,PQN:A:841:O1,TRP:A:696:NE1,RB,A,3.28314,polar,donor–acceptor compatible,1.0,1.0,33.87,31.87,9KZ9_prot1_A1A
+9KZ9.p1.LEU:A:721:N~PQN:A:841:O4,9KZ9,1,PQN:A:841:O4,LEU:A:721:N,RB,A,2.64128,polar,donor–acceptor compatible,1.0,1.0,33.87,34.67,9KZ9_prot1_A1A
+9KZ9.p1.PHE:A:688:N~PQN:A:841:O1,9KZ9,1,PQN:A:841:O1,PHE:A:688:N,RB,A,3.48487,polar,donor–acceptor compatible,1.0,1.0,33.87,31.26,9KZ9_prot1_A1A
+9KZ9.p1.PQN:B:843:O1~TRP:B:670:NE1,9KZ9,1,PQN:B:843:O1,TRP:B:670:NE1,WD,B,3.29212,polar,donor–acceptor compatible,1.0,1.0,33.15,31.87,9KZ9_prot1_A1B
+9KZ9.p1.PQN:B:843:O1~SER:B:665:OG,9KZ9,1,PQN:B:843:O1,SER:B:665:OG,WD,B,2.91191,polar,donor–acceptor compatible,1.0,1.0,33.15,31.69,9KZ9_prot1_A1B
+9KZ9.p1.MET:B:661:O~PQN:B:843:O1,9KZ9,1,PQN:B:843:O1,MET:B:661:O,WD,B,2.92265,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,33.15,30.4,9KZ9_prot1_A1B
+9KZ9.p1.LEU:B:699:N~PQN:B:843:O4,9KZ9,1,PQN:B:843:O4,LEU:B:699:N,WD,B,2.87386,polar,donor–acceptor compatible,1.0,1.0,33.15,35.45,9KZ9_prot1_A1B
+8XLS.p1.CL0:A:801:O1A~TYR:A:732:OH,8XLS,1,CL0:A:801:O1A,TYR:A:732:OH,R,A,2.65261,polar,donor–acceptor compatible,1.0,1.0,45.87,25.45,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:OBD~THR:A:740:OG1,8XLS,1,CL0:A:801:OBD,THR:A:740:OG1,R,A,2.93110,polar,donor–acceptor compatible,1.0,1.0,24.96,33.13,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:O2D~THR:A:740:OG1,8XLS,1,CL0:A:801:O2D,THR:A:740:OG1,R,A,3.25711,polar,donor–acceptor compatible,1.0,1.0,36.88,33.13,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:O2D~TYR:A:600:OH,8XLS,1,CL0:A:801:O2D,TYR:A:600:OH,R,A,3.24542,polar,donor–acceptor compatible,1.0,1.0,36.88,29.8,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:O2D~HOH:A:955:O,8XLS,1,CL0:A:801:O2D,HOH:A:955:O,R,BL,3.51589,context,beyond the 3.5 Å screen,1.0,1.0,36.88,28.94,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CLA:B:802:O2A~TYR:B:716:OH,8XLS,1,CLA:B:802:O2A,TYR:B:716:OH,VC,B,3.88884,context,beyond the 3.5 Å screen,1.0,1.0,48.26,41.71,8XLS_prot1_special_pair
+8XLS.p1.CLA:B:802:O1D~TYR:B:720:N,8XLS,1,CLA:B:802:O1D,TYR:B:720:N,VC,B,3.07348,polar,donor–acceptor compatible,1.0,1.0,35.82,24.54,8XLS_prot1_special_pair
+8XLS.p1.CL0:A:801:MG~HIS:A:677:NE2,8XLS,1,CL0:A:801:MG,HIS:A:677:NE2,R,A,2.45321,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,20.2,22.15,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CLA:B:802:MG~HIS:B:653:NE2,8XLS,1,CLA:B:802:MG,HIS:B:653:NE2,VC,B,2.37872,mg,Mg–ligand separation; coordination not assessed,1.0,1.0,22.11,24.23,8XLS_prot1_special_pair
+8XLS.p1.CLA:B:802:O2D~HOH:B:986:O,8XLS,1,CLA:B:802:O2D,HOH:B:986:O,VC,CL,4.92348,context,beyond the 3.5 Å screen,1.0,1.0,33.16,30.0,8XLS_prot1_special_pair
+8XLS.p1.CL0:A:801:O1A~TRP:A:680:NE1,8XLS,1,CL0:A:801:O1A,TRP:A:680:NE1,R,A,3.47181,polar,donor–acceptor compatible,1.0,1.0,45.87,20.83,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:O2A~TYR:A:600:OH,8XLS,1,CL0:A:801:O2A,TYR:A:600:OH,R,A,3.33538,polar,donor–acceptor compatible,1.0,1.0,46.62,29.8,8XLS_prot1_special_pair 8XLS_prot1_P_A
+8XLS.p1.HOH:A:955:O~TYR:A:600:OH,8XLS,1,HOH:A:955:O,TYR:A:600:OH,BL,A,3.41665,water,water-involved; water can donate or accept,1.0,1.0,28.94,29.8,8XLS_prot1_P_A
+8XLS.p1.HOH:A:955:O~SER:A:604:OG,8XLS,1,HOH:A:955:O,SER:A:604:OG,BL,A,2.98824,water,water-involved; water can donate or accept,1.0,1.0,28.94,33.03,8XLS_prot1_P_A
+8XLS.p1.GLY:A:736:O~HOH:A:955:O,8XLS,1,HOH:A:955:O,GLY:A:736:O,BL,A,3.47902,water,water-involved; water can donate or accept,1.0,1.0,28.94,36.29,8XLS_prot1_P_A
+8XLS.p1.HOH:A:955:O~THR:A:740:OG1,8XLS,1,HOH:A:955:O,THR:A:740:OG1,BL,A,2.59710,water,water-involved; water can donate or accept,1.0,1.0,28.94,33.13,8XLS_prot1_P_A
+8XLS.p1.CL0:A:801:O2D~CL0:A:801:OBD,8XLS,1,CL0:A:801:OBD,CL0:A:801:O2D,R,R,3.60467,intra,same residue,1.0,1.0,24.96,36.88,8XLS_prot1_P_A
+8XLS.p1.MET:A:685:O~PQN:A:845:O1,8XLS,1,PQN:A:845:O1,MET:A:685:O,JB,A,3.30050,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,35.19,33.39,8XLS_prot1_A1A
+8XLS.p1.PQN:A:845:O1~SER:A:689:OG,8XLS,1,PQN:A:845:O1,SER:A:689:OG,JB,A,3.22991,polar,donor–acceptor compatible,1.0,1.0,35.19,29.59,8XLS_prot1_A1A
+8XLS.p1.PQN:A:845:O1~TRP:A:694:NE1,8XLS,1,PQN:A:845:O1,TRP:A:694:NE1,JB,A,3.39086,polar,donor–acceptor compatible,1.0,1.0,35.19,27.92,8XLS_prot1_A1A
+8XLS.p1.LEU:A:719:N~PQN:A:845:O4,8XLS,1,PQN:A:845:O4,LEU:A:719:N,JB,A,2.88934,polar,donor–acceptor compatible,1.0,1.0,33.81,32.22,8XLS_prot1_A1A
+8XLS.p1.PHE:A:686:N~PQN:A:845:O1,8XLS,1,PQN:A:845:O1,PHE:A:686:N,JB,A,3.43029,polar,donor–acceptor compatible,1.0,1.0,35.19,27.98,8XLS_prot1_A1A
+8XLS.p1.PQN:B:839:O1~TRP:B:670:NE1,8XLS,1,PQN:B:839:O1,TRP:B:670:NE1,GE,B,3.21622,polar,donor–acceptor compatible,1.0,1.0,31.25,25.75,8XLS_prot1_A1B
+8XLS.p1.PQN:B:839:O1~SER:B:665:OG,8XLS,1,PQN:B:839:O1,SER:B:665:OG,GE,B,5.06463,context,beyond the 3.5 Å screen,1.0,1.0,31.25,42.39,8XLS_prot1_A1B
+8XLS.p1.MET:B:661:O~PQN:B:839:O1,8XLS,1,PQN:B:839:O1,MET:B:661:O,GE,B,3.40775,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,1.0,1.0,31.25,24.55,8XLS_prot1_A1B
+8XLS.p1.LEU:B:699:N~PQN:B:839:O4,8XLS,1,PQN:B:839:O4,LEU:B:699:N,GE,B,2.93169,polar,donor–acceptor compatible,1.0,1.0,28.59,31.14,8XLS_prot1_A1B

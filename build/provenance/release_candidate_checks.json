@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-20",
+  "candidate": "1.1.0",
+  "checks": {
+    "independent_atlas": {
+      "status": "PASS",
+      "summary": "Final strict native numerical/source/manifest verification; this excluded verifier receipt is generated after final documentation/receipt insertion.",
+      "receipt": "build/provenance/verify_interactive_final_v06.json"
+    },
+    "scientific_review_context": {
+      "status": "PASS",
+      "summary": "Fresh v06 review_context check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/review_context_v06.json"
+    },
+    "density_assets": {
+      "status": "PASS",
+      "summary": "Fresh v06 density_views check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/density_views_v06.json"
+    },
+    "density_DOM_contract": {
+      "status": "PASS",
+      "summary": "Fresh v06 density_DOM check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/density_DOM_v06.json"
+    },
+    "unit_tests": {
+      "status": "PASS",
+      "summary": "All 23 mapping/metadata/download/corruption tests pass against the regenerated v06 manifest. The initial premanifest failure is retained in local reports and resolved by regeneration.",
+      "receipt": "build/provenance/checks/unit_tests_current_manifest_v06.json"
+    },
+    "clean_rebuild": {
+      "status": "PASS",
+      "summary": "Fresh notice/scientific/citation build reproduced 833 files exactly before the final figure-margin derivative and receipt insertion. Scientific coordinates/citations are unchanged; final additional figure is independently rendered from packaged native coordinate evidence.",
+      "receipt": "build/provenance/checks/clean_rebuild_notices_v02.json"
+    },
+    "pymol_exports": {
+      "status": "PASS",
+      "summary": "160 scripts executed against crops and verified full models; 2,214 distance checks and 320 Mg display checks. Maximum distance deviation 0.000032326 A. All 160 PML files remain byte-identical to the checked rc.1 exports. The rc.3 preservation check again proves all PML files byte-identical; no new PyMOL execution is claimed.",
+      "receipt": "build/provenance/checks/pymol_exports_v02.json"
+    },
+    "browser_review": {
+      "status": "PASS",
+      "summary": "Historical 160-scene review retained. Fresh v04 follow-up checks all 22 revision labels, 7DKZ notices at desktop/phone, corrected Methods wording and the new README media layouts with zero JS errors.",
+      "receipt": "build/provenance/checks/browser_final_v04.json"
+    },
+    "published_preservation": {
+      "status": "PASS",
+      "summary": "1478 protected v05 scientific/display/input/metadata files and all 593 published files unchanged; published checkout clean.",
+      "receipt": "build/provenance/checks/preservation_v06.json"
+    },
+    "github_CI": {
+      "status": "NOT_RUN",
+      "summary": "Workflow now includes native interactive map/preset validation and README/About count gates before/after rebuilding; remote execution against the final release commit remains pending."
+    },
+    "publication": {
+      "status": "AUTHORIZED",
+      "summary": "User approved v06 for the v1.1.0 publication and will push and publish it. DOI registration is tracked on the GitHub release and Zenodo record."
+    },
+    "download_payloads": {
+      "status": "PASS",
+      "summary": "Fresh v06 download_payloads check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/download_payloads_v06.json"
+    },
+    "scientific_closure": {
+      "status": "PASS",
+      "summary": "Fresh v06 scientific_closure check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/scientific_closure_v06.json"
+    },
+    "release_metadata": {
+      "status": "PASS",
+      "summary": "Fresh v06 release_metadata check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/release_metadata_v06.json"
+    },
+    "release_notices": {
+      "status": "PASS",
+      "summary": "Fresh v06 release_notices check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/release_notices_v06.json"
+    },
+    "readme_media_layout": {
+      "status": "PASS",
+      "summary": "Selected social image, icon and four unchanged animated GIFs fit in ten local light/dark media-layout checks; captions wrap. GitHub-hosted rendering not claimed.",
+      "receipt": "build/provenance/checks/readme_media_v04.json"
+    },
+    "documentation_preservation": {
+      "status": "PASS",
+      "summary": "Historical v03 documentation-only comparison retained at its stated scope. v04 additionally updates the selected artwork/provenance, release-state prose and review receipts; final scientific preservation is recorded by final_diff_review.",
+      "receipt": "build/provenance/checks/preservation_readme_v03.json"
+    },
+    "social_branding": {
+      "status": "PASS",
+      "summary": "Fresh v06 branding check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/branding_v06.json"
+    },
+    "final_diff_review": {
+      "status": "PASS",
+      "summary": "1478 protected v05 scientific/display/input/metadata files and all 593 published files unchanged; published checkout clean.",
+      "receipt": "build/provenance/checks/preservation_v06.json"
+    },
+    "release_summary": {
+      "status": "PASS",
+      "summary": "Eight added structures, selected row/unique pair counts, 39 density protomers versus 40 atlas protomers and integrated interactive density scope are explicit.",
+      "receipt": "docs/RELEASE_NOTES_1.1.0.md"
+    },
+    "interactive_density_source": {
+      "status": "PASS",
+      "summary": "Fresh v06 interactive_density check passed; scientific qualifications retained.",
+      "receipt": "build/provenance/checks/interactive_density_v06.json"
+    },
+    "interactive_density_browser": {
+      "status": "PASS",
+      "summary": "312 scene loads (156 over HTTP and file), 344 map parser checks, all presets/candidate order; seven representative full interactions per protocol.",
+      "receipt": "build/provenance/checks/interactive_browser_all_v06.json"
+    },
+    "interactive_density_followup": {
+      "status": "PASS",
+      "summary": "After one invalid-route guard: six representative HTTP/file loads, eight invalid routes, lazy loading, deliberate dependency failure/static fallback and seven exact native CIF downloads passed.",
+      "receipt": "build/provenance/checks/interactive_browser_followup_v06.json"
+    },
+    "interactive_density_rebuild": {
+      "status": "PASS",
+      "summary": "Fresh output build reproduces 156 payloads, both indexes and packaging provenance byte for byte (159 files).",
+      "receipt": "build/provenance/checks/interactive_rebuild_v06.json"
+    },
+    "readme_counts": {
+      "status": "PASS",
+      "summary": "Canonical tables confirm 22 structures, 40 protomers, 160 scenes, 1,107 selected scene rows, 882 unique pairs and 1,617 numeric comparisons; 39 protomers / 156 interactive density scenes. Proposed About text checked; remote settings unchanged.",
+      "receipt": "build/provenance/checks/readme_counts_v06.json"
+    }
+  },
+  "input_bindings_sha256": {
+    "downloads/pymol": "8de889df451ef3bf45e53a5538bc6e80cfd328ba16970f68c3b1c58f10116c30",
+    "data/views": "78694a0d3023eb44004460b8baed3cdfb2644c45f69116f59c9e73f7b3e067b3",
+    "data/downloads": "c104a32128aba0b6450a6b1d1d0d15fb95e2c4be324c81ae67d524a5ad5e94c1"
+  },
+  "scope": "Historical v06 review receipts. Release metadata and committed files are checked separately for the publication checkout.",
+  "browser_input_bindings_sha256": {
+    "js/app.js": "f9e61c900b87c90890022febd991bd1f59aba1c37c9e00f675badea45cda9a2b",
+    "js/density_review.js": "ec7a46c2ccc756da8c613fc88ad7ea1efc9d39daca413844990c41f8b38db862",
+    "data/release_notices.js": "de0d6b25ce5a93696b6cbcc3398ae8ebbd3c1fd0d305270eadd8f24158c3be4c",
+    "data/atlas.js": "efa99623e06825e3fe2a9df361a6a83fddef06c7a5d7693a9e8ea31a3cae5b3c",
+    "index.html": "0ebe7a519da371793fdb23a5ec4b2e804ff4675767f6e7f84df86ecc7b0124d8"
+  },
+  "status": "approved-for-publication",
+  "scientific_retention_decision": "Accepted by user with the recorded scientific qualifications.",
+  "review_package": "v06 — all available interactive density scenes, static fallbacks and candidate-first inspection",
+  "publication_grouping": "One v1.1.0 GitHub release using the existing Zenodo series.",
+  "interactive_browser_input_bindings_sha256": {
+    "density.html": "92ad95f5c04238f8202c5cd05bd3e02851cd61ccb19393aa497ca318567c184a",
+    "js/density_viewer.js": "baa125942f06add5d2eee9a300c6219d22572aaf709e082e49ba5954526f12d7",
+    "css/density_viewer.css": "e5f0b13c06a3e51eca7cd3ac0fa6269c95784143a58767c4bb89063b699ed347",
+    "js/density_review.js": "66fd57e582fb948364a73f42c6d51c19bf08a7aff989d16f8a2dda917bb66b0d",
+    "data/density_interactive_index.js": "73c01c2eca2b0d65b2b74c351002a72784e0d27de49efee8e942bf32f807fd7e"
+  }
+}

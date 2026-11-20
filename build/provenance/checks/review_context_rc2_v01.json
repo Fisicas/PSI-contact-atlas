@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "entries": 22,
+  "cofactor_roles": 160,
+  "carbonyl_bonds_checked": 414,
+  "Mg_pairs_checked": 79,
+  "validation_XML_sources": 22,
+  "checks": [
+    "Coordinate/validation source hashes",
+    "Native carbonyl lengths and ring-planarity reproduction",
+    "Official per-ligand XML metrics and outliers",
+    "Export/config consistency",
+    "Critical A1 geometry caveat retention",
+    "Eight-entry supplement scope"
+  ]
+}

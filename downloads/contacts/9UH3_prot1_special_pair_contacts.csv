@@ -1,0 +1,10 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9UH3.p1.CL0:A:849:O1A~TYR:A:721:OH,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:O1A,TYR:A:721:OH,RB,A,2.75148,polar,donor–acceptor compatible,derived by homology,1.0,1.0,20.0,5.45
+9UH3.p1.CL0:A:849:OBD~THR:A:729:OG1,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:OBD,THR:A:729:OG1,RB,A,2.91676,polar,donor–acceptor compatible,derived by homology,1.0,1.0,20.0,3.48
+9UH3.p1.CL0:A:849:O2D~THR:A:729:OG1,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:O2D,THR:A:729:OG1,RB,A,3.29554,polar,donor–acceptor compatible,derived by homology,1.0,1.0,20.0,3.48
+9UH3.p1.CL0:A:849:O2D~TYR:A:589:OH,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:O2D,TYR:A:589:OH,RB,A,3.39344,polar,donor–acceptor compatible,derived by homology,1.0,1.0,20.0,4.1
+9UH3.p1.CL0:A:849:O2D~HOH:A:961:O,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:O2D,HOH:A:961:O,RB,HK,3.28516,water,water-involved; water can donate or accept,derived by homology,1.0,1.0,20.0,11.77
+9UH3.p1.CLA:B:801:O2A~TYR:B:715:OH,9UH3_prot1_special_pair,9UH3,1,special_pair,CLA:B:801:O2A,TYR:B:715:OH,AC,B,3.91663,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,3.72,2.45
+9UH3.p1.CLA:B:801:O1D~TYR:B:719:N,9UH3_prot1_special_pair,9UH3,1,special_pair,CLA:B:801:O1D,TYR:B:719:N,AC,B,3.06698,polar,donor–acceptor compatible,derived by homology,1.0,1.0,3.72,3.12
+9UH3.p1.CL0:A:849:MG~HIS:A:666:NE2,9UH3_prot1_special_pair,9UH3,1,special_pair,CL0:A:849:MG,HIS:A:666:NE2,RB,A,2.12110,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,20.0,11.77
+9UH3.p1.CLA:B:801:MG~HIS:B:652:NE2,9UH3_prot1_special_pair,9UH3,1,special_pair,CLA:B:801:MG,HIS:B:652:NE2,AC,B,1.90320,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,3.72,11.77

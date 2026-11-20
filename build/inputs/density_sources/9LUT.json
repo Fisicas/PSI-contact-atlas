@@ -1,0 +1,13 @@
+{
+ "pdb": "9LUT",
+ "method": "Cryo-EM",
+ "protomers": [
+  1
+ ],
+ "state": "source_ready",
+ "records": [],
+ "emdb": "EMD-63404",
+ "metadata_file": "raw_maps/9LUT/emdb_entry.json",
+ "map_file": "raw_maps/9LUT/primary.map.gz",
+ "reuse_previous_source": true
+}

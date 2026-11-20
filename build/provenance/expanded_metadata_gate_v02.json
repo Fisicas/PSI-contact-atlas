@@ -1,0 +1,56 @@
+{
+  "status": "PASS_FOR_UNPUBLISHED_DEVELOPMENT_WITH_LIMITATIONS",
+  "entries": {
+    "9UH3": {
+      "organism": "Chrysotila roscoffensis",
+      "condition": "Haptophyte, PSI-9 FCPI",
+      "description": "PSI with nine FCPI antenna subunits from Chrysotila roscoffensis. Part of the related 1/4/6/8/9-FCPI study series, not a physiological time course.",
+      "notes": [
+        "Related study entries 9UNU, 9UH4, 9UOF, 9UOV and 9UH3 represent different antenna assemblies. Do not treat antenna number as ordered acclimation or independent biological replication.",
+        "The deposited file does not establish a starting-model accession. Exact detergent attribution to this reconstruction is not established in this intake."
+      ],
+      "lineage": "A starting-model accession is not established in the deposited initial-refinement-model category. Related study assemblies are retained as provenance, not ancestry.",
+      "url": "https://doi.org/10.1016/j.bbabio.2026.149588",
+      "primary_source_url": "https://doi.org/10.1016/j.bbabio.2026.149588"
+    },
+    "9HYU": {
+      "organism": "Chromera velia",
+      "condition": "Alveolate, PSI-FCP with SOD heterodimer",
+      "description": "PSI-FCP supercomplex with the PsaSOD1/PsaSOD2 heterodimer. PsaA is naturally split: pocket-bearing C-terminal fragment author chain A and N-terminal fragment author chain a; chain IDs are case-sensitive.",
+      "notes": [
+        "PsaA is split between author chains A and a. The P_A/A1_A pocket alignment uses the C-terminal chain A; the separate N-terminal fragment a is recorded and included in the core-neighborhood screen. PsaB is author chain B.",
+        "Generic deposited annotation photosystem I on chain A is resolved using independent sequence alignment and cofactor-anchor proximity. The short fragment a is not treated as a complete PsaA.",
+        "The primary study describes SEC and native-PAGE preparations with two independently acquired datasets. Exact allocation to this deposited model is not inferred here."
+      ],
+      "lineage": "Deposited initial model: in silico model, SwissModel. An explicit starting PDB accession is not established. The primary paper establishes split PsaA and a bound SOD heterodimer.",
+      "url": "https://doi.org/10.1038/s41467-025-67637-0",
+      "primary_source_url": "https://www.nature.com/articles/s41467-025-67637-0"
+    },
+    "9KZ9": {
+      "organism": "Rhodomonas sp. NIES-2332",
+      "condition": "Cryptophyte, PSI-14 ACPI",
+      "description": "PSI with fourteen ACPI antenna subunits from Rhodomonas sp. NIES-2332. The related eleven-ACPI entry 9L0K is a study assembly, not an independent replicate.",
+      "notes": [
+        "P_A O1D has Tyr602 OH and Thr742 OG1 N/O proximity candidates at 3.08575 and 3.30006 Å. Donor hydrogens, protonation and angles were not verified; these are not confirmed hydrogen bonds.",
+        "The deposited P_A Mg to homologous His679 NE2 separation is 3.05697 Å, beyond the automatic discovery cutoff of 3.0 Å. An explicit source-hash-bound mapping report establishes the cofactor role by sequence and nearest-anchor identity; the general cutoff is unchanged.",
+        "Primary study: Rhodomonas sp. NIES-2332 cells grown in F/2 medium at 20 °C with 3% CO2. PsaA/PsaB sequences were obtained from cDNA; several smaller core subunits were modeled using R. salina sequences."
+      ],
+      "lineage": "Primary model-building Methods use Rhodomonas salina PSI-ACPI 8WM6 as the starting model. The empty deposited initial-model category is distinguished from this paper evidence.",
+      "url": "https://doi.org/10.3389/fpls.2025.1716939",
+      "primary_source_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1716939/full"
+    },
+    "8XLS": {
+      "organism": "Thalassiosira pseudonana CCMP1335",
+      "condition": "Diatom, PSI-5 FCPI",
+      "description": "Diatom PSI monomer associated with five FCPI subunits. Core-pocket comparisons retain the PsaA/PsaB alignment frame rather than aligning the peripheral antenna.",
+      "notes": [
+        "Primary study identifies five FCPI subunits associated with one PSI core from strain CCMP1335. Native assembly and antenna architecture are not inferred from the cropped contact scenes.",
+        "The deposited initial-model category records an experimental model with source Other but no accession. An explicit starting PDB accession is not assigned from that category."
+      ],
+      "lineage": "Primary Methods describe ModelAngelo-generated subunit models and manual adjustment against postprocessed and Topaz-denoised maps. The deposited initial-model category records experimental model / Other without an accession; an explicit starting PDB is not established.",
+      "url": "https://doi.org/10.7554/eLife.99858",
+      "primary_source_url": "https://ousar.lib.okayama-u.ac.jp/files/public/6/68891/20250613104108323449/fulltext.pdf"
+    }
+  },
+  "scope": "Primary-paper and deposited metadata reconciled before generation; local maps for these four entries remain unreviewed."
+}

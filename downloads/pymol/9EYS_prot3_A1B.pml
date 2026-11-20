@@ -23,7 +23,7 @@ set stick_radius, 0.13
 set sphere_scale, 0.25
 hide everything
 show sticks, lib_atoms
-show spheres, lib_atoms and (elem Mg or resn HOH)
+show spheres, lib_atoms and (elem MG or resn HOH)
 set_color lib_C, [0.5, 0.5, 0.5]
 color lib_C, lib_atoms and elem C
 set_color lib_N, [0.15, 0.3, 0.9]

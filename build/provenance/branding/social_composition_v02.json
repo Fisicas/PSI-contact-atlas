@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "selected_layout": "Option 1 — editorial split; selected by user",
+  "canvas": [
+    1280,
+    640
+  ],
+  "master": [
+    2560,
+    1280
+  ],
+  "true_P_A_subscript": true,
+  "no_text_molecule_overlap": true,
+  "no_source_alpha_edge_clipping": true,
+  "native_alpha_bounds": [
+    298,
+    198,
+    1939,
+    1852
+  ],
+  "text_bounds": [
+    {
+      "text": "PHOTOSYSTEM I",
+      "x": 112,
+      "y": 47,
+      "width": 196.140625,
+      "height": 28
+    },
+    {
+      "text": "PSI",
+      "x": 56,
+      "y": 110,
+      "width": 131.28125,
+      "height": 117
+    },
+    {
+      "text": "Contact",
+      "x": 56,
+      "y": 235,
+      "width": 320.03125,
+      "height": 117
+    },
+    {
+      "text": "Atlas",
+      "x": 56,
+      "y": 360,
+      "width": 205.4375,
+      "height": 117
+    },
+    {
+      "text": "P700 and A₁ quinone environments",
+      "x": 56,
+      "y": 490,
+      "width": 399.96875,
+      "height": 32
+    },
+    {
+      "text": "fisicas.github.io/PSI-contact-atlas/",
+      "x": 56,
+      "y": 566,
+      "width": 342.3310546875,
+      "height": 30
+    },
+    {
+      "text": "9EYS · PA environment",
+      "x": 855,
+      "y": 605,
+      "width": 128.29736328125,
+      "height": 21
+    }
+  ],
+  "render_provenance": {
+    "status": "PASS",
+    "scene": "9EYS_prot1_P_A",
+    "loaded_atoms": 128,
+    "max_coordinate_change_A": 0,
+    "displayed_measurement_guides": [
+      {
+        "object": "social_water_01",
+        "contact_id": "9EYS.p1.HOH:A:907:O~TYR:A:630:OH",
+        "class_key": "water",
+        "chemical_basis": "water-involved; water can donate or accept",
+        "native_separation_A": 2.98908
+      },
+      {
+        "object": "social_water_02",
+        "contact_id": "9EYS.p1.HOH:A:907:O~SER:A:634:OG",
+        "class_key": "water",
+        "chemical_basis": "water-involved; water can donate or accept",
+        "native_separation_A": 2.78001
+      },
+      {
+        "object": "social_water_03",
+        "contact_id": "9EYS.p1.GLY:A:766:O~HOH:A:907:O",
+        "class_key": "water",
+        "chemical_basis": "water-involved; water can donate or accept",
+        "native_separation_A": 3.36915
+      },
+      {
+        "object": "social_water_04",
+        "contact_id": "9EYS.p1.HOH:A:907:O~THR:A:770:OG1",
+        "class_key": "water",
+        "chemical_basis": "water-involved; water can donate or accept",
+        "native_separation_A": 2.7365
+      },
+      {
+        "object": "social_water_05",
+        "contact_id": "9EYS.p1.CL0:A:801:O2D~HOH:A:907:O",
+        "class_key": "water",
+        "chemical_basis": "water-involved; water can donate or accept",
+        "native_separation_A": 3.3526
+      },
+      {
+        "object": "social_polar_06",
+        "contact_id": "9EYS.p1.CL0:A:801:OBD~THR:A:770:OG1",
+        "class_key": "polar",
+        "chemical_basis": "donor–acceptor compatible",
+        "native_separation_A": 2.87473
+      },
+      {
+        "object": "social_polar_07",
+        "contact_id": "9EYS.p1.CL0:A:801:O2D~THR:A:770:OG1",
+        "class_key": "polar",
+        "chemical_basis": "donor–acceptor compatible",
+        "native_separation_A": 3.38329
+      },
+      {
+        "object": "social_polar_08",
+        "contact_id": "9EYS.p1.CL0:A:801:O2D~TYR:A:630:OH",
+        "class_key": "polar",
+        "chemical_basis": "donor–acceptor compatible",
+        "native_separation_A": 3.17469
+      },
+      {
+        "object": "social_polar_09",
+        "contact_id": "9EYS.p1.CL0:A:801:O1A~TYR:A:762:OH",
+        "class_key": "polar",
+        "chemical_basis": "donor–acceptor compatible",
+        "native_separation_A": 2.90176
+      }
+    ],
+    "omitted": [
+      {
+        "contact_id": "9EYS.p1.CL0:A:801:MG~HIS:A:707:NE2",
+        "class_key": "mg",
+        "basis": "Mg–ligand separation; coordination not assessed"
+      },
+      {
+        "contact_id": "9EYS.p1.CL0:A:801:O2D~CL0:A:801:OBD",
+        "class_key": "intra",
+        "basis": "same residue"
+      },
+      {
+        "contact_id": "9EYS.p1.CL0:A:801:O1A~PHE:A:710:CE1",
+        "class_key": "cs_contact",
+        "basis": "involves C or S; no polar interpretation"
+      }
+    ],
+    "guides_are_candidates_not_confirmed_hydrogen_bonds": true,
+    "water_H_positions_protonation_angles_not_established": true,
+    "display_choices": [
+      "Phytyl atoms C1–C20 hidden, source atoms retained",
+      "All residue and distance labels hidden",
+      "All selected protein residues, cofactor core and water are retained in the full render",
+      "No acceptor–acceptor, intramolecular, packing or Mg–His measurement guides shown; Mg sphere and molecular topology retained",
+      "Orthographic camera/display only; no refinement or optimization"
+    ],
+    "source_sha256": {
+      "data/views/9EYS_prot1_P_A.js": "5cbeda49ee227deedcfb15eff3433763b4399a7a5f74668c270613e6d19103db",
+      "downloads/cif/9EYS_prot1_P_A.cif": "36c0cb6a6b26c39f82ea22bf140a9b76aa034afabf647712fdf78f2383a09a03",
+      "downloads/pymol/9EYS_prot1_P_A.pml": "960acde63ce8247b5a3c309e9996eb9a8404293ca771398924604f868ec18b9d"
+    },
+    "pymol_version": [
+      "3.1.0",
+      3.0,
+      3000000,
+      1760432987,
+      "",
+      0
+    ],
+    "camera": [
+      -0.07792118191719055,
+      -0.6147443056106567,
+      -0.7848681807518005,
+      0.1805124282836914,
+      -0.7829494476318359,
+      0.595320463180542,
+      -0.9804807305335999,
+      -0.09529007226228714,
+      0.17197760939598083,
+      0.0,
+      -0.0,
+      -70.44012451171875,
+      327.349853515625,
+      250.89869689941406,
+      266.4624328613281,
+      55.53553009033203,
+      85.34471893310547,
+      20.0
+    ]
+  },
+  "source_render_sha256": "65f1b12b136693d7ae6d6d3959a75b2d63119b287d660488a3f5c83a27c59080",
+  "source_layout_sha256": "b0697f63a00665ed8213d37627b26fd1c252dae13e6de8bc4392a086342f6c0e",
+  "social_png_sha256": "72c510335a5b6715233b420658d94fb2340e57cf053839d8dd6336df2985ecaf",
+  "social_png_bytes": 125087,
+  "scientific_scope": "Only four donor–acceptor-compatible protein polar candidates plus five water-involved candidates are shown. No acceptor-pair/intramolecular/packing/Mg–His measurement guide. Molecular Mg and native atoms retained. This is a social-artwork choice only; atlas classes, selected contacts, default toggles and numerical data are unchanged. Hydrogen positions/angles/protonation and actual hydrogen bonds are not established."
+}

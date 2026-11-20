@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 1222,
+  "scene_fields_except_notes_unchanged": 160,
+  "comparison_cells_unchanged": 1617,
+  "geometry_samples_and_axial_data_unchanged": true,
+  "prior_review_files_unchanged": 1583,
+  "published_files_unchanged": 593,
+  "published_clean": true
+}

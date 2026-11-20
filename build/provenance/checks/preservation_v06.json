@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "protected_v05_files": 1478,
+  "published_files_unchanged": 593,
+  "published_HEAD": "f57f8bc7e6228f025f8b89d24e4f5a061c4be2a3",
+  "published_worktree_clean": true,
+  "v05_changed_files": [
+    "THIRD_PARTY_NOTICES.md",
+    "css/style.css",
+    "docs/BROWSER_REVIEW.md",
+    "docs/DENSITY_VISUALIZATION_PILOT.md",
+    "docs/FINAL_DIFF_REVIEW.md",
+    "docs/INTERACTIVE_DENSITY_NEXT.md",
+    "docs/PUBLICATION_REVIEW_20261120.md",
+    "docs/RELEASE_CANDIDATE.md",
+    "docs/RELEASE_NOTES_1.1.0.md",
+    "docs/RELEASE_REVIEW.md",
+    "js/density_review.js",
+    "tests/test_density_options_all.cjs",
+    "tools/write_docs.py",
+    ".github/workflows/verify.yml"
+  ],
+  "scope": "Every preexisting data, canonical download, static media/branding, archived input/config, citation output and default app/viewer file byte-identical to v05. New interactive files and declared docs/links/CI/check tools are separate. Earlier v1.0.0 baseline preservation is retained, and its live local checkout remains clean."
+}

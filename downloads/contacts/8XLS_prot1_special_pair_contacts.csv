@@ -1,0 +1,13 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+8XLS.p1.CL0:A:801:O1A~TYR:A:732:OH,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O1A,TYR:A:732:OH,R,A,2.65261,polar,donor–acceptor compatible,derived by homology,1.0,1.0,45.87,25.45
+8XLS.p1.CL0:A:801:OBD~THR:A:740:OG1,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:OBD,THR:A:740:OG1,R,A,2.93110,polar,donor–acceptor compatible,derived by homology,1.0,1.0,24.96,33.13
+8XLS.p1.CL0:A:801:O2D~THR:A:740:OG1,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O2D,THR:A:740:OG1,R,A,3.25711,polar,donor–acceptor compatible,derived by homology,1.0,1.0,36.88,33.13
+8XLS.p1.CL0:A:801:O2D~TYR:A:600:OH,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O2D,TYR:A:600:OH,R,A,3.24542,polar,donor–acceptor compatible,derived by homology,1.0,1.0,36.88,29.8
+8XLS.p1.CL0:A:801:O2D~HOH:A:955:O,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O2D,HOH:A:955:O,R,BL,3.51589,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,36.88,28.94
+8XLS.p1.CLA:B:802:O2A~TYR:B:716:OH,8XLS_prot1_special_pair,8XLS,1,special_pair,CLA:B:802:O2A,TYR:B:716:OH,VC,B,3.88884,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,48.26,41.71
+8XLS.p1.CLA:B:802:O1D~TYR:B:720:N,8XLS_prot1_special_pair,8XLS,1,special_pair,CLA:B:802:O1D,TYR:B:720:N,VC,B,3.07348,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.82,24.54
+8XLS.p1.CL0:A:801:MG~HIS:A:677:NE2,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:MG,HIS:A:677:NE2,R,A,2.45321,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,20.2,22.15
+8XLS.p1.CLA:B:802:MG~HIS:B:653:NE2,8XLS_prot1_special_pair,8XLS,1,special_pair,CLA:B:802:MG,HIS:B:653:NE2,VC,B,2.37872,mg,Mg–ligand separation; coordination not assessed,derived by homology,1.0,1.0,22.11,24.23
+8XLS.p1.CLA:B:802:O2D~HOH:B:986:O,8XLS_prot1_special_pair,8XLS,1,special_pair,CLA:B:802:O2D,HOH:B:986:O,VC,CL,4.92348,context,beyond the 3.5 Å screen,derived by homology,1.0,1.0,33.16,30.0
+8XLS.p1.CL0:A:801:O1A~TRP:A:680:NE1,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O1A,TRP:A:680:NE1,R,A,3.47181,polar,donor–acceptor compatible,derived by homology,1.0,1.0,45.87,20.83
+8XLS.p1.CL0:A:801:O2A~TYR:A:600:OH,8XLS_prot1_special_pair,8XLS,1,special_pair,CL0:A:801:O2A,TYR:A:600:OH,R,A,3.33538,polar,donor–acceptor compatible,derived by homology,1.0,1.0,46.62,29.8

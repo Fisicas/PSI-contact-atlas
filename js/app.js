@@ -38,6 +38,18 @@
     return loading[key];
   }
 
+  // Classic-script payloads keep exact text downloads usable from file:// previews.
+  const downloadLoading = {};
+  function loadDownloadPayload(key) {
+    if (window.PSI_DOWNLOADS?.[key]) return Promise.resolve(window.PSI_DOWNLOADS[key]);
+    if (!downloadLoading[key]) downloadLoading[key] = new Promise((resolve, reject) => {
+      const script = document.createElement('script'); script.src = `data/downloads/${key}.js`;
+      script.onload = () => window.PSI_DOWNLOADS?.[key] ? resolve(window.PSI_DOWNLOADS[key]) : reject(new Error('download payload missing'));
+      script.onerror = () => reject(new Error('Could not load the local download payload')); document.head.appendChild(script);
+    });
+    return downloadLoading[key];
+  }
+
   /* ---------- small helpers ---------- */
   const methodShort = m => m.startsWith('X-ray') ? 'X-ray' : 'Cryo-EM';
   const condKind = c => /FRL/.test(c) ? 'frl' : /Chl d/.test(c) ? 'chld' : /MenB|PQ-9|DMPBQ/.test(c) ? 'quinone' : 'ref';
@@ -51,7 +63,7 @@
   const viewKey = (pdb, n, part) => `${pdb}_prot${n}_${part}`;
   const routeView = key => `#/view/${key}`;
   function parseKey(key) { const m = /^(\w{4})_prot(\d+)_(.+)$/.exec(key); return m ? { pdb: m[1], n: +m[2], part: m[3] } : null; }
-  function chainTitle(p) { return `PsaA ${p.psaA} · PsaB ${p.psaB}`; }
+  function chainTitle(p) { return `PsaA ${p.psaA_fragments ? p.psaA_fragments.join(" + ") + " (split)" : p.psaA} · PsaB ${p.psaB}`; }
   const PUBLIC = !!window.PSI_PUBLIC;
   function title(t) { document.title = t ? `${t} · PSI Contact Atlas` : 'PSI Contact Atlas'; }
   function cleanup() { for (const v of viewerPool) v.destroy(); viewerPool.clear(); }
@@ -120,16 +132,17 @@
 
     // live hero molecule, cycling through representative scenes
     const heroKeys = ['9YL7_prot1_A1A', '1JB0_prot1_P_A', '7COY_prot1_special_pair', '9AU4_prot1_A1B'];
-    let hi = 0, heroViewer = null;
+    const heroHost = $('#hero-host'), heroLink = $('#hero-link');
+    let hi = 0, heroViewer = null, heroRequest = 0;
     const showHero = () => {
-      const key = heroKeys[hi % heroKeys.length], k = parseKey(key), st = S[k.pdb];
+      const key = heroKeys[hi % heroKeys.length], k = parseKey(key), st = S[k.pdb], request = ++heroRequest;
       loadScene(key).then(sc => {
-        const host = $('#hero-host'); if (!host) return;
+        const host = heroHost; if (!host.isConnected || request !== heroRequest) return;
         if (heroViewer) { heroViewer.destroy(); viewerPool.delete(heroViewer); }
         host.innerHTML = '';
         heroViewer = new ContactViewer(host, sc, { compact: true, interactive: false, motion: MOTION(), scaleMode: 'common' });
         viewerPool.add(heroViewer);
-        const link = $('#hero-link');
+        const link = heroLink;
         link.innerHTML = `${k.pdb} · ${sci(PART[k.part].label)} · <i>${esc(shortOrg(st.organism))}</i> · ${esc(st.condition)} <span aria-hidden="true">→</span>`;
         link.href = routeView(key);
       });
@@ -187,6 +200,18 @@
     draw();
   }
 
+  function reviewDetails(pdb, scene = null, extra = []) {
+    const policy = window.PSI_NOTICES?.entries[pdb];
+    if (!policy) return '';
+    const facts = [...policy.facts, ...(scene?.notes || []), ...extra];
+    const unique = [...new Set(facts)];
+    const review = S[pdb].scene_origin !== 'curated' ? 'Homology-derived scene selections. Mappings and the scoped local-density feature screen have been reviewed.' : 'Earlier curated selections retained; current source/geometry checks and available-data feature review are recorded.';
+    return `<details class="more review-provenance"><summary>Sample, mapping & review details</summary><p class="fine">${esc(review)}</p><ul class="fine">${unique.map(x => `<li>${sci(x)}</li>`).join('')}</ul><p class="fine"><a href="docs/SCIENTIFIC_REVIEW.md">Scientific review</a> · <a href="docs/COMPARISON_SCOPE.md">Selection scope</a> · <a href="docs/NOTICE_REVIEW.md">Notice/source follow-up</a></p></details>`;
+  }
+  function quinoneReviewLink(pdb) {
+    return pdb === '7DKZ' ? '<p class="fine"><a href="docs/7DKZ_QUINONE_REVIEW.md">7DKZ quinone coordinate and literature check</a></p>' : '';
+  }
+
   /* ================= STRUCTURE ================= */
   function renderStructure(pdb, n) {
     const s = S[pdb], p = s.protomers.find(x => x.number === n) || s.protomers[0];
@@ -202,8 +227,9 @@
         <div class="protomer-tabs" role="tablist" aria-label="Protomer">${s.protomers.map(x => `<a role="tab" href="#/structure/${pdb}/${x.number}" aria-selected="${x.number === p.number}">Protomer ${x.number}<small>${esc(chainTitle(x))}</small></a>`).join('')}</div>
       </header>
       <p class="desc">${sci(s.description)}</p>
-      ${s.notes.map(t => `<p class="note">${sci(t)}</p>`).join('')}
-      ${s.scene_origin !== 'curated' ? '<p class="note">Scenes for this entry were derived by the documented homology rule from curated scenes of other entries, not reviewed one by one (see Methods).</p>' : ''}
+      ${(window.PSIDensity?.reviewNotes(s.pdb, s.notes) || s.notes).map(t => `<p class="note">${sci(t)}</p>`).join('')}
+      ${quinoneReviewLink(s.pdb)}
+      ${reviewDetails(s.pdb)}
       <div class="cofactor-strip">${['P_A', 'P_B', 'A1_A', 'A1_B'].map(r => { const x = cf[r]; return `<div>${roleTag(r)}<b>${sci(cofactorName(x))}</b><small>${x ? esc(x.identity) + ' · label ' + esc(x.label_asym) : ''}${x?.atoms_note ? ' · ' + sci(x.atoms_note) : ''}</small></div>`; }).join('')}</div>
       <div class="scene-grid">${A.parts.map(pt => {
         const v = p.views.find(x => x.part === pt.key);
@@ -224,9 +250,10 @@
       const key = card.dataset.key, host = $('.mini-host', card);
       host.innerHTML = '<p class="loading">Loading scene…</p>';
       loadScene(key).then(sc => {
+        if (!host.isConnected) return;
         host.innerHTML = '';
         viewerPool.add(new ContactViewer(host, sc, { compact: true, interactive: false, motion, commonExtent: commonExtent[sc.part], residueLabels: true }));
-      }).catch(e => host.innerHTML = `<p class="error">${esc(e.message)}</p>`);
+      }).catch(e => { if (host.isConnected) host.innerHTML = `<p class="error">${esc(e.message)}</p>`; });
     });
   }
   function techLine(s) {
@@ -240,7 +267,7 @@
   const linkPDB = t => esc(t).replace(/\b([0-9][A-Z0-9]{3})\b/g, m => S[m] ? `<a href="#/structure/${m}">${m}</a>` : `<a href="https://www.rcsb.org/structure/${m}">${m}</a>`);
   function citations(s) {
     return `<div class="cite"><b>PDB ${s.pdb}</b> · ${esc((s.deposition_authors || []).slice(0, 3).join(', '))}${(s.deposition_authors || []).length > 3 ? ' et al.' : ''}
-      <br><a href="${esc(s.pdb_url)}">RCSB record</a> · <a href="https://doi.org/${esc(s.pdb_doi)}">doi:${esc(s.pdb_doi)}</a><small>Deposited ${esc(s.deposition_date)} · analysed v${esc(s.version)} (${esc(s.source_version_revision_date)})</small></div>` +
+      <br><a href="${esc(s.pdb_url)}">RCSB record</a> · <a href="https://doi.org/${esc(s.pdb_doi)}">doi:${esc(s.pdb_doi)}</a><small>Deposited ${esc(s.deposition_date)} · analysed PDB model revision ${esc(A.sources[s.pdb].revision)} (${esc(A.sources[s.pdb].revision_date)})</small></div>` +
       s.citations.map(c => `<div class="cite"><b>${sci(c.title)}</b><br>${esc(c.author_short)} (${esc(c.year)}) · <a href="https://doi.org/${esc(c.doi)}">doi:${esc(c.doi)}</a><small>DOI and title verified ${esc(c.verified_date)}</small></div>`).join('') +
       (s.citations.length ? '' : '<p class="fine">No primary paper DOI is established on the official record (“to be published”).</p>') +
       (s.template_citations?.length ? `<p class="fine">Template literature: ${s.template_citations.map(c => `<a href="https://doi.org/${esc(c.doi)}">${esc(c.pdb)}</a>`).join(', ')}</p>` : '');
@@ -287,6 +314,7 @@
           <p class="scale-note" id="scale-note"></p>
           <div class="legend" id="legend"></div>
           <p class="hint">Drag to rotate · right-drag or Shift-drag to pan · Ctrl + wheel (or click, then wheel) to zoom · double-click to reset · hover a line or a row to link them. Keyboard: arrows rotate, +/− zoom, R reset, [ ] previous/next protomer.</p>
+          <div id="density-options"></div>
         </section>
         <aside class="data-col">
           <h2>Measured atom pairs <span class="muted" id="ncount"></span></h2>
@@ -305,7 +333,12 @@
     };
     document.addEventListener('keydown', keyNav);
     viewerPool.add({ destroy: () => document.removeEventListener('keydown', keyNav) });
-    loadScene(key).then(sc => buildViewPage(sc, s, p, pt)).catch(e => { $('#stage').innerHTML = `<p class="error">${esc(e.message)}</p>`; });
+    const targetStage = $('#stage');
+    loadScene(key).then(sc => {
+      if (targetStage.isConnected) buildViewPage(sc, s, p, pt);
+    }).catch(e => {
+      if (targetStage.isConnected) targetStage.innerHTML = `<p class="error">${esc(e.message)}</p>`;
+    });
   }
 
   function buildViewPage(sc, s, p, pt) {
@@ -339,13 +372,19 @@
     };
     viewer = new ContactViewer(stage, sc, { motion: reduce ? 'off' : 'spin', commonExtent: commonExtent[sc.part], scaleMode: 'common', classes: shown, onHover });
     const scaleNote = () => {
+      // A queued frame can outlive its scene during navigation.
+      if (!stage.isConnected) return;
+      const note = $('#scale-note');
+      if (!note) return;
       const mode = viewer.opts.scaleMode, s = viewer.s ? viewer.s.toFixed(1) : '';
-      $('#scale-note').innerHTML = mode === 'whole'
+      note.innerHTML = mode === 'whole'
         ? `<b>Whole molecule</b> · fitted to this scene (${s} px/Å): every deposited atom stays in frame through a full spin.`
         : `<b>Common scale</b> · ${s} px/Å, identical for all ${A.counts.protomers} ${sci(pt.label.replace(' network', '').replace(' quinone', ''))} scenes at this window size; the measured region stays in frame through a full spin${sc.part.startsWith('A1') ? ', the phytyl tail may not' : ''}.`;
     };
     requestAnimationFrame(() => requestAnimationFrame(scaleNote));
-    new ResizeObserver(() => requestAnimationFrame(scaleNote)).observe(stage);
+    const scaleObserver = new ResizeObserver(() => requestAnimationFrame(scaleNote));
+    scaleObserver.observe(stage);
+    viewerPool.add({ destroy: () => scaleObserver.disconnect() });
     viewerPool.add(viewer);
     tbody.addEventListener('mouseover', e => { const tr = e.target.closest('tr[data-i]'); if (tr) viewer.setHighlight(+tr.dataset.i); });
     tbody.addEventListener('focusin', e => { const tr = e.target.closest('tr[data-i]'); if (tr) viewer.setHighlight(+tr.dataset.i); });
@@ -411,13 +450,35 @@
       viewer.kick();
     });
 
+    const densityOptions = window.PSIDensity?.mount($('#density-options'), sc);
+    if (densityOptions) viewerPool.add(densityOptions);
+
+    if (location.protocol === 'file:') $('#downloads').addEventListener('click', async e => {
+      const link = e.target.closest('a[data-scene-download]');
+      if (!link || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      try {
+        const payload = await loadDownloadPayload(sc.key), asset = payload.assets[link.dataset.sceneDownload];
+        if (!link.isConnected) return;
+        const blob = new Blob([asset.text], { type: asset.mime });
+        const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = asset.filename; a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+      } catch (err) {
+        if (!link.isConnected) return;
+        const message = document.createElement('p'); message.setAttribute('role', 'status');
+        message.textContent = 'Could not save the local file: ' + err.message; $('#downloads').appendChild(message);
+        console.error(err);
+      }
+    });
+
     // notes specific to this view
-    const notes = [...sc.notes];
-    if (sc.water_rule && /P_A|special/.test(sc.part)) notes.push(`Water display rule: ${sc.water_rule}.`);
+    const notes = window.PSIDensity?.reviewNotes(sc.pdb, sc.notes, { part: sc.part, protomer: sc.protomer }) || [...sc.notes];
+    const provenance = [];
+    if (sc.water_rule && /P_A|special/.test(sc.part)) provenance.push(`Water display rule: ${sc.water_rule}.`);
     const missing = Object.entries(p.cofactors).filter(([r, x]) => x?.atoms_note && sc.residues.some(rr => rr.role === r));
     for (const [r, x] of missing) notes.push(`${r}: ${x.atoms_note}`);
-    if (sc.part === 'P_A' || sc.part === 'special_pair') notes.push(s.pdb === '1JB0' ? 'HOH5011 is the reference water whose aligned position defines the site-water column in the compare view.' : p.site_water ? `Water at the 1JB0 HOH5011 position: ${p.site_water.replace(/:O$/, '')} (${p.site_water_offset_A} Å from the aligned site; ${p.site_water_source}). A positional assignment, not proof of a conserved molecule.` : 'No deposited water lies within 3 Å of the aligned 1JB0 HOH5011 position in this protomer.');
-    $('#view-notes').innerHTML = notes.map(n => `<p class="note">${sci(n)}</p>`).join('');
+    if (sc.part === 'P_A' || sc.part === 'special_pair') provenance.push(s.pdb === '1JB0' ? 'HOH5011 is the reference water whose aligned position defines the site-water column in the compare view.' : p.site_water ? `Water at the 1JB0 HOH5011 position: ${p.site_water.replace(/:O$/, '')} (${p.site_water_offset_A} Å from the aligned site; ${p.site_water_source}). A positional assignment, not proof of a conserved molecule.` : 'No deposited water lies within 3 Å of the aligned 1JB0 HOH5011 position in this protomer.');
+    $('#view-notes').innerHTML = notes.map(n => `<p class="note">${sci(n)}</p>`).join('') + quinoneReviewLink(sc.pdb) + reviewDetails(sc.pdb, sc, provenance);
 
     const nRes = sc.residues.filter(r => r.kind === 'protein').length, nW = sc.residues.filter(r => r.kind === 'water').length;
     $('#scene-facts').innerHTML = `<dl class="kv">
@@ -428,9 +489,10 @@
       <table class="mini-table"><thead><tr><th>Role</th><th>Assignment</th><th>Deposited</th><th>Label chain</th></tr></thead><tbody>${['P_A', 'P_B', 'A1_A', 'A1_B'].map(r => { const x = p.cofactors[r]; return `<tr><td>${roleTag(r)}</td><td>${sci(cofactorName(x))}</td><td><code>${esc(x?.identity)}</code></td><td>${esc(x?.label_asym)}</td></tr>`; }).join('')}</tbody></table>`;
     $('#downloads').innerHTML = `<ul class="dl">
       <li><button class="link inline" data-open="png">PNG still of the current view (2560 px)</button> · <button class="link inline" data-open="gif">Animated GIF, 480–1200 px</button></li>
-      <li><a href="${esc(sc.downloads.contacts)}" download>Contacts CSV (full precision, contact ID, class, chemical basis, earlier annotation)</a></li>
-      <li><a href="${esc(sc.downloads.cif)}" download>Scene mmCIF (native identities)</a></li>
-      ${sc.downloads.pymol ? `<li><a href="${esc(sc.downloads.pymol)}" download>PyMOL script (same atoms, pairs and view; run from the repository root)</a></li>` : ''}
+      <li><a href="${esc(sc.downloads.contacts)}" download data-scene-download="contacts">Contacts CSV (full precision, contact ID, class, chemical basis, earlier annotation)</a></li>
+      <li><a href="docs/SCIENTIFIC_REVIEW.md">Scientific review and source-geometry qualifications</a> · <a href="downloads/validation/cofactor_geometry.csv" download>Per-cofactor validation context CSV</a></li>
+      <li><a href="${esc(sc.downloads.cif)}" download data-scene-download="cif">Scene mmCIF (native identities)</a></li>
+      ${sc.downloads.pymol ? `<li><a href="${esc(sc.downloads.pymol)}" download data-scene-download="pymol">PyMOL script (same atoms, pairs and view; run from the repository root)</a></li>` : ''}
       <li><a href="data/views/${esc(sc.key)}.js">Scene data used by this viewer</a></li></ul>`;
   }
 
@@ -451,6 +513,8 @@
     app.innerHTML = `
     <div class="wrap-wide">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="#/">Library</a><span>/</span><span>Compare</span></nav>
+      <p class="note">Selection scope: the eight additions received an extra 3.5 Å diagnostic N/O neighborhood screen; the 14 baseline scene selections were retained. Scene pair counts are not exhaustive cross-species inventories. Deposited protomers are not biological replicates. <a href="docs/COMPARISON_SCOPE.md">Comparison scope</a> · <a href="docs/SCIENTIFIC_REVIEW.md">Source-geometry qualifications</a>.</p>
+      <p class="fine">Local qualifications include 7COY A1_A O1/P_B ester O2A features, weak modeled site waters in 7DKZ/9S6P/9SK3, and long P_A Mg–His distances in 9KZ9/5OY0 p3. Values are retained as deposited-model separations. <a href="downloads/validation/diagnostic_density_samples.csv" download>Native diagnostic map samples</a>; source-specific levels are not cross-map quality scores.</p>
       <header class="compare-head"><div><h1>Compare: ${sci(pt.label)}</h1>
         <p class="lede small">Each column is one homologous atom pair; each row one deposited protomer. Every cell is recomputed from that protomer’s deposited coordinates, so a blank means the atom is not present (different residue, not modelled, or no site water), never “not measured”.</p></div>
         <div class="part-switch" role="tablist" aria-label="Environment">${A.parts.map(x => `<a role="tab" href="#/compare/${x.route}" aria-selected="${x.key === partKey}">${sci(x.label.replace(' network', '').replace(' quinone', ''))}</a>`).join('')}</div></header>
@@ -523,7 +587,7 @@
     <div class="wrap prose">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="#/">Library</a><span>/</span><span>Methods</span></nav>
       <h1>Methods, scope and verification</h1>
-      <p class="lede small">Every scene shows deposited heavy atoms around one PSI cofactor environment and a curated list of measured atom pairs. Selections (atoms, contacts, label anchors, water rules) come from an earlier, reviewed PyMOL build of this library; this build redraws them live and re-derives every number from the deposited mmCIF files.</p>
+      <p class="lede small">Every scene shows deposited heavy atoms around one PSI cofactor environment and a selected list of measured atom pairs. Curated scenes retain the earlier reviewed selections; derived scenes use the documented homology rule and scoped neighborhood supplement. All numbers are re-derived from archived deposited coordinates, with source-geometry qualifications retained.</p>
 
       ${A.citation ? `<h2>How to cite</h2><p>Please cite the version you used, together with the PDB entries and primary papers for the structures you use:</p><p class="cite">${A.doi ? esc(A.citation.replace(/https:\/\/doi\.org\/\S+$/, '')) + `<a href="https://doi.org/${esc(A.doi)}">https://doi.org/${esc(A.doi)}</a>` : esc(A.citation)}</p>` : ''}
       <h2>What the library can and cannot tell you</h2>
@@ -539,7 +603,7 @@
           <li>Give the uncertainty of a distance. 0.01 Å is display precision; nominal map or diffraction resolution is not a per-atom error.</li>
           <li>Treat protomers as independent replicates — symmetry or NCS restraints can make them nearly identical by construction.</li>
           <li>Prove that a water is conserved, or absent, or establish Mg coordination geometry, stereochemistry or model ancestry.</li>
-          <li>Show local map quality: density and per-atom validation are not included.</li>
+          <li>Validate a deposited model automatically: optional density views and source ligand-validation context are provided, but they do not establish coordinate accuracy, occupancy or chemical geometry.</li>
         </ul></section>
       </div>
 
@@ -581,9 +645,9 @@
         <li>Deposited coordinates, components and author/label chain identifiers are retained; chain IDs are case-sensitive. Hydrogens and absent atoms (e.g. the 9YL7 PL9 tail, 6KMX A<sub>1B</sub> atoms, 9AU4 Trp693 NE1) are not reconstructed.</li>
         <li>P<sub>A</sub>, P<sub>B</sub>, A<sub>1A</sub>, A<sub>1B</sub> are functional roles, separate from chain IDs. A deposited CLA at P<sub>A</sub> is not reassigned to Chl <i>a</i>′; a component annotation is not an independent stereochemical validation.</li>
         <li>Mg separations are Mg–ligand atom distances; coordination geometry is not assessed (5OY0 protomer 3 has long Mg–His separations).</li>
-        <li>Scope: a curated comparative atlas of selected cyanobacterial and chlorophyll <i>d</i> PSI entries, not a census of all PSI structures. Entries released after the curated build that fall in this scope (cyanobacterial PSI) are added with rule-derived scenes. X-ray: ${A.structures.filter(isXray).map(s => s.pdb).join(', ')}; cryo-EM: ${A.structures.filter(s => !isXray(s)).length} entries. Method fields are read from each deposited mmCIF; each structure page links its wwPDB validation report, which this atlas does not summarise.</li>
+        <li>Scope: a comparative atlas of selected PSI donor and quinone environments, not a census of all PSI structures. This expansion adds eight plant/algal entries to the cyanobacterial and chlorophyll <i>d</i> baseline. New scenes use documented homology mapping and a diagnostic-neighborhood supplement; see the documented methods. X-ray: ${A.structures.filter(isXray).map(s => s.pdb).join(', ')}; cryo-EM: ${A.structures.filter(s => !isXray(s)).length} entries. Method fields are read from each deposited mmCIF; each structure page links its wwPDB validation report, and source-bound per-cofactor validation context is available in the downloads.</li>
         <li><b>Derived scenes</b> (newer entries): for each environment the curated scene of the most similar entry (same organism, then same cofactor components, then best resolution) is the template. The new scene uses the residues and atom pairs at the homologous positions (PsaA/PsaB aligned to 1JB0 numbering), the same cofactor atoms (quinone carbonyls matched by position), the reference-site water by the site rule and, for the special pair, every deposited water within 5 Å of the P<sub>A</sub>/P<sub>B</sub> Mg or oxygens. Applied to curated entries, this rule reproduces 95 of their 106 non-water pairs; the rest differ because the curated selections themselves differ between entries.</li>
-        <li>Lineage, citations and condition labels come from a curated audit (DOIs and titles verified against Crossref/RCSB on 16 October 2026). Camera alignment to 1JB0 is a display convention, not ancestry.</li>
+        <li>Baseline/addition metadata retain their source audits and preparation/uncertainty notes. Current coordinate and metadata records were rechecked on 20 November 2026; the 9OY9/9OZ3 citation/assembly descriptions were corrected without replacing atomic inputs. Camera alignment to 1JB0 is a display convention, not ancestry. Optional density controls cover every deposited protomer; experimental-source availability and the scoped scientific review are explicit. See <a href="docs/SCIENTIFIC_REVIEW.md">scientific qualifications</a> and <a href="docs/COMPARISON_SCOPE.md">comparison scope</a>.</li>
         <li>Sticks are covalent bonds inferred within residues (checked against CCD for cofactors) plus peptide links; thicker sticks mark cofactors; depth is shown by fog toward white.</li>
       </ul>
     </div>`;

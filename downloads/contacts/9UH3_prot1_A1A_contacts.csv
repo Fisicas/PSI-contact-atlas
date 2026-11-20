@@ -1,0 +1,6 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+9UH3.p1.MET:A:674:O~PQN:A:837:O1,9UH3_prot1_A1A,9UH3,1,A1A,PQN:A:837:O1,MET:A:674:O,FB,A,3.05968,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,derived by homology,1.0,1.0,4.91,4.68
+9UH3.p1.PQN:A:837:O1~SER:A:678:OG,9UH3_prot1_A1A,9UH3,1,A1A,PQN:A:837:O1,SER:A:678:OG,FB,A,3.18187,polar,donor–acceptor compatible,derived by homology,1.0,1.0,4.91,3.12
+9UH3.p1.PQN:A:837:O1~TRP:A:683:NE1,9UH3_prot1_A1A,9UH3,1,A1A,PQN:A:837:O1,TRP:A:683:NE1,FB,A,3.13410,polar,donor–acceptor compatible,derived by homology,1.0,1.0,4.91,5.23
+9UH3.p1.LEU:A:708:N~PQN:A:837:O4,9UH3_prot1_A1A,9UH3,1,A1A,PQN:A:837:O4,LEU:A:708:N,FB,A,2.79528,polar,donor–acceptor compatible,derived by homology,1.0,1.0,4.91,3.43
+9UH3.p1.PHE:A:675:N~PQN:A:837:O1,9UH3_prot1_A1A,9UH3,1,A1A,PQN:A:837:O1,PHE:A:675:N,FB,A,3.47127,polar,donor–acceptor compatible,derived by homology,1.0,1.0,4.91,2.79

@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-52518">
+    <admin composite_map="true">
+        <current_status>
+            <date>2026-09-16</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2026-01-28">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2026-03-18">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2026-08-05">
+                <change_list>
+                    <model>
+                        <revision_group>DATA_COLLECTION</revision_group>
+                        <categories>
+                            <category>chem_comp_atom</category>
+                            <category>em_admin</category>
+                            <category>pdbx_validate_chiral</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp_atom.pdbx_stereo_config</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-09-16">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere_order</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2026-09-16">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2025-01-10</deposition>
+            <header_release>2026-01-28</header_release>
+            <map_release>2026-01-28</map_release>
+            <update>2026-09-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>Synergy Award 854126</code>
+                <country>European Union</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of the Chromera velia PSI supercomplex at 1.84 Angstrom resolution</title>
+        <authors_list>
+            <author>Yuan X</author>
+            <author>Qian P</author>
+            <author>Sobotka R</author>
+            <author>Naschberger A</author>
+        </authors_list>
+        <keywords>Photosynthesis, Photosystem I, PSI-FCP complex, Chrome velia, Cryo-EM.</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Yuan X</author>
+                    <author ORCID="0000-0003-3493-9780" order="2">Lukes M</author>
+                    <author ORCID="0000-0002-5888-8546" order="3">Qian P</author>
+                    <author order="4">Charras Q</author>
+                    <author order="5">Smrcka T</author>
+                    <author ORCID="0000-0002-1485-2197" order="6">Man P</author>
+                    <author order="7">Kovarova L</author>
+                    <author ORCID="0000-0001-8652-5323" order="8">Konik P</author>
+                    <author ORCID="0000-0001-8148-9490" order="9">Heilmann E</author>
+                    <author order="10">Al-Amoudi A</author>
+                    <author ORCID="0000-0001-5909-3879" order="11">Sobotka R</author>
+                    <author ORCID="0000-0002-7275-5459" order="12">Naschberger A</author>
+                    <title>The cryo-EM structure of Photosystem I from Chromera velia with a bound superoxide dismutase heterodimer.</title>
+                    <journal_abbreviation>Nat Commun</journal_abbreviation>
+                    <country>UK</country>
+                    <volume>17</volume>
+                    <first_page>913</first_page>
+                    <last_page>913</last_page>
+                    <year>2025</year>
+                    <external_references type="PUBMED">41423677</external_references>
+                    <external_references type="DOI">doi:10.1038/s41467-025-67637-0</external_references>
+                    <external_references type="ISSN">2041-1723</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <emdb_list>
+            <emdb_reference>
+                <emdb_id>EMD-52514</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>FCPa_region focused</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-52517</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>FCPe_region focused</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-52501</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>SOD_region focused</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-52507</emdb_id>
+                <relationship>
+                    <other>focused EM volume</other>
+                </relationship>
+                <details>Psa35_regoin focused</details>
+            </emdb_reference>
+            <emdb_reference>
+                <emdb_id>EMD-52508</emdb_id>
+                <relationship>
+                    <other>consensus EM volume</other>
+                </relationship>
+                <details>Consensus map</details>
+            </emdb_reference>
+        </emdb_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9hyu</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52514</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>FCPa_region focused</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52517</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>FCPe_region focused</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52501</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>SOD_region focused</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52507</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>Psa35_regoin focused</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52508</accession_id>
+                <content_type>consensus EM volume</content_type>
+                <details>Consensus map</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52518</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>Cryo-EM structure of PSI super complex from C. velia</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>PSI super complex from Chrome velia</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>PSI super complex from Chrome velia</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>A complex containing PSI as a core with other components for example PsaA-, PsaB, Psa</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.6544</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Superoxide dismutase [Fe]</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.041899281000000003</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRVHPVVAVSGLGVSAVSAFVFRGTPSAGIPRASPAATELSNYPERVAKEPGWAKVEYEIGGIGWSNPAIDEANENITKK
+MQANGETIFNLWAPWDQAQVRTQDAPSYRELMDVVDFTWQIPGTERWWYDLNIDDAVRMQPFPLERIRFDPRNLQPHRFP
+EQVFDHLAEYHAPYVRKLKALVEGTPLEKESLEELASRKTRNETIDNAVGMCYNTGLYWESLSSKSDWGGDQWAHGPLKE
+KIEKKYGSLKGFKDAVVTAGMALFGSGHLWIVSDKTGEVDIVTTSDASNPMREGKGYPLLVCDLWEHAFYEDFRNDKKKA
+LTSWLNLMNWQKGNKRLETYMEKMKLKDLAPTPAQEMKPKEPEPTPGPAA</string>
+                    <external_references type="UNIPROTKB">A0A0G4HJZ8</external_references>
+                </sequence>
+                <ec_number>1.15.1.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Superoxide dismutase [Fe]</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029931839999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRFATLSLLGFFGASEAIRSRDLQAFVVSAPGASSPSRRSPATALDAVAVGSNVYEKMGVSTLVSGEEGPFKLKELPWFP
+TVLAPMMSYETISYHYGKHHALYVRNLNALAKEDSSLASKSLEDIFKGAEKGKKLFNQAAQVWNHDFFWNSMSPEGGDES
+FSETSKVKSAIISQWEDLGKFKEEWVKLALKHFGSGWIWLVQQKDGKLAIVDTHNAMNPISENLGTPLMTMDIWEHAYYV
+DHKSNKGLYTASFFEVCNWDFAEKNME</string>
+                    <external_references type="UNIPROTKB">A0A0G4FB02</external_references>
+                </sequence>
+                <ec_number>1.15.1.1</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>photosystem I</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.044801406</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPLNGLLAVQLWFFGTVSILVAHVMFAFPPYPFLAQNYATQISLFTHHMWIGGFLLVGSGAHASLYLIREQGDLTRTNSL
+VALCLNYRDAIISHLNWLCIFLGLHSFGIYIHNDTLAALGRFDDQITNLPPLGAEWFQHAVTANFPINNGFKNHFNTQIL
+MNDKIVFSNLSFNTADFLVHHIHAFTIHVTVLILVKGILFSRDSNLISDKYALGFRFPCDGPGRGGTCQVSGWDHIFLAL
+FWMYNSISVVIFHFFWKVQSDVWGYQSLDNGITHITNGNFTKSALTINGWLRDFLWAEAAQVVQSYSTPFFVYGLVFLGA
+HFIWAFSLMFLFSGRGYWQELIDYYTYAVYKWSQLPYLAFQALSIVQGRAVGLAHYLLGGIGTTWAFFLARALTL</string>
+                    <external_references type="UNIPROTKB">D9IXI2</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I iron-sulfur center</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008961316</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MHNVGIYTTCIGCTQCVRACPTEVLDMMTWDHCRAQQIACSDTLQDCIGCKRCETACPTDFLSIRVELGTENYYSMGLAY</string>
+                    <external_references type="UNIPROTKB">D9IXG0</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit II</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.030636371</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKFLAVAALICVGGARAFVAPSAPSNRQLATELRAGVPANPKPGSQFDLSVPDKDTLIRRRGGRGWLGKANNYGRFLISW
+THNKAEPFPCPTGGSSLMKPGANRLLLAKKEQGIALGRWLKRTLKIDNWKIFEIKPDGTVIFRSPKDGIYPEKKDPERVK
+RLTLLGSSYDNQERMARYSARKQFRSYEKYLKEQGEMATWQYILQRFRAESIQAFDADFGDMDVQEAQREGYAKMRAEKQ
+KEMGEGVISPAMIQMYMQILKDPYKGRRD</string>
+                    <external_references type="UNIPROTKB">A0A0G4H942</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit IV</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.014430821</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKLASALLLLCLSATCAFARRLSGFLSGLPSRQRDGARQATVLEAIQKGSKVLILKPESYFYGFTGDVVVVDKNPFYPYG
+VTVKFPSMQYKGLNTFNFKLDELQEVAPPAPKKKKKKAAVNPAAEPAEPAASS</string>
+                    <external_references type="UNIPROTKB">A0A0G4H6U3</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit III</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.035865297</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRVSLCMAIGAASVASEASAFVAPPSRMGRGLLSSQLRAERPSKTEASEARSKEFDESIFDQAMLEDDDSAFDPMMDFAR
+LATPAAIAMAAATVAPQVAHAADATLVPCAESKRFQTIMKAEIKANEKRVKENPKGSFFRDQFIAELKRSKIRKWRFEHS
+SLMCSKEDGKPRVDVTNPNQIFGGFFAFVYVLGAIGWSAKTYNRGIKAAYGPDGGWKEVILDWPFVLQVFYHSLGWPGRT
+WKELLDPEKEKDHLLVPTGKFDGLPTAIQAIGIGGVGLTIWLIITSFMMIGALYFFPDVLALDLLKYPVVNLSVPGVDIP
+GLNDIP</string>
+                    <external_references type="UNIPROTKB">A0A0G4GX86</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I protein (PsaI)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022553562</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQVVSVFAAVALAASSASAFVPSTSRSSGLLSKQRKTELNALEDAFFAPVEELMNAAPASVDFSDAISSSSEVLASIAAD
+SKLAVDVQGELVPAMIAAAEKLAANPGAKAGEILDPNSKLVQLRQVGGLVTGRHGVTNFDNKVPFLLLGAAPALFHTFLF
+FGLATVFVFKQENETPFRRQYGGTGYPRLDPYTMHRGDKPRERDWNDPITM</string>
+                    <external_references type="UNIPROTKB">A0A0G4HFQ7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center  subunit V</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029700710999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKVALGFLASFVCGSAARDTGFLSPAQRLASSGSRRKASSPVDPVSSLFDASTSEPGKVSKFAGWSPTLSEMPSAWEGYS
+VLRDSDASRTLLTKIPVYRRGLPPSWAGLEVGMAHGYLFFGPFAFLGPLRDSEEFWALAGLAASSGFDMILTIGLTVYGA
+YQDKWKLCNPCDKWITRNYSGGFDVKPSPDLTPIGNALVSGPGNNGFFLSDPRSPNSMYEDFQKFTTMFLIGALGGSLFA
+YYLCATTHAFDPVGGIRTFLGVPAITGYEPPPQAIIP</string>
+                    <external_references type="UNIPROTKB">A0A0G4GX71</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I protein (PsaM)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022135116999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKFLSASLLGCFVTSSAFVLQAPRSLRPASPVRRLENPRPVETVTNAFDFSQIDTGVLNVSADPDLYQSIRLFTLIAVFA
+ITLGSVARRFSPSINDYQVDQDYIELKRKNYFPSEDEFLDNRKDFESQTKKTTEMFEACKTWGAYAALRNSGAGKKKAQE
+FLGIKSDAELKAIENKAELMKWYGSYKSNERKVAW</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Photosystem I protein (PsaR)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022594372999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MPSIRLVATAVAVGMGVTSAFQQTPIRALKQRSEASTTLNDVKEMDLDSTWTYVKNRNIKPITEAKKLDILRTQILPVGT
+EQHAEAVHEILRNADLPMGVAQTNAVKRAPANVVLAGAVILFLIGFLGHWMNVINVPRGLPLLFGWPRVSWLAISSLMLP
+AYFLHLEGYNTIQRDAMYEELAKYGIKREDPFLEPPRELIKP</string>
+                    <external_references type="UNIPROTKB">A0A0G4FDJ8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Plastid light harvesting protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.032446844</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVSLTRAGLAVGCVAVATVSAGRPAFLSSAPLQAMRARENHTARDGKIQLTPEDAGVVRKHGITVAPGFPLIGDSEPFGF
+FDPLGLSAGKNPEQVAKLREAELKHCRIAMLAVLGWFSVVNNFYFFYGGELGTDPIEAWQKVNLAGKAQILLFIGLLEWF
+TIAIKEYQKTTPGRLCIPGDYFGAYGWLVDETQTRYGENLDSFNKYDWEVEEFGRGNALQFLTVDEWVDYQTQELNNGRL
+AMVAIAGLFIQDVLFKQPGDLIFKPYFDTTVQFFNDLISDTHTAEGMINAGLL</string>
+                    <external_references type="UNIPROTKB">A0A0G4ID45</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>Plastid light harvesting protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.026235361</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRLAFLAFASGVTAFQPLKPSSAPTSARDAVTSLRQEVVQEVRMSQALPFLPQPQDLNGEMAGDVGFDPLGFSSYYRDP
+QNPSWFKLEYFREAEVKHGRIAMLAALGALHVELLGPVPIDPFIKITEKSAYDAFCHLLVTNPVYFWATLIALHAIEVTS
+LGATAFMMTNPDAQREPGDYNLRFFGYDKLSPEKKKDLQTKEIKNGRLAMIAMIGMLHMNRVTGLGAIELLGKALNG</string>
+                    <external_references type="UNIPROTKB">A0A0G4FL36</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>Plastid light harvesting protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024313141</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKSILCVAALAVTGTLPVSEAFTPLLATKAPSRAEATSRKAVADMVGVDTDSGNTVWDPLDIASKCEFNRKKGRDNVIFS
+TWPHLNWMREAELKHGRICMLAVLGVLFTKLGIKIGGFISNSSTDWWENLGRVWAEHPEVIAFIIMAGGFIDMATYDTRM
+WSGNNKREAGNLGFDPLNLMAKDDNFALKELKHGRLAMVAMAAFAAERGIDTSVPLLHLAGF</string>
+                    <external_references type="UNIPROTKB">A0A0G4HNB1</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>Plastid light harvesting protein</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024079018</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MKRVAAVTGVIALAGCANAFVPPTSPVVSTRTASEGRTVARMEKSESLPFLRRPEGEIFKEKWAGDKGFDPLFLSEYYDL
+PTMKIFREAELKHGRVAMMAFLGLLLQNILRLPGAPSEANPVYALFKTNPQWVALLFITVGILENIGYKGEMDSIIWFKG
+KLKDRKPGDMGAEKLDFLNLAQKENAEAQEVEHCRAAMVGTIGLLLQYIASGREQPF</string>
+                    <external_references type="UNIPROTKB">A0A0G4HMN0</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>Chlorophyll a-b binding protein, chloroplastic</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.031759348</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRVLAGLLCASASAVAVNAYIDYGGGVDYRPDERKALQRRTLIDRDLYKERKQVVIGKIYDLNDLPGASNENQFFIGSEA
+NKPWDPLGLTRKAREREGGVFNYWLEPIQRDLKTAYKTDNDVGFGLEYVDYVFDPLWWFRESELVHCRVCMLAFAGWMAT
+ELGFRLPYEAFQGVSALEAHDALVKSGHMQLMLHFIVFLEFLRHRRFLAMRKGDLGTASNIEPGDYGFDPLGFKQKPEYR
+KYQTNELKNGRLAMIAMSAILTQAALDPTSKFPNYLF</string>
+                    <external_references type="UNIPROTKB">A0A0G4I0G6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>Photosystem I protein (PsaV)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.045973148</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVRGGLSTVVSAALVGCAVAFTGTPLKPPSSDTSLSAVKKSSKKFGDLSQFTGDVKGDAEAYRQILYATTGDPKYKKAKK
+SVGLIKWMKQMDPNEFKLKFIVVPGLLTVAAAGAFVALSNLDLPTLPSTPSPEDAGKFFLTIPAVGTIRAKPLLGDSGAF
+LPGSEPAPKITSKAEQVAIQKKIKAKITPAAKEAAKKLSLPKPGAKMSGGFVQRFIDASPERKDPGLDLIKDSVSDASKF
+SAPTQTLNVAGSIDSLLAKANLPSVDLTFSPAVEPAYALWEGGGKSTDPAYPGRAGFDEFKKEQMKIAAKTPTMTYFGES
+IKGDPRPGLKTYGMPQEYIDRMRKNTQWMKDRGVVFYPGYKEGSINREWTKLIKRSPTVEEQKKFISQHPEYLYNVQIPG
+MDDAKAIQKIQPKMEPKVWRRVGP</string>
+                    <external_references type="UNIPROTKB">A0A0G4HRT4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.029865294999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>QPLRLSNTAKMPMSTTWIWNLHSDSNESVGSILKDSQVRFEFVQIAQLIVIALWLVNNIRQIATFSNVVAWSINPLDTRP
+TLGNTQGFVGEAILNRTSDAFQGGGIQMTSGVVELLRGEGYLAPPDAASAALGLLMGLLIIITISGRKLNLTLNWSQGLI
+LTGGALVAWAGHLALVAIPAQSIWATLELDRSGVLLGWGQPQLISLVCFQNGITVLNGGAVALDTQVIHHLALALVILAP
+LALAPLIVRGSDGNDILLVENTDAHLPGLEESSDNKDIDY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>Photosystem I protein (PsaB)</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="505693">Chromera velia</organism>
+                    <strain>RM12</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.128908375</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MWSLEQMRDEVYEFSKKGFRKTFNLVVSEPSHTAIMPKENSILTFRFTDGEEVPPSDGRLGEVSPHNGEEAKISRDHVQA
+NLRIEQTRVGSRYVLSVSPLSNPTGDKDSHHHQFWLPEELVKKITFFRDKEDSVGITIAAIPPKDYLESRLYSKTESEVP
+SPDGQEGEVPPQAEAKFRIIKTTEGPYSVLKAYPPNQVNPGTFRLPSFLLGNRDFQVGLNEKNEPFLDMFLYTPILVIWG
+SLGGKLPPQEWEVGGWSWDYVPQVLWPNSRTRFVLTNEGPNQLTILVGSQQGPKSEPTTKDPKSDPDKKKDGPWFRKSKG
+KDITVTSELSTTQRLWNRLSQVNDFPSTMPEGNVIVQIFRSHLVQLALILFWAAGILTLSTYQGNFTQWELLPTKIRPVA
+HQIWDPHFGDALSRIYSDFWSNKTVGEGASSTWSSLNYLTCGLFNWWFTIGFRSTEDLLNAALGCFLGGIFLLVLQILGP
+VSPEWPTPVSQWTSKSVLSLGFSRELWGEIPGFDVKEDANDSDMEANLSPNWSLSVQGLIWTNQLFLGSFKLFNLSSAYL
+SFALIAPLFKYFINLYFLKDLLYFAGCGSLSWSGHLIHIAIPESRGIHVRGDNLLTTLPHPNGIVPLLTGDLQAYAQAPD
+SSTHVFGTPVGSGTAMLTFSGNIYQNTSQIFPLTDVAHHHLAIGVLFLIIDGTLRILNLGNLGLLFSSANRYSAFQMWNS
+NTGEFIQSIIYMFSSSLHFRLAVNLSVFSTLSSLTAQHIYALPVYAYLNQDFLSQAALYVHHQYIAGLLIMGGFVHGTLF
+LIYDYQQNSIWDRIFFSAVFKFLDNKLNIILWLSWITFFLGFHTLGLYVHNDVVTAFGHSERQILLQPVFAQLIQTASGK
+NIYYPDFVKLFYPLNQRDPRFLNGWLETINNLKVSPFLNVGPGDFLVHHAIALGLHTTVLILIKGAIDSRGSRFMPDKQA
+FGYTFPCDGPGRGGTCDISAWDSFYLAMFWMLNTIGWVTFYWHWKHLALWGGTNRLFDESSVCLMGWLRDYLWLNSSKLI
+YGYTSETVSINSVWAWAFLLGHLVWATGFMFLISWRGYWQELIETLVWAHERTPIANLFQWADTPVALSILQARFVGLVH
+FTVGYILTYAAFLLASTPV</string>
+                    <external_references type="UNIPROTKB">D9IXI4</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <ligand macromolecule_id="22">
+                <name>FE (III) ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">5.5845e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>FE</formula>
+            </ligand>
+            <ligand macromolecule_id="23">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>114</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="24">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="25">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="26">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="27">
+                <name>(3S,5R,6S,3'S,5'R,6'S)-5,6,5',6'-DIEPOXY-5,6,5',6'- TETRAHYDRO-BETA,BETA-CAROTENE-3,3'-DIOL</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00060087</theoretical>
+                </molecular_weight>
+                <number_of_copies>22</number_of_copies>
+                <formula>XAT</formula>
+            </ligand>
+            <ligand macromolecule_id="28">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>11</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="29">
+                <name>DIGALACTOSYL DIACYL GLYCEROL (DGDG)</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0009492989999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>DGD</formula>
+            </ligand>
+            <ligand macromolecule_id="30">
+                <name>DODECYL-BETA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>71</number_of_copies>
+                <formula>LMT</formula>
+            </ligand>
+            <ligand macromolecule_id="31">
+                <name>BETA-CAROTENE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>8</number_of_copies>
+                <formula>BCR</formula>
+            </ligand>
+            <ligand macromolecule_id="32">
+                <name>Lauryl Maltose Neopentyl Glycol</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.001005188</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>AV0</formula>
+            </ligand>
+            <ligand macromolecule_id="33">
+                <name>[(1~{R},5~{S})-3,3,5-trimethyl-5-oxidanyl-4-[(3~{E},5~{E},7~{E},9~{E},11~{E},13~{E},15~{E},17~{Z})-3,7,12,16-tetramethyl-17-oxidanyl-19-oxidanylidene-19-[(1~{R},4~{S})-1,2,2-trimethyl-4-oxidanyl-cyclopentyl]nonadeca-1,3,5,7,9,11,13,15,17-nonaenylidene]cyclohexyl] ethanoate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0006589059999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>4</number_of_copies>
+                <formula>A1L6D</formula>
+            </ligand>
+            <ligand macromolecule_id="34">
+                <name>1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007951159999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>SQD</formula>
+            </ligand>
+            <ligand macromolecule_id="35">
+                <name>[(2~{R})-3-[(2~{S},3~{R},4~{R},5~{R},6~{R})-6-(hexadecanoyloxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]oxy-2-octadecanoyloxy-propyl] octadecanoate</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.001025567</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>A1I05</formula>
+            </ligand>
+            <ligand macromolecule_id="36">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>1558</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">0.8</concentration>
+                    <buffer>
+                        <ph>6.5</ph>
+                        <component>
+                            <concentration units="mM">20.0</concentration>
+                            <formula>C6H13NO4S</formula>
+                            <name>MES</name>
+                        </component>
+                        <details>20 mM MES pH 6.5, 0.15M NaCl and 0.01% Lauryl maltose neopentyl glycol</details>
+                    </buffer>
+                    <grid>
+                        <model>Quantifoil</model>
+                        <material>COPPER</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>GLOW DISCHARGE</type>
+                            <time units="s">45</time>
+                            <atmosphere>OTHER</atmosphere>
+                        </pretreatment>
+                        <details>GloQube Plus instrument (Quorum Technologies, UK) was used for glow discharge with the currency of 35  mA
+ 
+For the sample from Gel, glow discharge time is 30, waiting time is 5 sec and blowing time is 3 seconds</details>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">100</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <details>Blotting time 2.5 sec.. </details>
+                    </vitrification>
+                    <details>Protein sample in buffer solution  of 20 mM MES pH 6.5, 0.15M NaCl and 0.01% Lauryl maltose neopentyl glycol</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <c2_aperture_diameter units="µm">50.0</c2_aperture_diameter>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.1</nominal_defocus_max>
+                    <nominal_magnification>165000.0</nominal_magnification>
+                    <specimen_holder_model>FEI TITAN KRIOS AUTOGRID HOLDER</specimen_holder_model>
+                    <cooling_holder_cryogen>NITROGEN</cooling_holder_cryogen>
+                    <temperature>
+                        <temperature_min units="K">79.0</temperature_min>
+                        <temperature_max units="K">81.0</temperature_max>
+                    </temperature>
+                    <alignment_procedure>
+                        <coma_free/>
+                    </alignment_procedure>
+                    <specialist_optics>
+                        <energy_filter>
+                            <name>TFS Selectris X</name>
+                            <slit_width units="eV">10</slit_width>
+                        </energy_filter>
+                    </specialist_optics>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <number_grids_imaged>2</number_grids_imaged>
+                            <number_real_images>32897</number_real_images>
+                            <average_exposure_time units="s">3.16</average_exposure_time>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                            <details>Two dataset were collected and merged together during data processing.</details>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <details>Motion correction and CTF estimation were performed on the raw data in cryoSPARC's Live session</details>
+                <particle_selection>
+                    <number_selected>5807142</number_selected>
+                    <details>Blob picking was selected initially.</details>
+                </particle_selection>
+                <ctf_correction>
+                    <details>CTF estimation were performed on the raw data in cryoSPARC's Live session</details>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="INSILICO MODEL">
+                    <insilico_model>Ab initio reconstruction was used to create initial models for both datasets.</insilico_model>
+                    <details>Data for Ab initio reconstruction were obtained from the dataset after two rounds  2d classification.</details>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <algorithm>BACK PROJECTION</algorithm>
+                    <resolution units="Å" res_type="BY AUTHOR">1.84</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>RELION</name>
+                        </software>
+                    </software_list>
+                    <details>The particles from both datasets were converted into star files using csparc2star from the PyEM suite for further processing in RELION v5.0.0b.</details>
+                    <number_images_used>532822</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+                <final_three_d_classification>
+                    <number_classes>5</number_classes>
+                    <details>For Dataset 1, two rounds of heterogeneous refinement were performed using five classes.
+Dataset 2 underwent eight rounds of heterogeneous refinement using five classes.</details>
+                </final_three_d_classification>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="500001">
+        <file>emd_52518.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>500</col>
+            <row>500</row>
+            <sec>500</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>500</x>
+            <y>500</y>
+            <z>500</z>
+        </spacing>
+        <cell>
+            <a units="Å">364.5</a>
+            <b units="Å">364.5</b>
+            <c units="Å">364.5</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-48.502727999999998</minimum>
+            <maximum>153.802799999999991</maximum>
+            <average>0.015173205</average>
+            <std>1.246312</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.729</x>
+            <y units="Å">0.729</y>
+            <z units="Å">0.729</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>8.0</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-52518::::</label>
+    </map>
+    <interpretation>
+        <modelling_list>
+            <modelling>
+                <initial_model>
+                    <chain>
+                        <source_name>SwissModel</source_name>
+                        <initial_model_type>in silico model</initial_model_type>
+                    </chain>
+                </initial_model>
+                <refinement_protocol>RIGID BODY FIT</refinement_protocol>
+                <target_criteria>CCC in ChimeraX</target_criteria>
+                <refinement_space>REAL</refinement_space>
+                <overall_bvalue>21.600000000000001</overall_bvalue>
+            </modelling>
+        </modelling_list>
+    </interpretation>
+</emd>

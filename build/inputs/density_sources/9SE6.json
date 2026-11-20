@@ -1,0 +1,13 @@
+{
+ "pdb": "9SE6",
+ "method": "Cryo-EM",
+ "protomers": [
+  1
+ ],
+ "state": "source_ready",
+ "records": [],
+ "emdb": "EMD-54803",
+ "metadata_file": "raw_maps/9SE6/emdb_entry.json",
+ "map_file": "raw_maps/9SE6/primary.map.gz",
+ "reuse_previous_source": true
+}

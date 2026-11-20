@@ -1,0 +1,29 @@
+
+test_changed_download_bytes_rejected (test_download_payloads.DownloadPayloadIntegrity.test_changed_download_bytes_rejected) ... ok
+test_packaged_downloads_match_sources (test_download_payloads.DownloadPayloadIntegrity.test_packaged_downloads_match_sources) ... ok
+test_wrong_download_identity_rejected (test_download_payloads.DownloadPayloadIntegrity.test_wrong_download_identity_rejected) ... ok
+test_consistent_review_metadata (test_release_metadata.ReleaseMetadataTests.test_consistent_review_metadata) ... ok
+test_creator_drift_rejected (test_release_metadata.ReleaseMetadataTests.test_creator_drift_rejected) ... ok
+test_invented_release_date_rejected (test_release_metadata.ReleaseMetadataTests.test_invented_release_date_rejected) ... ok
+test_prior_version_DOI_rejected (test_release_metadata.ReleaseMetadataTests.test_prior_version_DOI_rejected) ... ok
+test_zenodo_version_drift_rejected (test_release_metadata.ReleaseMetadataTests.test_zenodo_version_drift_rejected) ... ok
+test_absent_native_cofactor_rejected (test_verified_mapping.MappingTests.test_absent_native_cofactor_rejected) ... ok
+test_absent_role_rejected (test_verified_mapping.MappingTests.test_absent_role_rejected) ... ok
+test_automatic_cutoff_unchanged (test_verified_mapping.MappingTests.test_automatic_cutoff_unchanged) ... ok
+test_failed_gate_rejected (test_verified_mapping.MappingTests.test_failed_gate_rejected) ... ok
+test_four_verified_sources (test_verified_mapping.MappingTests.test_four_verified_sources) ... ok
+test_wrong_component_rejected (test_verified_mapping.MappingTests.test_wrong_component_rejected) ... ok
+test_wrong_source_hash_rejected (test_verified_mapping.MappingTests.test_wrong_source_hash_rejected) ... ok
+test_0_clean_copy_passes (test_verify.VerifierCatchesCorruption.test_0_clean_copy_passes) ... ok
+test_archived_input (test_verify.VerifierCatchesCorruption.test_archived_input) ... ok
+test_class_label (test_verify.VerifierCatchesCorruption.test_class_label) ... ok
+test_compare_value (test_verify.VerifierCatchesCorruption.test_compare_value) ... ok
+test_crop_coordinate (test_verify.VerifierCatchesCorruption.test_crop_coordinate) ... ok
+test_csv_distance (test_verify.VerifierCatchesCorruption.test_csv_distance) ... ok
+test_duplicate_row (test_verify.VerifierCatchesCorruption.test_duplicate_row) ... ok
+test_manifest (test_verify.VerifierCatchesCorruption.test_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 64.272s
+
+OK

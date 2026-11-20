@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scene": "9EYS_prot1_P_A",
+  "polar_candidate_guides": 4,
+  "water_candidate_guides": 5,
+  "non_Hbond_measurement_guides": 0,
+  "native_atoms": 128,
+  "max_coordinate_change_A": 0,
+  "true_subscript": true,
+  "dimensions": [
+    1280,
+    640
+  ],
+  "bytes": 125087,
+  "scope": "Source IDs/classes/separations and image/SVG hashes checked against packaged scene/render records. Atlas classifications remain intact. Candidate chemistry does not establish hydrogen positions, angles or confirmed hydrogen bonds; raster interpretation relies on the documented native render and visual review."
+}

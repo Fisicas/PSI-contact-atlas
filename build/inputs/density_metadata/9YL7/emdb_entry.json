@@ -1,0 +1,1371 @@
+{
+    "_id": "68ec272c6e5018e151ca9ce7",
+    "admin": {
+        "authors_list": {
+            "author": [
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Brininger CM"
+                },
+                {
+                    "instance_type": "author",
+                    "valueOf_": "Gisriel CJ"
+                }
+            ]
+        },
+        "current_status": {
+            "code": {
+                "valueOf_": "REL"
+            },
+            "date": "2026-10-14T00:00:00",
+            "processing_site": "RCSB"
+        },
+        "grant_support": {
+            "grant_reference": [
+                {
+                    "code": "R00GM140174",
+                    "country": "United States",
+                    "funding_body": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+                    "instance_type": "grant_reference"
+                }
+            ]
+        },
+        "key_dates": {
+            "deposition": "2025-10-08T00:00:00",
+            "header_release": "2026-10-14T00:00:00",
+            "map_release": "2026-10-14T00:00:00",
+            "update": "2026-10-14T00:00:00"
+        },
+        "keywords": "photosystem I, quinones, electron transfer, partial occupancy, PHOTOSYNTHESIS",
+        "revision_history": {
+            "revision": [
+                {
+                    "change_list": {
+                        "revision_change_sub_group": [
+                            {
+                                "instance_type": "model",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            },
+                            {
+                                "instance_type": "metadata",
+                                "provider": "REPOSITORY",
+                                "revision_type": "INITIAL_RELEASE"
+                            }
+                        ]
+                    },
+                    "date": "2026-10-14T00:00:00",
+                    "instance_type": "revision",
+                    "version": "1.0"
+                }
+            ]
+        },
+        "sites": {
+            "deposition": "RCSB",
+            "last_processing": "RCSB"
+        },
+        "title": "Structure of photosystem I with plastoquinone-9 bound"
+    },
+    "crossreferences": {
+        "citation_list": {
+            "primary_citation": {
+                "citation_type": {
+                    "author": [
+                        {
+                            "ORCID": "0000-0001-7278-4252",
+                            "instance_type": "author",
+                            "order": 1,
+                            "valueOf_": "Brininger CM"
+                        },
+                        {
+                            "ORCID": "0000-0002-8011-0052",
+                            "instance_type": "author",
+                            "order": 2,
+                            "valueOf_": "Gisriel CJ"
+                        }
+                    ],
+                    "external_references": [
+                        {
+                            "instance_type": "external_references",
+                            "type_": "CSD",
+                            "valueOf_": "0353"
+                        }
+                    ],
+                    "journal": "To Be Published",
+                    "journal_abbreviation": "To Be Published",
+                    "published": false,
+                    "title": "Structure of photosystem I with plastoquinone-9 bound"
+                }
+            }
+        },
+        "other_db_list": {
+            "db_reference": [
+                {
+                    "accession_id": "EMD-73077",
+                    "content_type": "associated EM volume",
+                    "db_name": "EMDB",
+                    "details": "Structure of photosystem I with plastoquinone-9 bound",
+                    "instance_type": "db_reference"
+                }
+            ]
+        },
+        "pdb_list": {
+            "pdb_reference": [
+                {
+                    "instance_type": "pdb_reference",
+                    "pdb_id": "9yl7",
+                    "relationship": {
+                        "in_frame": "FULLOVERLAP"
+                    }
+                }
+            ]
+        }
+    },
+    "emdb_id": "EMD-73077",
+    "interpretation": {
+        "additional_map_list": {
+            "additional_map": [
+                {
+                    "annotation_details": "Trimer unsharpened map",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 420,
+                        "row": 420,
+                        "sec": 420
+                    },
+                    "file": "emd_73077_additional_2.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "additional_map",
+                    "label": "::::EMDATABANK.org::::EMD-73077::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        }
+                    },
+                    "size_kbytes": 296353,
+                    "spacing": {
+                        "x": 420,
+                        "y": 420,
+                        "z": 420
+                    },
+                    "statistics": {
+                        "average": 0.001490759,
+                        "maximum": 0.35085598,
+                        "minimum": -0.09781901,
+                        "std": 0.010159274
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                },
+                {
+                    "annotation_details": "Monomer unsharpened map",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 420,
+                        "row": 420,
+                        "sec": 420
+                    },
+                    "file": "emd_73077_additional_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "additional_map",
+                    "label": "::::EMDATABANK.org::::EMD-73077::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        }
+                    },
+                    "size_kbytes": 296353,
+                    "spacing": {
+                        "x": 420,
+                        "y": 420,
+                        "z": 420
+                    },
+                    "statistics": {
+                        "average": 0.0014944082,
+                        "maximum": 0.54277736,
+                        "minimum": -0.09761577,
+                        "std": 0.010419564
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        },
+        "half_map_list": {
+            "half_map": [
+                {
+                    "annotation_details": "Half map 2",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 420,
+                        "row": 420,
+                        "sec": 420
+                    },
+                    "file": "emd_73077_half_map_2.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-73077::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        }
+                    },
+                    "size_kbytes": 296353,
+                    "spacing": {
+                        "x": 420,
+                        "y": 420,
+                        "z": 420
+                    },
+                    "statistics": {
+                        "average": 0.0007102117,
+                        "maximum": 0.5758714,
+                        "minimum": -0.11288278,
+                        "std": 0.01309919
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                },
+                {
+                    "annotation_details": "Half map 1",
+                    "axis_order": {
+                        "fast": "X",
+                        "medium": "Y",
+                        "slow": "Z"
+                    },
+                    "cell": {
+                        "a": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "alpha": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "b": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "beta": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        },
+                        "c": {
+                            "units": "\u212b",
+                            "valueOf_": "350.28"
+                        },
+                        "gamma": {
+                            "units": "deg",
+                            "valueOf_": "90.0"
+                        }
+                    },
+                    "contour_list": {
+                        "contour": [
+                            {
+                                "instance_type": "contour",
+                                "primary": true,
+                                "source": "AUTHOR"
+                            }
+                        ]
+                    },
+                    "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+                    "dimensions": {
+                        "col": 420,
+                        "row": 420,
+                        "sec": 420
+                    },
+                    "file": "emd_73077_half_map_1.map.gz",
+                    "format": "CCP4",
+                    "instance_type": "half_map",
+                    "label": "::::EMDATABANK.org::::EMD-73077::::",
+                    "origin": {
+                        "col": 0,
+                        "row": 0,
+                        "sec": 0
+                    },
+                    "pixel_spacing": {
+                        "x": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "y": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        },
+                        "z": {
+                            "units": "\u212b",
+                            "valueOf_": "0.834"
+                        }
+                    },
+                    "size_kbytes": 296353,
+                    "spacing": {
+                        "x": 420,
+                        "y": 420,
+                        "z": 420
+                    },
+                    "statistics": {
+                        "average": 0.0007107317,
+                        "maximum": 0.5717853,
+                        "minimum": -0.10791905,
+                        "std": 0.013103541
+                    },
+                    "symmetry": {
+                        "space_group": 1
+                    }
+                }
+            ]
+        }
+    },
+    "map": {
+        "annotation_details": "Local filtered monomer map of delta menB Synechocystis sp. PCC 6803",
+        "axis_order": {
+            "fast": "X",
+            "medium": "Y",
+            "slow": "Z"
+        },
+        "cell": {
+            "a": {
+                "units": "\u212b",
+                "valueOf_": "350.28"
+            },
+            "alpha": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "b": {
+                "units": "\u212b",
+                "valueOf_": "350.28"
+            },
+            "beta": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            },
+            "c": {
+                "units": "\u212b",
+                "valueOf_": "350.28"
+            },
+            "gamma": {
+                "units": "deg",
+                "valueOf_": "90.0"
+            }
+        },
+        "contour_list": {
+            "contour": [
+                {
+                    "instance_type": "contour",
+                    "level": 0.0353,
+                    "primary": true,
+                    "source": "AUTHOR"
+                }
+            ]
+        },
+        "data_type": "IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)",
+        "dimensions": {
+            "col": 420,
+            "row": 420,
+            "sec": 420
+        },
+        "file": "emd_73077.map.gz",
+        "format": "CCP4",
+        "label": "::::EMDATABANK.org::::EMD-73077::::",
+        "origin": {
+            "col": 0,
+            "row": 0,
+            "sec": 0
+        },
+        "pixel_spacing": {
+            "x": {
+                "units": "\u212b",
+                "valueOf_": "0.834"
+            },
+            "y": {
+                "units": "\u212b",
+                "valueOf_": "0.834"
+            },
+            "z": {
+                "units": "\u212b",
+                "valueOf_": "0.834"
+            }
+        },
+        "size_kbytes": 296353,
+        "spacing": {
+            "x": 420,
+            "y": 420,
+            "z": 420
+        },
+        "statistics": {
+            "average": 0.00038243292,
+            "maximum": 2.571495,
+            "minimum": -1.1609025,
+            "std": 0.020588154
+        },
+        "symmetry": {
+            "space_group": 1
+        }
+    },
+    "sample": {
+        "macromolecule_list": {
+            "macromolecule": [
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 1,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.083036398"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A1"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P29254"
+                            }
+                        ],
+                        "string": "MTISPPEREAKAKVSVDNNPVPTSFEKWGKPGHFDRTLARGPKTTTWIWNLHANAHDFDSQTSDLEDVSRKIFSAHFGHL AVVFVWLSGMYFHGAKFSNYEGWLADPTHIKPSAQVVWPIVGQGILNGDVGGGFHGIQITSGLFYLWRASGFTDSYQLYC TAIGGLVMAALMLFAGWFHYHVKAPKLEWFQNVESMMNHHLAGLLGLGSLGWAGHQIHVSMPINKLLDAGVAPKDIPLPH EFILEPSKMAELYPSFAQGLTPFFTLNWGVYSDFLTFKGGLNPVTGGLWLSDTAHHHLAIAVLFIIAGHMYRTNWGIGHS MKEILEAHKGPFTGEGHKGLYEILTTSWHAQLAINLALLGSLTIIVAQHMYAMPPYPYQAIDYATQLSLFTHHMWIGGFL IVGAGAHGAIFMVRDYDPAKNVNNLLDRMLRHRDAIISHLNWVCIFLGFHSFGLYIHNDTMRALGRPQDMFSDTAIQLQP IFAQWVQHLHTLAPGATAPNALATASYAFGGETIAVAGKVAMMPITLGTADFMVHHIHAFTIHVTALILLKGVLYARSSR LVPDKANLGFRFPCDGPGRGGTCQVSGWDHVFLGLFWMYNSLSIVIFHFSWKMQSDVWGTVSPDGSVTHVTLGNFAQSAI TINGWLRDFLWAQAANVINSYGSALSAYGIMFLAGHFVFAFSLMFLFSGRGYWQELIESIVWAHNKLNVAPAIQPRALSI IQGRAVGVAHYLLGGIVTTWAFFLARSLSIG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 2,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.081369531"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I P700 chlorophyll a apoprotein A2"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P29255"
+                            }
+                        ],
+                        "string": "MATKFPKFSQDLAQDPTTRRIWYGIATAHDFETHDGMTEENLYQKIFASHFGHIAIIFLWTSGTLFHVAWQGNFEQWIKD PLNIRPIAHAIWDPHFGEGAVNAFTQAGASNPVNIAYSGVYHWFYTIGMTTNQELYSGAVFLLVLASLFLFAGWLHLQPK FRPSLAWFKNAESRLNHHLAGLFGVSSLAWAGHLVHVAIPEARGQHVGWDNFLSTPPHPAGLMPFFTGNWGVYAADPDTA GHIFGTSEGAGTAILTFLGGFHPQTESLWLTDIAHHHLAIAVIFIIAGHMYRTNWGIGHSIKEILNAHKGPLTGAGHTNL YDTINNSLHFQLGLALASLGVITSLVAQHMYSLPSYAFIAQDHTTQAALYTHHQYIAGFLMVGAFAHGAIFFVRDYDPVA NKDNVLARMLEHKEALISHLSWVSLFLGFHTLGLYVHNDVVVAFGTPEKQILIEPVFAQWIQATSGKALYGFDVLLSNPD SIASTTGAAWLPGWLDAINSGTNSLFLTIGPGDFLVHHAIALGLHTTALILIKGALDARGSKLMPDKKDFGYSFPCDGPG RGGTCDISAWDAFYLAMFWMLNTLGWLTFYWHWKHLGVWSGNVAQFNENSTYLMGWFRDYLWANSAQLINGYNPYGVNNL SVWAWMFLFGHLVWATGFMFLISWRGYWQELIETIVWAHERTPLANLVRWKDKPVALSIVQARLVGLAHFTVGYVLTYAA FLIASTAGKFG"
+                    }
+                },
+                {
+                    "ec_number": [
+                        "1.97.1.12"
+                    ],
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 3,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008837261"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I iron-sulfur center"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P32422"
+                            }
+                        ],
+                        "string": "MSHSVKIYDTCIGCTQCVRACPLDVLEMVPWDGCKAAQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA Y"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 4,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.015663748999999998"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit II"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P19569"
+                            }
+                        ],
+                        "string": "MTELSGQPPKFGGSTGGLLSKANREEKYAITWTSASEQVFEMPTGGAAIMNEGENLLYLARKEQCLALGTQLRTKFKPKI QDYKIYRVYPSGEVQYLHPADGVFPEKVNEGREAQGTKTRRIGQNPEPVTIKFSGKAPYEV"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 5,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008154086"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IV"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P12975"
+                            }
+                        ],
+                        "string": "MALNRGDKVRIKRTESYWYGDVGTVASVEKSGILYPVIVRFDRVNYNGFSGSASGVNTNNFAENELELVQAAAK"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 6,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.018267081999999997"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit III"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P29256"
+                            }
+                        ],
+                        "string": "MKHLLALLLAFTLWFNFAPSASADDFANLTPCSENPAYLAKSKNFLNTTNDPNSGKIRAERYASALCGPEGYPHLIVDGR FTHAGDFLIPSILFLYIAGWIGWVGRSYLIEIRESKNPEMQEVVINVPLAIKKMLGGFLWPLAAVGEYTSGKLVMKDSEI PTSPR"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 7,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.004414148"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit VIII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "Q55330"
+                            }
+                        ],
+                        "string": "MDGSYAASYLPWILIPMVGWLFPAVTMGLLFIHIESEGEG"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 8,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.004535415"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit IX"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "Q55329"
+                            }
+                        ],
+                        "string": "MDGLKSFLSTAPVMIMALLTFTAGILIEFNRFYPDLLFHP"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 9,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.008656258"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit PsaK 1"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P72712"
+                            }
+                        ],
+                        "string": "MHSFLLATAVPATLSWSPKVAGVMIACNILAIAFGKFTIKQQSVGTPMPSSNFFGGFGLGAVLGTASFGHILGAGVILGL ANMGVL"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 10,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.016631794999999998"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit XI"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P37277"
+                            }
+                        ],
+                        "string": "MAESNQVVQAYNGDPFVGHLSTPISDSAFTRTFIGNLPAYRKGLSPILRGLEVGMAHGYFLIGPWTLLGPLRDSEYQYIG GLIGALALILVATAALSSYGLVTFQGEQGSGDTLQTADGWSQFAAGFFVGGMGGAFVAYFLLENLSVVDGIFRGLFN"
+                    }
+                },
+                {
+                    "enantiomer": "LEVO",
+                    "instance_type": "protein_or_peptide",
+                    "macromolecule_id": 11,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.003382063"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I reaction center subunit XII"
+                    },
+                    "natural_source": {
+                        "database": "NCBI",
+                        "organism": {
+                            "ncbi": 1148,
+                            "valueOf_": "Synechocystis sp. PCC 6803"
+                        }
+                    },
+                    "number_of_copies": "1",
+                    "sequence": {
+                        "external_references": [
+                            {
+                                "instance_type": "external_references",
+                                "type_": "UNIPROTKB",
+                                "valueOf_": "P72986"
+                            }
+                        ],
+                        "string": "MALSDTQILAALVVALLPAFLAFRLSTELYK"
+                    }
+                },
+                {
+                    "formula": "CLA",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 12,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A"
+                    },
+                    "number_of_copies": "95"
+                },
+                {
+                    "formula": "CL0",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 13,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000893489"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLOROPHYLL A ISOMER"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "SF4",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 14,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00035163999999999996"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "IRON/SULFUR CLUSTER"
+                    },
+                    "number_of_copies": "3"
+                },
+                {
+                    "formula": "BCR",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 15,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000536873"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "BETA-CAROTENE"
+                    },
+                    "number_of_copies": "19"
+                },
+                {
+                    "formula": "LHG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 16,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00072297"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE"
+                    },
+                    "number_of_copies": "4"
+                },
+                {
+                    "formula": "LMG",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 17,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007871579999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE"
+                    },
+                    "number_of_copies": "3"
+                },
+                {
+                    "formula": "LMT",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 18,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000510615"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "DODECYL-BETA-D-MALTOSIDE"
+                    },
+                    "number_of_copies": "8"
+                },
+                {
+                    "formula": "PL9",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 19,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000749201"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "2,3-DIMETHYL-5-(3,7,11,15,19,23,27,31,35-NONAMETHYL-2,6,10,14,18,22,26,30,34-HEXATRIACONTANONAENYL-2,5-CYCLOHEXADIENE-1,4-DIONE-2,3-DIMETHYL-5-SOLANESYL-1,4-BENZOQUINONE"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "45D",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 20,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00056484"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "beta,beta-carotene-4,4'-dione"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "CL",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 21,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "3.5453e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CHLORIDE ION"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "A1AGD",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 22,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.00041466399999999997"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "2,3-dimethyl-5-[(2E,7R,11R)-3,7,11,15-tetramethylhexadec-2-en-1-yl]cyclohexa-2,5-diene-1,4-dione"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "ECH",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 23,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000550856"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "beta,beta-caroten-4-one"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "CA",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 24,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "4.0078e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "CALCIUM ION"
+                    },
+                    "number_of_copies": "2"
+                },
+                {
+                    "formula": "EQ3",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 25,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.000566856"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "(3'R)-3'-hydroxy-beta,beta-caroten-4-one"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "DGD",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 26,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0009492989999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "DIGALACTOSYL DIACYL GLYCEROL (DGDG)"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "SQD",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 27,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "0.0007951159999999999"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL"
+                    },
+                    "number_of_copies": "1"
+                },
+                {
+                    "formula": "HOH",
+                    "instance_type": "ligand",
+                    "macromolecule_id": 28,
+                    "molecular_weight": {
+                        "theoretical": {
+                            "units": "MDa",
+                            "valueOf_": "1.8015e-05"
+                        }
+                    },
+                    "name": {
+                        "valueOf_": "water"
+                    },
+                    "number_of_copies": "793"
+                }
+            ]
+        },
+        "name": {
+            "valueOf_": "Photosystem I from menB variant of Synechocystis sp. PCC 6803"
+        },
+        "supramolecule_list": {
+            "supramolecule": [
+                {
+                    "instance_type": "complex_supramolecule",
+                    "macromolecule_list": {
+                        "macromolecule": [
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 1
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 2
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 3
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 4
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 5
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 6
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 7
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 8
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 9
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 10
+                            },
+                            {
+                                "instance_type": "macromolecule",
+                                "macromolecule_id": 11
+                            }
+                        ]
+                    },
+                    "name": {
+                        "valueOf_": "Photosystem I from menB variant of Synechocystis sp. PCC 6803"
+                    },
+                    "natural_source": [
+                        {
+                            "database": "NCBI",
+                            "instance_type": "natural_source",
+                            "organism": {
+                                "ncbi": 1148,
+                                "valueOf_": "Synechocystis sp. PCC 6803"
+                            }
+                        }
+                    ],
+                    "parent": 0,
+                    "supramolecule_id": 1
+                }
+            ]
+        }
+    },
+    "structure_determination_list": {
+        "structure_determination": [
+            {
+                "aggregation_state": "particle",
+                "image_processing": [
+                    {
+                        "ctf_correction": {
+                            "type_": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+                        },
+                        "final_angle_assignment": {
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "final_reconstruction": {
+                            "number_images_used": 1243569,
+                            "resolution": {
+                                "res_type": "BY AUTHOR",
+                                "units": "\u212b",
+                                "valueOf_": "1.68"
+                            },
+                            "resolution_method": "FSC 0.143 CUT-OFF",
+                            "software_list": {
+                                "software": [
+                                    {
+                                        "instance_type": "software",
+                                        "name": "cryoSPARC"
+                                    }
+                                ]
+                            }
+                        },
+                        "image_processing_id": 1,
+                        "image_recording_id": 1,
+                        "initial_angle_assignment": {
+                            "type_": "MAXIMUM LIKELIHOOD"
+                        },
+                        "instance_type": "singleparticle_processing",
+                        "startup_model": [
+                            {
+                                "instance_type": "startup_model",
+                                "pdb_model": {
+                                    "pdb_id": "9AU4"
+                                },
+                                "type_of_model": "PDB ENTRY"
+                            }
+                        ]
+                    }
+                ],
+                "instance_type": "structure_determination",
+                "method": "singleParticle",
+                "microscopy_list": {
+                    "microscopy": [
+                        {
+                            "acceleration_voltage": {
+                                "units": "kV",
+                                "valueOf_": "300"
+                            },
+                            "electron_source": "FIELD EMISSION GUN",
+                            "illumination_mode": "FLOOD BEAM",
+                            "image_recording_list": {
+                                "image_recording": [
+                                    {
+                                        "average_electron_dose_per_image": {
+                                            "units": "e/\u212b^2",
+                                            "valueOf_": "50.0"
+                                        },
+                                        "film_or_detector_model": {
+                                            "valueOf_": "GATAN K3 (6k x 4k)"
+                                        },
+                                        "image_recording_id": 1,
+                                        "instance_type": "image_recording"
+                                    }
+                                ]
+                            },
+                            "imaging_mode": "BRIGHT FIELD",
+                            "instance_type": "single_particle_microscopy",
+                            "microscope": "TFS KRIOS",
+                            "microscopy_id": 1,
+                            "nominal_defocus_max": {
+                                "units": "\u00b5m",
+                                "valueOf_": "2.0"
+                            },
+                            "nominal_defocus_min": {
+                                "units": "\u00b5m",
+                                "valueOf_": "0.8"
+                            }
+                        }
+                    ]
+                },
+                "specimen_preparation_list": {
+                    "specimen_preparation": [
+                        {
+                            "buffer": {
+                                "ph": 6.5
+                            },
+                            "instance_type": "single_particle_preparation",
+                            "preparation_id": 1,
+                            "vitrification": {
+                                "cryogen_name": "ETHANE"
+                            }
+                        }
+                    ]
+                },
+                "structure_determination_id": 1
+            }
+        ]
+    },
+    "version": "3.0.11.7"
+}

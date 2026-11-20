@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "files_checked": 656,
+  "changed": [],
+  "elapsed_seconds": 25.410014867782593,
+  "scope": "Fresh copy rebuild; exact hashes for all scene data, source metadata, downloads, alignment and water tables. Runtime-version receipt excluded."
+}

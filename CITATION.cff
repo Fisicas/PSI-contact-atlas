@@ -1,28 +1,12 @@
-cff-version: 1.2.0
-message: "If you use this atlas, please cite the version you used, together with the PDB entries and primary papers for the structures you use."
+cff-version: "1.2.0"
+message: "Released version 1.1.0. Cite the version actually used, together with the individual PDB entries and their primary papers."
 title: "PSI Contact Atlas: heavy-atom contacts around the photosystem I special pair and A1 quinone sites"
-type: dataset
-authors:
-  - given-names: "Michael Raymond"
-    family-names: "Nelson"
-    orcid: "https://orcid.org/0009-0004-9809-9842"
-version: "1.0.0"
-date-released: "2026-11-17"
-doi: "10.5281/zenodo.24318460"
-license:
-  - CC-BY-4.0
-  - MIT
+type: "dataset"
+version: "1.1.0"
+authors: [{"family-names": "Nelson", "given-names": "Michael Raymond", "orcid": "https://orcid.org/0009-0004-9809-9842"}]
 repository-code: "https://github.com/Fisicas/PSI-contact-atlas"
-url: "https://fisicas.github.io/PSI-contact-atlas/"
-abstract: >-
-  Heavy-atom separations around the photosystem I special pair, the P_A chlorophyll network and both A1 quinone sites, computed from 14 deposited PDB entries (32 protomers, 128 scenes, 691 unique atom pairs). Each distance is traceable to two named deposited atoms and carries a chemical-basis note; short N/O···O separations are hydrogen-bond candidates only, and pairs of two oxygen acceptors are marked as not candidates. Includes an offline interactive viewer, contact and comparison tables with stable IDs, mmCIF crops, PyMOL scripts, the archived input structures, a portable build and an independent verification script. A curated comparative atlas of selected PSI environments, not a census of all PSI structures.
-keywords:
-  - photosystem I
-  - special pair
-  - P700
-  - phylloquinone
-  - A1 quinone
-  - hydrogen bonding
-  - cryo-EM
-  - X-ray crystallography
-  - PyMOL
+url: "https://github.com/Fisicas/PSI-contact-atlas/releases/tag/v1.1.0"
+license: ["CC-BY-4.0", "MIT"]
+abstract: "Heavy-atom separations around the photosystem I special pair, the P_A chlorophyll network and both A1 quinone sites in 22 deposited PDB structures (40 protomers, 160 scenes, 1,107 selected scene rows and 882 unique atom pairs). Includes an offline interactive viewer, homologous comparisons, coordinate crops, CSV tables, PyMOL scripts, archived inputs and reproducible checks. Optional unmasked sections and interactive experimental density cover 39 protomers and 156 scenes, with 208 clickable mesh previews and static image fallbacks. Experimental data for 1JB0 are unavailable. Deposited-model geometry, local-density, preparation and selection-scope qualifications remain explicit. This is a selected PSI contact atlas; the structural census is separate."
+keywords: ["photosystem I", "special pair", "P700", "phylloquinone", "A1 quinone", "heavy-atom contacts", "cryo-EM", "X-ray crystallography", "PyMOL"]
+date-released: "2026-11-20"

@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-52762">
+    <admin>
+        <current_status>
+            <date>2026-09-16</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2025-10-22">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-12-24">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>em_admin</category>
+                            <category>pdbx_validate_chiral</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_volume</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.journal_volume</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-09-16">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere_order</category>
+                            <category>pdbx_validate_chiral</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_chem_comp_atom.pdbx_stereo_config</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2026-09-16">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2025-02-06</deposition>
+            <header_release>2025-10-22</header_release>
+            <map_release>2025-10-22</map_release>
+            <update>2026-09-16</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/V002015/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/R001383/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/R00921X</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Leverhulme Trust</funding_body>
+                <code>RPG-2022-203</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Structure of Far-Red Photosystem I from C. thermalis PCC 7203</title>
+        <authors_list>
+            <author>Consoli G</author>
+            <author>Tufaill F</author>
+            <author>Murray JW</author>
+            <author>Fantuzzi A</author>
+            <author>Rutherford AW</author>
+        </authors_list>
+        <keywords>Chlorophyll f, Photosystem I, Far-red, cyanobacteria, PHOTOSYNTHESIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0009-0005-8681-9088" order="1">Consoli G</author>
+                    <author ORCID="0009-0007-3874-3917" order="2">Tufail F</author>
+                    <author ORCID="0009-0005-2058-9574" order="3">Leong HF</author>
+                    <author ORCID="0000-0003-0773-8158" order="4">Viola S</author>
+                    <author ORCID="0000-0002-6964-9196" order="5">Davis GA</author>
+                    <author ORCID="0009-0005-5851-9846" order="6">Rew N</author>
+                    <author ORCID="0009-0004-0476-4195" order="7">Medranda D</author>
+                    <author ORCID="0009-0001-3242-1585" order="8">Hofer M</author>
+                    <author ORCID="0000-0002-9632-555X" order="9">Simpson P</author>
+                    <author ORCID="0009-0007-0157-4152" order="10">Sandrin M</author>
+                    <author ORCID="0000-0003-4780-9686" order="11">Chachuat B</author>
+                    <author ORCID="0000-0003-1048-1330" order="12">Nelson J</author>
+                    <author ORCID="0000-0001-9245-3805" order="13">Renger T</author>
+                    <author ORCID="0000-0002-8897-0161" order="14">Murray JW</author>
+                    <author ORCID="0000-0002-7026-2175" order="15">Fantuzzi A</author>
+                    <author ORCID="0000-0002-3124-154X" order="16">Rutherford AW</author>
+                    <title>Locating the missing chlorophylls f in far-red photosystem I.</title>
+                    <journal_abbreviation>Science</journal_abbreviation>
+                    <country>US</country>
+                    <volume>390</volume>
+                    <first_page>eado6830</first_page>
+                    <last_page>eado6830</last_page>
+                    <year>2025</year>
+                    <external_references type="PUBMED">41066538</external_references>
+                    <external_references type="DOI">doi:10.1126/science.ado6830</external_references>
+                    <external_references type="ISSN">1095-9203</external_references>
+                    <external_references type="CSD">0038</external_references>
+                    <external_references type="ASTM">SCIEAS</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0003-3921-3209" order="17">Murray JW</author>
+                    <author ORCID="0000-0002-5052-991X" order="18">Afonine PV</author>
+                    <author order="19">Baker ML</author>
+                    <author order="20">Bunkoczi G</author>
+                    <author ORCID="0000-0003-2492-979X" order="21">Chen VB</author>
+                    <author order="22">Croll TI</author>
+                    <author ORCID="0000-0002-4871-2096" order="23">Hintze B</author>
+                    <author ORCID="0000-0001-6690-8458" order="24">Hung LW</author>
+                    <author order="25">Jain S</author>
+                    <author order="26">McCoy AJ</author>
+                    <author ORCID="0000-0001-8857-9464" order="27">Moriarty NW</author>
+                    <author ORCID="0000-0003-3107-2202" order="28">Oeffner RD</author>
+                    <author ORCID="0000-0001-9633-6067" order="29">Poon BK</author>
+                    <author order="30">Prisant MG</author>
+                    <author ORCID="0000-0001-8273-0047" order="31">Read RJ</author>
+                    <author ORCID="0000-0002-3311-2944" order="32">Richardson JS</author>
+                    <author order="33">Richardson DC</author>
+                    <author ORCID="0000-0002-8346-9247" order="34">Sammito MD</author>
+                    <author ORCID="0000-0002-0623-3214" order="35">Sobolev OV</author>
+                    <author order="36">Stockwell DH</author>
+                    <author ORCID="0000-0001-6384-0320" order="37">Terwilliger TC</author>
+                    <author order="38">Urzhumtsev AG</author>
+                    <author order="39">Videau LL</author>
+                    <author order="40">Williams CJ</author>
+                    <author ORCID="0000-0001-9333-8219" order="41">Adams PD</author>
+                    <title>Macromolecular structure determination using X-rays, neutrons and electrons: recent developments in Phenix</title>
+                    <journal_abbreviation>Acta Crystallogr., Sect. D: Biol. Crystallogr.</journal_abbreviation>
+                    <country>DK</country>
+                    <volume>75</volume>
+                    <first_page>861</first_page>
+                    <last_page>877</last_page>
+                    <year>2019</year>
+                    <external_references type="DOI">doi:10.1107/S2059798319011471</external_references>
+                    <external_references type="ISSN">0907-4449</external_references>
+                    <external_references type="CSD">0766</external_references>
+                    <external_references type="ASTM">ABCRE6</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9i9l</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-52762</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>Structure of Far-Red Photosystem I from C. thermalis PCC 7203</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>Far Red Photosystem I</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Far Red Photosystem I</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>Trimeric photosystem I from C. thermalis grown under far-red light condition.</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                    <cellular_location>thylakoyd membrane</cellular_location>
+                </natural_source>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.086382375</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTITPEREQKVRVVVDNDPVPTSPELWAKPGHFDRTLARGPKTTTWIWNLHANAHDFDTHTSDLEDISRKIFAAHFGHLA
+VIFIWLSGMYFHGAKFSNFEAWMANPTGVKPSAQVVWSLVGQDILNADVGGGFHGIQITSGLFQLWRAAGITNTFQLYCT
+AIGGLVMAAIMLFAGWFHYHKRAPKLEWFQNWEAMMNHHLAGLLGLGCLGWAGHQIHVALPVNKLLDAGVAIKDIPLPHE
+FILNTSLMAELYPSFAKGLVPFFTLQWGQYADFLTFKGGLNPVTGGLWLSDTAHHHLALAVLFIVAGHFYRTNWGIGHSF
+KEMLDDAKSPNMLPFLNFIGPVGHEGLDKIFETSWHANLSIHLVQFGTASLLVAHHMYAMPPYPYLATDYATALSLFTHH
+VWIAGFCIVGGAAHAAIFMVRDYDPAHHVNNILDRTLRHRDVIISHLAWVCQFLGFHSFAMYCHNDTMRAFGRPQDMFSD
+TGIQLQPIFAQWIQHIHTAAVGAAQVAQPLGDVFGGVRGIELSGLGTTAPGIGAPVSYAWGGGMVAVGGKVAMMPIALGT
+ADFLIHHIHAFTIHVTVLVLFKGVLFARGSRLVPDKANLGFRFPCDGPGRGGTCQVSAWDHVFLGLFWMYNSLSMVVFHF
+SWKMQSDVWGTVDSDGIVTHLTGGNFATSSITNNGWLRDFLWAQSAQVIQSYNSSLSAYGLMFLAGHFIFGFSLMFLFSG
+RGYWQELIESIVWAHNKLKVAPAIQPRALSIVHGRAVGVAHYLLGGIVTTWAFFLARMSAIG</string>
+                    <external_references type="UNIPROTKB">K9TWJ0</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I P700 chlorophyll a apoprotein A2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.083304703</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPKFSQDLAQDPTTRRIWYAMATAHDFELHDGMTEENLYQKIFASHFGHLAIIFLWASGVLFHVAWQGNFEQWIKD
+PLNVRPIAHAIWDAQFGPPAIEAFTRAGATNPVDICYSGVYHWWYTIGMRTNNELYVGAIFLLLLAALFLFAGWLHLQPR
+YRPTLGWFKSAEPRLNHHLAGLFGVSSLAWAAHLIHVAIPESRGQHVGWDNFLFTPPHPAGLGAFFTGNWSAYAQNPDTA
+QHVFNSSQGAGTAILTFLGGFHPQTQSLWLTDMAHHHVAIAVLFIIAGHMYRTNWGIGHSIKEMLNSKSFFGAKVEGPFN
+LPHQGLYDTINNSLHFQLSFALAALGVASSLTAQHMYSMPPYAFIGQDFTTQAALYTHHQYIAGFLMVGAFSHAGIFWIR
+DYDPEQNKGNVLDRMLRHKEAIISHLSWVSLFLGFHTLGLYVHNDVEVAFGAAEKQVLIEPVFAQFIQAAHGKALYGFNT
+LLSNPDSIASTAWPNHANVWLPGWLDAVNNTTNSLFLTIGPGDFYVHHAIALGLHVTTLVLVKGALDARGSKLMPDKKDF
+GYAFPCDGPGRGGTCDISAWDASYLAVFWMLNTLGWVTFYWHWKHLAIWEGNIAQFNESSTYLMGWFRDYLWLHSAQLIN
+GYNPYGTNSLAIWSWMFLWGHLAWAVSFMFLITWRGYWQELIETLVWAHEKTPLSFGYWRDKPVALSIVQARLVGLTHFT
+VGYIATYGAFLIASTAGKFG</string>
+                    <external_references type="UNIPROTKB">K9TVF3</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I iron-sulfur center</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008839231999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKAAQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA
+Y</string>
+                    <external_references type="UNIPROTKB">K9TVB5</external_references>
+                </sequence>
+                <ec_number>1.97.1.12</ec_number>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I reaction center subunit II</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015798022000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAETLEGQTPIFGGGTGGLLTKAEREEKYVITWTSPKEQVFEMPTGGSAIMRQGKNKLEIARKEYGIALGGQQLRAKFKI
+NDYKIYRVYPNGETQMIHPADGVFPEKVNQGRPKVRYVDRNIGSNPSPAKLKFSGVQPYDAP</string>
+                    <external_references type="UNIPROTKB">K9U6S7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit IV</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007634747999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVERGSKVRILRRESYWYQDVGLVASVDKSGIKYPVIVRFDKVNYAGVNTNNFADFELLEIEKPKA</string>
+                    <external_references type="UNIPROTKB">K9TYF8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit III</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017859723</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRRLLFTLAIAFVIWGSTIPTASAANSTLVPCSKSPAFQARMKNAPDTYYFNKPFKAYAKYELCGTDGLPHLPLDRLDRA
+TDVLVPIGLFLYVAGFIGWSGRSYLRATKSASDPEMKEIFIDLPLALQSISKAVLWPLLALQEFLSGDLTARDEEIPISP
+R</string>
+                    <external_references type="UNIPROTKB">K9TZX8</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit VIII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005879917</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVDMTQLTGSYAASWLPWIMIPLIFYILPFPVFALIFIWIEKEAGTADEEV</string>
+                    <external_references type="UNIPROTKB">K9TVX2</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I reaction center subunit IX</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0052974269999999995</theoretical>
+                </molecular_weight>
+                <details>Photosystem I reaction center subunit IX</details>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MQHVFKYLTLAPVMATFTMVALSVVLIMLQIWFPGLQYGTYFKPTP</string>
+                    <external_references type="UNIPROTKB">K9TYS7</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center subunit PsaK</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008201732</theoretical>
+                </molecular_weight>
+                <details>MTVPNTISWSPQVALIISASSLLILLIASRSIKYPQVGAKLPVNLPVLGSPSVGTFVASMAFGHVVGAGIVLGLSNLGWL</details>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTVPNTISWSPQVALIISASSLLILLIASRSIKYPQVGAKLPVNLPVLGSPSVGTFVASMAFGHVVGAGIVLGLSNLGWL</string>
+                    <external_references type="UNIPROTKB">K9TX25</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I reaction center subunit XI</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.019726335999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTNTANPSVESKLNYRLDTDPVQPYKGDPFNSNFSTAITDSPLARAFINNLPAYRKGLTPFMRGLEIGMAHGYFLVGPEV
+VVGPLRETAHGANLSGLITAIYIAVSACLGISIFAITTFQGDPRGAYGSTSKDSLRPLRNRDEWYQLNGGIFLGAMGGAV
+FAYLLLENFDALDSILRGGVNVN</string>
+                    <external_references type="UNIPROTKB">K9TX29</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Photosystem I reaction center subunit XII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003540284</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MMNISDTQVFVALVVALLPGLLAFRLATELYK</string>
+                    <external_references type="UNIPROTKB">K9TSY6</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Photosystem one PsaX</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003199871</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <recombinant_expression database="NCBI">
+                    <recombinant_organism ncbi="251229">Chroococcidiopsis thermalis PCC 7203</recombinant_organism>
+                </recombinant_expression>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>APFPFRTIVSLILLAGNILVAAIYFHIIN</string>
+                    <external_references type="UNIPROTKB">K9TUG4</external_references>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="13">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="14">
+                <name>Chlorophyll F</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0009054569999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>24</number_of_copies>
+                <formula>F6C</formula>
+            </ligand>
+            <ligand macromolecule_id="15">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>246</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="16">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="17">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>9</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="18">
+                <name>BETA-CAROTENE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>66</number_of_copies>
+                <formula>BCR</formula>
+            </ligand>
+            <ligand macromolecule_id="19">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>15</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="20">
+                <name>DODECYL-BETA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>9</number_of_copies>
+                <formula>LMT</formula>
+            </ligand>
+            <ligand macromolecule_id="21">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>15</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="22">
+                <name>EICOSANE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000282547</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>LFA</formula>
+            </ligand>
+            <ligand macromolecule_id="23">
+                <name>CALCIUM ION</name>
+                <molecular_weight>
+                    <theoretical units="MDa">4.0078e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>CA</formula>
+            </ligand>
+            <ligand macromolecule_id="24">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>405</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>7.0</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                    <details>monodispersed, good concentration</details>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>DIFFRACTION</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.6</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">4096</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">1.89</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>300000</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="864001">
+        <file>emd_52762.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>600</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>600</z>
+        </spacing>
+        <cell>
+            <a units="Å">469.96</a>
+            <b units="Å">469.96</b>
+            <c units="Å">469.96</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.29526043</minimum>
+            <maximum>1.1721215</maximum>
+            <average>0.00058302365</average>
+            <std>0.021367667</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.78326666</x>
+            <y units="Å">0.78326666</y>
+            <z units="Å">0.78326666</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.13</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-52762::::</label>
+        <annotation_details>main map</annotation_details>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_52762_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">469.96</a>
+                    <b units="Å">469.96</b>
+                    <c units="Å">469.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.334839</minimum>
+                    <maximum>1.464355</maximum>
+                    <average>0.00078539917</average>
+                    <std>0.03637007</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.78326666</x>
+                    <y units="Å">0.78326666</y>
+                    <z units="Å">0.78326666</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-52762::::</label>
+                <annotation_details>half map A</annotation_details>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_52762_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">469.96</a>
+                    <b units="Å">469.96</b>
+                    <c units="Å">469.96</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.34752396</minimum>
+                    <maximum>1.4537102</maximum>
+                    <average>0.00078327773</average>
+                    <std>0.03637984</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.78326666</x>
+                    <y units="Å">0.78326666</y>
+                    <z units="Å">0.78326666</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-52762::::</label>
+                <annotation_details>half map B</annotation_details>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

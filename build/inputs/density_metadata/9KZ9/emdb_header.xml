@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-62656">
+    <admin>
+        <current_status>
+            <date>2026-10-28</date>
+            <code>REL</code>
+            <processing_site>PDBj</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2025-11-26">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2025-12-31">
+                <change_list>
+                    <model>
+                        <revision_group>DATABASE_REFERENCES</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_citation_author.identifier_ORCID</item>
+                            <item>_citation_author.name</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>citation</category>
+                            <category>citation_author</category>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_citation.country</item>
+                            <item>_citation.journal_abbrev</item>
+                            <item>_citation.journal_id_CSD</item>
+                            <item>_citation.journal_id_ISSN</item>
+                            <item>_citation.journal_volume</item>
+                            <item>_citation.page_first</item>
+                            <item>_citation.page_last</item>
+                            <item>_citation.pdbx_database_id_DOI</item>
+                            <item>_citation.pdbx_database_id_PubMed</item>
+                            <item>_citation.title</item>
+                            <item>_citation.year</item>
+                            <item>_citation_author.identifier_ORCID</item>
+                            <item>_citation_author.name</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-08-12">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_atom</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_unobs_or_zero_occ_atoms</category>
+                            <category>pdbx_validate_chiral</category>
+                            <category>pdbx_validate_close_contact</category>
+                            <category>struct_conn</category>
+                            <category>struct_conn_type</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_chem_comp_atom.pdbx_stereo_config</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.2" date="2026-08-12">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+            <revision version="2.1" date="2026-10-28">
+                <change_list>
+                    <model>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere_order</category>
+                            <category>pdbx_validate_close_contact</category>
+                            <category>struct_conn</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.3" date="2026-10-28">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBj</deposition>
+            <last_processing>PDBj</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2024-12-10</deposition>
+            <header_release>2025-11-26</header_release>
+            <map_release>2025-11-26</map_release>
+            <update>2026-10-28</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Japan Society for the Promotion of Science (JSPS)</funding_body>
+                <code>JP22H04916</code>
+                <country>Japan</country>
+            </grant_reference>
+        </grant_support>
+        <title>Cryo-EM structure of PSI-ACPI from Rhodomonas sp. NIES-2332 at 2.08 angstroms resolution</title>
+        <authors_list>
+            <author>Zhang WY</author>
+            <author>Akita F</author>
+            <author>Shen JR</author>
+        </authors_list>
+        <keywords>photosynthesis complex, PHOTOSYNTHESIS</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author order="1">Zhang W</author>
+                    <author order="2">Yonehara N</author>
+                    <author order="3">Ishii M</author>
+                    <author order="4">Jiang H</author>
+                    <author order="5">La Rocca R</author>
+                    <author order="6">Tsai PC</author>
+                    <author order="7">Li H</author>
+                    <author order="8">Kato K</author>
+                    <author order="9">Akita F</author>
+                    <author order="10">Shen JR</author>
+                    <title>Structural analysis of PSI-ACPI and PSII-ACPII supercomplexes from a cryptophyte alga Rhodomonas sp. NIES-2332.</title>
+                    <journal_abbreviation>Front Plant Sci</journal_abbreviation>
+                    <country>CH</country>
+                    <volume>16</volume>
+                    <first_page>1716939</first_page>
+                    <last_page>1716939</last_page>
+                    <year>2025</year>
+                    <external_references type="PUBMED">41393888</external_references>
+                    <external_references type="DOI">doi:10.3389/fpls.2025.1716939</external_references>
+                    <external_references type="ISSN">1664-462X</external_references>
+                </journal_citation>
+            </primary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9kz9</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-62656</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>Cryo-EM structure of PSI-ACPI from Rhodomonas sp. NIES-2332 at 2.08 angstroms resolution</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>Photosystem I complex binding with 14 ACPIs</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Photosystem I complex binding with 14 ACPIs</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>1</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>2</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>3</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>6</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>7</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>8</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>9</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>10</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>13</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>14</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>15</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>16</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>17</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>18</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>19</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>20</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>21</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>22</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>23</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>24</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>25</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>26</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>27</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.838458</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I P700 chlorophyll a apoprotein A1</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.08344160899999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTISSKEQEAKKVSITVDRDPVATSFEKWAQPGHFSRTLAKGPKTTTWIWNLHADVHDFDSHTNSLEDISRKIFSAHFGQ
+LSIIFLWLSGMYFHGARFSNYSAWLSNPTAVKPSAQVVWPIVGQEILNGDVGGGFQGVQVTSGFFQIWRASGITSEVELY
+WCALAGLLMSGLMIFAGWFHYHKAAPKLEWFQNAESMLNHHLSGLLGLGCLSWAGHQIHISLPVNKLLDAGVAPQEIPLP
+HEFLVNRDLMAQLYPSFSKGLVPFFTLNWSEYSDFLTFKGGLNPVTGGLWLSDTAHHHLALAVLFIVAGHMYRTNWGIGH
+SMKEILEAHKGPFTGEGHKGLYEILTTSWHAQLAINLAMMGSVSIIVAHHMYAMPPYPYIATDYPTQLSIFTHHMWIGGF
+CVVGGAAHAGIFMVRDYNPAQNYNNLLDRVIRHRDAIISHLNWICIFLGFHSFGLYIHNDTMRALGRTQDMFSDTAIQLK
+PVFAQWVQSIHTLAPGNTTPNALATASYAFGGDVVAVGNKVAMMPISLGTADFMVHHIHAFTIHVTVLILLKGVLFSRNS
+RLIPDKANLGFRFPCDGPGRGGTCQSSAWDSVFLGLFWMYNCISVVIFHFSWKMQSDVWGTVQADGTVTHITGGNFAQSA
+ITINGWLRDFLWAQASQVIQSYGSALSAYGLIFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLNVAPAIQPRALS
+ITQGRAVGLAHYLLGGIGTTWAFFLARIISVG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I P700 chlorophyll a apoprotein A2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.082087664</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPKFSQALAQDPATRRIWYGLATAHDLESHDGMTEENLYQKIFASHFGHLAVIFLWTSGNLFHLAWQGNFEQWVLN
+PLKVKPIAHAIWDPHFGQPAVKAFTKGGVSYPVNIATSGVYHWWYTIGMRSNTDLYAGSLFLLFLAGVFLFAGWLHLQPK
+FRPGLSWFKNNESRLNHHLSGLFGFSSLAWSAHLIHVAIPEARGQHVGWDNFTKVAPHPAGLQPFFSGNWGVYAAAPDTT
+NHIFGTSEGAGTAILTFLGGFHPQTQALWLTDIAHHHLAIGVVFIFAGHMYRTNWGIGHSLKEILDAHRPPGGRLGAGHK
+GIFETLTNSLHFQLGLALASLGVITSLVAQHMYALPSYAFIAKDYVTQSALYTHHQYIAGFLMVGAFAHGAIFFVRDYDP
+EQNKNNVLARILDHKEAIISHLSWVSLFLGFHTLGIYVHNDVVVAFGTPEKQILVEPVFAQWIQASSGKALYGFDVFLSS
+SNSVATNASSNIWLPGWLEAINSGKNSLFLPIGPGDFLIHHAIALALHTTTLILVKGALDARGSKLMPDKKDFGYSFPCD
+GPGRGGTCDISAWDAFYLSMFWMLNTIGWVTFYWHWKHVTIWQGNAGQFNESSTYIMGWLRDYLWLNSSPLINGYNPFGM
+NSLSVWSWMFLFGHLIWATGFMFLISWRGYWQELIETLVWAHERTPLANLVRWKDKPVALSIVQARLVGLIHFTAGYIFT
+YAAFVIASTTGKFG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I iron-sulfur center</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008759131</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHSVKVYDTCIGCTQCVRACPCDVLEMVSWDGCKAGQIASAPRTEDCIGCKRCETACPTDFLSVRVYLGGETTRSMGLA
+Y</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I reaction center subunit II</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015585723999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAETLNLQIPSPTFEGSTGGWLRAAEVEEKYAITWTSPKEQVFEMPTGGAAIMRQGENLLYLARKEQCLALATQVKNSFK
+ITDYKVYRIFPSGEVQYLHPKDGVFPEKVNAGRVGVGNVSHSIGKNLNPAQIKFTSKSFNG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I reaction center subunit IV</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.007309363</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVKRGSKVRILRKESYWYQDIGTVATIDTSGIRYPVVVRFEKVSYSGVNTNNFSLDEVVEVVAK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I reaction center subunit III</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.020849226999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MEIFFVKNWVSMLLVCSFLAFPSLAKADVAGLTPCGESKEFARRLDGSVKKLQTRLKKYEAGTPPALALQKQIDKTKNRF
+DRYGKAGLLCGTDGLPHLIADGRWSHSGEFVIPGLFFLYVAGWIGWVGRSYVLFARTADKPTEKEIIIDVPVALSFVSTG
+FIWPFSAFKEFTSGNLIVPADEITVSPR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I reaction center subunit VIII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003628386</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTAAYLPSILVPIIGLIFPGLVMAFAFIYIEQD</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I reaction center subunit IX</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0049748119999999995</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MDSNFLKYLSTAPVLFTVWLSFTASFIIEANRFFPDMLYFPM</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I reaction center subunit XI</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.016489076000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSQFIKPYNDDPFVGNLATPVSTSSFTKSLLSNLPAYRAGLSPLLRGVEIGLTHGYFLVGPFYKLGPLRNSDVALLSGFF
+SALGLIIILVACLTIYGVVSFEETEAKDQLQTAKGWRQFTSGWLVGSVGGASFAYILISNIPFLQTAGMSMLK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I reaction center subunit XII</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0033180700000000002</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MISDTQIFIALILALVSLVLAIRLGRALYQ</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>PsaO</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015907449</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SSADMRTAVIFLAVLASASAFAPAAMPTQLGKPAAFTPSLRSARVAPSPLSVVAQSKFEVSDGTPYDLNVPLVGAASFIG
+WVVPTLLPSQIPLYGGKGLSTAFFASIGTNLAKFPAPPGMTDPFWLLCFIWHSGLFATMILGSIGYNGYAAKK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Photosystem I reaction center subunit PsaK</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008628179</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MNADLLIALVPQTVAWSAKTGAVMVLSNILCIVAGRYVIQVKGTGPSLPISGSFAGFGLPELLASTSLGHIVGSGAILGL
+SYVGVL</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="13">
+                <name>ACPI-s</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.031529</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>LTIAFSLTMRTSVLILAGVAVAQAFSPAVVSTGGLTSVRMAQAPPPASGKPLPKAKINCLEVNKKQWGIEGGAAAPGSAA
+PPAPKKAAVKKAAAAAGGAAVGFSGVPSQFGRPESGVYPAEPSEQTFLGMRGPRAPGHRENFGGKHTATMLAIAALLWQP
+VSEAGMYRMQGDGSLTKTSFNEFEVPGFGNAKKVPTIESLFPFSSKGFDASPVLFGKNSMIVVEDPRDGCGAYANSGSCH
+TFLDEIGDALKASPETLPRSEGKATYSFPWMYEHVRGRSRLAVSQLGATQSLSLWVSPVRVW</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="14">
+                <name>ACPI-c</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023785516</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLRTALIAACVASASAFAPGFAPMAMKSRSSAVSSMRMQEGDFSAAVPFLKRPTNLDGQYIGDVGFDPLGFSDVFDLRVL
+REAELKHGRFAMLATLGFIVQELYTFPFFPKMAPVDAHDYFVKQGGGSQIIFWISFVELFGVVALFETLQGKREPGDFAF
+DPLGLAKDEATLERYRLAEVKHARLAMIAIGGFIHQYWVTKQTVLEQLGNFKSLA</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="15">
+                <name>ACPI-a</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023380866999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MMRAVLVLATGVASASAFAPAANFAGLSTSSRAAIARGPRMQEMSEAIPFLPKPANIDASMPGYSGFDPLGFSDYYNVKW
+MQEAEIKHGRICMLAALGMMFPEFGTLPQFSSFSTNPLEAFYQVGPAGWGQILLFIGVLESFSYEKVFYGDSAPGDLGFD
+PLRMSSNAASAKHYARAEVMNGRLAMIGFSGMLHHAILTKQGPITQIVEQNFVPGAR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="16">
+                <name>ACPI-b</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024814875</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MLRNVLIAACVAGTAAFTASPALFRAGAVTRATSGISGMQMQAKSKAVPFLSQPEALDGSMAGDVGFDPFGFSSNFDLKW
+LREAELKHGRICMLAATGCLVQEVVHLPGEAFSQKMALNAWAAAPRGGMISILVAIGLIELISNRFALTATDMFANPNRV
+PGDLGFDPLSLGGNGANRARMELAEITHGRAAMMGFSGMVHQMLVSKQAPIEQLMHFKAVDSSMMKLGGAAGNLGY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="17">
+                <name>ACPI-h</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023646421999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SMLRSAVALALVAGATAFAPGAMGPGLQLRAQGAAQRAPARAGLSSLSMAQNPMSKAVADFAESSPEFGGRGLGVTVNAE
+RWNGRHAMFGIFAMVMTSYMKGHGLIPDADKILDVAQWGSLASVWDGAGNGISNERAIILIAHVHVLVVSVIAAVAPFGF
+QDTLVKEKGYTPEAPAGLIPPFKTGLTPEAELINGRLAMLGIISIVTASVFTGTPVVDTINLGMGKILY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="18">
+                <name>ACPI-m,f,j</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022379063999999997</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TVAAVACVASAAAFAPSAPMGVKASTRAVSKIGPRMQAMSDSVPFLKQPEALDGSMAGDVGFDPLGFSSIGDINFLREAE
+LKHGRIAMLAAAGSIAQDIFTFPGVSKVVGTAKMTGVHDILVKQGAMGQLLLWLSFLEVFGTIALLETLDGKRAPGDFKF
+DPLNFSKNPETFKRYQLAEIKNGRLAMMGVGGMVHGYFITGKGPLELLGNFK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="19">
+                <name>ACPI-e</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022654331999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>TMFRLTLLACVASASAFAPSALLPSSGVRVAKTGMRMQENLAIPFLKAPANLDSSMPGYAGFDPLGFSDNYDIKWLQESE
+LKHGRVAMLGVVGLLVPEFVHLPMYDAASTPYDAYTTVPAFALTQILMGCGIHEFRTHKGKMSPDNMFDDGRAPGDFGWG
+KGKADAVMATKEIKNGRLAMLAFGGILHQQLLTKMGTIAHLTGGFKPLEF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="20">
+                <name>ACPI-l</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.018985741999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>DNAMPFLEGPPKLDGSLAGDVGFDPVGFSNYFDIRWLREAELKHGRVCMLGVTGLLVQEAICLPQFANGKTPVDDFFVVP
+AAGLWQVFFTIGAVEFFSNGFKLTPGDMFSEGREAGDLGFDPLGCGKNPDALARRRLVEVKNGRLAMIAFGGMLHQQLLT
+GQGTLEQLANFKAIN</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="21">
+                <name>ACPI-k</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.024658832</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AASAFAPAALPSMARTTARSGVTMQLYKDGVMQGKGLVAVPFALAPDSLPADIPGYVGFDPLGLSTLCNLDFLREAEIKH
+GRVAMLAVTGSLVQDVFQFPGVDKVIGNAKMIGAHDKFIAGAHAGDTRSFAMHQIIFWVGLLEVLTMPALFETMNGGPRQ
+PGDFKFDPLGLGKGDKLARKQLTEIKNGRLAMIGVGGMVHHYLLTGKGPLQFLAGIPNYKSCIDPHMGPLCQ</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="22">
+                <name>ACPI-i</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.021402548999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>LLQGSGRTAAVSGLSGMKMQDMSASVPFLPRPAALDGSMVGDVGFDPLGFTTKYDIKWLREAELKHGRVCMLASLGCIVQ
+EFVHLPSEATSNPVASEAFFQVPAGGLWQIFAAIGIIEHFSNNFKMSGSTMFSDGRAPGDLSFDPLNFGKNPSARARYEL
+AEIKNGRLAMMGFSGMIHGCFITGKGPLGALGSLDWHQSF</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="23">
+                <name>ACPI-d</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023069039</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>LPPAMFRLSLCAAIVASASAFAPSSVLPTATRRAGAVSAMKMQMPVAIPPLGRPETDMFDGSVPGDAGFDPLVISGWLDS
+RWLREAEVKHGRVAMLAAAGCIAQDLFTFPGVTQVFSPGTKMSALHDAAVKAGSMQQMLWPIAILETISIAATIQMLQGS
+GRAPGDFGFDPLGLGKGAKAERMALCEIKNGRLAMIGFSGMMHHYFITGKGPIELLTSR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="24">
+                <name>ACPI-g</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.022954898</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>AKSKAIPFLDAPPALSESMPGYVGFDPLWVSSMLPDAGYVKFLQEAEIKHGRVAMLAAAGAIVQDIFTFPGVTSVIGNVK
+MTSVHDTFLSMEGPGKGNQAAMHQLLLWLGILEIATSVAIIQSFKGETNRAPGDFGFDPLGFSKKAGAETMALKEIKNGR
+LAMIGIGGMVHHYLLTGKGPLQFLGGIPNYKSCVSHPDSLLPWLIKPVGAVLPKIC</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="25">
+                <name>PsaR</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.013949041999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>SFAMAALRCTVLLLAVASASAFVSGPATLALRSNPRAAISRGPQMYSPVPSPEGTKEVYWETKAPSSDVLGIGAGVSSGN
+FAASSVVALMIGGFCTGQVIPLTSDPNPLFLIGSFLLPYSWALHVAAWIQKNNGK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="26">
+                <name>ACPI-n</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.02306983</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>LRSVAVCACLASAAAFAPSAVLPRAATRAAALRGPSMQLYKDGKMQGKGVNIIPVFARPDSLDGTIPGDQGFDPFGFSSW
+VNMKFVSEAEIKHGRLAMLAFAGIMVESIGISFPGATSILGDSKDIFEIHNKAVESGAMGQILLWVGFIEACVGVPAMNE
+MLSGETSRMPGDFGFDPLGLGKGDKLARKQLVEVTNGRLAMLAVSGIVHHTIITGKGPLQ</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="27">
+                <name>PsaQ</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2867507">Rhodomonas sp. NIES-2332</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.023676062</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>YVALAAASAEAFSSPALSGLKMSAEPTQISRKDLLSTAAAGIIAVPAIAGAASLDPKTGFPVQSGGRDTLCGGSASAGCQ
+PMTQAASITDKQKTVLAGKITVAANKVPVLTAAVEKMKSGKKPKMDRDYVLRFSALYLTTLVDAMDQYCLRDANGAKAAG
+GAGIPKVGGFKSTLAPSSASALYGNVDSIKEDMQTIRDAAFKGDFDGVIKAAGDIQTSATAFLGQANPPIVFN</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="28">
+                <name>CHLOROPHYLL A ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>CL0</formula>
+            </ligand>
+            <ligand macromolecule_id="29">
+                <name>CHLOROPHYLL A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000893489</theoretical>
+                </molecular_weight>
+                <number_of_copies>255</number_of_copies>
+                <formula>CLA</formula>
+            </ligand>
+            <ligand macromolecule_id="30">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="31">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>22</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="32">
+                <name>1,3,3-trimethyl-2-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-3,7,12,16-tetramethyl-18-[(1R)-2,6,6-trimethylcyclohex-2-en-1-yl]octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]cyclohexene</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>29</number_of_copies>
+                <formula>WVN</formula>
+            </ligand>
+            <ligand macromolecule_id="33">
+                <name>DODECYL-ALPHA-D-MALTOSIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000510615</theoretical>
+                </molecular_weight>
+                <number_of_copies>5</number_of_copies>
+                <formula>LMU</formula>
+            </ligand>
+            <ligand macromolecule_id="34">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="35">
+                <name>1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007951159999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>1</number_of_copies>
+                <formula>SQD</formula>
+            </ligand>
+            <ligand macromolecule_id="36">
+                <name>DIGALACTOSYL DIACYL GLYCEROL (DGDG)</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0009492989999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>2</number_of_copies>
+                <formula>DGD</formula>
+            </ligand>
+            <ligand macromolecule_id="37">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>9</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="38">
+                <name>(1~{R})-3,5,5-trimethyl-4-[(3~{E},5~{E},7~{E},9~{E},11~{E},13~{E},15~{E})-3,7,12,16-tetramethyl-18-[(4~{R})-2,6,6-trimethyl-4-oxidanyl-cyclohexen-1-yl]octadeca-3,5,7,9,11,13,15-heptaen-1,17-diynyl]cyclohex-3-en-1-ol</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00056484</theoretical>
+                </molecular_weight>
+                <number_of_copies>58</number_of_copies>
+                <formula>II0</formula>
+            </ligand>
+            <ligand macromolecule_id="39">
+                <name>(1~{R})-3,5,5-trimethyl-4-[(3~{E},5~{E},7~{E},9~{E},11~{E},13~{E},15~{E},17~{E})-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-3,5,7,9,11,13,15,17-octaen-1-ynyl]cyclohex-3-en-1-ol</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000550856</theoretical>
+                </molecular_weight>
+                <number_of_copies>12</number_of_copies>
+                <formula>IHT</formula>
+            </ligand>
+            <ligand macromolecule_id="40">
+                <name>Chlorophyll c2</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000608926</theoretical>
+                </molecular_weight>
+                <number_of_copies>20</number_of_copies>
+                <formula>KC2</formula>
+            </ligand>
+            <ligand macromolecule_id="41">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>422</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <buffer>
+                        <ph>6.5</ph>
+                    </buffer>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>FLOOD BEAM</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_defocus_min units="µm">0.2</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">1.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>FEI FALCON IV (4k x 4k)</film_or_detector_model>
+                            <average_electron_dose_per_image units="e/Å^2">50.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="PDB ENTRY">
+                    <pdb_model>
+                        <pdb_id>8WM6</pdb_id>
+                    </pdb_model>
+                </startup_model>
+                <final_reconstruction>
+                    <applied_symmetry>
+                        <point_group>C1</point_group>
+                    </applied_symmetry>
+                    <resolution units="Å" res_type="BY AUTHOR">2.08</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <number_images_used>38563</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>NOT APPLICABLE</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="864001">
+        <file>emd_62656.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>600</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>600</z>
+        </spacing>
+        <cell>
+            <a units="Å">436.2</a>
+            <b units="Å">436.2</b>
+            <c units="Å">436.2</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.15459506</minimum>
+            <maximum>0.4386637</maximum>
+            <average>0.00009800071</average>
+            <std>0.010828212</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">0.727</x>
+            <y units="Å">0.727</y>
+            <z units="Å">0.727</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.032</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-62656::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_62656_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.2</a>
+                    <b units="Å">436.2</b>
+                    <c units="Å">436.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.5901237</minimum>
+                    <maximum>0.82823473</maximum>
+                    <average>0.00019957598</average>
+                    <std>0.076815985</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.727</x>
+                    <y units="Å">0.727</y>
+                    <z units="Å">0.727</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-62656::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_62656_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">436.2</a>
+                    <b units="Å">436.2</b>
+                    <c units="Å">436.2</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.5524787</minimum>
+                    <maximum>0.96697354</maximum>
+                    <average>0.00020386888</average>
+                    <std>0.07644824</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">0.727</x>
+                    <y units="Å">0.727</y>
+                    <z units="Å">0.727</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-62656::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

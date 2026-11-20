@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scene_fields_except_notes": 160,
+  "comparison_values_unchanged": 1617,
+  "source_download_media_and_viewer_files_unchanged": 1197,
+  "published_HEAD": "f57f8bc7e6228f025f8b89d24e4f5a061c4be2a3",
+  "published_clean": true,
+  "published_file_hashes_checked": 593,
+  "scope": "rc.2 ZIP versus current rc.3 scientific identity; all molecular coordinates/contacts/cameras/labels unchanged; scientific notes/version/context intentionally changed. No external mutation."
+}

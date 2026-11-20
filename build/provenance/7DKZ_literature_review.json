@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-20",
+  "primary_DOI": "10.1111/jipb.13095",
+  "version": "32-page Accepted Article from user library; not final typeset Version of Record",
+  "source_sha256": "43fb2d7cd6dec729ee30a3cf2fca95c0c98256d8fb2efee262f10e6e168fbb6d",
+  "pages": 32,
+  "searched_patterns": [
+    "quinone",
+    "phyllo",
+    "bent",
+    "non.?plan",
+    "pucker",
+    "distort",
+    "ligand",
+    "restrain",
+    "cultivar",
+    "grown",
+    "growth",
+    "4XK8"
+  ],
+  "match_counts": {
+    "grown": 2,
+    "4XK8": 49,
+    "ligand": 2
+  },
+  "visual_pages_inspected": [
+    16,
+    17,
+    18,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "finding": "No discussion of bent/nonplanar quinones found in the complete accepted manuscript and supplementary information examined. Final typeset main article remains unchecked.",
+  "refinement_method": "4XK8 search model excluded cofactors, lipids and detergents; cofactors incorporated in Coot before phenix.refine.",
+  "curator_status": "Coordinates checked; interpretations in progress; no physical or causal explanation established.",
+  "copyright": "Original local PDF and rendered paper pages are not redistributed with the website.",
+  "supplement": {
+    "sha256": "b715ca4f3759ec902021410d23cef79861452e48a73f0847c67fa7eb7be1057f",
+    "pages": 7,
+    "visual_pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "finding": "No discussion of quinone bending/nonplanarity or dedicated A1 quinone density panel found; S5 shows lipid, chlorophyll and carotenoid density."
+  },
+  "resupplied_main_pdf": {
+    "sha256": "43fb2d7cd6dec729ee30a3cf2fca95c0c98256d8fb2efee262f10e6e168fbb6d",
+    "pages": 32,
+    "identical_to_previously_reviewed_accepted_article": true
+  }
+}

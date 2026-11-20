@@ -39,6 +39,30 @@
   "file": "inputs/structures/7COY.cif.gz",
   "retrieved": "before 2026-10-16 (curated build)"
  },
+ "7DKZ": {
+  "revision": "3.1",
+  "revision_date": "2026-09-16",
+  "sha256": "5b6dcd3c508c05486fc14f3434e2253924091fb43978fb5784f9b247a65a40bc",
+  "url": "https://files.rcsb.org/download/7DKZ.cif",
+  "file": "inputs/structures/7DKZ.cif.gz",
+  "retrieved": "2026-11-19"
+ },
+ "8WEY": {
+  "revision": "2.2",
+  "revision_date": "2026-09-23",
+  "sha256": "3f48324987ba2cef77de58ad96ff2e8f7393e779a6d0cb2b0586095498da0a4c",
+  "url": "https://files.rcsb.org/download/8WEY.cif",
+  "file": "inputs/structures/8WEY.cif.gz",
+  "retrieved": "2026-11-19"
+ },
+ "8XLS": {
+  "revision": "2.0",
+  "revision_date": "2026-08-12",
+  "sha256": "073b7f4dc8456e1130a05f4836e76a4408057767bb983ebe1641e64e7b1f48f6",
+  "url": "https://files.rcsb.org/download/8XLS.cif",
+  "file": "inputs/structures/8XLS.cif.gz",
+  "retrieved": "2026-11-20"
+ },
  "9AU4": {
   "revision": "1.1",
   "revision_date": "2026-08-12",
@@ -55,6 +79,14 @@
   "file": "inputs/structures/9EYS.cif.gz",
   "retrieved": "before 2026-10-16 (curated build)"
  },
+ "9HYU": {
+  "revision": "2.0",
+  "revision_date": "2026-09-16",
+  "sha256": "3f3f899418e2d7170a224da41ba51bd1c5b3328961e3982b92befaddbf035457",
+  "url": "https://files.rcsb.org/download/9HYU.cif",
+  "file": "inputs/structures/9HYU.cif.gz",
+  "retrieved": "2026-11-20"
+ },
  "9I9L": {
   "revision": "1.0",
   "revision_date": "2025-10-22",
@@ -62,6 +94,22 @@
   "url": "https://files.rcsb.org/download/9I9L.cif",
   "file": "inputs/structures/9I9L.cif.gz",
   "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9KZ9": {
+  "revision": "2.1",
+  "revision_date": "2026-10-28",
+  "sha256": "71aba16a0a4e45fd2af27411880a39914d64e0a9129a24080a132a93761d33ad",
+  "url": "https://files.rcsb.org/download/9KZ9.cif",
+  "file": "inputs/structures/9KZ9.cif.gz",
+  "retrieved": "2026-11-20"
+ },
+ "9LUT": {
+  "revision": "2.2",
+  "revision_date": "2026-09-23",
+  "sha256": "8702fc17b1455510e3a217b24e560770165a07f654cfa4f3e1205e884fecbd72",
+  "url": "https://files.rcsb.org/download/9LUT.cif",
+  "file": "inputs/structures/9LUT.cif.gz",
+  "retrieved": "2026-11-19"
  },
  "9OY9": {
   "revision": "1.0",
@@ -95,6 +143,14 @@
   "file": "inputs/structures/9S6P.cif.gz",
   "retrieved": "before 2026-10-16 (curated build)"
  },
+ "9SE6": {
+  "revision": "2.0",
+  "revision_date": "2026-09-16",
+  "sha256": "bd2a215c514ef08073992c46bcb9e5e715bfd77fec5572912837d9e10141b502",
+  "url": "https://files.rcsb.org/download/9SE6.cif",
+  "file": "inputs/structures/9SE6.cif.gz",
+  "retrieved": "2026-11-19"
+ },
  "9SK3": {
   "revision": "1.0",
   "revision_date": "2026-07-08",
@@ -102,6 +158,14 @@
   "url": "https://files.rcsb.org/download/9SK3.cif",
   "file": "inputs/structures/9SK3.cif.gz",
   "retrieved": "before 2026-10-16 (curated build)"
+ },
+ "9UH3": {
+  "revision": "2.2",
+  "revision_date": "2026-09-23",
+  "sha256": "5cebfafe132e8f576ee14166fc74141ff487d4e9a9cd75ae5d429e412e439e91",
+  "url": "https://files.rcsb.org/download/9UH3.cif",
+  "file": "inputs/structures/9UH3.cif.gz",
+  "retrieved": "2026-11-20"
  },
  "9YL7": {
   "revision": "1.0",

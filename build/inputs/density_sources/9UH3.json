@@ -1,0 +1,42 @@
+{
+ "pdb": "9UH3",
+ "method": "Cryo-EM",
+ "protomers": [
+  1
+ ],
+ "state": "source_ready",
+ "records": [
+  {
+   "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-64153",
+   "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-64153",
+   "file": "raw_maps/9UH3/emdb_entry.json",
+   "bytes": 67463,
+   "sha256": "6b44ff645cac090254d5b4f7da513bb731d2b5b4f5d2427985bd992f552d0921",
+   "retrieved_utc": "2026-11-20T05:09:41.068861+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-64153/header/emd-64153.xml",
+   "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-64153/header/emd-64153.xml",
+   "file": "raw_maps/9UH3/emdb_header.xml",
+   "bytes": 45992,
+   "sha256": "e66111b0d345ad435c427bbbba1b8d73e5637962a9cba24591a56528df78470c",
+   "retrieved_utc": "2026-11-20T05:09:41.469527+00:00"
+  },
+  {
+   "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-64153/map/emd_64153.map.gz",
+   "file": "raw_maps/9UH3/primary.map.gz",
+   "bytes": 816059297,
+   "sha256": "9bb9c89333d48f4d420a14e65a3627ae144747db81d4867edd88cfdbf267d4a8",
+   "retrieved_utc": "2026-11-20T05:47:25.347130+00:00",
+   "method": "Lossless full-file completion from preserved task-owned prefix plus ETag-bound HTTP byte ranges; not downsampling or quantization.",
+   "etag": "\"30a413a1-64dba5b394680\"",
+   "last_modified": "Tue, 24 Mar 2026 00:37:30 GMT",
+   "gzip_stream_crc_validated": true,
+   "uncompressed_bytes": 864001024
+  }
+ ],
+ "emdb": "EMD-64153",
+ "metadata_file": "raw_maps/9UH3/emdb_entry.json",
+ "map_file": "raw_maps/9UH3/primary.map.gz",
+ "map_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-64153/map/emd_64153.map.gz"
+}

@@ -1,0 +1,6 @@
+contact_id,view,pdb,protomer,part,atom_1,atom_2,label_asym_1,label_asym_2,distance_A,contact_class,chemical_basis,curated_annotation,occupancy_1,occupancy_2,B_iso_1,B_iso_2
+8XLS.p1.MET:A:685:O~PQN:A:845:O1,8XLS_prot1_A1A,8XLS,1,A1A,PQN:A:845:O1,MET:A:685:O,JB,A,3.30050,acceptor_pair,acceptor–acceptor; neither atom carries a hydrogen,derived by homology,1.0,1.0,35.19,33.39
+8XLS.p1.PQN:A:845:O1~SER:A:689:OG,8XLS_prot1_A1A,8XLS,1,A1A,PQN:A:845:O1,SER:A:689:OG,JB,A,3.22991,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.19,29.59
+8XLS.p1.PQN:A:845:O1~TRP:A:694:NE1,8XLS_prot1_A1A,8XLS,1,A1A,PQN:A:845:O1,TRP:A:694:NE1,JB,A,3.39086,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.19,27.92
+8XLS.p1.LEU:A:719:N~PQN:A:845:O4,8XLS_prot1_A1A,8XLS,1,A1A,PQN:A:845:O4,LEU:A:719:N,JB,A,2.88934,polar,donor–acceptor compatible,derived by homology,1.0,1.0,33.81,32.22
+8XLS.p1.PHE:A:686:N~PQN:A:845:O1,8XLS_prot1_A1A,8XLS,1,A1A,PQN:A:845:O1,PHE:A:686:N,JB,A,3.43029,polar,donor–acceptor compatible,derived by homology,1.0,1.0,35.19,27.98

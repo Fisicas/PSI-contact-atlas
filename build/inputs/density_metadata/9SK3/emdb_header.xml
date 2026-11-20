@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ftp.ebi.ac.uk/pub/databases/em_ebi/emdb_related/emdb-schemas/emdb_schemas/v3/v3_0_11_7/emdb.xsd" version="3.0.11.7" emdb_id="EMD-54956">
+    <admin>
+        <current_status>
+            <date>2026-09-02</date>
+            <code>REL</code>
+            <processing_site>PDBe</processing_site>
+        </current_status>
+        <revision_history>
+            <revision version="1.0" date="2026-07-08">
+                <change_list>
+                    <model>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </model>
+                    <metadata>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </metadata>
+                    <fsc>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </fsc>
+                    <half_map part="1">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <half_map part="2">
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </half_map>
+                    <image>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </image>
+                    <primary_map>
+                        <revision_type>INITIAL_RELEASE</revision_type>
+                        <provider>REPOSITORY</provider>
+                    </primary_map>
+                </change_list>
+            </revision>
+            <revision version="2.0" date="2026-09-02">
+                <change_list>
+                    <model>
+                        <revision_type>REMEDIATION</revision_type>
+                        <provider>REPOSITORY</provider>
+                        <description>Metalloprotein remediation</description>
+                        <revision_group>STRUCTURE_SUMMARY</revision_group>
+                        <categories>
+                            <category>chem_comp</category>
+                            <category>chem_comp_bond</category>
+                            <category>em_admin</category>
+                            <category>pdbx_modification_feature</category>
+                            <category>pdbx_nonpoly_atom_coordination</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere</category>
+                            <category>pdbx_nonpoly_atom_coordination_sphere_order</category>
+                            <category>pdbx_struct_conn_angle</category>
+                            <category>pdbx_validate_close_contact</category>
+                            <category>struct_conn</category>
+                            <category>struct_conn_type</category>
+                        </categories>
+                        <items>
+                            <item>_chem_comp.formula</item>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </model>
+                </change_list>
+            </revision>
+            <revision version="1.1" date="2026-09-02">
+                <change_list>
+                    <metadata>
+                        <revision_group>EXPERIMENTAL_SUMMARY</revision_group>
+                        <categories>
+                            <category>em_admin</category>
+                        </categories>
+                        <items>
+                            <item>_em_admin.last_update</item>
+                        </items>
+                    </metadata>
+                </change_list>
+            </revision>
+        </revision_history>
+        <sites>
+            <deposition>PDBe</deposition>
+            <last_processing>PDBe</last_processing>
+        </sites>
+        <key_dates>
+            <deposition>2025-09-01</deposition>
+            <header_release>2026-07-08</header_release>
+            <map_release>2026-07-08</map_release>
+            <update>2026-09-02</update>
+        </key_dates>
+        <grant_support>
+            <grant_reference>
+                <funding_body>Netherlands Organisation for Scientific Research (NWO)</funding_body>
+                <code>714.018.001</code>
+                <country>Netherlands</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>European Research Council (ERC)</funding_body>
+                <code>101141764</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>UK Research and Innovation (UKRI)</funding_body>
+                <code>MR/T017546/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>UK Research and Innovation (UKRI)</funding_body>
+                <code>MR/T017546/2</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>UK Research and Innovation (UKRI)</funding_body>
+                <code>MR/Y011635/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/X019284/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>H2020 Marie Curie Actions of the European Commission</funding_body>
+                <code>955520</code>
+                <country>European Union</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/R001383/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/V002015/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/R00921X</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Biotechnology and Biological Sciences Research Council (BBSRC)</funding_body>
+                <code>BB/Z516740/1</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+            <grant_reference>
+                <funding_body>Leverhulme Trust</funding_body>
+                <code>RPG-2022-203</code>
+                <country>United Kingdom</country>
+            </grant_reference>
+        </grant_support>
+        <title>Trimeric photosystem I of Acaryochloris marina NIES-2412</title>
+        <authors_list>
+            <author>Leong HF</author>
+            <author>Consoli G</author>
+        </authors_list>
+        <keywords>Chlorophyll d, photosystem I, ELECTRON TRANSPORT</keywords>
+    </admin>
+    <crossreferences>
+        <citation_list>
+            <primary_citation>
+                <journal_citation published="true">
+                    <author ORCID="0000-0001-7255-4609" order="1">Oliver TJ</author>
+                    <author ORCID="0000-0002-2048-5629" order="2">Elias E</author>
+                    <author ORCID="0009-0005-8681-9088" order="3">Consoli G</author>
+                    <author ORCID="0009-0005-2058-9574" order="4">Leong HF</author>
+                    <author ORCID="0000-0002-9849-885X" order="5">Cordon-Preciado V</author>
+                    <author ORCID="0000-0002-7026-2175" order="6">Fantuzzi A</author>
+                    <author ORCID="0000-0003-2076-4115" order="7">Cardona T</author>
+                    <author ORCID="0000-0002-3124-154X" order="8">Rutherford AW</author>
+                    <author ORCID="0000-0003-3469-834X" order="9">Croce R</author>
+                    <title>Far-red chlorophyll d clusters extend photosystem I absorption toward the red limit.</title>
+                    <journal_abbreviation>Sci Adv</journal_abbreviation>
+                    <country>US</country>
+                    <volume>12</volume>
+                    <first_page>eaed7355</first_page>
+                    <last_page>eaed7355</last_page>
+                    <year>2026</year>
+                    <external_references type="PUBMED">42268959</external_references>
+                    <external_references type="DOI">doi:10.1126/sciadv.aed7355</external_references>
+                    <external_references type="ISSN">2375-2548</external_references>
+                </journal_citation>
+            </primary_citation>
+            <secondary_citation>
+                <journal_citation published="true">
+                    <author order="10">Pettersen EF</author>
+                    <author order="11">Goddard TD</author>
+                    <author order="12">Huang CC</author>
+                    <author order="13">Meng EC</author>
+                    <author order="14">Couch GS</author>
+                    <author order="15">Croll TI</author>
+                    <author order="16">Morris JH</author>
+                    <author order="17">Ferrin TE</author>
+                    <title>UCSF ChimeraX: Structure visualization for researchers, educators, and developers</title>
+                    <journal_abbreviation>Protein Sci.</journal_abbreviation>
+                    <country>US</country>
+                    <year>2018</year>
+                    <external_references type="PUBMED">28710774</external_references>
+                    <external_references type="DOI">doi:10.1002/pro.3943</external_references>
+                    <external_references type="ISSN">0961-8368</external_references>
+                    <external_references type="CSD">0353</external_references>
+                    <external_references type="ASTM">PRCIEI</external_references>
+                </journal_citation>
+            </secondary_citation>
+        </citation_list>
+        <pdb_list>
+            <pdb_reference>
+                <pdb_id>9sk3</pdb_id>
+                <relationship>
+                    <in_frame>FULLOVERLAP</in_frame>
+                </relationship>
+            </pdb_reference>
+        </pdb_list>
+        <other_db_list>
+            <db_reference>
+                <db_name>PDB-Dev</db_name>
+                <accession_id>pdb_00009S6P</accession_id>
+                <content_type>focused EM volume</content_type>
+                <details>wwPDB deposition of the model built using the locally refined map on one monomer out of the homotrimer</details>
+            </db_reference>
+            <db_reference>
+                <db_name>EMDB</db_name>
+                <accession_id>EMD-54956</accession_id>
+                <content_type>associated EM volume</content_type>
+                <details>Trimeric photosystem I of Acaryochloris marina NIES-2412</details>
+            </db_reference>
+        </other_db_list>
+    </crossreferences>
+    <sample>
+        <name>Trimeric PSI</name>
+        <supramolecule_list>
+            <complex_supramolecule supramolecule_id="1">
+                <name>Trimeric PSI</name>
+                <parent>0</parent>
+                <macromolecule_list>
+                    <macromolecule>
+                        <macromolecule_id>4</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>5</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>11</macromolecule_id>
+                    </macromolecule>
+                    <macromolecule>
+                        <macromolecule_id>12</macromolecule_id>
+                    </macromolecule>
+                </macromolecule_list>
+                <details>trimeric photosystem I from A. marina NIES - 2412</details>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina</organism>
+                    <strain>NIES-2412</strain>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.922</theoretical>
+                </molecular_weight>
+            </complex_supramolecule>
+        </supramolecule_list>
+        <macromolecule_list>
+            <protein_or_peptide macromolecule_id="1">
+                <name>Photosystem I protein PsaA</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.083573766</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTNSPGGPETKGRTAEVDINPVKASLEVAGKPGHFNKSLSKGPQTTTWIWNLHALAHDFDTQTNDLEEISRKIFSAHFGH
+LAIVFVWISGMIFHAARFSNYYAWLADPLGNKPSAHVVWPIVGQDILNADVGNGFHGIQITSGLFHILRGAGMTAPIELY
+STSIGALVAAAVTMYAGYFHYHKKAPKLEWFQNAEATIGGHLINLLGLGNLAWTGHLIHVSLPINKMLDSGMAPEDIPIP
+HEYLLDKAFMADLYPSFAQGLAPYFTLNWGVYSDFLTFKGGLDPQTGGLWMTDIAHHHLALAVMYIIAGHMYRTNWGIGH
+HMREIMDAHKGPFTGEGHKGLYDVLTTSWHAQLAINLACWGSFSIVCAHHMYAMPPYPYLATDYATQLNLFVHHMWLGGF
+YIVGGAAHAAIFMVRDYDPAMNQNNVLDRMLRHRDTIIAHLNWVCLFLGFHSFDLYIHNDEMRSLGRPQDMFSDTAIQLQ
+PIFAQWVQNLQANVAGTIRAPLAEGATSLAWGGDPMFVGGKVAMQHVSLGTADFMIHHIHAFQIHVTVLILLKGVLYARS
+SRLIPDKASLGFRFPCDGPGRGGTCQSSGWDHVFLGLFWMYNCISIVNFHFFWKMQSDVWGTANASGGINYLTAGNWAQS
+SITINGWLRDFLWAQSVQVINSYGSALSAYGILFLGAHFIWAFSLMFLFSGRGYWQELIESIVWAHSKLKIAPAIQPRAM
+SITQGRAVGLGHYLLGGIVTSWSFYLARILALG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="2">
+                <name>Photosystem I protein PsaB</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.082083172</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MATKFPSFSQDLAQDPTTRRIWYGIATVHDFETHDGMTEENLYQKIFATHFGHLSIIFLWTAGLLFHVAWQGNFEQWIQD
+PLTVRPIAHAIWDPHLGDAATQAFTQAGASGPVDLCYSGVYHWWYTIGMRTNGDLYSGSIFLMVVAAVMLFAGWLHLQPK
+FRPSLAWFRDAESQMNHHLAVLFGASSLGWTGHLIHVAIPEARGQHVGWDNFLSTMPHPAGLAPFFTGRWAVYAQNPDTT
+GHIFGTSEGAGTAILTFVGGFHPQTEALWLTDIAHHHLAIAVLYIVAGHMYRTQFGIGHSMKEIMDAHRDPWYGATLEGL
+YDTYNESLHFQLAFHLAALGVITEVVAQHMYSLPSYAFISQDYVTQAALYTHHQYIGGFLALGAYAHGGIFFVRDYDPER
+NKGNALSRLLEHKEAIISHLSWVSMFLGFHTLDLYVHNDVVVAFGTPEKQILPEPIFAEWVQAAHGKLLLGLDSLLSNPQ
+SIAATAWPNYGDVWLPGWLDAVNGSSTPFLNIGPGDFLVHHGIAFSIHVTVLICVKGCLDARGSKLMPDKKDFGYSFPCD
+GPGRGGTCDISAWDSFYLATFWMLNTIGWVTFYFNWKQLSVWSGNLAQFNNDSTYLMGWLRDYLWGYSAQLINGYTPFGV
+NSLSVWAWIFLLGHLCWATGFLFLISWRGYWQELIETLVWAHQRTPLANLVMWKDKPVALSIVQGRLVGLVHFAVGYFVT
+YGAFVIGATAPLG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="3">
+                <name>Photosystem I protein PsaC</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008825207</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MSHTVKIYDTCIGCTQCVRACPTDVLEMVPWDGCKAGQIASSPRTEDCVGCKRCETACPTDFLSIRVYLGAETTRSMGLA
+Y</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="4">
+                <name>Photosystem I protein PsaD</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015125149999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MAETLTGQTPLFGGSTGGLLSSAETEEKYAITWTSPKQQVFEMPTGGAAVMNEGENLLYLARKEQCLALGLRQLRIKKIM
+DYKIYRVLPDGSNTLLHPKDGVFPEKSNEGRAAVNSVARSIGENPNPGAIKYTGKQAYD</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="5">
+                <name>Photosystem I protein PsaE</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.009350654</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MVQRGSKVRILRPESYWFREIGTVASVDKSGIKYPVIVRFDTCNYNGISGTAAGINTNNFGVHELEEVEAPKAKAKKPAA
+APKAEG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="6">
+                <name>Photosystem I protein PsaF</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.017691422</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MRRLFAVLVVLTLWLGVVPPASADIGGLVPCSESPQFQERAAKARNTTGDPESGRKRFEMYSSALCGADDGLPRIIAGGP
+WSRAGDFLIPGLLFIYIAGGIGNASRNYQIANRKKNPKNPAMGEIIIDVPLALSSTIAALAWPLKALGEVTSGKLTVPDS
+DVTVSPR</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="7">
+                <name>Photosystem I protein PsaI</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0036483369999999998</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MISDILPAIMTPLVVLIGGGAAMTAFFYYVEREG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="8">
+                <name>Photosystem I protein PsaJ</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.005457358</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>PPQIDSEKGFMKFFSTAPVIAFVFFTLTAGFLVELNRFFPDILFFPY</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="9">
+                <name>Photosystem I protein PsaK</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.008894473</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MFTPTFLTVAVRAVNWTPTVGVVMIAANIMAIAIAKYSIQYPNVGPSMPASSLFGGFSFNAVLGTQVFGHVLGAGAILGL
+TYLGVL</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="10">
+                <name>Photosystem I protein PsaL</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.015588004</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MTMEMVKHGGDPFVGDLATPVNSSGIVKAWINNLPAYRKGMSANARGLEIGMAHGYYLYGPFATSGPVRGTTMALVSGVL
+SASCVIIVLTVAMQLYSSLSVPKPRPSVTTADPGSDFGTKEGWSAIGSGFLIGGCGGAVIAGVLSYAIAIFAG</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="11">
+                <name>Photosystem I protein PsaM</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.003204925</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>MELSDLQIVIALVVALLPALLALNLGTALSK</string>
+                </sequence>
+            </protein_or_peptide>
+            <protein_or_peptide macromolecule_id="12">
+                <name>Photosystem I protein PsaX2</name>
+                <natural_source database="NCBI">
+                    <organism ncbi="2762543">Acaryochloris marina NIES-2412</organism>
+                </natural_source>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0029735749999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <enantiomer>LEVO</enantiomer>
+                <sequence>
+                    <string>KNPWPTLPLIWSGIGILAAIWITLQIG</string>
+                </sequence>
+            </protein_or_peptide>
+            <ligand macromolecule_id="13">
+                <name>CHLOROPHYLL D ISOMER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000895462</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>G9R</formula>
+            </ligand>
+            <ligand macromolecule_id="14">
+                <name>PHEOPHYTIN A</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0008712</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PHO</formula>
+            </ligand>
+            <ligand macromolecule_id="15">
+                <name>CHLOROPHYLL D</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000895462</theoretical>
+                </molecular_weight>
+                <number_of_copies>279</number_of_copies>
+                <formula>CL7</formula>
+            </ligand>
+            <ligand macromolecule_id="16">
+                <name>PHYLLOQUINONE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000450696</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>PQN</formula>
+            </ligand>
+            <ligand macromolecule_id="17">
+                <name>(6'S)-beta,epsilon-carotene</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.000536873</theoretical>
+                </molecular_weight>
+                <number_of_copies>57</number_of_copies>
+                <formula>A1JPJ</formula>
+            </ligand>
+            <ligand macromolecule_id="18">
+                <name>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00072297</theoretical>
+                </molecular_weight>
+                <number_of_copies>6</number_of_copies>
+                <formula>LHG</formula>
+            </ligand>
+            <ligand macromolecule_id="19">
+                <name>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.0007871579999999999</theoretical>
+                </molecular_weight>
+                <number_of_copies>3</number_of_copies>
+                <formula>LMG</formula>
+            </ligand>
+            <ligand macromolecule_id="20">
+                <name>IRON/SULFUR CLUSTER</name>
+                <molecular_weight>
+                    <theoretical units="MDa">0.00035163999999999996</theoretical>
+                </molecular_weight>
+                <number_of_copies>9</number_of_copies>
+                <formula>SF4</formula>
+            </ligand>
+            <ligand macromolecule_id="21">
+                <name>water</name>
+                <molecular_weight>
+                    <theoretical units="MDa">1.8015e-05</theoretical>
+                </molecular_weight>
+                <number_of_copies>93</number_of_copies>
+                <formula>HOH</formula>
+            </ligand>
+        </macromolecule_list>
+    </sample>
+    <structure_determination_list>
+        <structure_determination structure_determination_id="1">
+            <method>singleParticle</method>
+            <aggregation_state>particle</aggregation_state>
+            <specimen_preparation_list>
+                <single_particle_preparation preparation_id="1">
+                    <concentration units="mg/mL">1</concentration>
+                    <buffer>
+                        <ph>6.5</ph>
+                        <details>50 mM MES, 1 M betaine monohydrate, 20 mM CaCl2, 5 mM MgCl2 and 10% (v/v) glycerol, pH 6.5 adjusted with NaOH</details>
+                    </buffer>
+                    <grid>
+                        <model>UltrAuFoil</model>
+                        <material>GOLD</material>
+                        <mesh>300</mesh>
+                        <pretreatment>
+                            <type>PLASMA CLEANING</type>
+                            <time units="s">100</time>
+                        </pretreatment>
+                    </grid>
+                    <vitrification>
+                        <cryogen_name>ETHANE</cryogen_name>
+                        <chamber_humidity units="percentage">95</chamber_humidity>
+                        <chamber_temperature units="K">277</chamber_temperature>
+                        <instrument>FEI VITROBOT MARK IV</instrument>
+                    </vitrification>
+                </single_particle_preparation>
+            </specimen_preparation_list>
+            <microscopy_list>
+                <single_particle_microscopy microscopy_id="1">
+                    <microscope>TFS KRIOS</microscope>
+                    <illumination_mode>SPOT SCAN</illumination_mode>
+                    <imaging_mode>BRIGHT FIELD</imaging_mode>
+                    <electron_source>FIELD EMISSION GUN</electron_source>
+                    <acceleration_voltage units="kV">300</acceleration_voltage>
+                    <nominal_cs units="mm">2.7</nominal_cs>
+                    <nominal_defocus_min units="µm">0.8</nominal_defocus_min>
+                    <nominal_defocus_max units="µm">2.0</nominal_defocus_max>
+                    <image_recording_list>
+                        <image_recording image_recording_id="1">
+                            <film_or_detector_model>GATAN K3 (6k x 4k)</film_or_detector_model>
+                            <digitization_details>
+                                <dimensions>
+                                    <width units="pixel">5120</width>
+                                    <height units="pixel">4096</height>
+                                </dimensions>
+                            </digitization_details>
+                            <average_electron_dose_per_image units="e/Å^2">40.0</average_electron_dose_per_image>
+                        </image_recording>
+                    </image_recording_list>
+                </single_particle_microscopy>
+            </microscopy_list>
+            <singleparticle_processing image_processing_id="1">
+                <image_recording_id>1</image_recording_id>
+                <ctf_correction>
+                    <type>PHASE FLIPPING AND AMPLITUDE CORRECTION</type>
+                </ctf_correction>
+                <startup_model type_of_model="NONE"/>
+                <final_reconstruction>
+                    <resolution units="Å" res_type="BY AUTHOR">2.63</resolution>
+                    <resolution_method>FSC 0.143 CUT-OFF</resolution_method>
+                    <software_list>
+                        <software>
+                            <name>cryoSPARC</name>
+                        </software>
+                    </software_list>
+                    <number_images_used>151833</number_images_used>
+                </final_reconstruction>
+                <initial_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </initial_angle_assignment>
+                <final_angle_assignment>
+                    <type>ANGULAR RECONSTITUTION</type>
+                </final_angle_assignment>
+            </singleparticle_processing>
+        </structure_determination>
+    </structure_determination_list>
+    <map format="CCP4" size_kbytes="864001">
+        <file>emd_54956.map.gz</file>
+        <symmetry>
+            <space_group>1</space_group>
+        </symmetry>
+        <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+        <dimensions>
+            <col>600</col>
+            <row>600</row>
+            <sec>600</sec>
+        </dimensions>
+        <origin>
+            <col>0</col>
+            <row>0</row>
+            <sec>0</sec>
+        </origin>
+        <spacing>
+            <x>600</x>
+            <y>600</y>
+            <z>600</z>
+        </spacing>
+        <cell>
+            <a units="Å">634.8</a>
+            <b units="Å">634.8</b>
+            <c units="Å">634.8</c>
+            <alpha units="deg">90.0</alpha>
+            <beta units="deg">90.0</beta>
+            <gamma units="deg">90.0</gamma>
+        </cell>
+        <axis_order>
+            <fast>X</fast>
+            <medium>Y</medium>
+            <slow>Z</slow>
+        </axis_order>
+        <statistics>
+            <minimum>-0.4549089</minimum>
+            <maximum>1.4354782</maximum>
+            <average>0.000010587908</average>
+            <std>0.019938467</std>
+        </statistics>
+        <pixel_spacing>
+            <x units="Å">1.058</x>
+            <y units="Å">1.058</y>
+            <z units="Å">1.058</z>
+        </pixel_spacing>
+        <contour_list>
+            <contour primary="true">
+                <level>0.1</level>
+                <source>AUTHOR</source>
+            </contour>
+        </contour_list>
+        <label>::::EMDATABANK.org::::EMD-54956::::</label>
+    </map>
+    <interpretation>
+        <half_map_list>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_54956_half_map_2.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">634.8</a>
+                    <b units="Å">634.8</b>
+                    <c units="Å">634.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.61709654</minimum>
+                    <maximum>1.5889938</maximum>
+                    <average>0.00041083453</average>
+                    <std>0.06943607</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-54956::::</label>
+            </half_map>
+            <half_map format="CCP4" size_kbytes="864001">
+                <file>emd_54956_half_map_1.map.gz</file>
+                <symmetry>
+                    <space_group>1</space_group>
+                </symmetry>
+                <data_type>IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)</data_type>
+                <dimensions>
+                    <col>600</col>
+                    <row>600</row>
+                    <sec>600</sec>
+                </dimensions>
+                <origin>
+                    <col>0</col>
+                    <row>0</row>
+                    <sec>0</sec>
+                </origin>
+                <spacing>
+                    <x>600</x>
+                    <y>600</y>
+                    <z>600</z>
+                </spacing>
+                <cell>
+                    <a units="Å">634.8</a>
+                    <b units="Å">634.8</b>
+                    <c units="Å">634.8</c>
+                    <alpha units="deg">90.0</alpha>
+                    <beta units="deg">90.0</beta>
+                    <gamma units="deg">90.0</gamma>
+                </cell>
+                <axis_order>
+                    <fast>X</fast>
+                    <medium>Y</medium>
+                    <slow>Z</slow>
+                </axis_order>
+                <statistics>
+                    <minimum>-0.59361315</minimum>
+                    <maximum>1.4025575</maximum>
+                    <average>0.00041508625</average>
+                    <std>0.069578335</std>
+                </statistics>
+                <pixel_spacing>
+                    <x units="Å">1.058</x>
+                    <y units="Å">1.058</y>
+                    <z units="Å">1.058</z>
+                </pixel_spacing>
+                <contour_list>
+                    <contour primary="true">
+                        <source>AUTHOR</source>
+                    </contour>
+                </contour_list>
+                <label>::::EMDATABANK.org::::EMD-54956::::</label>
+            </half_map>
+        </half_map_list>
+    </interpretation>
+</emd>

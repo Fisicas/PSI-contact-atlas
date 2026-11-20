@@ -1,0 +1,362 @@
+{
+  "scope": "Optional density figures for the first four pilot additions only. Molecular default and labels unchanged. No density screen claimed for later additions.",
+  "assets": [
+    {
+      "file": "media/density_pilot_v01/9SE6/sections_9SE6_prot1_special_pair_P_A_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9SE6\\9SE6_prot1_special_pair_P_A_ester.png",
+      "bytes": 237588,
+      "sha256": "56015d466215ecfdacb4e596822c49d09cca54d572f718549025121b798d7c8e"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/sections_9SE6_prot1_special_pair_P_B_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9SE6\\9SE6_prot1_special_pair_P_B_ester.png",
+      "bytes": 221638,
+      "sha256": "3d2eee324f288cc52a7e828088ff2f6467e8367d9a50724c38a72932d77bf438"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/meshes_9SE6_prot1_special_pair.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9SE6_prot1_special_pair.png",
+      "bytes": 308797,
+      "sha256": "3374b7768be3009fab5c593803ebeb7ed0a41686b9a85142789628fa28399132"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/sections_9SE6_prot1_P_A_site_water.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9SE6\\9SE6_prot1_P_A_site_water.png",
+      "bytes": 216116,
+      "sha256": "b923d77ff8d1d99f9b906edd8ffb2d10b85f21ced30ee63a2e3059596f55b3d1"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/meshes_9SE6_prot1_P_A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9SE6_prot1_P_A.png",
+      "bytes": 257533,
+      "sha256": "44ae0ef7e100302e0f6c80e5c5eaf9c9f10ffd537d336289a3942e3de720aa57"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/meshes_9SE6_prot1_P_A_higher.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9SE6_prot1_P_A_higher.png",
+      "bytes": 252375,
+      "sha256": "1cc5835ebcf2e255f8247467304c54d1b97dcdbc87187753e720173ebbc63991"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/sections_9SE6_prot1_A1A_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9SE6\\9SE6_prot1_A1A_quinone_plane.png",
+      "bytes": 222389,
+      "sha256": "cc702cd0efaad32545c6040b6d3eeae233433a3a2b88707cec70a7ada7426295"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/meshes_9SE6_prot1_A1A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9SE6_prot1_A1A.png",
+      "bytes": 224360,
+      "sha256": "f9fe40d70990f2f348073836c5df8665399a63650a6ac799a6b14db1ec9666a1"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/sections_9SE6_prot1_A1B_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9SE6\\9SE6_prot1_A1B_quinone_plane.png",
+      "bytes": 207328,
+      "sha256": "de99891125f38303ac590a98a6197cd2c3419ab1b20033d5f5b0c87940e78b3f"
+    },
+    {
+      "file": "media/density_pilot_v01/9SE6/meshes_9SE6_prot1_A1B.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9SE6_prot1_A1B.png",
+      "bytes": 260162,
+      "sha256": "ae72965774f4169ec97a47afafe87cbf9917f025e9266afb62fb601495941c2d"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/sections_9LUT_prot1_special_pair_P_A_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9LUT\\9LUT_prot1_special_pair_P_A_ester.png",
+      "bytes": 229958,
+      "sha256": "7cf5c5995c313dede69056adcb60e66cbb8ab0dfb0da2789b2933e32227c9b77"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/sections_9LUT_prot1_special_pair_P_B_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9LUT\\9LUT_prot1_special_pair_P_B_ester.png",
+      "bytes": 238983,
+      "sha256": "c2f4aba5b9d9548a8ca917fb969dfe1caab4b358301b3f2b3d3435b9c20b4a2e"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/meshes_9LUT_prot1_special_pair.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9LUT_prot1_special_pair.png",
+      "bytes": 317541,
+      "sha256": "34ee7df83e71895f23be5505610745f973e423d806624dcb30163caea221fdd2"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/sections_9LUT_prot1_P_A_site_water.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9LUT\\9LUT_prot1_P_A_site_water.png",
+      "bytes": 223966,
+      "sha256": "719222dab9b22a56f6d88c7b38be9bc290992797b4485b7ad44319af7b5a9680"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/meshes_9LUT_prot1_P_A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9LUT_prot1_P_A.png",
+      "bytes": 269334,
+      "sha256": "e65d53fe2bc6e9b06f1d7b5b55efcb671242bebd067f96cae14986f57742e11c"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/meshes_9LUT_prot1_P_A_higher.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9LUT_prot1_P_A_higher.png",
+      "bytes": 261769,
+      "sha256": "9d13c45f5f32fff51052dcaa49038d7c1652ffa6ced226044e228bd346185b70"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/sections_9LUT_prot1_A1A_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9LUT\\9LUT_prot1_A1A_quinone_plane.png",
+      "bytes": 204500,
+      "sha256": "bcfef6f561e2a28229fdcca770c8a4e649000721adf0996a77a40a97e2884ba7"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/meshes_9LUT_prot1_A1A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9LUT_prot1_A1A.png",
+      "bytes": 225347,
+      "sha256": "bb39e73bb8ad6adbfb4903f91c8c1cec89ee7154b5b46c7ec965f941c1aac46f"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/sections_9LUT_prot1_A1B_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\9LUT\\9LUT_prot1_A1B_quinone_plane.png",
+      "bytes": 200511,
+      "sha256": "94879895cbbb581d231f5d8ee945958e09ce91e0fda25c83966082f62312dfaa"
+    },
+    {
+      "file": "media/density_pilot_v01/9LUT/meshes_9LUT_prot1_A1B.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\9LUT_prot1_A1B.png",
+      "bytes": 268386,
+      "sha256": "db884dc417ae74fd1a4c934f776a167fade4034724a72d6d04cfa9b1b2544dbe"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/sections_8WEY_prot1_special_pair_P_A_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\8WEY\\8WEY_prot1_special_pair_P_A_ester.png",
+      "bytes": 240254,
+      "sha256": "367308bf8895f90ad1fc1ef8b381902b0908cfdeb0c3c40eff549acd75977ef3"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/sections_8WEY_prot1_special_pair_P_B_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\8WEY\\8WEY_prot1_special_pair_P_B_ester.png",
+      "bytes": 230069,
+      "sha256": "6be8d5dd7799fe08edeb79e1cd514c4cf506273f6945aa2903ce6c784fef7dbf"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/meshes_8WEY_prot1_special_pair.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\8WEY_prot1_special_pair.png",
+      "bytes": 325863,
+      "sha256": "c0f0bd3d8e79616d55d9332908dbd4da2291ad958a1d5d128a9abdc8649ab356"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/sections_8WEY_prot1_P_A_site_water.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\8WEY\\8WEY_prot1_P_A_site_water.png",
+      "bytes": 208532,
+      "sha256": "351c5e3d91f2997d5c60f0afd1318f99d9d4829327af0310bdbd3b096de4a8b4"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/meshes_8WEY_prot1_P_A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\8WEY_prot1_P_A.png",
+      "bytes": 276913,
+      "sha256": "e4a2a8cc1c08c5651853351f367dba4d473df9271b0fb108839eaa859633c164"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/meshes_8WEY_prot1_P_A_higher.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\8WEY_prot1_P_A_higher.png",
+      "bytes": 271557,
+      "sha256": "1bc5c58a26fd0d4cd779198d82f7fb7e3a7a9af108d7164e9edc6295e2a9d725"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/sections_8WEY_prot1_A1A_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\8WEY\\8WEY_prot1_A1A_quinone_plane.png",
+      "bytes": 238613,
+      "sha256": "e0882d2eb52522aaa5b9817d9ee1ca778dde0da1faff6bd4c3391431b32a07e5"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/meshes_8WEY_prot1_A1A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\8WEY_prot1_A1A.png",
+      "bytes": 233606,
+      "sha256": "b5fc2ab627f933a7ae8c7f002816c6a28438a3e369e09abf115f122c5d611e51"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/sections_8WEY_prot1_A1B_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\8WEY\\8WEY_prot1_A1B_quinone_plane.png",
+      "bytes": 225319,
+      "sha256": "e5961f60cbbf462de3ec546cb17a6e4e6fd61331de588f29580be17e487678bb"
+    },
+    {
+      "file": "media/density_pilot_v01/8WEY/meshes_8WEY_prot1_A1B.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\8WEY_prot1_A1B.png",
+      "bytes": 241977,
+      "sha256": "046b69f867a284e0987b622713d25a50f34d2716ace7d737332af54cb38fa533"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_special_pair_P_A_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_special_pair_P_A_ester.png",
+      "bytes": 181368,
+      "sha256": "25a79cfb13a59b9d4c4a919625e78634c8dbd4537c33bdb1a3a8604baf9a6ab8"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_special_pair_P_B_ester.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_special_pair_P_B_ester.png",
+      "bytes": 194044,
+      "sha256": "f5f3d602c2fce4af88e7fe5bafa77da7f024ca31c45374d5e0b768d13b12e873"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/meshes_7DKZ_prot1_special_pair.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\7DKZ_prot1_special_pair.png",
+      "bytes": 333637,
+      "sha256": "3e28e2a451c6bc8caee5b8c676b9c604f2e65684647548fd998b1c48af1eb524"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_P_A_site_water.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_P_A_site_water.png",
+      "bytes": 180333,
+      "sha256": "c8595353a42f0c5e413c9a8b130412fa7e89ed8e654fd4d681696df782899132"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/meshes_7DKZ_prot1_P_A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\7DKZ_prot1_P_A.png",
+      "bytes": 289794,
+      "sha256": "d835f96ca8c68001fee74ee641c1679cc298a1eb24ea6ea7460f9bec92ea691a"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/meshes_7DKZ_prot1_P_A_higher.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\7DKZ_prot1_P_A_higher.png",
+      "bytes": 261613,
+      "sha256": "4e0b4acdf1434c9ce8f3e7433b226b13d61b7ccc2a464a4d20e52a573177235a"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1A_O1_carbonyl_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1A_O1_carbonyl_plane.png",
+      "bytes": 168265,
+      "sha256": "6a6e5b8c44c8d8d5236eb5f0ea22e35b473bce4d0430a6a49ee46241f79df813"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1A_O4_carbonyl_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1A_O4_carbonyl_plane.png",
+      "bytes": 170186,
+      "sha256": "de465abbee6c546d5d54acab3fa095a1b1f27bcbf703e287620cf32ae5b6f73f"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1A_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1A_quinone_plane.png",
+      "bytes": 136937,
+      "sha256": "12273d96f070e7fd1b51cdf7d4f5e95f301a6e9c879c74dc503feddf1b166f22"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/meshes_7DKZ_prot1_A1A.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\7DKZ_prot1_A1A.png",
+      "bytes": 235122,
+      "sha256": "14a1cc9dbd41d4808dad5b6363e13a9cc1c65f236c14e5dec76b42fe87ad592f"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1B_O1_carbonyl_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1B_O1_carbonyl_plane.png",
+      "bytes": 161459,
+      "sha256": "60e89a61e94b4e577d86350e3fdec4675abd3925e9c3a771d32d8696abe30613"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1B_O4_carbonyl_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1B_O4_carbonyl_plane.png",
+      "bytes": 176413,
+      "sha256": "16ac8c3d24fb12df2ce4c72f0fa908a830c3935859b6a7b6d4e737c938e671cb"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/sections_7DKZ_prot1_A1B_quinone_plane.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v04\\7DKZ\\7DKZ_prot1_A1B_quinone_plane.png",
+      "bytes": 153508,
+      "sha256": "dc2c032bd8513faa8f69ca9952ea9ce0a442c018417762613c10d559dd73d4a4"
+    },
+    {
+      "file": "media/density_pilot_v01/7DKZ/meshes_7DKZ_prot1_A1B.png",
+      "source_file": "C:\\Users\\nelso\\Desktop\\PSI Contact Atlas\\development\\PSI_contact_atlas_pilot_20261119_v01\\label_density_review_20261119_v01\\previews_v03\\meshes\\7DKZ_prot1_A1B.png",
+      "bytes": 272248,
+      "sha256": "da19a3a3063a06e2130f07b37efa51df76bece2152eeb7bd5a1b715db2f70018"
+    }
+  ],
+  "source_environment": {
+    "created_utc": "2026-11-20T04:37:49.442753+00:00",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "C:\\Users\\nelso\\.venvs\\codex-science-v1\\Scripts\\python.exe",
+    "gemmi": "0.7.5",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pymol": "3.1.0",
+    "source_records": [
+      {
+        "url": "https://files.rcsb.org/download/7DKZ-sf.cif",
+        "final_url": "https://files.rcsb.org/download/7DKZ-sf.cif",
+        "file": "raw_maps\\7DKZ\\7DKZ-sf.cif",
+        "bytes": 20700952,
+        "sha256": "01b4a71046f79b03f82dac6914489678873bc8a3de9524ea9b2846dbd01ea663",
+        "retrieved_utc": "2026-11-20T04:10:22.389855+00:00"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-37480",
+        "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-37480",
+        "file": "raw_maps\\8WEY\\emdb_entry.json",
+        "bytes": 63999,
+        "sha256": "8c2e598cc914c20ef40ba7aa7a4c4c5b7a9d58a7381e9cf7202f5aaa56293b5d",
+        "retrieved_utc": "2026-11-20T04:10:22.699091+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-37480/header/emd-37480.xml",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-37480/header/emd-37480.xml",
+        "file": "raw_maps\\8WEY\\emdb_header.xml",
+        "bytes": 41971,
+        "sha256": "9af1152f59a2d00316ff7e7f5dbf0b886d3b26be1888cf5846bd6cfa1738a469",
+        "retrieved_utc": "2026-11-20T04:10:23.407136+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-37480/map/emd_37480.map.gz",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-37480/map/emd_37480.map.gz",
+        "file": "raw_maps\\8WEY\\primary.map.gz",
+        "bytes": 18879504,
+        "sha256": "129413848fff38694b97f1765a83f9f14721a18444c244670bcb5ee8f3b0939f",
+        "retrieved_utc": "2026-11-20T04:10:44.609974+00:00"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-63404",
+        "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-63404",
+        "file": "raw_maps\\9LUT\\emdb_entry.json",
+        "bytes": 70777,
+        "sha256": "c4079ba2a16e90e0b2eb4c17cef86767d654c1add56b73d8a2132902412de275",
+        "retrieved_utc": "2026-11-20T04:10:22.793263+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-63404/header/emd-63404.xml",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-63404/header/emd-63404.xml",
+        "file": "raw_maps\\9LUT\\emdb_header.xml",
+        "bytes": 46257,
+        "sha256": "559b813f2da3d6167bfc3d08ab3256f8db45f02ce2e556bfbc3878534e52e152",
+        "retrieved_utc": "2026-11-20T04:10:23.406639+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-63404/map/emd_63404.map.gz",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-63404/map/emd_63404.map.gz",
+        "file": "raw_maps\\9LUT\\primary.map.gz",
+        "bytes": 472493855,
+        "sha256": "56d4595529bd0bfd8fa4e43c2fd62462851b1784631236fc838caa02cfd83327",
+        "retrieved_utc": "2026-11-20T04:26:04.022493+00:00"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-54803",
+        "final_url": "https://www.ebi.ac.uk/emdb/api/entry/EMD-54803",
+        "file": "raw_maps\\9SE6\\emdb_entry.json",
+        "bytes": 72429,
+        "sha256": "82b483f500530bcfb3167fb1b6a71c9cbc1d742313fcccc10eb56a9de7a5af2b",
+        "retrieved_utc": "2026-11-20T04:10:22.793263+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-54803/header/emd-54803.xml",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-54803/header/emd-54803.xml",
+        "file": "raw_maps\\9SE6\\emdb_header.xml",
+        "bytes": 47780,
+        "sha256": "24241d1dbb942763a97d9decfda635157a0a2af1c77f196b6cac2066e3d0b056",
+        "retrieved_utc": "2026-11-20T04:10:23.407636+00:00"
+      },
+      {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-54803/map/emd_54803.map.gz",
+        "final_url": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-54803/map/emd_54803.map.gz",
+        "file": "raw_maps\\9SE6\\primary.map.gz",
+        "bytes": 270487692,
+        "sha256": "d7d6e44e9b98a54b73b89d6500c5f7260a4f1bc19e6e9609c23527d3866ef530",
+        "retrieved_utc": "2026-11-20T04:19:41.489948+00:00"
+      }
+    ],
+    "point_samples": 2286,
+    "scope": "No raw or coordinate edits. Review outputs outside published checkout."
+  }
+}

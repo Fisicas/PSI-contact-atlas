@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "full_notice_review": {
+    "scenes": 160,
+    "comparisons": 4,
+    "layouts": 42,
+    "exports": 18,
+    "exact_downloads": 25,
+    "issues": 0,
+    "errors": 0,
+    "request_failures": 0,
+    "scope": "Fresh isolated Chrome run before final citation-revision/structured-metadata cleanup."
+  },
+  "final_followup": {
+    "status": "PASS",
+    "structure_revision_labels_checked": 22,
+    "curator_notice_viewports_checked": [
+      1440,
+      390
+    ],
+    "default_structure_cautions": 2,
+    "default_A1B_cautions": 1,
+    "provenance_closed_by_default": true,
+    "JS_errors": [],
+    "browser_version": "157.0.8103.79",
+    "input_bindings_sha256": {
+      "js/app.js": "bba423aa1386105d4ff7be3f6e78aa77028df887c45ef819b52778579be8b6a4",
+      "js/density_review.js": "ec7a46c2ccc756da8c613fc88ad7ea1efc9d39daca413844990c41f8b38db862",
+      "data/release_notices.js": "de0d6b25ce5a93696b6cbcc3398ae8ebbd3c1fd0d305270eadd8f24158c3be4c",
+      "data/atlas.js": "efa99623e06825e3fe2a9df361a6a83fddef06c7a5d7693a9e8ea31a3cae5b3c",
+      "index.html": "0ebe7a519da371793fdb23a5ec4b2e804ff4675767f6e7f84df86ecc7b0124d8"
+    },
+    "scope": "Final metadata/citation cleanup checked after the full all-160-scene notice/browser run; isolated local session only."
+  },
+  "visual_inspection": [
+    "7DKZ structure with provenance collapsed/expanded",
+    "7DKZ A1B curator note",
+    "Final quinone comparison PDF rendered by Poppler; atom markers and caption legible"
+  ],
+  "scope": "All-scene notice review plus final 22-structure revision-label/curator-note checks; no personal browser, remote site or scientific model validation."
+}
