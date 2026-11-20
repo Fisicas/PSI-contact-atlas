@@ -20,5 +20,6 @@
   "metadata_reviewed_date": "2026-11-20",
   "selected_social_preview": "Editorial option 1; candidate-only contact guides; true subscripted A",
   "doi_workflow": "zenodo-github",
-  "release_url": "https://github.com/Fisicas/PSI-contact-atlas/releases/tag/v1.1.0"
+  "release_url": "https://github.com/Fisicas/PSI-contact-atlas/releases/tag/v1.1.0",
+  "registered_version_doi": "10.5281/zenodo.24406867"
 }

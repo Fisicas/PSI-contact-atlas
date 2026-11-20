@@ -2,6 +2,8 @@
 
 # PSI Contact Atlas
 
+**Cite v1.1.0** · [DOI 10.5281/zenodo.24406867](https://doi.org/10.5281/zenodo.24406867)
+
 <p><a href="https://fisicas.github.io/PSI-contact-atlas/"><img src="media/branding/social-preview.png" width="960" alt="PSI Contact Atlas: P700 and A1 quinone environments, with a deposited chlorophyll contact network"></a></p>
 
 **Published release · 1.1.0.** Release date 2026-11-20. See the [versioned GitHub release](https://github.com/Fisicas/PSI-contact-atlas/releases/tag/v1.1.0) for citation and archive details.
